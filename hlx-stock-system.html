@@ -2817,31 +2817,74 @@ var hectorHistory = [];
                 var product = allProducts[i];
                 if (!product.skuLoja) continue;
                 try {
-                    var searchData = await smartFetchRetry(apiUrl('/v1/produto/?sku=' + encodeURIComponent(product.skuLoja) + '&formato=json'), function(t) { analyzingText.textContent = t; });
-                    if (!searchData.objects || searchData.objects.length === 0) { errors++; continue; }
-                    var parentId = searchData.objects[0].id;
-                    var parentData = await smartFetchRetry(apiUrl('/v1/produto/' + parentId + '?formato=json'));
-                    var filhos = parentData.filhos || [];
                     var siteStock = {};
-                    for (var fi = 0; fi < filhos.length; fi++) {
-                        var filhoUrl = filhos[fi];
-                        var childMatch = filhoUrl.match(/\/(\d+)$/);
-                        var childId = childMatch ? childMatch[1] : null;
-                        if (!childId) continue;
-                        try {
-                            var childData = await smartFetchRetry(apiUrl('/v1/produto/' + childId + '?formato=json'));
-                            var childSku = childData.sku || '';
-                            var parts = childSku.split(/[-_]/);
-                            var size = parts[parts.length - 1];
-                            var knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','QTD'];
-                            if (knownSizes.indexOf(size) === -1) size = parts.length > 2 ? parts[parts.length - 1] : size;
-                            var stockData = await smartFetchRetry(apiUrl('/v1/produto_estoque/' + childId + '?formato=json'));
-                            siteStock[size] = { qty: stockData.quantidade || 0, childId: parseInt(childId) };
-                        } catch(e) {}
+                    var firstParentId = null;
+                    var skuParts = product.skuLoja.split('|');
+                    var colorFilterCodes = ['PR','CIN','CH','VER'];
+                    var knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','QTD'];
+
+                    for (var si = 0; si < skuParts.length; si++) {
+                        var searchSku = skuParts[si].trim();
+                        var colorFilter = null;
+
+                        // Step 1: Try full SKU
+                        var searchData = await smartFetchRetry(apiUrl('/v1/produto/?sku=' + encodeURIComponent(searchSku) + '&formato=json'), function(t) { analyzingText.textContent = t; });
+
+                        // Step 2: Color filter fallback
+                        if (!searchData.objects || searchData.objects.length === 0) {
+                            var lastDash = searchSku.lastIndexOf('-');
+                            if (lastDash > 0) {
+                                var possibleColor = searchSku.substring(lastDash + 1);
+                                if (colorFilterCodes.indexOf(possibleColor) !== -1) {
+                                    colorFilter = possibleColor;
+                                    searchSku = searchSku.substring(0, lastDash);
+                                    searchData = await smartFetchRetry(apiUrl('/v1/produto/?sku=' + encodeURIComponent(searchSku) + '&formato=json'), function(t) { analyzingText.textContent = t; });
+                                }
+                            }
+                        }
+                        if (!searchData.objects || searchData.objects.length === 0) continue;
+
+                        var parentId = searchData.objects[0].id;
+                        if (!firstParentId) firstParentId = parentId;
+                        var parentData = await smartFetchRetry(apiUrl('/v1/produto/' + parentId + '?formato=json'));
+                        var filhos = parentData.filhos || [];
+
+                        // If product is a child (no filhos), read stock directly
+                        if (filhos.length === 0) {
+                            try {
+                                var directStock = await smartFetchRetry(apiUrl('/v1/produto_estoque/' + parentId + '?formato=json'));
+                                var dqty = directStock.quantidade || 0;
+                                if (siteStock['QTD']) { siteStock['QTD'].qty += dqty; }
+                                else { siteStock['QTD'] = { qty: dqty, childId: parentId }; }
+                            } catch(e) {}
+                        }
+
+                        for (var fi = 0; fi < filhos.length; fi++) {
+                            var filhoUrl = filhos[fi];
+                            var childMatch = filhoUrl.match(/\/(\d+)$/);
+                            var childId = childMatch ? childMatch[1] : null;
+                            if (!childId) continue;
+                            try {
+                                var childData = await smartFetchRetry(apiUrl('/v1/produto/' + childId + '?formato=json'));
+                                var childSku = childData.sku || '';
+                                if (colorFilter && childSku.indexOf('-' + colorFilter + '-') === -1) continue;
+                                var parts = childSku.split(/[-_]/);
+                                var size = parts[parts.length - 1];
+                                if (knownSizes.indexOf(size) === -1) size = parts.length > 2 ? parts[parts.length - 1] : size;
+                                var stockData = await smartFetchRetry(apiUrl('/v1/produto_estoque/' + childId + '?formato=json'));
+                                var qty = stockData.quantidade || 0;
+                                if (siteStock[size]) { siteStock[size].qty += qty; }
+                                else { siteStock[size] = { qty: qty, childId: parseInt(childId) }; }
+                            } catch(e) {}
+                        }
+                        await new Promise(function(r) { setTimeout(r, 300); });
                     }
-                    product._siteStock = siteStock;
-                    product._parentId = parentId;
-                    loaded++;
+
+                    if (firstParentId) {
+                        product._siteStock = siteStock;
+                        product._parentId = firstParentId;
+                        loaded++;
+                    } else { errors++; }
                 } catch(e) { errors++; }
                 var pct = 15 + Math.round((loaded / total) * 60);
                 progressBar.style.width = pct + '%';
@@ -3712,6 +3755,22 @@ ${new Date().toLocaleString('pt-BR')}
                             const parentResp = await fetch(apiUrl('/v1/produto/' + lojaProduct.id + '?formato=json'));
                             const parentData = await parentResp.json();
                             const filhos = parentData.filhos || [];
+
+                            // If product is a child (no filhos) and size is QTD, read stock directly
+                            if (filhos.length === 0 && size.toUpperCase() === 'QTD') {
+                                try {
+                                    const stockResp = await fetch(apiUrl('/v1/produto_estoque/' + lojaProduct.id + '?formato=json'));
+                                    const stockData = await stockResp.json();
+                                    const qty = stockData.quantidade || 0;
+                                    if (product._siteStock[size]) {
+                                        product._siteStock[size].qty += qty;
+                                    } else {
+                                        product._siteStock[size] = { qty: qty, childId: lojaProduct.id };
+                                    }
+                                    found = true;
+                                    addLog('Ler taglia: ' + product.estoqueNome + ' ' + size + ' = ' + qty + ' un (direto)', 'success');
+                                } catch(e) {}
+                            }
 
                             // Search children for this size, with optional color filter
                             for (const filhoUrl of filhos) {
@@ -4654,6 +4713,21 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
                     const filhos = parentData.filhos || [];
                     addLog(`   ${filhos.length} variantes encontradas`, 'info');
 
+                    // If product is a child (no filhos), read stock directly
+                    if (filhos.length === 0) {
+                        try {
+                            const stockResp = await fetch(apiUrl(`/v1/produto_estoque/${parent.id}?formato=json`));
+                            const stockData = await stockResp.json();
+                            const qty = stockData.quantidade || 0;
+                            if (siteStock['QTD']) {
+                                siteStock['QTD'].qty += qty;
+                            } else {
+                                siteStock['QTD'] = { qty, childId: parent.id };
+                            }
+                            addLog(`   QTD: ${qty} un no site (direto, ID ${parent.id})`, 'info');
+                        } catch(e) { addLog(`   Erro leitura direta: ${e.message}`, 'error'); }
+                    }
+
                     for (const filhoUrl of filhos) {
                         const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
                         if (!childId) continue;
@@ -4837,6 +4911,20 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
                         const parentResp = await fetch(apiUrl(`/v1/produto/${parentId}?formato=json`));
                         const parentData = await parentResp.json();
                         const filhos = parentData.filhos || [];
+
+                        // If product is a child (no filhos), read stock directly (e.g. Tubo Flex variants)
+                        if (filhos.length === 0) {
+                            try {
+                                const stockResp = await fetch(apiUrl(`/v1/produto_estoque/${parentId}?formato=json`));
+                                const stockData = await stockResp.json();
+                                const qty = stockData.quantidade || 0;
+                                if (siteStock['QTD']) {
+                                    siteStock['QTD'].qty += qty;
+                                } else {
+                                    siteStock['QTD'] = { qty: qty, childId: parentId };
+                                }
+                            } catch(e) {}
+                        }
 
                         for (const filhoUrl of filhos) {
                             const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
