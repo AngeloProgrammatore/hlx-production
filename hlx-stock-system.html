@@ -3646,45 +3646,108 @@ ${new Date().toLocaleString('pt-BR')}
                     this.textContent = '⏳';
                     this.disabled = true;
                     try {
-                        // Se il prodotto non ha ancora _parentId, cerca su Loja e carica figli
-                        if (!product._parentId) {
-                            const searchResp = await fetch(apiUrl('/v1/produto/?sku=' + encodeURIComponent(product.skuLoja) + '&formato=json'));
-                            const searchData = await searchResp.json();
-                            const lojaProduct = searchData.objects && searchData.objects[0];
-                            if (!lojaProduct) { alert('Produto não encontrado na Loja: ' + product.skuLoja); return; }
-                            product._parentId = lojaProduct.id;
-                        }
-                        // Carica figli se non ancora caricati
-                        if (!product._filhos) {
-                            const parentResp = await fetch(apiUrl('/v1/produto/' + product._parentId + '?formato=json'));
-                            const parentData = await parentResp.json();
-                            product._filhos = parentData.filhos || [];
-                        }
-                        // Cerca il figlio corrispondente a questa taglia
+                        const knownColors = ['PR','CIN','CH','VER','VM','AZ','VROL','LARA','BR','AM','RS','RX','MR','BG','PRETO','CINZA','CHUMBO','PRVROL','LR','ONC','CRV','CAV','PIN'];
+                        const knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','L','XL','2XL','3XL','4XL','QTD'];
                         if (!product._siteStock) product._siteStock = {};
-                        const knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','QTD'];
                         let found = false;
-                        for (const filhoUrl of product._filhos) {
-                            const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
-                            if (!childId) continue;
-                            try {
-                                const childResp = await fetch(apiUrl('/v1/produto/' + childId + '?formato=json'));
-                                const childData = await childResp.json();
-                                const childSku = childData.sku || '';
-                                const parts = childSku.split(/[-_]/);
-                                let childSize = parts[parts.length - 1];
-                                if (!knownSizes.includes(childSize)) childSize = parts.length > 2 ? parts[parts.length - 1] : childSize;
-                                if (childSize.toUpperCase() === size.toUpperCase()) {
-                                    const stockResp = await fetch(apiUrl('/v1/produto_estoque/' + childId + '?formato=json'));
-                                    const stockData = await stockResp.json();
-                                    product._siteStock[size] = { qty: stockData.quantidade || 0, childId: parseInt(childId) };
-                                    found = true;
-                                    addLog('Ler taglia: ' + product.estoqueNome + ' ' + size + ' = ' + (stockData.quantidade || 0) + ' un', 'success');
-                                    break;
+
+                        // Support pipe-separated SKUs (e.g. masc|fem combined products)
+                        const skuList = product.skuLoja.split('|');
+
+                        for (const rawSku of skuList) {
+                            // Detect color-coded SKU: e.g. "0417R4-PR" → base "0417R4", color filter "PR"
+                            let searchSku = rawSku.trim();
+                            let colorFilter = null;
+                            const lastDash = searchSku.lastIndexOf('-');
+                            if (lastDash > 0) {
+                                const possibleColor = searchSku.substring(lastDash + 1);
+                                if (knownColors.includes(possibleColor)) {
+                                    colorFilter = possibleColor;
+                                    searchSku = searchSku.substring(0, lastDash);
                                 }
-                            } catch(e) {}
+                            }
+
+                            // Search for parent product on Loja
+                            if (!product._parentId || skuList.length > 1) {
+                                const searchResp = await fetch(apiUrl('/v1/produto/?sku=' + encodeURIComponent(searchSku) + '&formato=json'));
+                                const searchData = await searchResp.json();
+                                const lojaProduct = searchData.objects && searchData.objects[0];
+                                if (!lojaProduct) continue;
+                                if (!product._parentId) product._parentId = lojaProduct.id;
+
+                                // Load children
+                                const parentResp = await fetch(apiUrl('/v1/produto/' + lojaProduct.id + '?formato=json'));
+                                const parentData = await parentResp.json();
+                                const filhos = parentData.filhos || [];
+
+                                // Search children for this size, with color filter
+                                for (const filhoUrl of filhos) {
+                                    const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
+                                    if (!childId) continue;
+                                    try {
+                                        const childResp = await fetch(apiUrl('/v1/produto/' + childId + '?formato=json'));
+                                        const childData = await childResp.json();
+                                        const childSku = childData.sku || '';
+
+                                        // If color filter active, skip children that don't match
+                                        if (colorFilter && !childSku.includes('-' + colorFilter + '-')) continue;
+
+                                        const parts = childSku.split(/[-_]/);
+                                        let childSize = parts[parts.length - 1];
+                                        if (!knownSizes.includes(childSize)) childSize = parts.length > 2 ? parts[parts.length - 1] : childSize;
+                                        if (childSize.toUpperCase() === size.toUpperCase()) {
+                                            const stockResp = await fetch(apiUrl('/v1/produto_estoque/' + childId + '?formato=json'));
+                                            const stockData = await stockResp.json();
+                                            const qty = stockData.quantidade || 0;
+                                            // For pipe SKUs, sum stock across parents
+                                            if (product._siteStock[size]) {
+                                                product._siteStock[size].qty += qty;
+                                            } else {
+                                                product._siteStock[size] = { qty: qty, childId: parseInt(childId) };
+                                            }
+                                            found = true;
+                                            addLog('Ler taglia: ' + product.estoqueNome + ' ' + size + ' = ' + qty + ' un' + (colorFilter ? ' (filtro: ' + colorFilter + ')' : ''), 'success');
+                                            break;
+                                        }
+                                    } catch(e) {}
+                                }
+                            } else {
+                                // Already have parentId and filhos cached
+                                if (!product._filhos) {
+                                    const parentResp = await fetch(apiUrl('/v1/produto/' + product._parentId + '?formato=json'));
+                                    const parentData = await parentResp.json();
+                                    product._filhos = parentData.filhos || [];
+                                }
+                                for (const filhoUrl of product._filhos) {
+                                    const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
+                                    if (!childId) continue;
+                                    try {
+                                        const childResp = await fetch(apiUrl('/v1/produto/' + childId + '?formato=json'));
+                                        const childData = await childResp.json();
+                                        const childSku = childData.sku || '';
+                                        if (colorFilter && !childSku.includes('-' + colorFilter + '-')) continue;
+                                        const parts = childSku.split(/[-_]/);
+                                        let childSize = parts[parts.length - 1];
+                                        if (!knownSizes.includes(childSize)) childSize = parts.length > 2 ? parts[parts.length - 1] : childSize;
+                                        if (childSize.toUpperCase() === size.toUpperCase()) {
+                                            const stockResp = await fetch(apiUrl('/v1/produto_estoque/' + childId + '?formato=json'));
+                                            const stockData = await stockResp.json();
+                                            const qty = stockData.quantidade || 0;
+                                            if (product._siteStock[size]) {
+                                                product._siteStock[size].qty += qty;
+                                            } else {
+                                                product._siteStock[size] = { qty: qty, childId: parseInt(childId) };
+                                            }
+                                            found = true;
+                                            addLog('Ler taglia: ' + product.estoqueNome + ' ' + size + ' = ' + qty + ' un' + (colorFilter ? ' (filtro: ' + colorFilter + ')' : ''), 'success');
+                                            break;
+                                        }
+                                    } catch(e) {}
+                                }
+                            }
+                            await new Promise(r => setTimeout(r, 300));
                         }
-                        if (!found) { alert('Tamanho "' + size + '" não encontrado na Loja Integrada.'); }
+                        if (!found) { alert('Tamanho "' + size + '" não encontrado na Loja Integrada para SKU: ' + product.skuLoja); }
                         renderDetailsTable();
                     } catch(err) {
                         alert('Erro ao ler: ' + err.message);
@@ -4548,53 +4611,82 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
         async function verifyProduct(idx) {
             const product = allProducts[idx];
             if (!product.skuLoja) { addLog(`SKIP: ${product.estoqueNome} — não tem SKU Loja`, 'error'); return; }
-            addLog(`Verificando ${product.estoqueNome} (${product.skuLoja})...`, 'info'); // already PT
+            addLog(`Verificando ${product.estoqueNome} (${product.skuLoja})...`, 'info');
             try {
-                // Step 1: Find parent product
-                const searchResp = await fetch(apiUrl(`/v1/produto/?sku=${encodeURIComponent(product.skuLoja)}&formato=json`));
-                if (!searchResp.ok) throw new Error(`HTTP ${searchResp.status}`);
-                const searchData = await searchResp.json();
-                if (!searchData.objects || searchData.objects.length === 0) {
-                    addLog(`ERRO: ${product.estoqueNome} — SKU "${product.skuLoja}" não encontrado na Loja`, 'error');
-                    return;
-                }
-                const parent = searchData.objects[0];
-                addLog(`   Encontrado: "${parent.nome}" (ID: ${parent.id})`, 'info');
-
-                // Step 2: Get children (sizes)
-                const parentResp = await fetch(apiUrl(`/v1/produto/${parent.id}?formato=json`));
-                const parentData = await parentResp.json();
-                const filhos = parentData.filhos || [];
-                addLog(`   ${filhos.length} tamanhos encontrados`, 'info');
-
-                // Step 3: Read stock for each child
+                const knownColors = ['PR','CIN','CH','VER','VM','AZ','VROL','LARA','BR','AM','RS','RX','MR','BG','PRETO','CINZA','CHUMBO','PRVROL','LR','ONC','CRV','CAV','PIN','FEM','MASC','INV'];
+                const knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','L','XL','2XL','3XL','4XL','QTD'];
                 let siteStock = {};
-                for (const filhoUrl of filhos) {
-                    const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
-                    if (!childId) continue;
-                    try {
-                        const childResp = await fetch(apiUrl(`/v1/produto/${childId}?formato=json`));
-                        const childData = await childResp.json();
-                        const childSku = childData.sku || '';
-                        // Extract size: take last segment after final dash
-                        const parts = childSku.split(/[-_]/);
-                        let size = parts[parts.length - 1];
-                        // If the extracted part looks like a color code, not a size, skip
-                        const knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','QTD'];
-                        if (!knownSizes.includes(size)) size = parts.length > 2 ? parts[parts.length - 1] : size;
+                let firstParentId = null;
 
-                        const stockResp = await fetch(apiUrl(`/v1/produto_estoque/${childId}?formato=json`));
-                        const stockData = await stockResp.json();
-                        const qty = stockData.quantidade || 0;
-                        siteStock[size] = { qty, childId: parseInt(childId) };
-                        addLog(`   Tamanho ${size}: ${qty} un no site (child ${childId})`, 'info');
-                    } catch(e) { addLog(`   Erro figlio ${childId}: ${e.message}`, 'error'); }
+                // Support pipe-separated SKUs for combined products (e.g. masc|fem)
+                const skuList = product.skuLoja.split('|');
+
+                for (const rawSku of skuList) {
+                    let searchSku = rawSku.trim();
+                    let colorFilter = null;
+                    const lastDash = searchSku.lastIndexOf('-');
+                    if (lastDash > 0) {
+                        const possibleColor = searchSku.substring(lastDash + 1);
+                        if (knownColors.includes(possibleColor)) {
+                            colorFilter = possibleColor;
+                            searchSku = searchSku.substring(0, lastDash);
+                        }
+                    }
+
+                    const searchResp = await fetch(apiUrl(`/v1/produto/?sku=${encodeURIComponent(searchSku)}&formato=json`));
+                    if (!searchResp.ok) throw new Error(`HTTP ${searchResp.status}`);
+                    const searchData = await searchResp.json();
+                    if (!searchData.objects || searchData.objects.length === 0) {
+                        addLog(`   SKU "${searchSku}" não encontrado na Loja` + (skuList.length > 1 ? ' (continuando...)' : ''), skuList.length > 1 ? 'info' : 'error');
+                        if (skuList.length === 1) return;
+                        continue;
+                    }
+                    const parent = searchData.objects[0];
+                    if (!firstParentId) firstParentId = parent.id;
+                    addLog(`   Encontrado: "${parent.nome}" (ID: ${parent.id})` + (colorFilter ? ` [filtro cor: ${colorFilter}]` : ''), 'info');
+
+                    const parentResp = await fetch(apiUrl(`/v1/produto/${parent.id}?formato=json`));
+                    const parentData = await parentResp.json();
+                    const filhos = parentData.filhos || [];
+                    addLog(`   ${filhos.length} variantes encontradas`, 'info');
+
+                    for (const filhoUrl of filhos) {
+                        const childId = filhoUrl.match(/\/(\d+)$/)?.[1];
+                        if (!childId) continue;
+                        try {
+                            const childResp = await fetch(apiUrl(`/v1/produto/${childId}?formato=json`));
+                            const childData = await childResp.json();
+                            const childSku = childData.sku || '';
+
+                            // If color filter active, skip children that don't match
+                            if (colorFilter && !childSku.includes('-' + colorFilter + '-')) continue;
+
+                            const parts = childSku.split(/[-_]/);
+                            let size = parts[parts.length - 1];
+                            if (!knownSizes.includes(size)) size = parts.length > 2 ? parts[parts.length - 1] : size;
+
+                            const stockResp = await fetch(apiUrl(`/v1/produto_estoque/${childId}?formato=json`));
+                            const stockData = await stockResp.json();
+                            const qty = stockData.quantidade || 0;
+                            // For pipe-separated SKUs, SUM stock across parents
+                            if (siteStock[size]) {
+                                siteStock[size].qty += qty;
+                            } else {
+                                siteStock[size] = { qty, childId: parseInt(childId) };
+                            }
+                            addLog(`   Tamanho ${size}: ${qty} un no site (child ${childId})`, 'info');
+                        } catch(e) { addLog(`   Erro figlio ${childId}: ${e.message}`, 'error'); }
+                    }
+                    await new Promise(r => setTimeout(r, 400));
                 }
 
-                // Store site stock data on the product for later sync
-                product._siteStock = siteStock;
-                product._parentId = parent.id;
-                addLog(`OK: ${product.estoqueNome} — ${Object.keys(siteStock).length} tamanhos verificados`, 'success');
+                if (firstParentId) {
+                    product._siteStock = siteStock;
+                    product._parentId = firstParentId;
+                    addLog(`OK: ${product.estoqueNome} — ${Object.keys(siteStock).length} tamanhos verificados`, 'success');
+                } else {
+                    addLog(`ERRO: ${product.estoqueNome} — SKU "${product.skuLoja}" não encontrado na Loja`, 'error');
+                }
             } catch(e) {
                 addLog(`ERRO: ${product.estoqueNome} — ${e.message}`, 'error');
             }
@@ -4704,7 +4796,7 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
                 statusEl.textContent = `${i+1}/${allProducts.length} — ${product.estoqueNome}...`;
 
                 try {
-                    const knownColors = ['PR','CIN','CH','VER','VM','AZ','VROL','LARA','BR','AM','RS','RX','MR','BG','PRETO','CINZA','CHUMBO'];
+                    const knownColors = ['PR','CIN','CH','VER','VM','AZ','VROL','LARA','BR','AM','RS','RX','MR','BG','PRETO','CINZA','CHUMBO','PRVROL','LR','ONC','CRV','CAV','PIN','FEM','MASC','INV'];
                     const knownSizes = ['34','36','38','40','42','44','46','48','50','52','54','56','58','60','PP','P','M','G','GG','XG','2XG','3XG','4G','3G','5G','L','XL','2XL','3XL','4XL','QTD'];
                     const siteStock = {};
                     let firstParentId = null;
