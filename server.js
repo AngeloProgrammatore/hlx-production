@@ -222,8 +222,13 @@ app.post('/api/ai', async (req, res) => {
 app.get('/api/loja/*', async (req, res) => {
     try {
         const lojaPath = req.params[0]; // everything after /api/loja/
-        const sep = lojaPath.includes('?') ? '&' : '?';
-        const url = `https://api.awsli.com.br/v1/${lojaPath}${sep}chave_api=${LOJA_API_KEY}&chave_aplicacao=${LOJA_APP_KEY}`;
+        // Forward original query params and append auth keys
+        const originalQuery = new URLSearchParams(req.query).toString();
+        const authParams = `chave_api=${LOJA_API_KEY}&chave_aplicacao=${LOJA_APP_KEY}`;
+        const queryString = originalQuery ? `${originalQuery}&${authParams}` : authParams;
+        const url = `https://api.awsli.com.br/${lojaPath}?${queryString}`;
+
+        console.log(`[LOJA PROXY] ${req.method} ${url.replace(LOJA_API_KEY, '***').replace(LOJA_APP_KEY, '***')}`);
 
         const response = await fetch(url, {
             headers: { 'Accept': 'application/json' }
@@ -232,7 +237,36 @@ app.get('/api/loja/*', async (req, res) => {
         const data = await response.json();
         res.status(response.status).json(data);
     } catch (e) {
+        console.error(`[LOJA PROXY ERROR] ${e.message}`);
         res.status(500).json({ error: 'Loja proxy failed', detail: e.message });
+    }
+});
+
+// Loja PUT proxy (for stock sync)
+app.put('/api/loja/*', async (req, res) => {
+    try {
+        const lojaPath = req.params[0];
+        const originalQuery = new URLSearchParams(req.query).toString();
+        const authParams = `chave_api=${LOJA_API_KEY}&chave_aplicacao=${LOJA_APP_KEY}`;
+        const queryString = originalQuery ? `${originalQuery}&${authParams}` : authParams;
+        const url = `https://api.awsli.com.br/${lojaPath}?${queryString}`;
+
+        console.log(`[LOJA PROXY PUT] ${url.replace(LOJA_API_KEY, '***').replace(LOJA_APP_KEY, '***')}`);
+
+        const response = await fetch(url, {
+            method: 'PUT',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(req.body)
+        });
+
+        const data = await response.json();
+        res.status(response.status).json(data);
+    } catch (e) {
+        console.error(`[LOJA PROXY PUT ERROR] ${e.message}`);
+        res.status(500).json({ error: 'Loja PUT proxy failed', detail: e.message });
     }
 });
 
