@@ -2263,6 +2263,29 @@ var hectorHistory = [];
         let allProducts = JSON.parse(JSON.stringify(productMapping));
         let apiLog = [];
 
+        // ═══ RESET VOLATILE SYNC DATA ════════════════════════════════════════
+        // Strips _siteStock and _parentId from all products so each session
+        // starts clean.  Called on login and before every new sync cycle.
+        function clearSiteStockData() {
+            allProducts.forEach(function(p) {
+                delete p._siteStock;
+                delete p._parentId;
+            });
+            // Reset UI elements in Estoque Detalhado
+            var loadBtn = document.getElementById('loadSiteStockBtn');
+            if (loadBtn) {
+                loadBtn.textContent = '1. Ler Estoque do Site';
+                loadBtn.style.background = '#238636';
+                loadBtn.style.borderColor = '#2ea043';
+                loadBtn.style.opacity = '1';
+                loadBtn.disabled = false;
+            }
+            var syncBtn = document.getElementById('syncToLojaBtn');
+            if (syncBtn) syncBtn.style.display = 'none';
+            var siteStatusEl = document.getElementById('siteStockStatus');
+            if (siteStatusEl) { siteStatusEl.textContent = ''; siteStatusEl.style.color = '#666'; }
+        }
+
         // ═══ SERVER PERSISTENCE LAYER ═══════════════════════════════════════
         const isServerMode = (window.location.protocol !== 'file:');
 
@@ -2732,6 +2755,9 @@ var hectorHistory = [];
 
             var now = new Date();
             var month = now.getMonth();
+
+            // Clear previous sync data so we start fresh
+            clearSiteStockData();
 
             // STEP 1: Análise alarmes locais
             analyzingText.textContent = 'Verificando alarmes dos produtos...';
@@ -4654,6 +4680,8 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
 
         // LOAD SITE STOCK - reads real stock from Loja Integrada API
         document.getElementById('loadSiteStockBtn').addEventListener('click', async function() {
+            // Clear previous sync data before fresh read
+            clearSiteStockData();
             const statusEl = document.getElementById('siteStockStatus');
             this.disabled = true;
             this.textContent = 'Carregando...';
@@ -5839,6 +5867,8 @@ async function showMainApp(user) {
 
     // Load products from server (persistent)
     await serverLoadProducts();
+    // Clear stale sync data so every session starts fresh
+    clearSiteStockData();
     updateOverview();
     renderDetailsTable();
     populateCategoryFilters();
