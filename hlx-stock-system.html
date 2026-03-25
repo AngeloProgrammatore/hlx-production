@@ -2310,12 +2310,22 @@ var hectorHistory = [];
         async function serverLoadProducts() {
             if (!isServerMode) return;
             try {
+                // Save embedded skuLoja as source of truth (code > server data)
+                const embeddedSkuMap = {};
+                allProducts.forEach(function(p) { embeddedSkuMap[p.estoqueNome] = p.skuLoja; });
+
                 const resp = await fetch('/api/products');
                 if (resp.ok) {
                     const data = await resp.json();
                     if (data.length > 0) {
                         allProducts = data;
-                        console.log('✅ Products loaded from server:', data.length);
+                        // Restore skuLoja from embedded HTML (never trust server for SKU mappings)
+                        allProducts.forEach(function(p) {
+                            if (embeddedSkuMap[p.estoqueNome] !== undefined) {
+                                p.skuLoja = embeddedSkuMap[p.estoqueNome];
+                            }
+                        });
+                        console.log('✅ Products loaded from server:', data.length, '(skuLoja from embedded)');
                     }
                 }
             } catch(e) { console.warn('Server load failed, using embedded data:', e); }
