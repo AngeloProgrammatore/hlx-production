@@ -5765,6 +5765,13 @@ async function showMainApp(user) {
         if (forecastBtn) forecastBtn.style.display = 'none';
     }
 
+    // Estoque Detalhado e Previsão: nascosti per Mauricio e Mayara
+    const stockAllowed = ['Angelo', 'Flavia'];
+    if (!stockAllowed.includes(user.name)) {
+        const estoqueBtn = document.querySelector('.tab-btn[data-tab="dettagli"]');
+        if (estoqueBtn) estoqueBtn.style.display = 'none';
+    }
+
     // Se admin, mostra tab Registro e botão Importar Excel
     if (user.role === 'admin') {
         const navTabs = document.querySelector('.nav-tabs');
