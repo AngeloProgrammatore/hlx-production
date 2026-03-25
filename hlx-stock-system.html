@@ -2097,6 +2097,14 @@ var USERS = {
     '040399': { name: 'Mayara', role: 'user' }
 };
 
+// ========== GLOBAL CHAT VARIABLES (moved to top to avoid TDZ issues) ==========
+var deviChat, deviInput, deviSendBtn, deviMicBtn, deviMicStatus;
+var deviHistory = [];
+var deviRecognition = null;
+var _hectorDefaultPrompt = null;
+var hectorChat, hectorInput, hectorSendBtn;
+var hectorHistory = [];
+
         const productMapping = [
             // --- Calças Masculinas ---
             {cat:"Calças Masculinas", estoqueNome:"DEFENDER BLACK", venditeNome:"DEFENDER PRETA", sku:"610MSX", skuLoja:"610MSX", img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg", stock:{"38":{e:17,p:2},"40":{e:31,p:4},"42":{e:54,p:1},"44":{e:54,p:6},"46":{e:16,p:11},"48":{e:45,p:4},"50":{e:32,p:6},"52":{e:12,p:4},"54":{e:17,p:6},"56":{e:6,p:5},"58":{e:7,p:2},"60":{e:5,p:0}}, vendite:[2, 11, 15, 14, 10, 14, 13, 24, 20, 11, 12, 17], fatturato:[1013.2, 5572.6, 7599, 7092.4, 5066, 7092.4, 6579, 12158, 10138, 5572.6, 6092.4, 8165.6]},
@@ -5142,23 +5150,26 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
             if (e.target.dataset.updateProduct !== undefined) await updateProduct(parseInt(e.target.dataset.updateProduct));
         });
 
+        try {
         populateCategoryFilters();
         updateOverview();
         updateDeviHub();
         initializeTaskPanel();
+        } catch(e) { console.error('Inline init error:', e); }
 
         // ===========================
         // DEVI AI - Chat Assistant
         // ===========================
-        const deviChat = document.getElementById('deviChat');
-        const deviInput = document.getElementById('deviInput');
-        const deviSendBtn = document.getElementById('deviSendBtn');
-        const deviMicBtn = document.getElementById('deviMicBtn');
-        const deviMicStatus = document.getElementById('deviMicStatus');
-        let deviHistory = [];
+        try {
+        deviChat = document.getElementById('deviChat');
+        deviInput = document.getElementById('deviInput');
+        deviSendBtn = document.getElementById('deviSendBtn');
+        deviMicBtn = document.getElementById('deviMicBtn');
+        deviMicStatus = document.getElementById('deviMicStatus');
+        deviHistory = [];
 
         // FAQ / Guide preimpostate
-        const deviFaqs = [
+        var deviFaqs = [
             { label: '💰 Mês com mais faturamento?', question: 'Qual foi o mês com o faturamento mais alto no último ano? E qual foi o mais baixo? Me faça o ranking completo dos 12 meses com o faturamento total em R$, do mais alto ao mais baixo.' },
             { label: '🏆 Top 10 mais vendidos', question: 'Quais são os 10 produtos mais vendidos do último ano por quantidade de peças? Para cada um me diga: nome, categoria, peças vendidas, faturamento total em R$, e o mês em que mais vendeu.' },
             { label: '📉 Produtos em queda', question: 'Analise as tendências de vendas: quais produtos tiveram uma queda significativa nos últimos 3 meses (dez25, jan26, fev26) em relação aos 3 meses anteriores (set25, out25, nov25)? Calcule a variação percentual para cada um.' },
@@ -5171,7 +5182,7 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
         ];
 
         // Render FAQ buttons
-        const faqContainer = document.getElementById('deviFaqBtns');
+        var faqContainer = document.getElementById('deviFaqBtns');
         deviFaqs.forEach((faq, i) => {
             const btn = document.createElement('button');
             btn.textContent = faq.label;
@@ -5471,7 +5482,7 @@ REGRAS DE FORMATAÇÃO (MUITO IMPORTANTE):
         });
 
         // Voice input with Web Speech API
-        let deviRecognition = null;
+        deviRecognition = null;
         if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
             const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
             deviRecognition = new SpeechRecognition();
@@ -5538,7 +5549,7 @@ REGRAS DE FORMATAÇÃO (MUITO IMPORTANTE):
             const key = document.getElementById('deviApiKey').value.trim();
             if (key) { localStorage.setItem('hlx_ai_key', key); alert('API Key salva!'); }
         });
-        const savedDeviKey = localStorage.getItem('hlx_ai_key');
+        var savedDeviKey = localStorage.getItem('hlx_ai_key');
         if (savedDeviKey && document.getElementById('deviApiKey')) {
             document.getElementById('deviApiKey').value = savedDeviKey;
         }
@@ -5546,10 +5557,10 @@ REGRAS DE FORMATAÇÃO (MUITO IMPORTANTE):
         // ===========================
         // HECTOR TRAINER AI
         // ===========================
-        const hectorChat = document.getElementById('hectorChat');
-        const hectorInput = document.getElementById('hectorInput');
-        const hectorSendBtn = document.getElementById('hectorSendBtn');
-        let hectorHistory = [];
+        hectorChat = document.getElementById('hectorChat');
+        hectorInput = document.getElementById('hectorInput');
+        hectorSendBtn = document.getElementById('hectorSendBtn');
+        hectorHistory = [];
 
         function hectorAddMsg(text, role) {
             const div = document.createElement('div');
@@ -5719,7 +5730,62 @@ REGRAS DE COMPORTAMENTO:
         hectorInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); hectorSend(); }
         });
-    
+        } catch(e) { console.error('DEVI/Hector init error:', e); }
+
+        // Function to (re)initialize chat systems — called from showMainApp as fallback
+        function initChatSystems() {
+            // DEVI Chat
+            if (!deviChat) deviChat = document.getElementById('deviChat');
+            if (!deviInput) deviInput = document.getElementById('deviInput');
+            if (!deviSendBtn) deviSendBtn = document.getElementById('deviSendBtn');
+            if (!deviMicBtn) deviMicBtn = document.getElementById('deviMicBtn');
+            if (!deviMicStatus) deviMicStatus = document.getElementById('deviMicStatus');
+
+            // Attach DEVI listeners if not already attached
+            if (deviSendBtn && !deviSendBtn._hlxBound) {
+                deviSendBtn._hlxBound = true;
+                deviSendBtn.addEventListener('click', deviSend);
+            }
+            if (deviInput && !deviInput._hlxBound) {
+                deviInput._hlxBound = true;
+                deviInput.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); deviSend(); }
+                });
+            }
+
+            // FAQ buttons — only create if not already created
+            var faqC = document.getElementById('deviFaqBtns');
+            if (faqC && faqC.children.length === 0 && typeof deviFaqs !== 'undefined') {
+                deviFaqs.forEach(function(faq) {
+                    var btn = document.createElement('button');
+                    btn.textContent = faq.label;
+                    btn.style.cssText = 'padding:6px 12px;background:#f3f0ff;border:1px solid #e5e0f5;border-radius:8px;cursor:pointer;font-size:0.8rem;color:#7c3aed;transition:all 0.2s;';
+                    btn.addEventListener('mouseenter', function() { btn.style.background = '#7c3aed'; btn.style.color = '#fff'; });
+                    btn.addEventListener('mouseleave', function() { btn.style.background = '#f3f0ff'; btn.style.color = '#7c3aed'; });
+                    btn.addEventListener('click', function() {
+                        deviInput.value = faq.question;
+                        deviSend();
+                    });
+                    faqC.appendChild(btn);
+                });
+            }
+
+            // Hector Trainer
+            if (!hectorChat) hectorChat = document.getElementById('hectorChat');
+            if (!hectorInput) hectorInput = document.getElementById('hectorInput');
+            if (!hectorSendBtn) hectorSendBtn = document.getElementById('hectorSendBtn');
+
+            if (hectorSendBtn && !hectorSendBtn._hlxBound) {
+                hectorSendBtn._hlxBound = true;
+                hectorSendBtn.addEventListener('click', hectorSend);
+            }
+            if (hectorInput && !hectorInput._hlxBound) {
+                hectorInput._hlxBound = true;
+                hectorInput.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); hectorSend(); }
+                });
+            }
+        }
 
 // ========== SISTEMA DI LOGIN ==========
 // USERS is declared at the top of the script to avoid TDZ issues
@@ -5820,6 +5886,11 @@ async function showMainApp(user) {
             navTabs.appendChild(adminAiBtn);
         }
     }
+
+    // Initialize all interactive systems (fallback if inline init failed)
+    initializeTaskPanel();
+    initChatSystems();
+    updateDeviHub();
 }
 
 function addAuditLog(user, action, details) {
@@ -6240,7 +6311,7 @@ function renderVendasDashboard(filterCat) {
 // ADMIN AI — Gestione configurazioni AI
 // =============================================
 var _deviDefaultPrompt = null;
-var _hectorDefaultPrompt = null;
+// _hectorDefaultPrompt declared at script top
 
 function initAdminAI() {
     // Carica API key
