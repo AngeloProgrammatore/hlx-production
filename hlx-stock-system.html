@@ -2664,7 +2664,11 @@ var hectorHistory = [];
             if (hour >= 13 && hour < 18) saluto = 'Boa tarde';
             else if (hour >= 18 || hour < 5) saluto = 'Boa noite';
             var g = document.getElementById('deviGreeting');
-            if (g) g.textContent = saluto + ', ' + (user ? user.name : 'Angelo') + '!';
+            if (g) {
+                var _u = null;
+                try { _u = JSON.parse(sessionStorage.getItem('hlx_user')); } catch(e) {}
+                g.textContent = saluto + ', ' + (_u && _u.name ? _u.name : 'Angelo') + '!';
+            }
             var d = document.getElementById('deviDate');
             if (d) d.textContent = new Date().toLocaleDateString('pt-BR', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
         }
