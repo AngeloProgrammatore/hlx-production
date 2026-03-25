@@ -2089,6 +2089,14 @@
     </div>
 
     <script>
+// ========== SISTEMA DI LOGIN (must be first to avoid TDZ issues) ==========
+var USERS = {
+    '100601': { name: 'Angelo', role: 'admin' },
+    '281177': { name: 'Mauricio', role: 'user' },
+    '150892': { name: 'Flavia', role: 'admin' },
+    '040399': { name: 'Mayara', role: 'user' }
+};
+
         const productMapping = [
             // --- Calças Masculinas ---
             {cat:"Calças Masculinas", estoqueNome:"DEFENDER BLACK", venditeNome:"DEFENDER PRETA", sku:"610MSX", skuLoja:"610MSX", img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg", stock:{"38":{e:17,p:2},"40":{e:31,p:4},"42":{e:54,p:1},"44":{e:54,p:6},"46":{e:16,p:11},"48":{e:45,p:4},"50":{e:32,p:6},"52":{e:12,p:4},"54":{e:17,p:6},"56":{e:6,p:5},"58":{e:7,p:2},"60":{e:5,p:0}}, vendite:[2, 11, 15, 14, 10, 14, 13, 24, 20, 11, 12, 17], fatturato:[1013.2, 5572.6, 7599, 7092.4, 5066, 7092.4, 6579, 12158, 10138, 5572.6, 6092.4, 8165.6]},
@@ -5714,12 +5722,7 @@ REGRAS DE COMPORTAMENTO:
     
 
 // ========== SISTEMA DI LOGIN ==========
-const USERS = {
-    '100601': { name: 'Angelo', role: 'admin' },
-    '281177': { name: 'Mauricio', role: 'user' },
-    '150892': { name: 'Flavia', role: 'admin' },
-    '040399': { name: 'Mayara', role: 'user' }
-};
+// USERS is declared at the top of the script to avoid TDZ issues
 
 function hlxLogin() {
     const code = document.getElementById('login-code').value.trim();
