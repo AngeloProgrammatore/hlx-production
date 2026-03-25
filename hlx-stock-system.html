@@ -1365,8 +1365,8 @@
                 <div id="aiResult" style="color:#333;line-height:1.8;white-space:pre-wrap;"></div>
             </div>
 
-            <!-- SETTINGS -->
-            <details style="margin-top:2rem;">
+            <!-- SETTINGS (hidden in server mode — API key managed server-side) -->
+            <details id="aiKeySettings" style="margin-top:2rem;">
                 <summary style="cursor:pointer;color:#666;font-size:0.85rem;">Configurações AI</summary>
                 <div style="background:#f8f9fa;padding:1rem;border-radius:8px;margin-top:0.5rem;">
                     <label style="font-size:0.85rem;color:#555;display:block;margin-bottom:4px;">API Key Claude (Anthropic)</label>
@@ -1945,8 +1945,8 @@
                 <h2 style="color:#003466;font-size:1.3rem;margin-bottom:1.5rem;">⚙️ Configurações AI</h2>
                 <p style="color:#666;font-size:0.85rem;margin-bottom:1.5rem;">Gerencie modelos, prompts e configurações das seções que usam inteligência artificial.</p>
 
-                <!-- API Key -->
-                <div style="background:#f8f9fa;border:1px solid #e2e8f0;border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;">
+                <!-- API Key (hidden in server mode) -->
+                <div id="adminAiKeySection" style="background:#f8f9fa;border:1px solid #e2e8f0;border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;">
                     <h3 style="color:#003466;font-size:1rem;margin-bottom:0.75rem;">🔑 API Key Anthropic (Claude)</h3>
                     <div style="display:flex;gap:0.5rem;align-items:center;">
                         <input type="password" id="adminAiKey" style="flex:1;padding:0.5rem;border:1px solid #dde1e6;border-radius:6px;font-size:0.85rem;font-family:monospace;" placeholder="sk-ant-api03-...">
@@ -2076,7 +2076,7 @@
                 </div>
                 <div style="display:flex;justify-content:space-between;margin-top:0.5rem;">
                     <span id="deviMicStatus" style="font-size:0.8rem;color:#888;"></span>
-                    <details style="font-size:0.8rem;">
+                    <details id="deviApiKeySettings" style="font-size:0.8rem;">
                         <summary style="cursor:pointer;color:#888;">Configurações API</summary>
                         <div style="padding:0.5rem 0;">
                             <input type="password" id="deviApiKey" placeholder="API Key Claude (sk-ant-...)" style="padding:6px 10px;border:1px solid #ccc;border-radius:6px;width:300px;font-size:0.85rem;">
@@ -2249,6 +2249,21 @@
 
         // ═══ SERVER PERSISTENCE LAYER ═══════════════════════════════════════
         const isServerMode = (window.location.protocol !== 'file:');
+
+        // Hide API key fields in server mode — keys are managed server-side
+        if (isServerMode) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // Hide all API key input sections
+                var aiKeySettings = document.getElementById('aiKeySettings');
+                if (aiKeySettings) aiKeySettings.style.display = 'none';
+                var adminAiKeySection = document.getElementById('adminAiKeySection');
+                if (adminAiKeySection) {
+                    adminAiKeySection.innerHTML = '<h3 style="color:#003466;font-size:1rem;margin-bottom:0.5rem;">🔑 API Key Anthropic (Claude)</h3><div style="display:flex;align-items:center;gap:0.5rem;"><span style="color:#238636;font-size:1.1rem;">✅</span><span style="color:#238636;font-weight:600;">Configurada no servidor</span></div><p style="font-size:0.8rem;color:#888;margin-top:0.5rem;">A API Key está protegida no servidor. Nenhuma configuração manual necessária.</p>';
+                }
+                var deviApiKeySettings = document.getElementById('deviApiKeySettings');
+                if (deviApiKeySettings) deviApiKeySettings.style.display = 'none';
+            });
+        }
 
         async function serverLoadProducts() {
             if (!isServerMode) return;
