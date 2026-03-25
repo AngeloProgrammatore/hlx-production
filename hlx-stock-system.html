@@ -2709,6 +2709,8 @@ var hectorHistory = [];
         function populateCategoryFilters() {
             const categories = [...new Set(allProducts.map(p => p.cat))].sort();
             const detailFilter = document.getElementById('detailCategoryFilter');
+            // Clear existing options (keep only the first "Todas as Categorias")
+            while (detailFilter.options.length > 1) detailFilter.remove(1);
             categories.forEach(cat => {
                 detailFilter.innerHTML += `<option value="${cat}">${cat}</option>`;
             });
