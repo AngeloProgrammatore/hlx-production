@@ -5196,6 +5196,8 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
             faqContainer.appendChild(btn);
         });
 
+        } catch(e) { console.error('DEVI FAQ init error:', e); }
+
         // Shared markdown→HTML formatter for all AI responses
         function formatAiResponse(text) {
             var lines = text.split('\n');
@@ -5476,6 +5478,7 @@ REGRAS DE FORMATAÇÃO (MUITO IMPORTANTE):
         }
 
         // Send on button click or Enter
+        try {
         deviSendBtn.addEventListener('click', deviSend);
         deviInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); deviSend(); }
@@ -5553,14 +5556,17 @@ REGRAS DE FORMATAÇÃO (MUITO IMPORTANTE):
         if (savedDeviKey && document.getElementById('deviApiKey')) {
             document.getElementById('deviApiKey').value = savedDeviKey;
         }
+        } catch(e) { console.error('DEVI listener init error:', e); }
 
         // ===========================
         // HECTOR TRAINER AI
         // ===========================
+        try {
         hectorChat = document.getElementById('hectorChat');
         hectorInput = document.getElementById('hectorInput');
         hectorSendBtn = document.getElementById('hectorSendBtn');
         hectorHistory = [];
+        } catch(e) { console.error('Hector var init error:', e); }
 
         function hectorAddMsg(text, role) {
             const div = document.createElement('div');
@@ -5726,11 +5732,12 @@ REGRAS DE COMPORTAMENTO:
             hectorInput.focus();
         }
 
+        try {
         hectorSendBtn.addEventListener('click', hectorSend);
         hectorInput.addEventListener('keydown', function(e) {
             if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); hectorSend(); }
         });
-        } catch(e) { console.error('DEVI/Hector init error:', e); }
+        } catch(e) { console.error('Hector listener init error:', e); }
 
         // Function to (re)initialize chat systems — called from showMainApp as fallback
         function initChatSystems() {
