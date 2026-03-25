@@ -2327,11 +2327,29 @@ var hectorHistory = [];
                         const serverByName = {};
                         data.forEach(function(p) { serverByName[p.estoqueNome] = p; });
 
-                        // Start with server products, restoring skuLoja from embedded
+                        // Start with server products, restoring skuLoja + stock structure from embedded
                         allProducts = data;
                         allProducts.forEach(function(p) {
                             if (embeddedByName[p.estoqueNome]) {
-                                p.skuLoja = embeddedByName[p.estoqueNome].skuLoja;
+                                var ep = embeddedByName[p.estoqueNome];
+                                p.skuLoja = ep.skuLoja;
+                                // Sync stock structure: remove sizes from server that don't exist in embedded
+                                // (e.g. PP removed from masc products)
+                                if (p.stock && ep.stock) {
+                                    var serverSizes = Object.keys(p.stock);
+                                    for (var si = 0; si < serverSizes.length; si++) {
+                                        if (!ep.stock[serverSizes[si]]) {
+                                            delete p.stock[serverSizes[si]];
+                                        }
+                                    }
+                                    // Add sizes from embedded that don't exist in server
+                                    var embeddedSizes = Object.keys(ep.stock);
+                                    for (var ei = 0; ei < embeddedSizes.length; ei++) {
+                                        if (!p.stock[embeddedSizes[ei]]) {
+                                            p.stock[embeddedSizes[ei]] = ep.stock[embeddedSizes[ei]];
+                                        }
+                                    }
+                                }
                             }
                         });
 
