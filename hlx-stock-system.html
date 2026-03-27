@@ -3611,11 +3611,18 @@ ${new Date().toLocaleString('pt-BR')}
                     </select>`;
                 }
 
+                const imgHtml = product.img
+                    ? `<div style="position:relative;display:inline-block;">
+                        <img src="${product.img}" alt="${product.estoqueNome}" loading="lazy" onerror="this.style.display='none'" style="width:60px;height:60px;object-fit:cover;border-radius:6px;">
+                        <button class="btn-remove-img" data-pidx="${pIdx}" style="position:absolute;top:-6px;right:-6px;background:#d73a49;color:#fff;border:none;border-radius:50%;width:18px;height:18px;font-size:11px;cursor:pointer;line-height:16px;padding:0;" title="Remover foto">✕</button>
+                       </div>`
+                    : `<div class="btn-add-img" data-pidx="${pIdx}" style="width:60px;height:60px;border:2px dashed #bbb;border-radius:6px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1.5rem;color:#888;flex-shrink:0;" title="Adicionar foto">+</div>`;
+
                 return `<div class="detail-card" id="card-${pIdx}">
                     <div class="detail-card-header">
-                        <img src="${product.img}" alt="${product.estoqueNome}" loading="lazy" onerror="this.style.display='none'">
+                        ${imgHtml}
                         <div class="detail-card-info">
-                            <h3>${product.estoqueNome}</h3>
+                            <h3 class="editable-name" data-pidx="${pIdx}" style="cursor:pointer;" title="Clique para editar o nome">${product.estoqueNome}</h3>
                             <div class="detail-sub">${product.venditeNome} &middot; SKU: ${product.sku}</div>
                         </div>
                         <div class="detail-card-badges">
@@ -3816,6 +3823,68 @@ ${new Date().toLocaleString('pt-BR')}
                     updateOverview();
                     renderDetailsTable();
                     populateCategoryFilters();
+                });
+            });
+
+            // ====== EDITABLE PRODUCT NAME: click to edit ======
+            container.querySelectorAll('.editable-name').forEach(h3 => {
+                h3.addEventListener('click', function() {
+                    const pIdx = parseInt(this.dataset.pidx);
+                    const product = allProducts[pIdx];
+                    const currentName = product.estoqueNome;
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = currentName;
+                    input.style.cssText = 'font-size:1rem;font-weight:700;border:2px solid #417AE5;border-radius:4px;padding:2px 6px;width:100%;background:#fff;color:#1a1a2e;';
+                    const h3El = this;
+                    h3El.innerHTML = '';
+                    h3El.appendChild(input);
+                    input.focus();
+                    input.select();
+                    function saveName() {
+                        const newName = input.value.trim();
+                        if (newName && newName !== currentName) {
+                            product.estoqueNome = newName;
+                            serverSaveProduct(pIdx);
+                            addLog('Nome alterado: "' + currentName + '" → "' + newName + '"', 'success');
+                        }
+                        h3El.textContent = product.estoqueNome;
+                    }
+                    input.addEventListener('blur', saveName);
+                    input.addEventListener('keydown', function(e) {
+                        if (e.key === 'Enter') { e.preventDefault(); input.blur(); }
+                        if (e.key === 'Escape') { input.value = currentName; input.blur(); }
+                    });
+                });
+            });
+
+            // ====== ADD PHOTO: click + to add image URL ======
+            container.querySelectorAll('.btn-add-img').forEach(div => {
+                div.addEventListener('click', function() {
+                    const pIdx = parseInt(this.dataset.pidx);
+                    const product = allProducts[pIdx];
+                    const url = prompt('Insira a URL da imagem (300x300 recomendado):', '');
+                    if (url && url.trim()) {
+                        product.img = url.trim();
+                        serverSaveProduct(pIdx);
+                        addLog('Foto adicionada: ' + product.estoqueNome, 'success');
+                        renderDetailsTable();
+                    }
+                });
+            });
+
+            // ====== REMOVE PHOTO: click ✕ to remove ======
+            container.querySelectorAll('.btn-remove-img').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const pIdx = parseInt(this.dataset.pidx);
+                    const product = allProducts[pIdx];
+                    if (confirm('Remover a foto de "' + product.estoqueNome + '"?')) {
+                        product.img = '';
+                        serverSaveProduct(pIdx);
+                        addLog('Foto removida: ' + product.estoqueNome, 'warning');
+                        renderDetailsTable();
+                    }
                 });
             });
 
