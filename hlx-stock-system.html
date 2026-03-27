@@ -2267,6 +2267,54 @@ var hectorHistory = [];
         let allProducts = JSON.parse(JSON.stringify(productMapping));
         let apiLog = [];
 
+        // ═══ AUTO-SYNC MASC→FEM SEGUNDA PELE ════════════════════════════════
+        // Maps masculine estoqueNome → feminine estoqueNome for auto-sync.
+        // When saving stock on a masculine product, P/M/G/GG/3G/4G are copied
+        // to the feminine counterpart. PP is fem-only and never touched.
+        const segundaPelePairs = {
+            "Segunda pele Preta (masc)": "Segunda pele Feminina",
+            "Segunda pele Inverno (masc)": "Segunda pele Feminina Inverno",
+            "Segunda pele Azul Masc": "Segunda pele Azul Fem",
+            "Segunda pele Logo chumbo Masc": "Segunda pele Logo chumbo Fem",
+            "Segunda pele Limão Masc": "Segunda pele Limão Fem",
+            "Segunda pele Camuflada chumbo Masc": "Segunda pele Camuflada chumbo Fem",
+            "Segunda pele Preta com laranja": "Segunda pele Preta com laranja Fem",
+            "Segunda pele Preta com verde Masc": "Segunda pele Preta com verde Fem",
+            "Segunda pele Laranja Masc": "Segunda pele Laranja Fem",
+            "Segunda pele Vermelha Clara Masc": "Segunda pele Vermelha Clara Fem",
+            "Seg. Pele com Proteções 2.0 Masc": "Seg. Pele com Proteções 2.0 Fem",
+            "CALÇA Segunda Pele Masc": "CALÇA Segunda Pele Fem",
+            "Calça Segunda Pele Inverno Masc": "Calça Segunda Pele Inverno Fem"
+        };
+        const syncSizesNoPP = ['P','M','G','GG','3G','4G'];
+
+        // Find feminine counterpart index for a masculine product
+        function findFemCounterpart(mascIdx) {
+            const mascName = allProducts[mascIdx].estoqueNome;
+            const femName = segundaPelePairs[mascName];
+            if (!femName) return -1;
+            for (let i = 0; i < allProducts.length; i++) {
+                if (allProducts[i].estoqueNome === femName) return i;
+            }
+            return -1;
+        }
+
+        // Sync stock from masculine to feminine (all sizes except PP)
+        function syncMascToFem(mascIdx) {
+            const femIdx = findFemCounterpart(mascIdx);
+            if (femIdx < 0) return -1;
+            const masc = allProducts[mascIdx];
+            const fem = allProducts[femIdx];
+            syncSizesNoPP.forEach(function(sz) {
+                if (masc.stock[sz]) {
+                    if (!fem.stock[sz]) fem.stock[sz] = {e:0, p:0};
+                    fem.stock[sz].e = masc.stock[sz].e;
+                    fem.stock[sz].p = masc.stock[sz].p;
+                }
+            });
+            return femIdx;
+        }
+
         // ═══ RESET VOLATILE SYNC DATA ════════════════════════════════════════
         // Strips _siteStock and _parentId from all products so each session
         // starts clean.  Called on login and before every new sync cycle.
@@ -3672,6 +3720,14 @@ ${new Date().toLocaleString('pt-BR')}
                     });
                     // Persist to server
                     serverSaveProduct(pIdx);
+
+                    // ── Auto-sync masc→fem for Segunda Pele ──
+                    const femSyncIdx = syncMascToFem(pIdx);
+                    if (femSyncIdx >= 0) {
+                        serverSaveProduct(femSyncIdx);
+                        addLog('Auto-sync: ' + allProducts[pIdx].estoqueNome + ' → ' + allProducts[femSyncIdx].estoqueNome, 'success');
+                    }
+
                     // Flash confirm
                     const card = document.getElementById(`card-${pIdx}`);
                     card.classList.add('save-flash');
@@ -3707,6 +3763,44 @@ ${new Date().toLocaleString('pt-BR')}
                     const totDA = sizes.reduce((s, [, v]) => s + Math.max(0, v.daAggiungere || 0), 0);
                     if (tD) { tD.textContent = totDA > 0 ? '+' + totDA : '-'; tD.className = totDA > 0 ? 'da-add' : ''; }
                     addLog(`Salvo: ${product.estoqueNome} - estoque atualizado`, 'success');
+
+                    // If fem was auto-synced, refresh its card UI too
+                    if (typeof femSyncIdx !== 'undefined' && femSyncIdx >= 0) {
+                        const femProduct = allProducts[femSyncIdx];
+                        const femCalc = calculateStats(femProduct);
+                        const femSizes = Object.entries(femCalc.stats);
+                        femSizes.forEach(([sz, v]) => {
+                            const totC = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-calc="totale"]`);
+                            const badgeC = container.querySelector(`span[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-calc="badge"]`);
+                            const targetC = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-calc="target"]`);
+                            const sitoC = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-calc="sito"]`);
+                            const daC = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-calc="daagg"]`);
+                            const eInp = container.querySelector(`input[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-field="e"]`);
+                            const pInp = container.querySelector(`input[data-pidx="${femSyncIdx}"][data-size="${sz}"][data-field="p"]`);
+                            if (eInp) eInp.value = v.estoque;
+                            if (pInp) pInp.value = v.producao;
+                            if (totC) { totC.textContent = v.totaleReale; totC.className = 'alarm-cell-' + v.alarm; }
+                            if (badgeC) { badgeC.textContent = v.alarm === 'urgent' ? 'URG' : v.alarm === 'warning' ? 'WARN' : v.alarm === 'attention' ? 'ATT' : 'OK'; badgeC.className = 'badge ' + v.alarm; }
+                            if (targetC) targetC.textContent = v.target50;
+                            if (sitoC) sitoC.textContent = v.sitoReale !== null ? v.sitoReale : '—';
+                            if (daC) { if (v.daAggiungere !== null) { daC.textContent = v.daAggiungere > 0 ? '+' + v.daAggiungere : '✓'; daC.className = v.daAggiungere > 0 ? 'da-add' : ''; } else { daC.textContent = '—'; daC.className = ''; } }
+                        });
+                        // Update fem totals row
+                        const ftE = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-calc="tot-est"]`);
+                        const ftP = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-calc="tot-prod"]`);
+                        const ftR = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-calc="tot-reale"]`);
+                        const ftS = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-calc="tot-sito"]`);
+                        const ftD = container.querySelector(`td[data-pidx="${femSyncIdx}"][data-calc="tot-daagg"]`);
+                        if (ftE) ftE.textContent = femSizes.reduce((s, [, v]) => s + v.estoque, 0);
+                        if (ftP) ftP.textContent = femSizes.reduce((s, [, v]) => s + v.producao, 0);
+                        if (ftR) ftR.textContent = femSizes.reduce((s, [, v]) => s + v.totaleReale, 0);
+                        if (ftS) ftS.textContent = femSizes.reduce((s, [, v]) => s + (v.sitoReale || 0), 0);
+                        const femTotDA = femSizes.reduce((s, [, v]) => s + Math.max(0, v.daAggiungere || 0), 0);
+                        if (ftD) { ftD.textContent = femTotDA > 0 ? '+' + femTotDA : '-'; ftD.className = femTotDA > 0 ? 'da-add' : ''; }
+                        // Flash fem card
+                        const femCard = document.getElementById(`card-${femSyncIdx}`);
+                        if (femCard) { femCard.classList.add('save-flash'); setTimeout(() => femCard.classList.remove('save-flash'), 1000); }
+                    }
                 });
             });
 
@@ -3820,6 +3914,18 @@ ${new Date().toLocaleString('pt-BR')}
                             await new Promise(r => setTimeout(r, 300));
                         }
                         if (!found) { alert('Tamanho "' + size + '" não encontrado na Loja Integrada para SKU: ' + product.skuLoja); }
+
+                        // ── Auto-sync Ler masc→fem for Segunda Pele ──
+                        if (found && size !== 'PP') {
+                            const femLerIdx = findFemCounterpart(pIdx);
+                            if (femLerIdx >= 0 && product._siteStock && product._siteStock[size]) {
+                                const femP = allProducts[femLerIdx];
+                                if (!femP._siteStock) femP._siteStock = {};
+                                femP._siteStock[size] = JSON.parse(JSON.stringify(product._siteStock[size]));
+                                addLog('Auto-sync Ler: ' + product.estoqueNome + ' → ' + femP.estoqueNome + ' [' + size + ']', 'success');
+                            }
+                        }
+
                         renderDetailsTable();
                     } catch(err) {
                         alert('Erro ao ler: ' + err.message);
@@ -4989,6 +5095,23 @@ Seja direto, use números específicos, nada genérico. Formato limpo para envia
             statusEl.style.color = errors > 0 ? '#db6d28' : '#238636';
             this.disabled = false;
             this.textContent = '1. Ler Estoque do Site';
+
+            // ── Auto-sync Ler bulk: copy _siteStock from masc→fem for Segunda Pele ──
+            for (let mi = 0; mi < allProducts.length; mi++) {
+                const mascP = allProducts[mi];
+                if (!segundaPelePairs[mascP.estoqueNome]) continue;
+                const fi = findFemCounterpart(mi);
+                if (fi < 0 || !mascP._siteStock) continue;
+                const femP = allProducts[fi];
+                if (!femP._siteStock) femP._siteStock = {};
+                syncSizesNoPP.forEach(function(sz) {
+                    if (mascP._siteStock[sz]) {
+                        femP._siteStock[sz] = JSON.parse(JSON.stringify(mascP._siteStock[sz]));
+                    }
+                });
+                addLog('Auto-sync Ler bulk: ' + mascP.estoqueNome + ' → ' + femP.estoqueNome, 'success');
+            }
+
             renderDetailsTable();
             // Show sync button after reading
             if (loaded > 0) {
