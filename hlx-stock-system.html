@@ -3860,16 +3860,66 @@ ${new Date().toLocaleString('pt-BR')}
                 });
             });
 
-            // ====== ADD PHOTO: click + to add image URL ======
+            // ====== ADD PHOTO: click + to import image via SKU or URL ======
             container.querySelectorAll('.btn-add-img').forEach(div => {
-                div.addEventListener('click', function() {
+                div.addEventListener('click', async function() {
                     const pIdx = parseInt(this.dataset.pidx);
                     const product = allProducts[pIdx];
-                    const url = prompt('Insira a URL da imagem (300x300 recomendado):', '');
-                    if (url && url.trim()) {
-                        product.img = url.trim();
+                    const input = prompt('Inserisci lo SKU della Loja Integrada per importare la foto automaticamente.\n\nOppure incolla direttamente un URL immagine (http...):', product.skuLoja || '');
+                    if (!input || !input.trim()) return;
+                    const val = input.trim();
+
+                    // If it looks like a URL, use directly
+                    if (val.startsWith('http://') || val.startsWith('https://')) {
+                        product.img = val;
                         serverSaveProduct(pIdx);
-                        addLog('Foto adicionada: ' + product.estoqueNome, 'success');
+                        addLog('Foto adicionada (URL): ' + product.estoqueNome, 'success');
+                        renderDetailsTable();
+                        return;
+                    }
+
+                    // Otherwise treat as SKU — fetch image from Loja Integrada
+                    try {
+                        this.style.opacity = '0.5';
+                        this.textContent = '...';
+                        const searchResp = await fetch(apiUrl('/v1/produto/?sku=' + encodeURIComponent(val) + '&formato=json'));
+                        if (!searchResp.ok) throw new Error('Erro HTTP ' + searchResp.status);
+                        const searchData = await searchResp.json();
+
+                        if (!searchData.objects || searchData.objects.length === 0) {
+                            alert('SKU "' + val + '" non trovato nella Loja Integrada. Verifica il codice.');
+                            renderDetailsTable();
+                            return;
+                        }
+
+                        const parentId = searchData.objects[0].id;
+                        const parentResp = await fetch(apiUrl('/v1/produto/' + parentId + '?formato=json'));
+                        const parentData = await parentResp.json();
+
+                        let imgUrl = '';
+                        if (parentData.imagem_principal) {
+                            const imgData = parentData.imagem_principal;
+                            if (typeof imgData === 'string') {
+                                imgUrl = imgData;
+                            } else if (imgData.grande) {
+                                imgUrl = imgData.grande;
+                            } else if (imgData.media) {
+                                imgUrl = imgData.media;
+                            }
+                        }
+
+                        if (!imgUrl) {
+                            alert('Prodotto trovato ("' + parentData.nome + '") ma non ha immagine nella Loja Integrada.');
+                            renderDetailsTable();
+                            return;
+                        }
+
+                        product.img = imgUrl;
+                        serverSaveProduct(pIdx);
+                        addLog('Foto importata da SKU ' + val + ': ' + product.estoqueNome, 'success');
+                        renderDetailsTable();
+                    } catch(e) {
+                        alert('Errore durante la ricerca: ' + e.message);
                         renderDetailsTable();
                     }
                 });
