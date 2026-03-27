@@ -2381,6 +2381,8 @@ var hectorHistory = [];
                             if (embeddedByName[p.estoqueNome]) {
                                 var ep = embeddedByName[p.estoqueNome];
                                 p.skuLoja = ep.skuLoja;
+                                // Restore img from embedded (source of truth for product photos)
+                                if (ep.img) p.img = ep.img;
                                 // Sync stock structure: remove sizes from server that don't exist in embedded
                                 // (e.g. PP removed from masc products)
                                 if (p.stock && ep.stock) {
