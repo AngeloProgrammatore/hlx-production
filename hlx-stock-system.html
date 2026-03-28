@@ -2106,136 +2106,4702 @@ var hectorChat, hectorInput, hectorSendBtn;
 var hectorHistory = [];
 
         const productMapping = [
-{cat:"Calças Masculinas",estoqueNome:"DEFENDER BLACK",venditeNome:"DEFENDER PRETA",sku:"610MSX",skuLoja:"610MSX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg",stock:{"38":{e:17,p:2},"40":{e:32,p:3},"42":{e:55,p:0},"44":{e:56,p:2},"46":{e:16,p:11},"48":{e:46,p:3},"50":{e:33,p:5},"52":{e:13,p:3},"54":{e:17,p:6},"56":{e:6,p:5},"58":{e:7,p:2},"60":{e:5,p:0}},vendite:[2,11,15,14,10,14,13,24,20,11,12,17],fatturato:[1013.2,5572.6,7599,7092.4,5066,7092.4,6579,12158,10138,5572.6,6092.4,8165.6]},
-{cat:"Calças Masculinas",estoqueNome:"SPIRIT COMFORT",venditeNome:"SPIRIT COMFORT",sku:"602SCO",skuLoja:"602SCO",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/7610882/strit--3--easkozi12q.jpg",stock:{"38":{e:12,p:0},"40":{e:15,p:0},"42":{e:45,p:5},"44":{e:28,p:9},"46":{e:52,p:2},"48":{e:41,p:0},"50":{e:19,p:2},"52":{e:16,p:0},"54":{e:12,p:0},"56":{e:10,p:2},"58":{e:9,p:0},"60":{e:0,p:5}},vendite:[2,8,12,8,12,8,6,4,9,6,7,5],fatturato:[914,3656,5484,3656,5484,3656,2742,1828,4113,2742,3199,2285]},
-{cat:"Calças Masculinas",estoqueNome:"RACER COMFORT",venditeNome:"RACER COMFORT PRETA",sku:"612MRP",skuLoja:"612MRP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg",stock:{"38":{e:13,p:0},"40":{e:9,p:16},"42":{e:38,p:0},"44":{e:9,p:28},"46":{e:28,p:15},"48":{e:12,p:19},"50":{e:3,p:7},"52":{e:19,p:0},"54":{e:11,p:0},"56":{e:4,p:4}},vendite:[8,7,8,8,4,9,11,8,4,11,4,6],fatturato:[3720,3255,3720,3720,1860,4185,5115,3720,1860,5115,1860,2790]},
-{cat:"Calças Masculinas",estoqueNome:"ADVENTURE VERDE",venditeNome:"DEFENDER ADVENTURE VR",sku:"610ADV",skuLoja:"610ADV-VR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/237694127/novo-site-tamanho-cal-a--1080-px---3--ml9rvyl2mi.jpg",stock:{"38":{e:20,p:0},"40":{e:12,p:0},"42":{e:56,p:0},"44":{e:30,p:0},"46":{e:36,p:3},"48":{e:45,p:2},"50":{e:27,p:0},"52":{e:20,p:0},"54":{e:10,p:0},"56":{e:9,p:0}},vendite:[2,4,9,4,0,9,11,9,9,7,10,7],fatturato:[1016,2032,4572,2032,0,4572,5588,4572,4572,3556,5080,3556]},
-{cat:"Calças Masculinas",estoqueNome:"street",venditeNome:"STREET",sku:"605MST",skuLoja:"605MST",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/289822460/novo-site-tamanho-cal-a--6--jce3wx1u6c.png",stock:{"38":{e:8,p:0},"40":{e:1,p:0},"42":{e:1,p:0},"46":{e:8,p:0},"48":{e:9,p:0},"50":{e:19,p:0},"52":{e:15,p:2},"54":{e:11,p:2}},vendite:[2,2,5,6,2,14,6,2,2,9,4,2],fatturato:[914,914,2285,2742,914,6398,2742,914,914,4113,1828,914]},
-{cat:"Calças Masculinas",estoqueNome:"IBIZA MASCULINA",venditeNome:"IBIZA COMFORT",sku:"602IBX",skuLoja:"602IBX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/80494978/159-n1bi7fp38a.jpg",stock:{"38":{e:13,p:0},"40":{e:27,p:0},"42":{e:12,p:0},"46":{e:3,p:0},"48":{e:5,p:2},"50":{e:11,p:0},"52":{e:2,p:0}},vendite:[0,4,5,1,2,6,2,0,3,3,5,2],fatturato:[0,1708,2135,427,854,2562,854,0,1281,1281,2135,854]},
-{cat:"Calças Masculinas",estoqueNome:"Slim",venditeNome:"SLIM PRETA",sku:"605MCE",skuLoja:"605MCE",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/80494780/novo-site-tamanho-cal-a--1080-px---22--eofxd9x4y6.jpg",stock:{"38":{e:7,p:0},"40":{e:10,p:2},"42":{e:40,p:0},"44":{e:21,p:3},"46":{e:27,p:4},"48":{e:26,p:0},"50":{e:19,p:0},"52":{e:7,p:0},"54":{e:7,p:0},"56":{e:2,p:0}},vendite:[1,5,7,5,4,8,4,7,5,3,3,5],fatturato:[457,2285,3199,2285,1828,3656,1828,3199,2285,1371,1371,2285]},
-{cat:"Calças Masculinas",estoqueNome:"Camuforce caqui",venditeNome:"CAMU FORCE",sku:"606CAM",skuLoja:"606CAM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/59302703/novo-site-tamanho-cal-a--8--f0j14lfqw0.png",stock:{"38":{e:4,p:0},"40":{e:6,p:0},"42":{e:10,p:0},"44":{e:9,p:0},"46":{e:13,p:0},"48":{e:2,p:0},"50":{e:3,p:0},"54":{e:9,p:0},"56":{e:15,p:2},"58":{e:6,p:0}},vendite:[2,2,3,4,1,2,3,3,0,2,2,2],fatturato:[828,828,1242,1656,414,828,1242,1242,0,828,828,828]},
-{cat:"Calças Masculinas",estoqueNome:"Mikonos Black",venditeNome:"MIKONOS",sku:"602MIK",skuLoja:"602MIK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg",stock:{"38":{e:10,p:0},"40":{e:9,p:0},"42":{e:43,p:0},"44":{e:66,p:0},"46":{e:33,p:0},"48":{e:30,p:0},"50":{e:10,p:0},"52":{e:11,p:0}},vendite:[2,6,3,1,4,8,4,2,1,0,1,0],fatturato:[684,2052,1026,342,1368,2736,1368,684,342,0,342,0]},
-{cat:"Calças Masculinas",estoqueNome:"Defender Camuflada Chumbo",venditeNome:"DEFENDER CAMUFLADA CHUMBO",sku:"606MSX",skuLoja:"606MSX-CH",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2812290/4-i3vy8v1s9c.jpg",stock:{"38":{e:9,p:0},"40":{e:13,p:8},"42":{e:27,p:1},"44":{e:25,p:3},"46":{e:26,p:0},"48":{e:5,p:3},"50":{e:4,p:8},"52":{e:9,p:0},"54":{e:8,p:0},"56":{e:9,p:1},"58":{e:7,p:0}},vendite:[0,0,3,2,6,3,4,2,3,4,3,0],fatturato:[0,0,1353,903,2709,1353,1806,903,1353,1806,1353,0]},
-{cat:"Calças Masculinas",estoqueNome:"SPENCER COMFORT",venditeNome:"SPENCER COMFORT",sku:"602MSS",skuLoja:"602MSS",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/131494501/146-a47lwt6x91.jpg",stock:{"38":{e:10,p:0},"40":{e:28,p:0},"42":{e:4,p:0},"44":{e:1,p:0},"46":{e:5,p:1},"48":{e:19,p:0},"50":{e:2,p:0},"52":{e:3,p:0},"54":{e:2,p:0},"56":{e:8,p:0}},vendite:[5,5,7,3,4,4,4,5,1,7,6,3],fatturato:[2285,2285,3199,1371,1828,1828,1828,2285,457,3199,2742,1371]},
-{cat:"Calças Masculinas",estoqueNome:"MIKONOS AZUL",venditeNome:"MIKONOS",sku:"602MIK",skuLoja:"602MIK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg",stock:{"38":{e:3,p:0},"40":{e:7,p:0},"42":{e:1,p:0},"44":{e:2,p:0},"46":{e:4,p:0},"48":{e:4,p:0},"50":{e:1,p:0},"54":{e:2,p:0}},vendite:[2,6,3,1,4,8,4,2,1,0,1,0],fatturato:[684,2052,1026,342,1368,2736,1368,684,342,0,342,0]},
-{cat:"Calças Masculinas",estoqueNome:"NEW CONCEPT (ZIPER)",venditeNome:"NEW CONCEPT",sku:"602NEW",skuLoja:"602NEW-ES",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/4981737/746072306f.jpg",stock:{"38":{e:5,p:0},"40":{e:15,p:0},"50":{e:4,p:0},"52":{e:5,p:0},"54":{e:1,p:0}},vendite:[0,4,0,0,0,0,0,0,0,1,1,0],fatturato:[0,1828,0,0,0,0,0,0,0,457,457,0]},
-{cat:"Calças Masculinas",estoqueNome:"Calça Defender Adventure Bege",venditeNome:"DEFENDER ADVENTURE BEGE",sku:"610ADV",skuLoja:"610ADV-BG",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg",stock:{"38":{e:5,p:0},"40":{e:12,p:0},"42":{e:23,p:0},"44":{e:19,p:0},"46":{e:20,p:0},"48":{e:14,p:0},"50":{e:12,p:0},"52":{e:3,p:0},"54":{e:4,p:0},"56":{e:3,p:0}},vendite:[2,11,15,14,10,14,13,24,20,11,12,17],fatturato:[1013.2,5572.6,7599,7092.4,5066,7092.4,6579,12158,10138,5572.6,6092.4,8165.6]},
-{cat:"Calças Masculinas",estoqueNome:"New Concept Clean (masc)",venditeNome:"NEW CONCEPT CLEAN",sku:"602NEW",skuLoja:"602NEW-CL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/244533284/novo-site-tamanho-cal-a-1080-px-qu0q73953q.png",stock:{"38":{e:1,p:0},"40":{e:2,p:0},"42":{e:1,p:0},"50":{e:3,p:0},"52":{e:2,p:0},"54":{e:4,p:0},"56":{e:4,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],fatturato:[0,0,0,0,0,0,0,0,0,457,0,0]},
-{cat:"Calças Masculinas",estoqueNome:"Mikonos Black (fibra Aramida)",venditeNome:"MIKONOS ARAMIDA",sku:"602MIK",skuLoja:"602MIK-BL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354440076/16-g9yt1zt08h.jpg",stock:{},vendite:[0,0,0,0,0,0,0,0,0,2,3,3],fatturato:[0,0,0,0,0,0,0,0,0,13588,19960,19985]},
-{cat:"Calças Femininas",estoqueNome:"penelope confort azul",venditeNome:"PENÉLOPE COMFORT AZUL",sku:"603FES",skuLoja:"603FES",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/322519357/penelope--1--v190y4u1yu.jpg",stock:{"34":{e:4,p:0},"36":{e:10,p:20},"38":{e:1,p:49},"40":{e:4,p:56},"42":{e:0,p:50},"44":{e:9,p:51},"46":{e:1,p:32},"48":{e:4,p:16},"50":{e:4,p:0}},vendite:[1,10,10,6,2,5,6,3,2,12,3,6],fatturato:[402,4020,4020,2412,804,2010,2412,1206,804,4824,1206,2412]},
-{cat:"Calças Femininas",estoqueNome:"racer confort feminina",venditeNome:"RACER COMFORT FEM",sku:"613FRP",skuLoja:"613FRP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/111466533/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg",stock:{"36":{e:2,p:16},"38":{e:3,p:40},"40":{e:2,p:24},"42":{e:0,p:28},"44":{e:14,p:23},"46":{e:9,p:28},"48":{e:3,p:20},"50":{e:4,p:0}},vendite:[6,19,18,9,14,20,24,16,13,11,6,13],fatturato:[2802,8872,8406,4203,6538,9338,11206,7470,6071,5138,2802,6071]},
-{cat:"Calças Femininas",estoqueNome:"Defender adventure preta",venditeNome:"DEFENDER PRETA FEM",sku:"611MSX",skuLoja:"611MSX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/260216576/141-ul2i8obn15.jpg",stock:{"36":{e:12,p:10},"38":{e:2,p:19},"40":{e:7,p:9},"42":{e:5,p:12},"44":{e:4,p:12},"46":{e:36,p:10},"48":{e:10,p:15},"50":{e:3,p:0}},vendite:[5,11,11,16,9,11,22,12,17,9,16,18],fatturato:[2245,4939,4985,7552,4248,4940,10434,5608,7848,4248,7552,8862]},
-{cat:"Calças Femininas",estoqueNome:"PENELOPE CONFORT BLACK",venditeNome:"PENÉLOPE COMFORT BLACK",sku:"603MEX",skuLoja:"603MEX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/233135122/107-zxl736tg17.jpg",stock:{"34":{e:6,p:0},"36":{e:3,p:0},"38":{e:11,p:0},"40":{e:7,p:0},"42":{e:11,p:0},"44":{e:19,p:0},"46":{e:6,p:1},"48":{e:16,p:0},"50":{e:3,p:0}},vendite:[0,6,10,2,6,5,9,7,7,10,6,2],fatturato:[0,2430,4050,810,2430,2025,3645,2835,2835,4050,2430,810]},
-{cat:"Calças Femininas",estoqueNome:"ADVENTURE  VERDE",venditeNome:"DEFENDER ADV VERDE FEM",sku:"611ADV",skuLoja:"611ADV-VR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/233172189/novo-site-tamanho-cal-a--1080-px---27--d8gh2ccb9q.jpg",stock:{"36":{e:4,p:20},"38":{e:6,p:22},"40":{e:7,p:27},"42":{e:10,p:32},"44":{e:13,p:25},"46":{e:2,p:24},"48":{e:11,p:20}},vendite:[0,4,4,3,5,4,8,6,2,3,3,4],fatturato:[0,1608,1608,1206,2010,1608,3216,2412,804,1206,1206,1608]},
-{cat:"Calças Femininas",estoqueNome:"Slim (Cos-medio)",venditeNome:"SLIM FEM",sku:"603FCE",skuLoja:"603FCE",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/59302886/novo-site-tamanho-cal-a--1080-px---6--cgzlluf3gk.jpg",stock:{"34":{e:2,p:0},"36":{e:10,p:0},"38":{e:31,p:1},"40":{e:33,p:0},"42":{e:40,p:1},"44":{e:14,p:0},"46":{e:30,p:0},"48":{e:16,p:0}},vendite:[3,7,3,0,1,1,3,3,3,3,1,9],fatturato:[1206,2814,1206,0,402,402,1206,1206,1206,1206,402,3618]},
-{cat:"Calças Femininas",estoqueNome:"ibiza confort azul",venditeNome:"IBIZA COMFORT FEM",sku:"603IBX",skuLoja:"603IBX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg",stock:{"36":{e:6,p:5},"38":{e:9,p:0},"40":{e:2,p:3},"42":{e:10,p:3},"44":{e:6,p:19},"46":{e:22,p:0},"48":{e:6,p:8}},vendite:[0,3,2,4,5,3,0,1,2,1,1,1],fatturato:[0,1206,804,1608,2010,1206,0,402,804,402,402,402]},
-{cat:"Calças Femininas",estoqueNome:"Mikonos Azul",venditeNome:"MIKONOS FEM",sku:"603MIK",skuLoja:"603MIK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg",stock:{"34":{e:6,p:0},"36":{e:19,p:0},"38":{e:3,p:0},"40":{e:6,p:0},"42":{e:12,p:0},"44":{e:6,p:0},"46":{e:2,p:0}},vendite:[2,4,1,5,2,6,6,1,3,1,3,1],fatturato:[684,1368,342,1710,684,2052,2052,342,1026,342,1026,342]},
-{cat:"Calças Femininas",estoqueNome:"MIKONOS BLACK",venditeNome:"MIKONOS FEM",sku:"603MIK",skuLoja:"603MIK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg",stock:{"38":{e:11,p:3},"40":{e:12,p:0},"42":{e:17,p:0},"44":{e:8,p:0},"46":{e:22,p:0},"48":{e:13,p:0}},vendite:[2,4,1,5,2,6,6,1,3,1,3,1],fatturato:[684,1368,342,1710,684,2052,2052,342,1026,342,1026,342]},
-{cat:"Calças Femininas",estoqueNome:"Force (Cos-medio)",venditeNome:"FORCE COMFORT FEM",sku:"607CFS",skuLoja:"607CFS",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/233147882/novo-site-tamanho-cal-a--1080-px--ddetrllyzl.jpg",stock:{"36":{e:30,p:0},"38":{e:15,p:0},"40":{e:2,p:0},"46":{e:11,p:0},"48":{e:9,p:0}},vendite:[0,0,1,2,1,1,3,0,1,1,1,2],fatturato:[0,0,428,856,428,428,1284,0,428,428,428,856]},
-{cat:"Calças Femininas",estoqueNome:"Madri Comfort Fem",venditeNome:"MADRI COMFORT FEM",sku:"613FMC",skuLoja:"613FMC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/119589064/padr-o-foto-novo-site--72--yvprhqt1wd.jpg",stock:{"40":{e:1,p:0},"46":{e:3,p:0}},vendite:[0,0,2,2,0,0,1,0,0,0,0,1],fatturato:[0,0,856,856,0,0,428,0,0,0,0,428]},
-{cat:"Calças Femininas",estoqueNome:"New Concept Clean ZIPER",venditeNome:"NEW CONCEPT CLEAN FEM",sku:"603NEW",skuLoja:"603NEW-CL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/233173326/118-m8503mzaig.jpg",stock:{"34":{e:4,p:0},"36":{e:11,p:0},"38":{e:10,p:0},"44":{e:3,p:0},"46":{e:7,p:0},"48":{e:4,p:0}},vendite:[0,0,0,0,4,3,2,2,3,1,4,2],fatturato:[0,0,0,0,720,720,360,360,0,360,720,720]},
-{cat:"Calças Femininas",estoqueNome:"Mikonos Black Fem (fibra Aramida)",venditeNome:"MIKONOS FEM ARAMIDA",sku:"603MIK",skuLoja:"603MIK-BL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354479074/16-x8hxj0nqo9.jpg",stock:{},vendite:[0,0,0,0,0,0,0,0,0,1,2,2],fatturato:[0,0,0,3116,779,3116,3116,779,2337,779,779,0]},
-{cat:"Calças Femininas",estoqueNome:"Ibiza Comfort Fem",venditeNome:"IBIZA COMFORT FEM",sku:"IBI-COM-FEM",skuLoja:"603IBX",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg",stock:{"36":{e:0,p:5},"40":{e:0,p:3},"42":{e:0,p:3},"44":{e:0,p:19},"48":{e:0,p:8}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Jaquetas",estoqueNome:"VERANO MASCULINA PRETA",venditeNome:"VERANO MASC",sku:"0417R4",skuLoja:"0417R4-PR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",stock:{G:{e:34,p:0},M:{e:57,p:0},P:{e:20,p:0},"3G":{e:37,p:0},"4G":{e:14,p:0},"5G":{e:5,p:0},GG:{e:47,p:0}},vendite:[17,20,13,16,11,9,29,30,27,30,35,56],fatturato:[10846,12760,8294,10208,7018,5742,18502,19140,17226,19140,22330,35728]},
-{cat:"Jaquetas",estoqueNome:"VERANO MASCULINA CINZA",venditeNome:"VERANO MASC",sku:"0417R4",skuLoja:"0417R4-CIN",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",stock:{G:{e:7,p:0},M:{e:3,p:0},P:{e:7,p:0},"3G":{e:7,p:0},"4G":{e:2,p:0},GG:{e:6,p:0}},vendite:[17,20,13,16,11,9,29,30,27,30,35,56],fatturato:[10846,12760,8294,10208,7018,5742,18502,19140,17226,19140,22330,35728]},
-{cat:"Jaquetas",estoqueNome:"VERANO FEMININA PRETA",venditeNome:"VERANO FEM",sku:"0417R2",skuLoja:"0417R2-PR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",stock:{G:{e:13,p:0},M:{e:5,p:0},P:{e:19,p:0},"3G":{e:7,p:0},GG:{e:26,p:0}},vendite:[21,26,22,22,19,27,42,39,51,57,46,73],fatturato:[12558,15548,13754,13156,11362,16146,25116,23322,30498,34086,27508,43654]},
-{cat:"Jaquetas",estoqueNome:"VERANO FEMININA CINZA",venditeNome:"VERANO FEM",sku:"0417R2",skuLoja:"0417R2-CIN",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",stock:{G:{e:11,p:0},"3G":{e:6,p:0},GG:{e:2,p:0}},vendite:[21,26,22,22,19,27,42,39,51,57,46,73],fatturato:[12558,15548,13754,13156,11362,16146,25116,23322,30498,34086,27508,43654]},
-{cat:"Jaquetas",estoqueNome:"VERANO FEMININA VERMELHA",venditeNome:"VERANO FEM",sku:"0417R2",skuLoja:"0417R2-VER",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",stock:{G:{e:4,p:0},M:{e:3,p:0},P:{e:1,p:0},"3G":{e:7,p:0},GG:{e:2,p:0}},vendite:[21,26,22,22,19,27,42,39,51,57,46,73],fatturato:[12558,15548,13754,13156,11362,16146,25116,23322,30498,34086,27508,43654]},
-{cat:"Jaquetas",estoqueNome:"IMOLA",venditeNome:"IMOLA DUPLA FACE",sku:"0417R5",skuLoja:"0417R5",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/59335475/7ca4911ece.jpg",stock:{G:{e:6,p:0},M:{e:1,p:0},P:{e:2,p:0},"3G":{e:9,p:0}},vendite:[0,4,2,2,2,1,0,0,0,1,1,3],fatturato:[0,1592,796,796,796,398,0,0,0,398,398,1194]},
-{cat:"Jaquetas",estoqueNome:"JAQUETA WINTER MASCULINA",venditeNome:"WINTER MASC",sku:"WINT4066",skuLoja:"WINT4066_MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/379180213/127-h50xkxyio2.jpg",stock:{G:{e:27,p:0},M:{e:28,p:0},P:{e:6,p:0},"3G":{e:8,p:0},"4G":{e:5,p:0},GG:{e:25,p:0}},vendite:[0,0,0,0,0,0,0,0,2,3,3,3]},
-{cat:"Jaquetas",estoqueNome:"JAQUETA WINTER FEMININA",venditeNome:"WINTER FEM",sku:"WINT4067",skuLoja:"WINT4067-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/379196901/135-hjdh02ayti.jpg",stock:{G:{e:10,p:0},M:{e:12,p:0},P:{e:11,p:0},"3G":{e:2,p:0},GG:{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,1,2]},
-{cat:"Jaquetas",estoqueNome:"VERANO MASCULINA CHUMBO",venditeNome:"VERANO MASC",sku:"0417R4",skuLoja:"0417R4-CH",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",stock:{},vendite:[5,20,13,16,6,9,29,30,27,30,35,56]},
-{cat:"Jaquetas",estoqueNome:"VERANO FEMININA CHUMBO",venditeNome:"VERANO FEM",sku:"0417R2",skuLoja:"0417R2-CH",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",stock:{},vendite:[11,26,22,21,14,27,42,39,51,57,46,73]},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Preta Feminina",venditeNome:"JAQUETA HLX PRO PRETA FEMININA",sku:"JAQ-HLX-PRO",skuLoja:"0416R5-FEM-FP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246430940/39ede5393b55b8b98f947a845a2d1732-7l3ducu7u3.jpg",stock:{PP:{e:2,p:0},M:{e:1,p:0},G:{e:2,p:0},GG:{e:1,p:0},P:{e:2,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Branca Feminina",venditeNome:"JAQUETA HLX PRO BRANCA FEMININA",sku:"JAQ-HLX-PRO",skuLoja:"0416R5-FEM-FP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246430940/39ede5393b55b8b98f947a845a2d1732-7l3ducu7u3.jpg",stock:{P:{e:3,p:0},M:{e:3,p:0},G:{e:2,p:0},GG:{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Verde Masc",venditeNome:"JAQUETA HLX PRO VERDE MASC",sku:"JAQ-HLX-PRO",skuLoja:"HLX-PRO-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/69198004/c8ed5125b5.jpg",stock:{M:{e:2,p:0},GG:{e:1,p:0},P:{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Pink Feminina",venditeNome:"JAQUETA HLX PRO PINK FEMININA",sku:"JAQ-HLX-PRO",skuLoja:"0416R5-FPI-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/99704935/hlx-pro-rose--2--5p3i4u4hta.jpg",stock:{GG:{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Verde Fem",venditeNome:"JAQUETA HLX PRO VERDE FEM",sku:"JAQ-HLX-PRO",skuLoja:"0416R5-FPI-FEM-1AVL6LQC1",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/288954376/novo-site-tamanho-blusas-segunda-pele--20--076uofpx3m.png",stock:{M:{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta Masc",venditeNome:"SEGUNDA PELE PRETA",sku:"270116",skuLoja:"270116-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",stock:{P:{e:12,p:0},M:{e:8,p:0},G:{e:6,p:0},GG:{e:9,p:0},"3G":{e:1,p:0},"4G":{e:6,p:0}},vendite:[11,11,17,18,13,13,23,18,25,23,19,19],fatturato:[1953,1980,3015,3231,2322,2340,4122,3213,4482,4113,3411,3411]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Inverno Masc",venditeNome:"SEGUNDA PELE INVERNO",sku:"270116",skuLoja:"270116-MASC-INV",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354608807/1-vct3axzfye.jpg",stock:{P:{e:13,p:0},M:{e:15,p:0},G:{e:11,p:0},GG:{e:7,p:0},"3G":{e:5,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,1,5,3,3,3,3,5,6,5],fatturato:[0,0,0,539.1,368.55,945,746.55,557.55,737.1,378,368.55,1115.1]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta Fem",venditeNome:"SEGUNDA PELE FEM",sku:"270116",skuLoja:"270116-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246122061/novo-site-tamanho-blusas-segunda-pele--85--u8bkhk1o2q.jpg",stock:{PP:{e:15,p:0},P:{e:12,p:0},M:{e:8,p:0},G:{e:6,p:0},GG:{e:9,p:0},"3G":{e:1,p:0},"4G":{e:6,p:0}},vendite:[8,11,13,13,11,13,19,11,12,15,10,11],fatturato:[1431,1971,2331,2322,1971,2331,3393,1971,2151,2691,1791,1980]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Inverno Fem",venditeNome:"SEGUNDA PELE FEM INVERNO",sku:"270116",skuLoja:"270116-FEM-INV",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356620521/novo-site-tamanho-blusas-segunda-pele--87--oeql15fwax.jpg",stock:{PP:{e:10,p:0},P:{e:13,p:0},M:{e:15,p:0},G:{e:11,p:0},GG:{e:7,p:0},"3G":{e:5,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,0,2,3,2,1,2,3,3,3],fatturato:[0,0,0,378,945,567,567,567,945,378,189,378]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Azul Masc",venditeNome:"SEGUNDA PELE AZUL",sku:"270116",skuLoja:"270116-AZ-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354433288/2-px265e8e91.jpg",stock:{P:{e:11,p:0},M:{e:11,p:0},G:{e:10,p:0},GG:{e:3,p:0},"3G":{e:7,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,2,3,3,3],fatturato:[0,0,0,0,180,1242,1431,531,900,531,711,1080]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Azul Fem",venditeNome:"SEGUNDA PELE AZUL FEM",sku:"270116",skuLoja:"270116-AZ-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354438066/2-t3kq28sxkb.jpg",stock:{PP:{e:8,p:0},P:{e:11,p:0},M:{e:11,p:0},G:{e:10,p:0},GG:{e:3,p:0},"3G":{e:7,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,1,2,2,2],fatturato:[0,0,0,0,0,180,180,531,0,0,180,180]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Logo chumbo Masc",venditeNome:"SEGUNDA PELE LOGO",sku:"270116",skuLoja:"270116-MASC-LP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356318777/26-2ppjx6iune.jpg",stock:{P:{e:8,p:0},M:{e:6,p:0},G:{e:8,p:0},GG:{e:6,p:0},"3G":{e:3,p:0},"4G":{e:6,p:0}},vendite:[0,0,0,0,0,0,0,0,2,4,2,2],fatturato:[0,0,0,711,360,180,180,720,720,900,1251,360]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Logo chumbo Fem",venditeNome:"SEGUNDA PELE LOGO FEM",sku:"270116",skuLoja:"270116-FEM-LP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356321959/26-b3vmnmhpww.jpg",stock:{PP:{e:15,p:0},P:{e:8,p:0},M:{e:6,p:0},G:{e:8,p:0},GG:{e:6,p:0},"3G":{e:3,p:0},"4G":{e:6,p:0}},vendite:[0,0,0,0,0,0,0,0,1,2,2,2],fatturato:[0,0,0,900,0,360,891,180,720,711,1251,360]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Limão Masc",venditeNome:"SEGUNDA PELE LIMAO MASC",sku:"270116",skuLoja:"270116-LI",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356331737/25-9wrgdh351l.jpg",stock:{P:{e:2,p:0},M:{e:4,p:0},G:{e:1,p:0},GG:{e:1,p:0},"3G":{e:3,p:0},"4G":{e:3,p:0}},vendite:[0,0,0,0,0,0,0,0,2,2,2,1],fatturato:[0,0,0,0,266,0,86,266,0,0,90,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Limão Fem",venditeNome:"SEGUNDA PELE LIMAO FEM",sku:"270116",skuLoja:"270116-FEM-LI",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356323362/25-wxtd7y78e6.jpg",stock:{PP:{e:3,p:0},P:{e:2,p:0},M:{e:4,p:0},G:{e:1,p:0},GG:{e:1,p:0},"3G":{e:3,p:0},"4G":{e:3,p:0}},vendite:[0,0,0,0,0,0,0,0,1,1,1,1],fatturato:[0,0,0,0,265,0,85,265,0,0,90,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Camuflada chumbo Masc",venditeNome:"SEGUNDA PELE CAMUFLADA",sku:"270116",skuLoja:"270116-CAM-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/260464897/novo-site-tamanho-blusas-segunda-pele--49--1zxzhir6de.jpg",stock:{P:{e:3,p:0},M:{e:7,p:0},G:{e:4,p:0},GG:{e:0,p:0},"3G":{e:2,p:0},"4G":{e:3,p:0}},vendite:[0,3,3,3,3,6,3,3,9,4,3,2],fatturato:[0,537,537,537,537,1074,537,537,1611,716,537,358]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Camuflada chumbo Fem",venditeNome:"SEGUNDA PELE CAMUFLADA FEM",sku:"270116",skuLoja:"270116-CAM-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/260974972/1-7o9q5x061u.png",stock:{PP:{e:8,p:0},P:{e:3,p:0},M:{e:7,p:0},G:{e:4,p:0},GG:{e:0,p:0},"3G":{e:2,p:0},"4G":{e:3,p:0}},vendite:[1,2,3,3,2,2,3,2,2,1,3,2],fatturato:[0,358,537,537,358,358,537,358,358,179,537,358]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta com laranja Masc",venditeNome:"SEGUNDA PELE LARANJA",sku:"270116",skuLoja:"270116-PRLR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246450467/novo-site-tamanho-blusas-segunda-pele--36--l7syyx9o09.jpg",stock:{P:{e:7,p:0},M:{e:6,p:0},G:{e:7,p:0},GG:{e:5,p:0},"3G":{e:7,p:0},"4G":{e:6,p:0}},vendite:[1,7,7,11,11,6,4,5,14,7,7,4],fatturato:[179,1253,1253,1970,1970,1074,716,895,2506,1253,1253,716]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta com laranja Fem",venditeNome:"SEGUNDA PELE LARANJA FEM",sku:"270116",skuLoja:"270116-FEM-PRLR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246424344/novo-site-tamanho-blusas-segunda-pele--36--l7syyx9o09.jpg",stock:{PP:{e:12,p:0},P:{e:7,p:0},M:{e:6,p:0},G:{e:7,p:0},GG:{e:5,p:0},"3G":{e:7,p:0},"4G":{e:6,p:0}},vendite:[1,3,4,4,4,7,2,3,2,11,2,2],fatturato:[179,537,718,718,718,1255,359,537,359,1974,359,359]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta com verde Masc",venditeNome:"SEGUNDA PELE VERDE MASC",sku:"270116",skuLoja:"270116-MASC-PRVROL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246423629/novo-site-tamanho-blusas-segunda-pele--38--6wx4slu7nc.jpg",stock:{P:{e:3,p:0},M:{e:3,p:0},G:{e:4,p:0},GG:{e:3,p:0},"3G":{e:1,p:0},"4G":{e:2,p:0}},vendite:[0,1,2,1,3,3,2,1,3,2,2,1],fatturato:[0,179,269,179,448,448,358,179,448,358,269,89]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Preta com verde Fem",venditeNome:"SEGUNDA PELE VERDE FEM",sku:"270116",skuLoja:"270116-FEM-PRVROL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246423629/novo-site-tamanho-blusas-segunda-pele--38--6wx4slu7nc.jpg",stock:{PP:{e:10,p:0},P:{e:3,p:0},M:{e:3,p:0},G:{e:4,p:0},GG:{e:3,p:0},"3G":{e:1,p:0},"4G":{e:2,p:0}},vendite:[0,1,1,1,2,2,2,1,2,2,1,0],fatturato:[0,179,268,179,447,447,358,179,447,358,268,90]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Pink Fem",venditeNome:"SEGUNDA PELE PINK",sku:"270116",skuLoja:"270116-PK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246127761/novo-site-tamanho-blusas-segunda-pele-_page-0005-mv4bp72je2.jpg",stock:{PP:{e:2,p:0},P:{e:7,p:0},M:{e:9,p:0},G:{e:4,p:0},GG:{e:8,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[1,5,2,3,7,1,7,3,3,7,6,3],fatturato:[179,897,359,537,1255,179,1255,537,537,1255,1078,537]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Bolinhas Pink Fem",venditeNome:"SEGUNDA PELE BOLINHAS PINK",sku:"270116",skuLoja:"270116-BP",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/272355321/novo-site-tamanho-blusas-segunda-pele--5--nq240wt2ff.jpg",stock:{PP:{e:0,p:0},P:{e:0,p:0},M:{e:0,p:0},G:{e:11,p:0},GG:{e:7,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[2,7,2,10,4,7,7,4,6,5,4,7],fatturato:[358,1253,358,1790,716,1253,1253,716,1074,895,716,1253]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Laranja Masc",venditeNome:"SEGUNDA PELE LARANJA MASC",sku:"270116",skuLoja:"270116-LR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/265577633/1-mi8w78j26q.jpg",stock:{P:{e:10,p:0},M:{e:10,p:0},G:{e:6,p:0},GG:{e:7,p:0},"3G":{e:7,p:0},"4G":{e:4,p:0}},vendite:[0,2,3,4,3,3,5,2,5,3,3,1],fatturato:[0,358,537,716,537,537,895,358,895,537,537,179]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Laranja Fem",venditeNome:"SEGUNDA PELE LARANJA FEM",sku:"270116",skuLoja:"270116-LR-F",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/265577708/novo-site-tamanho-blusas-segunda-pele--20--7reaaq8bk3.jpg",stock:{PP:{e:12,p:0},P:{e:10,p:0},M:{e:10,p:0},G:{e:6,p:0},GG:{e:7,p:0},"3G":{e:7,p:0},"4G":{e:4,p:0}},vendite:[0,3,3,3,3,3,3,2,4,3,4,1],fatturato:[0,537,537,537,537,537,537,358,716,537,716,179]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Rosas Vermelhas Fem",venditeNome:"SEGUNDA PELE ROSAS",sku:"270116",skuLoja:"270116-CRV",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246454389/novo-site-tamanho-blusas-segunda-pele--83--d7tl61f0t3.jpg",stock:{PP:{e:7,p:0},P:{e:28,p:0},M:{e:9,p:0},G:{e:22,p:0},GG:{e:14,p:0},"3G":{e:3,p:0},"4G":{e:3,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Caveira Flores Fem",venditeNome:"SEGUNDA PELE CAVEIRA FLORES",sku:"270116",skuLoja:"270116-CF",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/116227405/novo-site-tamanho-blusas-segunda-pele--14--jfttzl2jyo.jpg",stock:{PP:{e:7,p:0},P:{e:15,p:0},M:{e:16,p:0},G:{e:22,p:0},GG:{e:24,p:0},"3G":{e:7,p:0},"4G":{e:3,p:0}},vendite:[5,5,3,9,8,6,8,5,8,6,5,3],fatturato:[895,895,537,1611,1432,1074,1432,895,1432,1074,895,537]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Caveira Lilás Fem",venditeNome:"SEGUNDA PELE CAVEIRA LILAS",sku:"270116",skuLoja:"270116-CL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246106034/1-f85oc59xnf.png",stock:{PP:{e:4,p:0},P:{e:9,p:0},M:{e:0,p:0},G:{e:7,p:0},GG:{e:7,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[2,2,1,2,4,6,2,1,2,5,2,2],fatturato:[358,358,179,358,716,1074,358,179,358,895,358,358]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Camuflada Lilás Fem",venditeNome:"SEGUNDA PELE CAMUFLADA LILAS",sku:"270116",skuLoja:"270116-CAM-LIL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246107964/1-u6jempq8ee.png",stock:{PP:{e:10,p:0},P:{e:0,p:0},M:{e:0,p:0},G:{e:1,p:0},GG:{e:4,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[1,2,2,2,3,5,2,1,2,2,1,1],fatturato:[0,358,358,358,537,895,358,179,358,358,179,179]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Caveiras Mex Azuis Fem",venditeNome:"SEGUNDA PELE CAVEIRAS MEX",sku:"270116",skuLoja:"270116-CMA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/116213860/novo-site-tamanho-blusas-segunda-pele--3--3444rzptxu.jpg",stock:{PP:{e:1,p:0},P:{e:0,p:0},M:{e:0,p:0},G:{e:0,p:0},GG:{e:1,p:0},"3G":{e:2,p:0},"4G":{e:2,p:0}},vendite:[1,2,2,4,2,4,4,3,3,4,3,1],fatturato:[179,358,358,716,358,716,716,537,537,716,537,179]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Bolinhas Brancas Fem",venditeNome:"SEGUNDA PELE BOLINHAS BRANCAS",sku:"270116",skuLoja:"270116-B",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/115957327/1-eak9eq519q.jpg",stock:{PP:{e:8,p:0},P:{e:0,p:0},M:{e:1,p:0},G:{e:15,p:0},GG:{e:24,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[2,10,11,5,5,9,8,5,8,8,9,3],fatturato:[358,1790,1970,895,895,1611,1432,895,1432,1432,1611,537]},
-{cat:"Segunda Pele",estoqueNome:"Seg. Pele com Proteções 2.0 Masc",venditeNome:"SEGUNDA PELE PROTECOES MASC",sku:"270117",skuLoja:"270117",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246423971/8b1d4da8415e2baac9cd605eb88acaf1-i5aur4xna2.jpg",stock:{P:{e:12,p:0},M:{e:0,p:0},G:{e:2,p:0},GG:{e:3,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[3,1,1,1,3,2,4,2,5,1,3,2],fatturato:[913,365,548,183,913,730,1278,548,1643,183,913,548]},
-{cat:"Segunda Pele",estoqueNome:"Seg. Pele com Proteções 2.0 Fem",venditeNome:"SEGUNDA PELE PROTECOES FEM",sku:"270117",skuLoja:"270117-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246423971/8b1d4da8415e2baac9cd605eb88acaf1-i5aur4xna2.jpg",stock:{PP:{e:0,p:0},P:{e:12,p:0},M:{e:0,p:0},G:{e:2,p:0},GG:{e:3,p:0},"3G":{e:0,p:0},"4G":{e:0,p:0}},vendite:[2,1,1,0,2,2,3,1,4,0,2,1],fatturato:[912,365,547,182,912,730,1277,547,1642,182,912,547]},
-{cat:"Segunda Pele",estoqueNome:"CALÇA Segunda Pele Masc",venditeNome:"CALCA SEGUNDA PELE MASC",sku:"280000",skuLoja:"280000-M",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245814567/167-ar7bv9kax1.jpg",stock:{P:{e:10,p:0},M:{e:6,p:0},G:{e:5,p:0},GG:{e:7,p:0},"3G":{e:11,p:0},"4G":{e:6,p:0}},vendite:[0,4,7,7,8,7,7,5,9,4,12,13]},
-{cat:"Segunda Pele",estoqueNome:"CALÇA Segunda Pele Fem",venditeNome:"CALCA SEGUNDA PELE FEM",sku:"280000",skuLoja:"280000-F",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245814567/167-ar7bv9kax1.jpg",stock:{PP:{e:12,p:0},P:{e:10,p:0},M:{e:6,p:0},G:{e:5,p:0},GG:{e:7,p:0},"3G":{e:11,p:0},"4G":{e:6,p:0}},vendite:[0,4,6,6,8,6,7,5,8,3,11,13]},
-{cat:"Segunda Pele",estoqueNome:"Calça Segunda Pele Inverno Masc",venditeNome:"CALCA SEGUNDA PELE INVERNO",sku:"280000",skuLoja:"280000-INV-M",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/354608781/novo-site-tamanho-blusas-segunda-pele--8--prizozmyxl.jpg",stock:{P:{e:5,p:0},M:{e:4,p:0},G:{e:3,p:0},GG:{e:8,p:0},"3G":{e:8,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,1,0,3,2],fatturato:[0,0,0,420.5,427.75,0,572.75,572.75,420.5,145,282.75,275.5]},
-{cat:"Segunda Pele",estoqueNome:"Calça Segunda Pele Inverno Fem",venditeNome:"CALCA SEGUNDA PELE INVERNO FEM",sku:"280000",skuLoja:"280000-INV-F",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/357184136/novo-site-tamanho-blusas-segunda-pele--8--prizozmyxl.jpg",stock:{PP:{e:10,p:0},P:{e:5,p:0},M:{e:4,p:0},G:{e:3,p:0},GG:{e:8,p:0},"3G":{e:8,p:0},"4G":{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,1,0],fatturato:[0,0,0,0,0,145,145,435,145,145,290,435]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Pink (antiga)",venditeNome:"SEGUNDA PELE PINK (ANTIGA)",sku:"SEG-PEL-PIN",skuLoja:"270116-PK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246127761/novo-site-tamanho-blusas-segunda-pele-_page-0005-mv4bp72je2.jpg",stock:{PP:{e:1,p:0},P:{e:1,p:0},M:{e:0,p:0},G:{e:7,p:0},GG:{e:10,p:0},"3G":{e:4,p:0},"4G":{e:4,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Vermelha Clara Masc",venditeNome:"SEGUNDA PELE VERMELHA CLARA MASC",sku:"SEG-PEL-VER",skuLoja:"270116-VM-MASC",img:"",stock:{P:{e:6,p:0},M:{e:10,p:0},G:{e:8,p:0},GG:{e:6,p:0},"3G":{e:1,p:0},"4G":{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Segunda Pele",estoqueNome:"Segunda pele Vermelha Clara Fem",venditeNome:"SEGUNDA PELE VERMELHA CLARA FEM",sku:"SEG-PEL-VER",skuLoja:"270116-VM-FEM",img:"",stock:{PP:{e:6,p:0},P:{e:6,p:0},M:{e:10,p:0},G:{e:8,p:0},GG:{e:6,p:0},"3G":{e:1,p:0},"4G":{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"TUBO FLEX PRETO",venditeNome:"TUBO PRETO",sku:"750301",skuLoja:"750301",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245953150/novo-site-tamanho-blusas-segunda-pele--80--yrw3bsv9t6.jpg",stock:{QTD:{e:123,p:0}},vendite:[12,26,25,26,32,26,34,34,25,38,34,13],fatturato:[456.3,1002.3,1031.55,1006.2,1234.35,1002.3,1300.65,1314.3,969.15,1462.5,1319.76,501.15]},
-{cat:"Acessórios",estoqueNome:"TUBOFLEX PINK",venditeNome:"TUBO PRETO",sku:"750301",skuLoja:"750301",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245953150/novo-site-tamanho-blusas-segunda-pele--80--yrw3bsv9t6.jpg",stock:{QTD:{e:21,p:0}},vendite:[12,26,25,26,32,26,34,34,25,38,34,13],fatturato:[456.3,1002.3,1031.55,1006.2,1234.35,1002.3,1300.65,1314.3,969.15,1462.5,1319.76,501.15]},
-{cat:"Acessórios",estoqueNome:"CARTUCHEIRA",venditeNome:"CARTUCHEIRA",sku:"750521",skuLoja:"750521",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/128539695/2585997fda1639f86e5f36a905bb8c69-8a55ksyfqb.png",stock:{QTD:{e:1,p:0}},vendite:[6,5,5,3,4,3,6,4,7,4,4,6],fatturato:[612,510,542,354,472,354,708,472,826,472,472,708]},
-{cat:"Acessórios",estoqueNome:"BALACLAVA PRETA",venditeNome:"BALACLAVA",sku:"750501",skuLoja:"750501",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/90649853/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",stock:{QTD:{e:21,p:0}},vendite:[6,2,6,3,3,3,4,0,0,1,4,13],fatturato:[396,132,396,198,198,194.7,260.7,0,0,66,264,858]},
-{cat:"Acessórios",estoqueNome:"BALACLAVA CAVEIRA",venditeNome:"BALACLAVA CAV. VERÃO",sku:"750523",skuLoja:"750523",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg",stock:{QTD:{e:15,p:0}},vendite:[0,0,1,1,0,1,1,0,0,2,0,1],fatturato:[0,0,79,79,0,79,79,0,0,158,0,79]},
-{cat:"Acessórios",estoqueNome:"balaclava inverno",venditeNome:"BALACLAVA INVERNO",sku:"750524",skuLoja:"750524",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245972978/novo-site-tamanho-blusas-segunda-pele--31--uy5k9ppwjf.jpg",stock:{QTD:{e:88,p:0}},vendite:[0,0,0,3,6,5,1,1,6,4,1,0],fatturato:[0,0,0,235.5,471,392.5,78.5,78.5,471,314,78.5,0]},
-{cat:"Acessórios",estoqueNome:"balaclava verao",venditeNome:"BALACLAVA VERÃO",sku:"750520",skuLoja:"750523",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg",stock:{QTD:{e:15,p:0}},vendite:[0,0,1,1,0,1,1,0,0,2,0,1],fatturato:[0,0,79,79,0,79,79,0,0,158,0,79]},
-{cat:"Acessórios",estoqueNome:"PROTETOR PESCOCO INVERNO",venditeNome:"PROT. PESCOÇO INVERNO",sku:"750102",skuLoja:"750102",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/24225317/novo-site-tamanho-blusas-segunda-pele--43--ozvpvvn432.jpg",stock:{QTD:{e:69,p:0}},vendite:[2,1,1,4,5,2,2,1,4,1,2,1],fatturato:[168,84,84,336,420,163.8,163.8,84,336,84,168,84]},
-{cat:"Acessórios",estoqueNome:"protetor verao",venditeNome:"PROT. PESCOÇO VERÃO",sku:"750104",skuLoja:"750104",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/128438783/novo-site-tamanho-blusas-segunda-pele--42--5ysqgyhsk7.jpg",stock:{QTD:{e:27,p:0}},vendite:[2,3,4,6,3,4,6,0,1,0,5,2],fatturato:[168,243.6,331.8,504,252,336,499.8,0,84,0,411.6,168]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Azul",venditeNome:"TUBOFLEX AZUL",sku:"750301",skuLoja:"750301-AZUL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",stock:{QTD:{e:75,p:0}},vendite:[0,0,0,0,0,0,0,0,1,0,5,5]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Laranja",venditeNome:"TUBOFLEX LARANJA",sku:"750301",skuLoja:"750301-LARANJAA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg",stock:{QTD:{e:25,p:0}},vendite:[0,0,0,0,0,0,0,0,2,0,5,5]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Caveira",venditeNome:"TUBOFLEX CAVEIRA",sku:"750302",skuLoja:"750302-CAV-PR|750302-CAV-BR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245961294/novo-site-tamanho-blusas-segunda-pele--51--06f3xcqlb1.jpg",stock:{QTD:{e:46,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Caveira Pink",venditeNome:"TUBOFLEX CAVEIRA PINK",sku:"750302",skuLoja:"750302-CAV-PR-PINK|750302-CAV-PINK-PR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg",stock:{QTD:{e:41,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Bolinhas",venditeNome:"TUBOFLEX BOLINHAS",sku:"750303",skuLoja:"750303-BOL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245953266/padr-o-foto-novo-site--18--0w1w8op89v.jpg",stock:{QTD:{e:42,p:0}},vendite:[3,14,13,10,12,13,14,13,18,15,6,7],fatturato:[165,770,715,550,660,715,770,715,990,825,330,385]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Laranja Caveira",venditeNome:"TUBOFLEX CAVEIRA LARANJA",sku:"750302",skuLoja:"750302-CAV-LARA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/265341553/novo-site-tamanho-blusas-segunda-pele--66--501qudxvj6.jpg",stock:{QTD:{e:9,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Caveira e Rosas",venditeNome:"TUBOFLEX CAVEIRA ROSAS",sku:"750302",skuLoja:"750302-CRV",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/127871349/novo-site-tamanho-blusas-segunda-pele--73--i0whme7lep.jpg",stock:{QTD:{e:25,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Onça Pink",venditeNome:"TUBOFLEX ONCA PINK",sku:"750303",skuLoja:"750302-ONC-PINK",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245969131/novo-site-tamanho-blusas-segunda-pele--67--o1c91wpvjp.jpg",stock:{QTD:{e:32,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Verde Oliva",venditeNome:"TUBOFLEX VERDE OLIVA",sku:"750303",skuLoja:"750303-VO",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245968777/novo-site-tamanho-blusas-segunda-pele--75--3b9fgxhcho.jpg",stock:{QTD:{e:35,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Tubo Flex Preto com Laranja",venditeNome:"TUBOFLEX PRETO LARANJA",sku:"750301",skuLoja:"750301-PR-LR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg",stock:{QTD:{e:23,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Luva Cafe Racer Preta",venditeNome:"LUVA CAFE RACER PRETA",sku:"",skuLoja:"LUVA-CAFE-RACER-PR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245976118/novo-site-tamanho-blusas-segunda-pele--24--5rgmgjn6jh.jpg",stock:{L:{e:64,p:0},M:{e:50,p:0},S:{e:1,p:0},XL:{e:106,p:0},"2XL":{e:64,p:0},"3XL":{e:38,p:0},"4XL":{e:11,p:0},"5XL":{e:3,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"Luva Cafe Racer Marrom",venditeNome:"LUVA CAFE RACER MARROM",sku:"",skuLoja:"G167-M",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245979367/novo-site-tamanho-blusas-segunda-pele--20--g2ujyb2szd.jpg",stock:{L:{e:24,p:0},M:{e:11,p:0},"2XL":{e:8,p:0},"3XL":{e:17,p:0},"4XL":{e:5,p:0},"5XL":{e:2,p:0}},vendite:[0,1,1,1,5,1,1,0,0,1,0,0]},
-{cat:"Acessórios",estoqueNome:"LUVA SPIRIT COMFORT",venditeNome:"LUVA SPIRIT COMFORT",sku:"G199",skuLoja:"G199",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/33502788/novo-site-tamanho-blusas-segunda-pele--26--p5vyvov2tp.jpg",stock:{L:{e:13,p:0},XL:{e:103,p:0},"2XL":{e:125,p:0},"3XL":{e:20,p:0},"4XL":{e:10,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"CAMUFLADO LILÁS",venditeNome:"CAMUFLADO LILÁS",sku:"CAMU-LILÁ",skuLoja:"750302-CAMF-LIL",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245963060/novo-site-tamanho-blusas-segunda-pele--57--3fmubl4nm8.jpg",stock:{QTD:{e:0,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"MANGUITO ELÁSTICO",venditeNome:"MANGUITO ELÁSTICO",sku:"MANG-ELÁS",skuLoja:"750402",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246448741/design-sem-nome--17--c1bieyt6t0.jpg",stock:{G:{e:2,p:0},M:{e:29,p:0},P:{e:31,p:0},GG:{e:39,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"azul marinho silk branco",venditeNome:"AZUL MARINHO SILK BRANCO",sku:"AZU-MAR-SIL",skuLoja:"",img:"",stock:{QTD:{e:76,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"MANGUITO  C/ PROTEÇAO",venditeNome:"MANGUITO  C/ PROTEÇAO",sku:"MAN-C/-PRO",skuLoja:"750403",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/131159608/design-sem-nome--18--3g30wbqfu4.jpg",stock:{G:{e:4,p:0},GG:{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"TUBOFLEX FLORES E CAVEIRAS",venditeNome:"TUBOFLEX FLORES E CAVEIRAS",sku:"TUB-FLO-E",skuLoja:"750302-CRV-FLORES",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/116341718/novo-site-tamanho-blusas-segunda-pele--78--f3rp5ewvv5.jpg",stock:{QTD:{e:58,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"camuflado chumbo",venditeNome:"CAMUFLADO CHUMBO",sku:"CAMU-CHUM",skuLoja:"750302-CAMF-CH",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/245962888/aa2eabcf5c770e56f50bf12bff43c2c0-wplywg8omc-94qimwfa3w.png",stock:{QTD:{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"TUBOFLEX LIMAO",venditeNome:"TUBOFLEX LIMAO",sku:"TUBO-LIMA",skuLoja:"750301-LIM",img:"",stock:{QTD:{e:0,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"LARANJA COM PRETO",venditeNome:"LARANJA COM PRETO",sku:"LAR-COM-PRE",skuLoja:"270116-PRLR",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246450467/novo-site-tamanho-blusas-segunda-pele--36--l7syyx9o09.jpg",stock:{QTD:{e:25,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"CAVEIRA LARANJA",venditeNome:"CAVEIRA LARANJA",sku:"CAVE-LARA",skuLoja:"750302-CA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/116344377/padr-o-foto-novo-site--29--lyxsibbwuh.jpg",stock:{QTD:{e:9,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"BALACLAVA LIMAO",venditeNome:"BALACLAVA LIMAO",sku:"BALA-LIMA",skuLoja:"",img:"",stock:{QTD:{e:0,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Acessórios",estoqueNome:"TUBOFLEX LISTRAS",venditeNome:"TUBOFLEX LISTRAS",sku:"TUBO-LIST",skuLoja:"750302-LI",img:"",stock:{QTD:{e:0,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Luvas e Calçados",estoqueNome:"BRUTALE",venditeNome:"BRUTALE",sku:"BRUTALE",skuLoja:"MEPS8SHG4",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/39074505/83502c8e87.jpg",stock:{"37":{e:1,p:0},"39":{e:5,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Luvas e Calçados",estoqueNome:"BOTA MICHIGAN",venditeNome:"BOTA MICHIGAN",sku:"700110",skuLoja:"700110",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/128439871/62b81ad957.jpg",stock:{"34":{e:3,p:0},"35":{e:6,p:0},"36":{e:1,p:0},"37":{e:13,p:0},"38":{e:15,p:0},"39":{e:15,p:0},"40":{e:0,p:0},"41":{e:2,p:0},"42":{e:1,p:0},"43":{e:1,p:0},"44":{e:1,p:0},"45":{e:5,p:0},"46":{e:10,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Impermeáveis",estoqueNome:"BOOT COVER (POLAINA)",venditeNome:"BOOT COVER (POLAINA)",sku:"BOO-COV-POL",skuLoja:"700101",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2804573/novo-site-tamanho-blusas-segunda-pele--48--ab2idlssyc.jpg",stock:{G:{e:65,p:0},M:{e:6,p:0},P:{e:76,p:0},"3G":{e:45,p:0},"4G":{e:21,p:0},GG:{e:9,p:0},PP:{e:10,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Impermeáveis",estoqueNome:"NEW MARINER",venditeNome:"NEW MARINER",sku:"NEW-MARI",skuLoja:"CONJ-MARIN",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/246454522/2585997fda1639f86e5f36a905bb8c69-8a55ksyfqb.png",stock:{G:{e:34,p:0},M:{e:40,p:0},P:{e:49,p:0},"3G":{e:19,p:0},"4G":{e:0,p:0},GG:{e:33,p:0},PP:{e:24,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Casual",estoqueNome:"camisa urbana  masculina",venditeNome:"CAMISA URBANA  MASCULINA",sku:"CAM-URB-MAS",skuLoja:"CAM-URB-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/274208542/novo-site-tamanho-blusas-segunda-pele--41--83kvxsnl45.jpg",stock:{G:{e:4,p:0},M:{e:16,p:3},P:{e:7,p:0},"3G":{e:17,p:0},GG:{e:6,p:1}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Casual",estoqueNome:"CAMISA URBAN FEMININA",venditeNome:"CAMISA URBAN FEMININA",sku:"CAM-URB-FEM",skuLoja:"CAM-URB-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/274214401/novo-site-tamanho-blusas-segunda-pele--40--ok12eakm7j.jpg",stock:{G:{e:2,p:22},M:{e:1,p:21},P:{e:15,p:0},GG:{e:4,p:14}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0]},
-{cat:"Calças Masculinas",estoqueNome:"HLX WINTER",venditeNome:"WINTER COMFORT",sku:"610WIN",skuLoja:"610WIN",img:"https://cdn.awsli.com.br/600x600/86/86777/produto/260220452/147-jn0e4cwrjn.jpg",stock:{"38":{e:4,p:0},"50":{e:6,p:0},"52":{e:9,p:0},"54":{e:3,p:0}},vendite:[0,0,3,0,0,1,0,0,0,0,0,0],prodOnly:true},
-{cat:"Calças Masculinas",estoqueNome:"Calça Havana",venditeNome:"CALÇA HAVANA",sku:"CALÇ-HAVA",skuLoja:"602MHC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/97848899/novo-site-tamanho-cal-a-1080-px-4-uzuolp5tjp.png",stock:{"48":{e:1,p:0},"54":{e:1,p:0},"56":{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Calças Femininas",estoqueNome:"Firenze",venditeNome:"FIRENZE",sku:"603MKA",skuLoja:"603MKA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg",stock:{"34":{e:16,p:0},"36":{e:9,p:0},"46":{e:5,p:0},"48":{e:6,p:0}},vendite:[7,9,1,1,1,10,6,6,6,4,2,1],fatturato:[2926,3718,396,396,396,4114,2530,2530,2530,1584,792,396],prodOnly:true},
-{cat:"Calças Femininas",estoqueNome:"Firenze (Nova Modelagem)",venditeNome:"FIRENZE NOVA MODELAGEM",sku:"603MKA-NM",skuLoja:"603MKA",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg",stock:{"36":{e:9,p:0},"38":{e:15,p:0},"40":{e:1,p:0},"42":{e:1,p:0},"44":{e:7,p:0},"46":{e:10,p:0},"48":{e:1,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Jaquetas",estoqueNome:"FORRO TERMICO FEMININA",venditeNome:"FORRO TERMICO FEM",sku:"WINT4067",skuLoja:"WINT4067-FEM",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/379196901/135-hjdh02ayti.jpg",stock:{G:{e:2,p:2},M:{e:3,p:0},P:{e:2,p:0},"3G":{e:0,p:1},GG:{e:3,p:2}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Jaquetas",estoqueNome:"FORRO TERMICO MASCULINA",venditeNome:"FORRO TERMICO MASC",sku:"WINT4066",skuLoja:"WINT4066-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/379180213/127-h50xkxyio2.jpg",stock:{G:{e:4,p:7},M:{e:9,p:9},P:{e:4,p:0},"3G":{e:2,p:2},GG:{e:3,p:7}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Preta Masculina",venditeNome:"JAQUETA HLX PRO PRETA MASCULINA",sku:"JAQ-HLX-PRO",skuLoja:"HLX-PRO-MASC",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/69198004/c8ed5125b5.jpg",stock:{P:{e:3,p:0},PP:{e:10,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Jaquetas",estoqueNome:"Jaqueta HLX PRO Azul Royal",venditeNome:"JAQUETA HLX PRO AZUL ROYAL",sku:"JAQ-HLX-PRO",skuLoja:"0416R5",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/69190864/20919456820fa33fed9a2e44757966dd-x6pnixkd42.jpg",stock:{P:{e:4,p:0},"3G":{e:2,p:0},GG:{e:1,p:0},PP:{e:2,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Acessórios",estoqueNome:"MANGUITO SIMPLES PRETO",venditeNome:"MANGUITO SIMPLES PRETO",sku:"MAN-SIM-PRE",skuLoja:"HKVTFHUSE",img:"https://cdn.awsli.com.br/300x300/86/86777/produto/2914955/27647a44ef.jpg",stock:{P:{e:102,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Acessórios",estoqueNome:"MANGUITO SIMPLES CHUMBO",venditeNome:"MANGUITO SIMPLES CHUMBO",sku:"MAN-SIM-CHU",skuLoja:"",img:"",stock:{P:{e:30,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true},
-{cat:"Acessórios",estoqueNome:"MANGUITO SIMPLES VERDE",venditeNome:"MANGUITO SIMPLES VERDE",sku:"MAN-SIM-VER",skuLoja:"NX8429G3D",img:"",stock:{P:{e:8,p:0}},vendite:[0,0,0,0,0,0,0,0,0,0,0,0],prodOnly:true}
+  {
+    "estoqueNome": "DEFENDER BLACK",
+    "venditeNome": "DEFENDER PRETA",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 17,
+        "p": 2
+      },
+      "40": {
+        "e": 31,
+        "p": 4
+      },
+      "42": {
+        "e": 54,
+        "p": 1
+      },
+      "44": {
+        "e": 54,
+        "p": 6
+      },
+      "46": {
+        "e": 16,
+        "p": 11
+      },
+      "48": {
+        "e": 45,
+        "p": 4
+      },
+      "50": {
+        "e": 32,
+        "p": 6
+      },
+      "52": {
+        "e": 12,
+        "p": 4
+      },
+      "54": {
+        "e": 17,
+        "p": 6
+      },
+      "56": {
+        "e": 6,
+        "p": 5
+      },
+      "58": {
+        "e": 7,
+        "p": 2
+      },
+      "60": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "610MSX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg"
+  },
+  {
+    "estoqueNome": "SPIRIT COMFORT",
+    "venditeNome": "SPIRIT COMFORT",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 12,
+        "p": 0
+      },
+      "40": {
+        "e": 15,
+        "p": 0
+      },
+      "42": {
+        "e": 40,
+        "p": 12
+      },
+      "44": {
+        "e": 29,
+        "p": 10
+      },
+      "46": {
+        "e": 48,
+        "p": 6
+      },
+      "48": {
+        "e": 37,
+        "p": 3
+      },
+      "50": {
+        "e": 20,
+        "p": 2
+      },
+      "52": {
+        "e": 16,
+        "p": 0
+      },
+      "54": {
+        "e": 12,
+        "p": 0
+      },
+      "56": {
+        "e": 10,
+        "p": 2
+      },
+      "58": {
+        "e": 9,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 5
+      }
+    },
+    "skuLoja": "602SCO",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/7610882/strit--3--easkozi12q.jpg"
+  },
+  {
+    "estoqueNome": "RACER COMFORT",
+    "venditeNome": "RACER COMFORT PRETA",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 13,
+        "p": 0
+      },
+      "40": {
+        "e": 4,
+        "p": 21
+      },
+      "42": {
+        "e": 38,
+        "p": 0
+      },
+      "44": {
+        "e": 5,
+        "p": 32
+      },
+      "46": {
+        "e": 27,
+        "p": 17
+      },
+      "48": {
+        "e": 3,
+        "p": 29
+      },
+      "50": {
+        "e": 3,
+        "p": 7
+      },
+      "52": {
+        "e": 19,
+        "p": 0
+      },
+      "54": {
+        "e": 11,
+        "p": 0
+      },
+      "56": {
+        "e": 4,
+        "p": 4
+      }
+    },
+    "skuLoja": "612MRP",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg"
+  },
+  {
+    "estoqueNome": "ADVENTURE VERDE",
+    "venditeNome": "DEFENDER ADVENTURE VR",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 19,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 55,
+        "p": 0
+      },
+      "44": {
+        "e": 30,
+        "p": 2
+      },
+      "46": {
+        "e": 36,
+        "p": 3
+      },
+      "48": {
+        "e": 43,
+        "p": 4
+      },
+      "50": {
+        "e": 27,
+        "p": 0
+      },
+      "52": {
+        "e": 17,
+        "p": 0
+      },
+      "54": {
+        "e": 10,
+        "p": 0
+      },
+      "56": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "610ADV-VR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/237694127/novo-site-tamanho-cal-a--1080-px---3--ml9rvyl2mi.jpg"
+  },
+  {
+    "estoqueNome": "street",
+    "venditeNome": "STREET",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 8,
+        "p": 0
+      },
+      "40": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "46": {
+        "e": 8,
+        "p": 2
+      },
+      "48": {
+        "e": 6,
+        "p": 3
+      },
+      "50": {
+        "e": 19,
+        "p": 0
+      },
+      "52": {
+        "e": 15,
+        "p": 2
+      },
+      "54": {
+        "e": 8,
+        "p": 5
+      }
+    },
+    "skuLoja": "605MST",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/289822460/novo-site-tamanho-cal-a--6--jce3wx1u6c.png"
+  },
+  {
+    "estoqueNome": "IBIZA MASCULINA",
+    "venditeNome": "IBIZA COMFORT",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 13,
+        "p": 0
+      },
+      "40": {
+        "e": 27,
+        "p": 0
+      },
+      "42": {
+        "e": 12,
+        "p": 0
+      },
+      "46": {
+        "e": 4,
+        "p": 0
+      },
+      "48": {
+        "e": 5,
+        "p": 2
+      },
+      "50": {
+        "e": 12,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "602IBX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/80494978/159-n1bi7fp38a.jpg"
+  },
+  {
+    "estoqueNome": "Slim",
+    "venditeNome": "SLIM PRETA",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 8,
+        "p": 0
+      },
+      "40": {
+        "e": 9,
+        "p": 3
+      },
+      "42": {
+        "e": 42,
+        "p": 0
+      },
+      "44": {
+        "e": 22,
+        "p": 3
+      },
+      "46": {
+        "e": 27,
+        "p": 5
+      },
+      "48": {
+        "e": 26,
+        "p": 0
+      },
+      "50": {
+        "e": 19,
+        "p": 0
+      },
+      "52": {
+        "e": 7,
+        "p": 0
+      },
+      "54": {
+        "e": 7,
+        "p": 0
+      },
+      "56": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "605MCE",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/80494780/novo-site-tamanho-cal-a--1080-px---22--eofxd9x4y6.jpg"
+  },
+  {
+    "estoqueNome": "Camuforce caqui",
+    "venditeNome": "CAMU FORCE",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 4,
+        "p": 0
+      },
+      "40": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 11,
+        "p": 0
+      },
+      "44": {
+        "e": 9,
+        "p": 0
+      },
+      "46": {
+        "e": 13,
+        "p": 0
+      },
+      "48": {
+        "e": 2,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 8,
+        "p": 0
+      },
+      "56": {
+        "e": 15,
+        "p": 0
+      },
+      "58": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "606CAM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/59302703/novo-site-tamanho-cal-a--8--f0j14lfqw0.png"
+  },
+  {
+    "estoqueNome": "Mikonos Black",
+    "venditeNome": "MIKONOS",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "40": {
+        "e": 8,
+        "p": 0
+      },
+      "42": {
+        "e": 44,
+        "p": 0
+      },
+      "44": {
+        "e": 66,
+        "p": 0
+      },
+      "46": {
+        "e": 33,
+        "p": 0
+      },
+      "48": {
+        "e": 32,
+        "p": 0
+      },
+      "50": {
+        "e": 10,
+        "p": 0
+      },
+      "52": {
+        "e": 11,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MIK",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg"
+  },
+  {
+    "estoqueNome": "Defender Camuflada Chumbo",
+    "venditeNome": "DEFENDER CAMUFLADA CHUMBO",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 9,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 9
+      },
+      "42": {
+        "e": 27,
+        "p": 1
+      },
+      "44": {
+        "e": 20,
+        "p": 8
+      },
+      "46": {
+        "e": 23,
+        "p": 3
+      },
+      "48": {
+        "e": 3,
+        "p": 5
+      },
+      "50": {
+        "e": 4,
+        "p": 8
+      },
+      "52": {
+        "e": 9,
+        "p": 0
+      },
+      "54": {
+        "e": 8,
+        "p": 0
+      },
+      "56": {
+        "e": 9,
+        "p": 1
+      },
+      "58": {
+        "e": 7,
+        "p": 0
+      }
+    },
+    "skuLoja": "606MSX-CH",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2812290/4-i3vy8v1s9c.jpg"
+  },
+  {
+    "estoqueNome": "SPENCER COMFORT",
+    "venditeNome": "SPENCER COMFORT",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "40": {
+        "e": 28,
+        "p": 0
+      },
+      "42": {
+        "e": 4,
+        "p": 0
+      },
+      "44": {
+        "e": 1,
+        "p": 0
+      },
+      "46": {
+        "e": 5,
+        "p": 1
+      },
+      "48": {
+        "e": 19,
+        "p": 0
+      },
+      "50": {
+        "e": 2,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 2,
+        "p": 0
+      },
+      "56": {
+        "e": 8,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MSS",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/131494501/146-a47lwt6x91.jpg"
+  },
+  {
+    "estoqueNome": "MIKONOS AZUL",
+    "venditeNome": "MIKONOS",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 2,
+        "p": 0
+      },
+      "46": {
+        "e": 4,
+        "p": 0
+      },
+      "48": {
+        "e": 4,
+        "p": 0
+      },
+      "54": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MIK",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg"
+  },
+  {
+    "estoqueNome": "NEW CONCEPT (ZIPER)",
+    "venditeNome": "NEW CONCEPT",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 15,
+        "p": 0
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      },
+      "52": {
+        "e": 5,
+        "p": 0
+      },
+      "54": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "602NEW-ES",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/4981737/746072306f.jpg"
+  },
+  {
+    "estoqueNome": "Defender Caqui",
+    "venditeNome": "DEFENDER AREIA",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 23,
+        "p": 0
+      },
+      "44": {
+        "e": 19,
+        "p": 0
+      },
+      "46": {
+        "e": 20,
+        "p": 0
+      },
+      "48": {
+        "e": 14,
+        "p": 0
+      },
+      "50": {
+        "e": 12,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 4,
+        "p": 0
+      },
+      "56": {
+        "e": 3,
+        "p": 2
+      }
+    },
+    "skuLoja": "610MSX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg"
+  },
+  {
+    "estoqueNome": "Defender Adventure Bege",
+    "venditeNome": "DEFENDER ADVENTURE BEGE",
+    "cat": "Calças Masculinas",
+    "stock": {},
+    "skuLoja": "610ADV-BG",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/372977529/novo-site-tamanho-blusas-segunda-pele--87--pga81g297r.jpg"
+  },
+  {
+    "estoqueNome": "New Concept Clean (masc)",
+    "venditeNome": "NEW CONCEPT CLEAN",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 1,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      },
+      "52": {
+        "e": 2,
+        "p": 0
+      },
+      "54": {
+        "e": 4,
+        "p": 0
+      },
+      "56": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "602NEW-CL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/244533284/novo-site-tamanho-cal-a-1080-px-qu0q73953q.png"
+  },
+  {
+    "estoqueNome": "Mikonos Black (fibra Aramida)",
+    "venditeNome": "MIKONOS ARAMIDA",
+    "cat": "Calças Masculinas",
+    "stock": {},
+    "skuLoja": "602MIK-BL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/354440076/16-g9yt1zt08h.jpg"
+  },
+  {
+    "estoqueNome": "penelope confort azul",
+    "venditeNome": "PENÉLOPE COMFORT AZUL",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 4,
+        "p": 0
+      },
+      "36": {
+        "e": 12,
+        "p": 20
+      },
+      "38": {
+        "e": 1,
+        "p": 51
+      },
+      "40": {
+        "e": 0,
+        "p": 66
+      },
+      "42": {
+        "e": 8,
+        "p": 51
+      },
+      "44": {
+        "e": 13,
+        "p": 52
+      },
+      "46": {
+        "e": 3,
+        "p": 32
+      },
+      "48": {
+        "e": 0,
+        "p": 20
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "603FES",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/322519357/penelope--1--v190y4u1yu.jpg"
+  },
+  {
+    "estoqueNome": "racer confort feminina",
+    "venditeNome": "RACER COMFORT FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 0,
+        "p": 19
+      },
+      "38": {
+        "e": 2,
+        "p": 44
+      },
+      "40": {
+        "e": 0,
+        "p": 30
+      },
+      "42": {
+        "e": 3,
+        "p": 30
+      },
+      "44": {
+        "e": 11,
+        "p": 30
+      },
+      "46": {
+        "e": 9,
+        "p": 30
+      },
+      "48": {
+        "e": 1,
+        "p": 23
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "613FRP",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/111466533/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg"
+  },
+  {
+    "estoqueNome": "Defender adventure preta",
+    "venditeNome": "DEFENDER PRETA FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 12,
+        "p": 10
+      },
+      "38": {
+        "e": 2,
+        "p": 19
+      },
+      "40": {
+        "e": 8,
+        "p": 10
+      },
+      "42": {
+        "e": 7,
+        "p": 12
+      },
+      "44": {
+        "e": 4,
+        "p": 12
+      },
+      "46": {
+        "e": 36,
+        "p": 10
+      },
+      "48": {
+        "e": 10,
+        "p": 15
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "611MSX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/260216576/141-ul2i8obn15.jpg"
+  },
+  {
+    "estoqueNome": "PENELOPE CONFORT BLACK",
+    "venditeNome": "PENÉLOPE COMFORT BLACK",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 3,
+        "p": 0
+      },
+      "38": {
+        "e": 12,
+        "p": 0
+      },
+      "40": {
+        "e": 8,
+        "p": 0
+      },
+      "42": {
+        "e": 12,
+        "p": 0
+      },
+      "44": {
+        "e": 20,
+        "p": 0
+      },
+      "46": {
+        "e": 5,
+        "p": 2
+      },
+      "48": {
+        "e": 16,
+        "p": 0
+      },
+      "50": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MEX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/233135122/107-zxl736tg17.jpg"
+  },
+  {
+    "estoqueNome": "ADVENTURE  VERDE",
+    "venditeNome": "DEFENDER ADV VERDE FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 4,
+        "p": 20
+      },
+      "38": {
+        "e": 6,
+        "p": 22
+      },
+      "40": {
+        "e": 7,
+        "p": 27
+      },
+      "42": {
+        "e": 10,
+        "p": 32
+      },
+      "44": {
+        "e": 12,
+        "p": 26
+      },
+      "46": {
+        "e": 0,
+        "p": 26
+      },
+      "48": {
+        "e": 11,
+        "p": 20
+      }
+    },
+    "skuLoja": "611ADV-VR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/233172189/novo-site-tamanho-cal-a--1080-px---27--d8gh2ccb9q.jpg"
+  },
+  {
+    "estoqueNome": "Slim (Cos-medio)",
+    "venditeNome": "SLIM FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 2,
+        "p": 0
+      },
+      "36": {
+        "e": 8,
+        "p": 2
+      },
+      "38": {
+        "e": 32,
+        "p": 1
+      },
+      "40": {
+        "e": 33,
+        "p": 0
+      },
+      "42": {
+        "e": 36,
+        "p": 5
+      },
+      "44": {
+        "e": 14,
+        "p": 0
+      },
+      "46": {
+        "e": 30,
+        "p": 0
+      },
+      "48": {
+        "e": 16,
+        "p": 0
+      }
+    },
+    "skuLoja": "603FCE",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/59302886/novo-site-tamanho-cal-a--1080-px---6--cgzlluf3gk.jpg"
+  },
+  {
+    "estoqueNome": "ibiza confort azul",
+    "venditeNome": "IBIZA COMFORT FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 6,
+        "p": 5
+      },
+      "38": {
+        "e": 9,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 3
+      },
+      "42": {
+        "e": 10,
+        "p": 3
+      },
+      "44": {
+        "e": 6,
+        "p": 19
+      },
+      "46": {
+        "e": 22,
+        "p": 0
+      },
+      "48": {
+        "e": 6,
+        "p": 8
+      }
+    },
+    "skuLoja": "603IBX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg"
+  },
+  {
+    "estoqueNome": "Mikonos Azul",
+    "venditeNome": "MIKONOS FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 19,
+        "p": 0
+      },
+      "38": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 13,
+        "p": 0
+      },
+      "44": {
+        "e": 6,
+        "p": 0
+      },
+      "46": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MIK",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg"
+  },
+  {
+    "estoqueNome": "MIKONOS BLACK",
+    "venditeNome": "MIKONOS FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "38": {
+        "e": 11,
+        "p": 3
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 16,
+        "p": 1
+      },
+      "44": {
+        "e": 7,
+        "p": 1
+      },
+      "46": {
+        "e": 22,
+        "p": 0
+      },
+      "48": {
+        "e": 12,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MIK",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg"
+  },
+  {
+    "estoqueNome": "Force (Cos-medio)",
+    "venditeNome": "FORCE COMFORT FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 30,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "46": {
+        "e": 11,
+        "p": 0
+      },
+      "48": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "607CFS",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/233147882/novo-site-tamanho-cal-a--1080-px--ddetrllyzl.jpg"
+  },
+  {
+    "estoqueNome": "Madri Comfort Fem",
+    "venditeNome": "MADRI COMFORT FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "46": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "613FMC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/119589064/padr-o-foto-novo-site--72--yvprhqt1wd.jpg"
+  },
+  {
+    "estoqueNome": "New Concept Clean ZIPER",
+    "venditeNome": "NEW CONCEPT CLEAN FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 4,
+        "p": 0
+      },
+      "36": {
+        "e": 11,
+        "p": 0
+      },
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "44": {
+        "e": 3,
+        "p": 0
+      },
+      "46": {
+        "e": 7,
+        "p": 0
+      },
+      "48": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "603NEW-CL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/233173326/118-m8503mzaig.jpg"
+  },
+  {
+    "estoqueNome": "Mikonos Black Fem (fibra Aramida)",
+    "venditeNome": "MIKONOS FEM ARAMIDA",
+    "cat": "Calças Femininas",
+    "stock": {},
+    "skuLoja": "603MIK-BL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/354479074/16-x8hxj0nqo9.jpg"
+  },
+  {
+    "estoqueNome": "Ibiza Comfort Fem",
+    "venditeNome": "IBIZA COMFORT FEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 0,
+        "p": 5
+      },
+      "40": {
+        "e": 0,
+        "p": 3
+      },
+      "42": {
+        "e": 0,
+        "p": 3
+      },
+      "44": {
+        "e": 0,
+        "p": 19
+      },
+      "48": {
+        "e": 0,
+        "p": 8
+      }
+    },
+    "skuLoja": "603IBX",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg"
+  },
+  {
+    "estoqueNome": "VERANO MASCULINA PRETA (su loja nome: Jaqueta HLX Verano Preta Masculina)",
+    "venditeNome": "VERANO MASCULINA PRETA (su loja nome: Jaqueta HLX Verano Preta Masculina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 5,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "VERANO-PR-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg"
+  },
+  {
+    "estoqueNome": "VERANO MASCULINA CINZA",
+    "venditeNome": "VERANO MASC",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R4",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg"
+  },
+  {
+    "estoqueNome": "VERANO FEMININA PRETA (su loja nome: Jaqueta HLX Verano Preta Feminina)",
+    "venditeNome": "VERANO FEMININA PRETA (su loja nome: Jaqueta HLX Verano Preta Feminina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 2,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 4,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "VERANO-PR-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg"
+  },
+  {
+    "estoqueNome": "VERANO FEMININA CINZA",
+    "venditeNome": "VERANO FEM",
+    "cat": "Jaquetas",
+    "stock": {
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R2",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg"
+  },
+  {
+    "estoqueNome": "VERANO FEMININA VERMELHA",
+    "venditeNome": "VERANO FEM",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R2",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg"
+  },
+  {
+    "estoqueNome": "IMOLA",
+    "venditeNome": "IMOLA DUPLA FACE",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 2,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R5",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/59335475/7ca4911ece.jpg"
+  },
+  {
+    "estoqueNome": "JAQUETA WINTER MASCULINA",
+    "venditeNome": "WINTER MASC",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 28,
+        "p": 0
+      },
+      "G": {
+        "e": 27,
+        "p": 0
+      },
+      "GG": {
+        "e": 25,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4066_MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379180213/127-h50xkxyio2.jpg"
+  },
+  {
+    "estoqueNome": "JAQUETA WINTER FEMININA",
+    "venditeNome": "WINTER FEM",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 12,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379196901/135-hjdh02ayti.jpg"
+  },
+  {
+    "estoqueNome": "VERANO MASC CHUMBO (su loja nome: Jaqueta HLX Verano Chumbo Masculina)",
+    "venditeNome": "VERANO MASC CHUMBO (su loja nome: Jaqueta HLX Verano Chumbo Masculina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "M": {
+        "e": 16,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 4,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "VERANO-CH-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg"
+  },
+  {
+    "estoqueNome": "VERANO FEMININA CHUMBO (su loja nome: Jaqueta HLX Verano Chumbo Feminina)",
+    "venditeNome": "VERANO FEMININA CHUMBO (su loja nome: Jaqueta HLX Verano Chumbo Feminina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "M": {
+        "e": 5,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "VERANO-CH-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg"
+  },
+  {
+    "estoqueNome": "JAQUETA HLX PRO PRETA FEMININA (su loja nome: Jaqueta HLX PRO Preta Feminina)",
+    "venditeNome": "JAQUETA HLX PRO PRETA FEMININA (su loja nome: Jaqueta HLX PRO Preta Feminina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246430940/39ede5393b55b8b98f947a845a2d1732-7l3ducu7u3.jpg"
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Branca Feminina",
+    "venditeNome": "JAQUETA HLX PRO BRANCA FEMININA",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5-FEM-FP",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246430940/39ede5393b55b8b98f947a845a2d1732-7l3ducu7u3.jpg"
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Verde Masc",
+    "venditeNome": "JAQUETA HLX PRO VERDE MASC",
+    "cat": "Jaquetas",
+    "stock": {
+      "M": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "P": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "HLX-PRO-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/69198004/c8ed5125b5.jpg"
+  },
+  {
+    "estoqueNome": "JAQUETA HLX PRO PINK FEMININA (su loja nome: Jaqueta HLX PRO Pink Feminina)",
+    "venditeNome": "JAQUETA HLX PRO PINK FEMININA (su loja nome: Jaqueta HLX PRO Pink Feminina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-PK-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/99704935/hlx-pro-rose--2--5p3i4u4hta.jpg"
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Verde Fem",
+    "venditeNome": "JAQUETA HLX PRO VERDE FEM",
+    "cat": "Jaquetas",
+    "stock": {
+      "M": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5-FPI-FEM-1AVL6LQC1",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/288954376/novo-site-tamanho-blusas-segunda-pele--20--076uofpx3m.png"
+  },
+  {
+    "estoqueNome": "TUBO FLEX PRETO (su loja nome: Tubo Flex Preto)",
+    "venditeNome": "TUBO FLEX PRETO (su loja nome: Tubo Flex Preto)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 123,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-PR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245953150/novo-site-tamanho-blusas-segunda-pele--80--yrw3bsv9t6.jpg"
+  },
+  {
+    "estoqueNome": "TUBOFLEX PINK (su loja nome: Tubo Flex Pink)",
+    "venditeNome": "TUBOFLEX PINK (su loja nome: Tubo Flex Pink)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-PINK",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245953150/novo-site-tamanho-blusas-segunda-pele--80--yrw3bsv9t6.jpg"
+  },
+  {
+    "estoqueNome": "CARTUCHEIRA (su loja nome: Cartucheira HLX)",
+    "venditeNome": "CARTUCHEIRA (su loja nome: Cartucheira HLX)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "750521",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/128539695/2585997fda1639f86e5f36a905bb8c69-8a55ksyfqb.png"
+  },
+  {
+    "estoqueNome": "BALACLAVA PRETA (su loja nome: Balaclava)",
+    "venditeNome": "BALACLAVA PRETA (su loja nome: Balaclava)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "750501",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/90649853/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg"
+  },
+  {
+    "estoqueNome": "BALACLAVA CAVEIRA (su loja nome: Balaclava - Caveira)",
+    "venditeNome": "BALACLAVA CAVEIRA (su loja nome: Balaclava - Caveira)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 15,
+        "p": 0
+      }
+    },
+    "skuLoja": "750523",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg"
+  },
+  {
+    "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
+    "venditeNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 88,
+        "p": 0
+      }
+    },
+    "skuLoja": "750524",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245972978/novo-site-tamanho-blusas-segunda-pele--31--uy5k9ppwjf.jpg"
+  },
+  {
+    "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verde Oliva)",
+    "venditeNome": "BALACLAVA VERAO (su loja nome: Balaclava Verde Oliva)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 15,
+        "p": 0
+      }
+    },
+    "skuLoja": "750501-VROL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg"
+  },
+  {
+    "estoqueNome": "PROTETOR PESCOCO INVERNO (su loja nome: Protetor de Pescoço Inverno)",
+    "venditeNome": "PROTETOR PESCOCO INVERNO (su loja nome: Protetor de Pescoço Inverno)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 69,
+        "p": 0
+      }
+    },
+    "skuLoja": "750102",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/24225317/novo-site-tamanho-blusas-segunda-pele--43--ozvpvvn432.jpg"
+  },
+  {
+    "estoqueNome": "protetor verao (su loja nome: Protetor de Pescoço Verão)",
+    "venditeNome": "protetor verao (su loja nome: Protetor de Pescoço Verão)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 27,
+        "p": 0
+      }
+    },
+    "skuLoja": "750104",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/128438783/novo-site-tamanho-blusas-segunda-pele--42--5ysqgyhsk7.jpg"
+  },
+  {
+    "estoqueNome": "TUBO FLEX AZUL (su loja nome: Tubo Flex Azul)",
+    "venditeNome": "TUBO FLEX AZUL (su loja nome: Tubo Flex Azul)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 75,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-AZUL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Laranja",
+    "venditeNome": "TUBOFLEX LARANJA",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 26,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-LARANJAA",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Caveira",
+    "venditeNome": "TUBOFLEX CAVEIRA",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 52,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245961294/novo-site-tamanho-blusas-segunda-pele--51--06f3xcqlb1.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Caveira Pink",
+    "venditeNome": "TUBOFLEX CAVEIRA PINK",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 44,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-PIN-PR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Bolinhas",
+    "venditeNome": "TUBOFLEX BOLINHAS",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 49,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-BOL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245953266/padr-o-foto-novo-site--18--0w1w8op89v.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Laranja Caveira",
+    "venditeNome": "TUBOFLEX CAVEIRA LARANJA",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-LARA",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/265341553/novo-site-tamanho-blusas-segunda-pele--66--501qudxvj6.jpg"
+  },
+  {
+    "estoqueNome": "Tubo Flex Caveira e Rosas",
+    "venditeNome": "TUBOFLEX CAVEIRA ROSAS",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 26,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-ROSAS",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/127871349/novo-site-tamanho-blusas-segunda-pele--73--i0whme7lep.jpg"
+  },
+  {
+    "estoqueNome": "ONÇA PINK (su loja nome: Tubo Flex Onça Pink)",
+    "venditeNome": "ONÇA PINK (su loja nome: Tubo Flex Onça Pink)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 32,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-OP",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245969131/novo-site-tamanho-blusas-segunda-pele--67--o1c91wpvjp.jpg"
+  },
+  {
+    "estoqueNome": "tubo verde oliva (su loja nome: Tubo Flex Verde Oliva)",
+    "venditeNome": "tubo verde oliva (su loja nome: Tubo Flex Verde Oliva)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 35,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-VO",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245968777/novo-site-tamanho-blusas-segunda-pele--75--3b9fgxhcho.jpg"
+  },
+  {
+    "estoqueNome": "TUBO LARANJA COM PRETO (su loja nome: Tubo Flex Laranja)",
+    "venditeNome": "TUBO LARANJA COM PRETO (su loja nome: Tubo Flex Laranja)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 25,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-LARANJA",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg"
+  },
+  {
+    "estoqueNome": "LUVA RACER PRETA (su loja nome: Luva Cafe Racer Preta)",
+    "venditeNome": "LUVA RACER PRETA (su loja nome: Luva Cafe Racer Preta)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "M": {
+        "e": 50,
+        "p": 0
+      },
+      "S": {
+        "e": 1,
+        "p": 0
+      },
+      "L": {
+        "e": 64,
+        "p": 0
+      },
+      "XL": {
+        "e": 106,
+        "p": 0
+      },
+      "2XL": {
+        "e": 64,
+        "p": 0
+      },
+      "3XL": {
+        "e": 38,
+        "p": 0
+      },
+      "4XL": {
+        "e": 11,
+        "p": 0
+      },
+      "5XL": {
+        "e": 3,
+        "p": 0
+      },
+      "XS": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "LUVA-CAFE-RACER-PR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245976118/novo-site-tamanho-blusas-segunda-pele--24--5rgmgjn6jh.jpg"
+  },
+  {
+    "estoqueNome": "LUVA RACER MARROM (su loja nome: Luva Cafe Racer Marrom)",
+    "venditeNome": "LUVA RACER MARROM (su loja nome: Luva Cafe Racer Marrom)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "L": {
+        "e": 24,
+        "p": 0
+      },
+      "2XL": {
+        "e": 8,
+        "p": 0
+      },
+      "3XL": {
+        "e": 17,
+        "p": 0
+      },
+      "4XL": {
+        "e": 5,
+        "p": 0
+      },
+      "5XL": {
+        "e": 2,
+        "p": 0
+      },
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "XL": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "G167-M",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245979367/novo-site-tamanho-blusas-segunda-pele--20--g2ujyb2szd.jpg"
+  },
+  {
+    "estoqueNome": "LUVA SPIRIT COMFORT (su loja nome: Luva Spirit)",
+    "venditeNome": "LUVA SPIRIT COMFORT (su loja nome: Luva Spirit)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "L": {
+        "e": 13,
+        "p": 0
+      },
+      "XL": {
+        "e": 103,
+        "p": 0
+      },
+      "2XL": {
+        "e": 125,
+        "p": 0
+      },
+      "3XL": {
+        "e": 20,
+        "p": 0
+      },
+      "4XL": {
+        "e": 10,
+        "p": 0
+      },
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "5XL": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "G199",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/33502788/novo-site-tamanho-blusas-segunda-pele--26--p5vyvov2tp.jpg"
+  },
+  {
+    "estoqueNome": "CAMUFLADO LILÁS (su loja nome: Tubo Flex - Camuflado Lilás)",
+    "venditeNome": "CAMUFLADO LILÁS (su loja nome: Tubo Flex - Camuflado Lilás)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-LIL",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245963060/novo-site-tamanho-blusas-segunda-pele--57--3fmubl4nm8.jpg"
+  },
+  {
+    "estoqueNome": "MANGUITO ELÁSTICO (su loja nome: Manguito)",
+    "venditeNome": "MANGUITO ELÁSTICO (su loja nome: Manguito)",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 31,
+        "p": 0
+      },
+      "M": {
+        "e": 29,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 39,
+        "p": 0
+      }
+    },
+    "skuLoja": "750402",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246448741/design-sem-nome--17--c1bieyt6t0.jpg"
+  },
+  {
+    "estoqueNome": "azul marinho silk branco",
+    "venditeNome": "AZUL MARINHO SILK BRANCO",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 76,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "MANGUITO  C/ PROTEÇAO (su loja nome: Manguito com Proteções)",
+    "venditeNome": "MANGUITO  C/ PROTEÇAO (su loja nome: Manguito com Proteções)",
+    "cat": "Acessórios",
+    "stock": {
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750403",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/131159608/design-sem-nome--18--3g30wbqfu4.jpg"
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA (su loja nome: Tubo Flex - Caveiras Mexicanas)",
+    "venditeNome": "TUBOFLEX CAVEIRA (su loja nome: Tubo Flex - Caveiras Mexicanas)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 46,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CA",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/116341718/novo-site-tamanho-blusas-segunda-pele--78--f3rp5ewvv5.jpg"
+  },
+  {
+    "estoqueNome": "camuflado chumbo (su loja nome: Tubo Flex - Camuflado Chumbo)",
+    "venditeNome": "camuflado chumbo (su loja nome: Tubo Flex - Camuflado Chumbo)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-CH",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245962888/aa2eabcf5c770e56f50bf12bff43c2c0-wplywg8omc-94qimwfa3w.png"
+  },
+  {
+    "estoqueNome": "TUBOFLEX LIMAO",
+    "venditeNome": "TUBOFLEX LIMAO",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-LIM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "LARANJA COM PRETO",
+    "venditeNome": "LARANJA COM PRETO",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 26,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PRLR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246450467/novo-site-tamanho-blusas-segunda-pele--36--l7syyx9o09.jpg"
+  },
+  {
+    "estoqueNome": "CAVEIRA LARANJA (su loja nome: Tubo Flex Laranja Caveira)",
+    "venditeNome": "CAVEIRA LARANJA (su loja nome: Tubo Flex Laranja Caveira)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-LAR",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/116344377/padr-o-foto-novo-site--29--lyxsibbwuh.jpg"
+  },
+  {
+    "estoqueNome": "BALACLAVA LIMAO",
+    "venditeNome": "BALACLAVA LIMAO",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "TUBOFLEX LISTRAS",
+    "venditeNome": "TUBOFLEX LISTRAS",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-LI",
+    "img": ""
+  },
+  {
+    "estoqueNome": "BRUTALE",
+    "venditeNome": "BRUTALE",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "BOTA MICHIGAN",
+    "venditeNome": "BOTA MICHIGAN",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "34": {
+        "e": 3,
+        "p": 0
+      },
+      "35": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 1,
+        "p": 0
+      },
+      "37": {
+        "e": 13,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "39": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "41": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "43": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 1,
+        "p": 0
+      },
+      "45": {
+        "e": 5,
+        "p": 0
+      },
+      "46": {
+        "e": 10,
+        "p": 0
+      }
+    },
+    "skuLoja": "700110",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/128439871/62b81ad957.jpg"
+  },
+  {
+    "estoqueNome": "BOOT COVER (POLAINA)",
+    "venditeNome": "BOOT COVER (POLAINA)",
+    "cat": "Impermeáveis",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 76,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 15,
+        "p": 0
+      },
+      "3G": {
+        "e": 45,
+        "p": 0
+      },
+      "4G": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "700101",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2804573/novo-site-tamanho-blusas-segunda-pele--48--ab2idlssyc.jpg"
+  },
+  {
+    "estoqueNome": "NEW MARINER",
+    "venditeNome": "NEW MARINER",
+    "cat": "Impermeáveis",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "CONJ-MARIN",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246454522/2585997fda1639f86e5f36a905bb8c69-8a55ksyfqb.png"
+  },
+  {
+    "estoqueNome": "camisa urbana  masculina",
+    "venditeNome": "CAMISA URBANA  MASCULINA",
+    "cat": "Casual",
+    "stock": {
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 16,
+        "p": 3
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 1
+      },
+      "3G": {
+        "e": 17,
+        "p": 0
+      }
+    },
+    "skuLoja": "CAM-URB-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/274208542/novo-site-tamanho-blusas-segunda-pele--41--83kvxsnl45.jpg"
+  },
+  {
+    "estoqueNome": "CAMISA URBAN FEMININA",
+    "venditeNome": "CAMISA URBAN FEMININA",
+    "cat": "Casual",
+    "stock": {
+      "P": {
+        "e": 15,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 21
+      },
+      "G": {
+        "e": 2,
+        "p": 22
+      },
+      "GG": {
+        "e": 4,
+        "p": 14
+      }
+    },
+    "skuLoja": "CAM-URB-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/274214401/novo-site-tamanho-blusas-segunda-pele--40--ok12eakm7j.jpg"
+  },
+  {
+    "estoqueNome": "HLX WINTER",
+    "venditeNome": "WINTER COMFORT",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 4,
+        "p": 0
+      },
+      "50": {
+        "e": 6,
+        "p": 0
+      },
+      "52": {
+        "e": 9,
+        "p": 0
+      },
+      "54": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "610WIN",
+    "img": "https://cdn.awsli.com.br/600x600/86/86777/produto/260220452/147-jn0e4cwrjn.jpg"
+  },
+  {
+    "estoqueNome": "Calça Havana",
+    "venditeNome": "CALÇA HAVANA",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "48": {
+        "e": 1,
+        "p": 0
+      },
+      "54": {
+        "e": 1,
+        "p": 0
+      },
+      "56": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MHC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/97848899/novo-site-tamanho-cal-a-1080-px-4-uzuolp5tjp.png"
+  },
+  {
+    "estoqueNome": "Firenze",
+    "venditeNome": "FIRENZE",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 16,
+        "p": 0
+      },
+      "36": {
+        "e": 9,
+        "p": 0
+      },
+      "46": {
+        "e": 5,
+        "p": 0
+      },
+      "48": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MKA",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg"
+  },
+  {
+    "estoqueNome": "Firenze (Nova Modelagem)",
+    "venditeNome": "FIRENZE NOVA MODELAGEM",
+    "cat": "Calças Femininas",
+    "stock": {
+      "36": {
+        "e": 9,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 2,
+        "p": 0
+      },
+      "44": {
+        "e": 6,
+        "p": 0
+      },
+      "46": {
+        "e": 10,
+        "p": 0
+      },
+      "48": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MKA-NM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/100037633/132-s88497snwl.jpg"
+  },
+  {
+    "estoqueNome": "FORRO TERMICO FEMININA",
+    "venditeNome": "FORRO TERMICO FEM",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379196901/135-hjdh02ayti.jpg"
+  },
+  {
+    "estoqueNome": "FORRO TERMICO MASCULINA",
+    "venditeNome": "FORRO TERMICO MASC",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4066-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379180213/127-h50xkxyio2.jpg"
+  },
+  {
+    "estoqueNome": "JAQUETA HLX PRO PRETA MASCULINA (su loja nome: Jaqueta HLX PRO Preta Masculina)",
+    "venditeNome": "JAQUETA HLX PRO PRETA MASCULINA (su loja nome: Jaqueta HLX PRO Preta Masculina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4066-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/69198004/c8ed5125b5.jpg"
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Azul Royal",
+    "venditeNome": "JAQUETA HLX PRO AZUL ROYAL",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 2,
+        "p": 0
+      },
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/69190864/20919456820fa33fed9a2e44757966dd-x6pnixkd42.jpg"
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES PRETO (su loja nome: Manguito HLX - Preto)",
+    "venditeNome": "MANGUITO SIMPLES PRETO (su loja nome: Manguito HLX - Preto)",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 102,
+        "p": 0
+      }
+    },
+    "skuLoja": "NX8429G3D",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2914955/27647a44ef.jpg"
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES CHUMBO",
+    "venditeNome": "MANGUITO SIMPLES CHUMBO",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 30,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES VERDE",
+    "venditeNome": "MANGUITO SIMPLES VERDE",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 8,
+        "p": 0
+      }
+    },
+    "skuLoja": "NX8429G3D",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Calça Defender Adventure Bege",
+    "venditeNome": "DEFENDER ADVENTURE BEGE",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 23,
+        "p": 0
+      },
+      "44": {
+        "e": 19,
+        "p": 0
+      },
+      "46": {
+        "e": 20,
+        "p": 0
+      },
+      "48": {
+        "e": 14,
+        "p": 0
+      },
+      "50": {
+        "e": 12,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 4,
+        "p": 0
+      },
+      "56": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "610ADV-BG",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/2847389/160-nk1ahix4tb.jpg"
+  },
+  {
+    "estoqueNome": "tuboflex caveira preto com pink (su loja nome: Tubo Flex - Caveira Pink com Preto)",
+    "venditeNome": "tuboflex caveira preto com pink (su loja nome: Tubo Flex - Caveira Pink com Preto)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 41,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-PIN-PR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "TUBOFLEX FLORES E CAVEIRAS (su loja nome: Tubo Flex - Caveiras e Flores Vermelhas)",
+    "venditeNome": "TUBOFLEX FLORES E CAVEIRAS (su loja nome: Tubo Flex - Caveiras e Flores Vermelhas)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 58,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-ROSAS",
+    "img": ""
+  },
+  {
+    "estoqueNome": "TUBOFLEX BOLINHAS BRANCAS (su loja nome: Tubo Flex Bolinhas)",
+    "venditeNome": "TUBOFLEX BOLINHAS BRANCAS (su loja nome: Tubo Flex Bolinhas)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 42,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-BOL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA E ROSAS (su loja nome: Tubo Flex - Caveira com Rosas)",
+    "venditeNome": "TUBOFLEX CAVEIRA E ROSAS (su loja nome: Tubo Flex - Caveira com Rosas)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 25,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-ROSAS",
+    "img": ""
+  },
+  {
+    "estoqueNome": "CAMUFLADO PRETO E BRANCO (su loja nome: Tubo Flex - Camuflado Preto e Branco)",
+    "venditeNome": "CAMUFLADO PRETO E BRANCO (su loja nome: Tubo Flex - Camuflado Preto e Branco)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-PR-BR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "TUBO FLEX CAVEIRA LILÁS (su loja nome: Tubo Flex - Caveira Lilás)",
+    "venditeNome": "TUBO FLEX CAVEIRA LILÁS (su loja nome: Tubo Flex - Caveira Lilás)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 53,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-LIL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "balaclava caveira verão (su loja nome: Balaclava Vermelha)",
+    "venditeNome": "balaclava caveira verão (su loja nome: Balaclava Vermelha)",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 36,
+        "p": 0
+      }
+    },
+    "skuLoja": "750501-VM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "BONÉ HLX",
+    "venditeNome": "BONÉ HLX",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "LUVA VESTA (su loja nome: Luva Vesta)",
+    "venditeNome": "LUVA VESTA (su loja nome: Luva Vesta)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 0
+      },
+      "L": {
+        "e": 5,
+        "p": 0
+      },
+      "XL": {
+        "e": 2,
+        "p": 0
+      },
+      "2XL": {
+        "e": 3,
+        "p": 0
+      },
+      "3XL": {
+        "e": 5,
+        "p": 0
+      },
+      "4XL": {
+        "e": 2,
+        "p": 0
+      },
+      "5XL": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "GLFFT5KSM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "DESTROYER PRETA",
+    "venditeNome": "DESTROYER PRETA",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 2,
+        "p": 0
+      },
+      "40": {
+        "e": 4,
+        "p": 0
+      },
+      "41": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 2,
+        "p": 0
+      },
+      "43": {
+        "e": 9,
+        "p": 0
+      },
+      "44": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "DESTROYER 2",
+    "venditeNome": "DESTROYER 2",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 7,
+        "p": 0
+      },
+      "43": {
+        "e": 6,
+        "p": 0
+      },
+      "44": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "DESTROYER MARROM",
+    "venditeNome": "DESTROYER MARROM",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 3,
+        "p": 0
+      },
+      "43": {
+        "e": 5,
+        "p": 0
+      },
+      "44": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "DESTROYER CAQUI",
+    "venditeNome": "DESTROYER CAQUI",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 1,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "41": {
+        "e": 3,
+        "p": 0
+      },
+      "42": {
+        "e": 3,
+        "p": 0
+      },
+      "43": {
+        "e": 5,
+        "p": 0
+      },
+      "44": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "MERCURY",
+    "venditeNome": "MERCURY",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": ""
+  },
+  {
+    "estoqueNome": "BOTA ADVENTURE PRETA (su loja nome: Bota Adventure Preta)",
+    "venditeNome": "BOTA ADVENTURE PRETA (su loja nome: Bota Adventure Preta)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 2,
+        "p": 0
+      },
+      "43": {
+        "e": 3,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "700107-PR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "BOTA ADVENTURE MARROM (su loja nome: Bota Adventure Marrom)",
+    "venditeNome": "BOTA ADVENTURE MARROM (su loja nome: Bota Adventure Marrom)",
+    "cat": "Luvas e Calçados",
+    "stock": {
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 2,
+        "p": 0
+      },
+      "43": {
+        "e": 4,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "700107-MR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "JAQUETA HLX PRO CHUMBO MASCULINA (su loja nome: Jaqueta HLX PRO Chumbo Masculina)",
+    "venditeNome": "JAQUETA HLX PRO CHUMBO MASCULINA (su loja nome: Jaqueta HLX PRO Chumbo Masculina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 8,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4066-CH-MASC",
+    "img": ""
+  },
+  {
+    "estoqueNome": "JAQUETA HLX PRO CHUMBO FEMININA (su loja nome: Jaqueta HLX PRO Chumbo Feminina)",
+    "venditeNome": "JAQUETA HLX PRO CHUMBO FEMININA (su loja nome: Jaqueta HLX PRO Chumbo Feminina)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 9,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-CH-FEM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "JAQUETA FRIO EXTREMO PRETA (su loja nome: Jaqueta Frio Extremo)",
+    "venditeNome": "JAQUETA FRIO EXTREMO PRETA (su loja nome: Jaqueta Frio Extremo)",
+    "cat": "Jaquetas",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 6
+      },
+      "G": {
+        "e": 6,
+        "p": 7
+      },
+      "GG": {
+        "e": 4,
+        "p": 6
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4064",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta Masc",
+    "venditeNome": "Segunda pele Preta Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 8,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 9,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta Fem",
+    "venditeNome": "Segunda pele Preta Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 15,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 8,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 9,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Inverno Masc",
+    "venditeNome": "Segunda pele Inverno Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 13,
+        "p": 0
+      },
+      "M": {
+        "e": 15,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 1
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 5,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC-INV",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Inverno Fem",
+    "venditeNome": "Segunda pele Inverno Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 13,
+        "p": 0
+      },
+      "M": {
+        "e": 15,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 1
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 5,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-INV",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Logo Chumbo Masc",
+    "venditeNome": "Segunda pele Logo Chumbo Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 8,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC-LP",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Logo Chumbo Fem",
+    "venditeNome": "Segunda pele Logo Chumbo Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 15,
+        "p": 0
+      },
+      "P": {
+        "e": 8,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-LP",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Azul Masc",
+    "venditeNome": "Segunda pele Azul Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-AZ-MASC",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Azul Fem",
+    "venditeNome": "Segunda pele Azul Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-AZ-FEM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada Chumbo Masc",
+    "venditeNome": "Segunda pele Camuflada Chumbo Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-MASC",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada Chumbo Fem",
+    "venditeNome": "Segunda pele Camuflada Chumbo Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-FEM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com Laranja Masc",
+    "venditeNome": "Segunda pele Preta com Laranja Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 2
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PRLR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com Laranja Fem",
+    "venditeNome": "Segunda pele Preta com Laranja Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 2
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-PRLR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com Verde Masc",
+    "venditeNome": "Segunda pele Preta com Verde Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PRVROL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com Verde Fem",
+    "venditeNome": "Segunda pele Preta com Verde Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-PRVROL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Laranja Masc",
+    "venditeNome": "Segunda pele Laranja Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Laranja Fem",
+    "venditeNome": "Segunda pele Laranja Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LR-F",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Limão Masc",
+    "venditeNome": "Segunda pele Limão Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LI",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Limão Fem",
+    "venditeNome": "Segunda pele Limão Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 3,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-LI",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Seg. Pele com Proteções 2.0 Masc",
+    "venditeNome": "Seg. Pele com Proteções 2.0 Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Seg. Pele com Proteções 2.0 Fem",
+    "venditeNome": "Seg. Pele com Proteções 2.0 Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117-FEM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Calça Segunda Pele Masc",
+    "venditeNome": "Calça Segunda Pele Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 11,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-M",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Calça Segunda Pele Fem",
+    "venditeNome": "Calça Segunda Pele Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 11,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-F",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Calça Segunda Pele Inverno Masc",
+    "venditeNome": "Calça Segunda Pele Inverno Masc",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 5,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-INV-M",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Calça Segunda Pele Inverno Fem",
+    "venditeNome": "Calça Segunda Pele Inverno Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 5,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-INV-F",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Caveira Flores Fem",
+    "venditeNome": "Segunda pele Caveira Flores Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 7,
+        "p": 0
+      },
+      "P": {
+        "e": 15,
+        "p": 0
+      },
+      "M": {
+        "e": 16,
+        "p": 0
+      },
+      "G": {
+        "e": 22,
+        "p": 0
+      },
+      "GG": {
+        "e": 24,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CF",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Bolinhas Brancas Fem",
+    "venditeNome": "Segunda pele Bolinhas Brancas Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 0
+      },
+      "G": {
+        "e": 15,
+        "p": 0
+      },
+      "GG": {
+        "e": 24,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-B",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Rosas Vermelhas Fem",
+    "venditeNome": "Segunda pele Rosas Vermelhas Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 7,
+        "p": 0
+      },
+      "P": {
+        "e": 28,
+        "p": 0
+      },
+      "M": {
+        "e": 9,
+        "p": 0
+      },
+      "G": {
+        "e": 22,
+        "p": 0
+      },
+      "GG": {
+        "e": 14,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CRV",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Bolinhas Pink Fem",
+    "venditeNome": "Segunda pele Bolinhas Pink Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-BP",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Pink (antiga)",
+    "venditeNome": "Segunda pele Pink (antiga)",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 1,
+        "p": 0
+      },
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 10,
+        "p": 0
+      },
+      "3G": {
+        "e": 4,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PK-ANT",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Pink (NOVA) Fem",
+    "venditeNome": "Segunda pele Pink (NOVA) Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 2,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 1
+      },
+      "M": {
+        "e": 9,
+        "p": 2
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 1
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PK",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Vermelha",
+    "venditeNome": "Segunda pele Vermelha",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 6,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 3
+      },
+      "M": {
+        "e": 21,
+        "p": 0
+      },
+      "G": {
+        "e": 17,
+        "p": 3
+      },
+      "GG": {
+        "e": 12,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VERM",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Caveira Lilás Fem",
+    "venditeNome": "Segunda pele Caveira Lilás Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 4,
+        "p": 0
+      },
+      "P": {
+        "e": 9,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Caveiras Mex Azuis Fem",
+    "venditeNome": "Segunda pele Caveiras Mex Azuis Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 1,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CMA",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada Lilás Fem",
+    "venditeNome": "Segunda pele Camuflada Lilás Fem",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 4,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-LIL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Seg. Pele com Proteções Chumbo",
+    "venditeNome": "Seg. Pele com Proteções Chumbo",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 33,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117-CH",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Oliva (NOVA)",
+    "venditeNome": "Segunda pele Verde Oliva (NOVA)",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 4,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 2
+      },
+      "M": {
+        "e": 13,
+        "p": 8
+      },
+      "G": {
+        "e": 15,
+        "p": 1
+      },
+      "GG": {
+        "e": 11,
+        "p": 3
+      },
+      "3G": {
+        "e": 6,
+        "p": 5
+      },
+      "4G": {
+        "e": 10,
+        "p": 9
+      }
+    },
+    "skuLoja": "270116-VROL",
+    "img": ""
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Escuro",
+    "venditeNome": "Segunda pele Verde Escuro",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VE",
+    "img": ""
+  },
+  {
+    "estoqueNome": "CAMISETA PRETA (su loja nome: Camiseta HLX Preta)",
+    "venditeNome": "CAMISETA PRETA (su loja nome: Camiseta HLX Preta)",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "CASUAL-CAM-PR",
+    "img": ""
+  },
+  {
+    "estoqueNome": "CAMISETA BRANCA (su loja nome: Camiseta HLX Branca)",
+    "venditeNome": "CAMISETA BRANCA (su loja nome: Camiseta HLX Branca)",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "CASUAL-CAM-BR",
+    "img": ""
+  }
 ];
 
         const monthlyRevenueTotals = [58764, 117874.5, 117169.7, 111637.7, 115975.65, 135757, 161205.15, 130581, 149844.65, 149174.5, 144736.66, 166771.65];
