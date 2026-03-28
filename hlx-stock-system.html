@@ -2338,7 +2338,7 @@ var hectorHistory = [];
         async function serverLoadProducts() {
             if (!isServerMode) return;
             try {
-                // Save FULL embedded products as source of truth for structure + SKUs
+                // Embedded products serve ONLY as fallback for new products not yet on server
                 const embeddedProducts = JSON.parse(JSON.stringify(allProducts));
                 const embeddedByName = {};
                 embeddedProducts.forEach(function(p) { embeddedByName[p.estoqueNome] = p; });
@@ -2347,39 +2347,29 @@ var hectorHistory = [];
                 if (resp.ok) {
                     const data = await resp.json();
                     if (data.length > 0) {
-                        // Use server data for stock/vendite (live data), but embedded for SKUs
+                        // SERVER IS SOURCE OF TRUTH for everything: names, photos, stock, all fields
+                        // Server data wins — user edits on the site are always preserved
                         const serverByName = {};
                         data.forEach(function(p) { serverByName[p.estoqueNome] = p; });
 
-                        // Start with server products, restoring skuLoja + stock structure from embedded
+                        // Start with server products as-is (they command)
                         allProducts = data;
+
+                        // Only fill in missing fields from embedded (fallback, never overwrite)
                         allProducts.forEach(function(p) {
                             if (embeddedByName[p.estoqueNome]) {
                                 var ep = embeddedByName[p.estoqueNome];
-                                p.skuLoja = ep.skuLoja;
-                                // Restore img from embedded (source of truth for product photos)
-                                if (ep.img) p.img = ep.img;
-                                // Sync stock structure: remove sizes from server that don't exist in embedded
-                                // (e.g. PP removed from masc products)
-                                if (p.stock && ep.stock) {
-                                    var serverSizes = Object.keys(p.stock);
-                                    for (var si = 0; si < serverSizes.length; si++) {
-                                        if (!ep.stock[serverSizes[si]]) {
-                                            delete p.stock[serverSizes[si]];
-                                        }
-                                    }
-                                    // Add sizes from embedded that don't exist in server
-                                    var embeddedSizes = Object.keys(ep.stock);
-                                    for (var ei = 0; ei < embeddedSizes.length; ei++) {
-                                        if (!p.stock[embeddedSizes[ei]]) {
-                                            p.stock[embeddedSizes[ei]] = ep.stock[embeddedSizes[ei]];
-                                        }
-                                    }
-                                }
+                                // Only fill skuLoja if server doesn't have it
+                                if (!p.skuLoja && ep.skuLoja) p.skuLoja = ep.skuLoja;
+                                // Only fill img if server doesn't have it
+                                if (!p.img && ep.img) p.img = ep.img;
+                                // Only fill vendite/fatturato if server doesn't have them
+                                if ((!p.vendite || p.vendite.length === 0) && ep.vendite) p.vendite = ep.vendite;
+                                if ((!p.fatturato || p.fatturato.length === 0) && ep.fatturato) p.fatturato = ep.fatturato;
                             }
                         });
 
-                        // Add NEW products from embedded that don't exist on server
+                        // Add NEW products from embedded that don't exist on server yet
                         var added = 0;
                         embeddedProducts.forEach(function(ep) {
                             if (!serverByName[ep.estoqueNome]) {
@@ -2388,14 +2378,7 @@ var hectorHistory = [];
                             }
                         });
 
-                        // Remove products from server that no longer exist in embedded
-                        var removed = 0;
-                        allProducts = allProducts.filter(function(p) {
-                            if (!embeddedByName[p.estoqueNome]) { removed++; return false; }
-                            return true;
-                        });
-
-                        console.log('✅ Products loaded: ' + data.length + ' from server, +' + added + ' new from embedded, -' + removed + ' removed');
+                        console.log('✅ Products loaded: ' + data.length + ' from server, +' + added + ' new from embedded. Server is source of truth.');
                     }
                 }
             } catch(e) { console.warn('Server load failed, using embedded data:', e); }
