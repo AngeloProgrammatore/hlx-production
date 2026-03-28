@@ -1768,84 +1768,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "MANGUITO SIMPLES PRETO (su loja nome: VERIFICARE)",
-    "venditeNome": "",
-    "cat": "Acessórios",
-    "stock": {
-      "P": {
-        "e": 102,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "MANGUITO SIMPLES CHUMBO (su loja nome: VERIFICARE)",
-    "venditeNome": "",
-    "cat": "Acessórios",
-    "stock": {
-      "P": {
-        "e": 30,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "MANGUITO SIMPLES VERDE (su loja nome: VERIFICARE)",
-    "venditeNome": "",
-    "cat": "Acessórios",
-    "stock": {
-      "P": {
-        "e": 8,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
     "estoqueNome": "TUBOFLEX CAVEIRA (su loja nome: Tubo Flex Caveira)",
     "venditeNome": "Tubo Flex Caveira",
     "cat": "Acessórios",
@@ -1927,7 +1849,20 @@
     },
     "skuLoja": "750301-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/28571988/novo-site-tamanho-blusas-segunda-pele--81--duyhdrkqbo.jpg",
-    "vendite": []
+    "vendite": [
+      12,
+      26,
+      25,
+      26,
+      32,
+      26,
+      34,
+      34,
+      25,
+      38,
+      34,
+      13
+    ]
   },
   {
     "estoqueNome": "TUBOFLEX PINK (su loja nome: Tubo Flex - Pink)",
@@ -1982,7 +1917,7 @@
       }
     },
     "skuLoja": "750301-VROL",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245968777/novo-site-tamanho-blusas-segunda-pele--75--3b9fgxhcho.jpg",
     "vendite": []
   },
   {
@@ -1997,7 +1932,20 @@
     },
     "skuLoja": "750301-AZUL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",
-    "vendite": []
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      5,
+      5
+    ]
   },
   {
     "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
@@ -2039,7 +1987,20 @@
     },
     "skuLoja": "750301-LARANJAA",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg",
-    "vendite": []
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      3
+    ]
   },
   {
     "estoqueNome": "CAVEIRA LARANJA (su loja nome: Tubo Flex Laranja Caveira)",
@@ -2151,7 +2112,20 @@
     },
     "skuLoja": "750501",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2914890/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",
-    "vendite": []
+    "vendite": [
+      6,
+      2,
+      6,
+      3,
+      3,
+      3,
+      4,
+      0,
+      0,
+      1,
+      4,
+      13
+    ]
   },
   {
     "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
@@ -2165,7 +2139,20 @@
     },
     "skuLoja": "750524",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245972978/novo-site-tamanho-blusas-segunda-pele--31--uy5k9ppwjf.jpg",
-    "vendite": []
+    "vendite": [
+      0,
+      0,
+      0,
+      3,
+      6,
+      5,
+      1,
+      1,
+      6,
+      4,
+      1,
+      0
+    ]
   },
   {
     "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
@@ -2455,68 +2442,6 @@
     },
     "skuLoja": "700108",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246455505/650b2010dfdb2b01faf10cc45278dc01-857ghvfehn.png",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Destroyer 2",
-    "venditeNome": "",
-    "cat": "Luvas e Botas",
-    "stock": {
-      "34": {
-        "e": 0,
-        "p": 0
-      },
-      "35": {
-        "e": 0,
-        "p": 0
-      },
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "37": {
-        "e": 1,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "39": {
-        "e": 5,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "41": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "43": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "45": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
     "vendite": []
   },
   {
@@ -2857,9 +2782,22 @@
         "p": 0
       }
     },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
+    "skuLoja": "WINT4067-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379196901/135-hjdh02ayti.jpg",
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
   },
   {
     "estoqueNome": "FORRO TERMICO MASCULINA",
@@ -2895,8 +2833,8 @@
         "p": 0
       }
     },
-    "skuLoja": "",
-    "img": "",
+    "skuLoja": "WINT4066-MASC",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/379180213/127-h50xkxyio2.jpg",
     "vendite": []
   },
   {
@@ -3964,44 +3902,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda pele Pink (NOVA)",
-    "venditeNome": "",
-    "cat": "Segunda Pele",
-    "stock": {
-      "PP": {
-        "e": 2,
-        "p": 0
-      },
-      "P": {
-        "e": 7,
-        "p": 0
-      },
-      "M": {
-        "e": 9,
-        "p": 0
-      },
-      "G": {
-        "e": 4,
-        "p": 0
-      },
-      "GG": {
-        "e": 8,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      },
-      "4G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
     "estoqueNome": "SEGUNDA PELE VERMELHA MASC",
     "venditeNome": "Blusa Segunda Pele Vermelha",
     "cat": "Segunda Pele",
@@ -4036,7 +3936,7 @@
       }
     },
     "skuLoja": "270116-VM-MASC",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
     "vendite": []
   },
   {
@@ -4074,7 +3974,7 @@
       }
     },
     "skuLoja": "270116-VM-FEM",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246122061/2-4b2cvee8ly.jpg",
     "vendite": []
   },
   {
@@ -4340,7 +4240,7 @@
       }
     },
     "skuLoja": "270116-VDOL-MASC",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246423629/novo-site-tamanho-blusas-segunda-pele--38--6wx4slu7nc.jpg",
     "vendite": []
   },
   {
@@ -4382,44 +4282,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "(unnamed R8) - VERIFICARE",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "3P": {
-        "e": 0,
-        "p": 0
-      },
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 1,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
     "estoqueNome": "camisa urbana masculina (su loja: Camisa Urban Masculina)",
     "venditeNome": "Camisa Urban Masculina",
     "cat": "Casual",
@@ -4455,122 +4317,6 @@
     },
     "skuLoja": "CAM-URB-MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/274208542/novo-site-tamanho-blusas-segunda-pele--41--83kvxsnl45.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Concept VELCRO",
-    "venditeNome": "",
-    "cat": "Calças Masculinas",
-    "stock": {
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      },
-      "48": {
-        "e": 0,
-        "p": 0
-      },
-      "50": {
-        "e": 0,
-        "p": 0
-      },
-      "52": {
-        "e": 0,
-        "p": 0
-      },
-      "54": {
-        "e": 0,
-        "p": 0
-      },
-      "56": {
-        "e": 0,
-        "p": 0
-      },
-      "58": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Defender Camuflada Verde (+Antiga)",
-    "venditeNome": "",
-    "cat": "Calças Masculinas",
-    "stock": {
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      },
-      "48": {
-        "e": 0,
-        "p": 0
-      },
-      "50": {
-        "e": 0,
-        "p": 0
-      },
-      "52": {
-        "e": 0,
-        "p": 0
-      },
-      "54": {
-        "e": 0,
-        "p": 0
-      },
-      "56": {
-        "e": 0,
-        "p": 0
-      },
-      "58": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
     "vendite": []
   },
   {
@@ -4629,58 +4375,6 @@
     },
     "skuLoja": "612MMC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/100047249/novo-site-tamanho-cal-a-1080-px-6-pujyiyxhay.png",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "manguito simples branco",
-    "venditeNome": "",
-    "cat": "Acessórios",
-    "stock": {
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "MANGUITO SIMPLES VERM",
-    "venditeNome": "",
-    "cat": "Acessórios",
-    "stock": {
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
     "vendite": []
   },
   {
@@ -4806,90 +4500,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda pele Verde ESCURO",
-    "venditeNome": "",
-    "cat": "Segunda Pele",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      },
-      "4G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "LUVA SPIRIT COMFORT (ANTIGA)",
-    "venditeNome": "",
-    "cat": "Luvas e Botas",
-    "stock": {
-      "XS": {
-        "e": 0,
-        "p": 0
-      },
-      "S": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "L": {
-        "e": 0,
-        "p": 0
-      },
-      "XL": {
-        "e": 0,
-        "p": 0
-      },
-      "2XL": {
-        "e": 0,
-        "p": 0
-      },
-      "3XL": {
-        "e": 0,
-        "p": 0
-      },
-      "4XL": {
-        "e": 0,
-        "p": 0
-      },
-      "5XL": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
     "estoqueNome": "LUVA VESTA (su loja: Luva Vesta)",
     "venditeNome": "Luva Vesta",
     "cat": "Luvas e Botas",
@@ -4936,854 +4546,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "MERCURY",
-    "venditeNome": "",
-    "cat": "Luvas e Botas",
-    "stock": {
-      "34": {
-        "e": 0,
-        "p": 0
-      },
-      "35": {
-        "e": 0,
-        "p": 0
-      },
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "37": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "39": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "41": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "43": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "45": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "DESTROYER MARROM",
-    "venditeNome": "",
-    "cat": "Luvas e Botas",
-    "stock": {
-      "34": {
-        "e": 0,
-        "p": 0
-      },
-      "35": {
-        "e": 0,
-        "p": 0
-      },
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "37": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "39": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "41": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "43": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "45": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "DESTROYER CAQUI",
-    "venditeNome": "",
-    "cat": "Luvas e Botas",
-    "stock": {
-      "34": {
-        "e": 0,
-        "p": 0
-      },
-      "35": {
-        "e": 0,
-        "p": 0
-      },
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "37": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "39": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "41": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "43": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "45": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camisa Masculina Botao Preta",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "3P": {
-        "e": 0,
-        "p": 0
-      },
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camisa Feminina Botao Preta",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "3P": {
-        "e": 0,
-        "p": 0
-      },
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camisa Feminina Botao Verde",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "3P": {
-        "e": 0,
-        "p": 0
-      },
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camisa Feminina Botao Cáqui",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "3P": {
-        "e": 0,
-        "p": 0
-      },
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Unstopable Verde",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Unstopable Preta",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Unstopable Branca",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Caveira Verde",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Caveira Preta",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta Caveira Branca",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta singe 965 preta",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta singe965 branco",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta singe 965verde",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx65 preta - DISCO",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx 65 branca - DISCO",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx 65 verde - DISCO",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas preto",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas Branco",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas verde",
-    "venditeNome": "",
-    "cat": "Casual",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 0,
-        "p": 0
-      },
-      "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
-        "e": 0,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
-      "3G": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "",
-    "img": "",
-    "vendite": []
-  },
-  {
     "estoqueNome": "Segunda pele Verde Oliva FEM (su loja: Blusa Segunda Pele Verde Oliva Feminina)",
     "venditeNome": "Blusa Segunda Pele Verde Oliva Feminina",
     "cat": "Segunda Pele",
@@ -5818,7 +4580,7 @@
       }
     },
     "skuLoja": "270116-VROL-FEM",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246424822/novo-site-tamanho-blusas-segunda-pele--34--o2dkdxl4b9.jpg",
     "vendite": []
   }
 ]
