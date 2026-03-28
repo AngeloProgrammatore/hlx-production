@@ -1,0 +1,5824 @@
+[
+  {
+    "estoqueNome": "P0LAINA HLX (su loja nome: Boot Cover - Polaina)",
+    "venditeNome": "Boot Cover - Polaina",
+    "cat": "Impermeáveis",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 76,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 65,
+        "p": 0
+      },
+      "GG": {
+        "e": 9,
+        "p": 0
+      },
+      "3G": {
+        "e": 45,
+        "p": 0
+      },
+      "4G": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "700101",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "conjunto NEW MARINER (su loja nome: New Mariner - Capa de Chuva Unissex)",
+    "venditeNome": "New Mariner - Capa de Chuva Unissex",
+    "cat": "Impermeáveis",
+    "stock": {
+      "PP": {
+        "e": 24,
+        "p": 0
+      },
+      "P": {
+        "e": 49,
+        "p": 0
+      },
+      "M": {
+        "e": 40,
+        "p": 0
+      },
+      "G": {
+        "e": 34,
+        "p": 0
+      },
+      "GG": {
+        "e": 33,
+        "p": 0
+      },
+      "3G": {
+        "e": 19,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "390131",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "penelope confort azul (su loja nome: Calça Feminina Penelope Comfort)",
+    "venditeNome": "Calça Feminina Penelope Comfort",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 4,
+        "p": 0
+      },
+      "36": {
+        "e": 10,
+        "p": 0
+      },
+      "38": {
+        "e": 1,
+        "p": 0
+      },
+      "40": {
+        "e": 4,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 9,
+        "p": 0
+      },
+      "46": {
+        "e": 1,
+        "p": 0
+      },
+      "48": {
+        "e": 4,
+        "p": 0
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "603FES",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "racer confort feminina (su loja nome: Calça Racer Comfort Feminina)",
+    "venditeNome": "Calça Racer Comfort Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 2,
+        "p": 0
+      },
+      "38": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 14,
+        "p": 0
+      },
+      "46": {
+        "e": 9,
+        "p": 0
+      },
+      "48": {
+        "e": 3,
+        "p": 0
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "613FRP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Defender adventure preta (su loja: Calça Defender Preta Feminina)",
+    "venditeNome": "Calça Defender Preta Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 12,
+        "p": 0
+      },
+      "38": {
+        "e": 2,
+        "p": 0
+      },
+      "40": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 5,
+        "p": 0
+      },
+      "44": {
+        "e": 4,
+        "p": 0
+      },
+      "46": {
+        "e": 36,
+        "p": 0
+      },
+      "48": {
+        "e": 10,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "611MSX",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "PENELOPE CONFORT BLACK (su loja nome: Calça Feminina Penelope Comfort Black)",
+    "venditeNome": "Calça Feminina Penelope Comfort Black",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 3,
+        "p": 0
+      },
+      "38": {
+        "e": 11,
+        "p": 0
+      },
+      "40": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 11,
+        "p": 0
+      },
+      "44": {
+        "e": 19,
+        "p": 0
+      },
+      "46": {
+        "e": 6,
+        "p": 0
+      },
+      "48": {
+        "e": 16,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MEX",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Firenze (vecchio modello)",
+    "venditeNome": "Calça Firenze Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 16,
+        "p": 0
+      },
+      "36": {
+        "e": 9,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 5,
+        "p": 0
+      },
+      "48": {
+        "e": 6,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WN52WQ3S3",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Firenze (NOVA MODELAGEM) (su loja: Calça Firenze Feminina)",
+    "venditeNome": "Calça Firenze Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 9,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 7,
+        "p": 0
+      },
+      "46": {
+        "e": 10,
+        "p": 0
+      },
+      "48": {
+        "e": 1,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MKA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure Feminina)",
+    "venditeNome": "Calça Defender Adventure Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 4,
+        "p": 0
+      },
+      "38": {
+        "e": 6,
+        "p": 0
+      },
+      "40": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 10,
+        "p": 0
+      },
+      "44": {
+        "e": 13,
+        "p": 0
+      },
+      "46": {
+        "e": 2,
+        "p": 0
+      },
+      "48": {
+        "e": 11,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "611ADV-VR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Slim (Cós-médio) (su loja nome: Calça Slim Feminina)",
+    "venditeNome": "Calça Slim Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 2,
+        "p": 0
+      },
+      "36": {
+        "e": 10,
+        "p": 0
+      },
+      "38": {
+        "e": 31,
+        "p": 0
+      },
+      "40": {
+        "e": 33,
+        "p": 0
+      },
+      "42": {
+        "e": 40,
+        "p": 0
+      },
+      "44": {
+        "e": 14,
+        "p": 0
+      },
+      "46": {
+        "e": 30,
+        "p": 0
+      },
+      "48": {
+        "e": 16,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603FCE",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "ibiza confort azul (su loja nome: Calça Ibiza Comfort Feminina)",
+    "venditeNome": "Calça Ibiza Comfort Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 6,
+        "p": 0
+      },
+      "38": {
+        "e": 9,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 10,
+        "p": 0
+      },
+      "44": {
+        "e": 6,
+        "p": 0
+      },
+      "46": {
+        "e": 22,
+        "p": 0
+      },
+      "48": {
+        "e": 6,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603IBX",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Mikonos Azul (su loja nome: Calça Mikonos Feminina - forro com fibra de Aramida)",
+    "venditeNome": "Calça Mikonos Feminina - forro com fibra de Aramida",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 19,
+        "p": 0
+      },
+      "38": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 12,
+        "p": 0
+      },
+      "44": {
+        "e": 6,
+        "p": 0
+      },
+      "46": {
+        "e": 2,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MIK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MIKONOS BLACK (su loja nome: Calça Mikonos Black Feminina - forro com fibra de Aramida)",
+    "venditeNome": "Calça Mikonos Black Feminina - forro com fibra de Aramida",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 11,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 17,
+        "p": 0
+      },
+      "44": {
+        "e": 8,
+        "p": 0
+      },
+      "46": {
+        "e": 22,
+        "p": 0
+      },
+      "48": {
+        "e": 13,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603MIK-BL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Force (Cós-médio) (su loja nome: Calça Camu Force Feminina)",
+    "venditeNome": "Calça Camu Force Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 30,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 11,
+        "p": 0
+      },
+      "48": {
+        "e": 9,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "607CAM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "New Concept (Cós-médio) ZIPER (su loja nome: Calça New Concept Feminina)",
+    "venditeNome": "Calça New Concept Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 4,
+        "p": 0
+      },
+      "36": {
+        "e": 11,
+        "p": 0
+      },
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 3,
+        "p": 0
+      },
+      "46": {
+        "e": 7,
+        "p": 0
+      },
+      "48": {
+        "e": 4,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603NEW-ES",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Madri Comfort Fem (su loja nome: Calça Madri Comfort Feminina)",
+    "venditeNome": "Calça Madri Comfort Feminina",
+    "cat": "Calças Femininas FORA DE LINHA",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 3,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "613FMC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "New Concept Clean (Cós-médio) ZIPER (su loja nome: Calça New Concept Clean Feminina)",
+    "venditeNome": "Calça New Concept Clean Feminina",
+    "cat": "Calças Femininas FORA DE LINHA",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 1,
+        "p": 0
+      },
+      "38": {
+        "e": 1,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "603NEW-CL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "DEFENDER BLACK (su loja nome: Calça Defender Black)",
+    "venditeNome": "Calça Defender Black",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 17,
+        "p": 0
+      },
+      "40": {
+        "e": 32,
+        "p": 0
+      },
+      "42": {
+        "e": 55,
+        "p": 0
+      },
+      "44": {
+        "e": 56,
+        "p": 0
+      },
+      "46": {
+        "e": 16,
+        "p": 0
+      },
+      "48": {
+        "e": 46,
+        "p": 0
+      },
+      "50": {
+        "e": 33,
+        "p": 0
+      },
+      "52": {
+        "e": 13,
+        "p": 0
+      },
+      "54": {
+        "e": 17,
+        "p": 0
+      },
+      "56": {
+        "e": 6,
+        "p": 0
+      },
+      "58": {
+        "e": 7,
+        "p": 0
+      },
+      "60": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "610MSX",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SPIRIT COMFORT (su loja nome: Calça Spirit Comfort)",
+    "venditeNome": "Calça Spirit Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 12,
+        "p": 0
+      },
+      "40": {
+        "e": 15,
+        "p": 0
+      },
+      "42": {
+        "e": 45,
+        "p": 0
+      },
+      "44": {
+        "e": 28,
+        "p": 0
+      },
+      "46": {
+        "e": 52,
+        "p": 0
+      },
+      "48": {
+        "e": 41,
+        "p": 0
+      },
+      "50": {
+        "e": 19,
+        "p": 0
+      },
+      "52": {
+        "e": 16,
+        "p": 0
+      },
+      "54": {
+        "e": 12,
+        "p": 0
+      },
+      "56": {
+        "e": 10,
+        "p": 0
+      },
+      "58": {
+        "e": 9,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602SCO",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "RACER COMFORT (su loja nome: Calça Racer Comfort)",
+    "venditeNome": "Calça Racer Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 13,
+        "p": 0
+      },
+      "40": {
+        "e": 9,
+        "p": 0
+      },
+      "42": {
+        "e": 38,
+        "p": 0
+      },
+      "44": {
+        "e": 9,
+        "p": 0
+      },
+      "46": {
+        "e": 28,
+        "p": 0
+      },
+      "48": {
+        "e": 12,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      },
+      "52": {
+        "e": 19,
+        "p": 0
+      },
+      "54": {
+        "e": 11,
+        "p": 0
+      },
+      "56": {
+        "e": 4,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "612MRP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure)",
+    "venditeNome": "Calça Defender Adventure",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 20,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 56,
+        "p": 0
+      },
+      "44": {
+        "e": 30,
+        "p": 0
+      },
+      "46": {
+        "e": 36,
+        "p": 0
+      },
+      "48": {
+        "e": 45,
+        "p": 0
+      },
+      "50": {
+        "e": 27,
+        "p": 0
+      },
+      "52": {
+        "e": 20,
+        "p": 0
+      },
+      "54": {
+        "e": 10,
+        "p": 0
+      },
+      "56": {
+        "e": 9,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "610ADV-VR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "street (su loja nome: Calça Street)",
+    "venditeNome": "Calça Street",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 8,
+        "p": 0
+      },
+      "40": {
+        "e": 1,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 8,
+        "p": 0
+      },
+      "48": {
+        "e": 9,
+        "p": 0
+      },
+      "50": {
+        "e": 19,
+        "p": 0
+      },
+      "52": {
+        "e": 15,
+        "p": 0
+      },
+      "54": {
+        "e": 11,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "605MST",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "IBIZA MASCULINA (su loja nome: Calça Ibiza Comfort)",
+    "venditeNome": "Calça Ibiza Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 13,
+        "p": 0
+      },
+      "40": {
+        "e": 27,
+        "p": 0
+      },
+      "42": {
+        "e": 12,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 3,
+        "p": 0
+      },
+      "48": {
+        "e": 5,
+        "p": 0
+      },
+      "50": {
+        "e": 11,
+        "p": 0
+      },
+      "52": {
+        "e": 2,
+        "p": 0
+      },
+      "54": {
+        "e": 0,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602IBX",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Slim (su loja nome: Calça Slim)",
+    "venditeNome": "Calça Slim",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 7,
+        "p": 1
+      },
+      "40": {
+        "e": 10,
+        "p": 0
+      },
+      "42": {
+        "e": 40,
+        "p": 1
+      },
+      "44": {
+        "e": 21,
+        "p": 0
+      },
+      "46": {
+        "e": 27,
+        "p": 0
+      },
+      "48": {
+        "e": 26,
+        "p": 0
+      },
+      "50": {
+        "e": 19,
+        "p": 0
+      },
+      "52": {
+        "e": 7,
+        "p": 0
+      },
+      "54": {
+        "e": 7,
+        "p": 0
+      },
+      "56": {
+        "e": 2,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "605MCE",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camuforce caqui (su loja nome: Calça Camu Force)",
+    "venditeNome": "Calça Camu Force",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 4,
+        "p": 0
+      },
+      "40": {
+        "e": 6,
+        "p": 0
+      },
+      "42": {
+        "e": 10,
+        "p": 0
+      },
+      "44": {
+        "e": 9,
+        "p": 0
+      },
+      "46": {
+        "e": 13,
+        "p": 0
+      },
+      "48": {
+        "e": 2,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 9,
+        "p": 0
+      },
+      "56": {
+        "e": 15,
+        "p": 0
+      },
+      "58": {
+        "e": 6,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "606CAM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Mikonos Black (su loja nome: Calça Mikonos Black - forro em fibra de Aramida)",
+    "venditeNome": "Calça Mikonos Black - forro em fibra de Aramida",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "40": {
+        "e": 9,
+        "p": 0
+      },
+      "42": {
+        "e": 43,
+        "p": 0
+      },
+      "44": {
+        "e": 66,
+        "p": 0
+      },
+      "46": {
+        "e": 33,
+        "p": 0
+      },
+      "48": {
+        "e": 30,
+        "p": 0
+      },
+      "50": {
+        "e": 10,
+        "p": 0
+      },
+      "52": {
+        "e": 11,
+        "p": 0
+      },
+      "54": {
+        "e": 0,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MIK-BL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Defender Camuflada Chumbo (su loja nome: Calça Defender Camuflada Chumbo)",
+    "venditeNome": "Calça Defender Camuflada Chumbo",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 9,
+        "p": 0
+      },
+      "40": {
+        "e": 13,
+        "p": 8
+      },
+      "42": {
+        "e": 27,
+        "p": 1
+      },
+      "44": {
+        "e": 25,
+        "p": 3
+      },
+      "46": {
+        "e": 26,
+        "p": 0
+      },
+      "48": {
+        "e": 5,
+        "p": 3
+      },
+      "50": {
+        "e": 4,
+        "p": 8
+      },
+      "52": {
+        "e": 9,
+        "p": 0
+      },
+      "54": {
+        "e": 8,
+        "p": 0
+      },
+      "56": {
+        "e": 9,
+        "p": 1
+      },
+      "58": {
+        "e": 7,
+        "p": 0
+      },
+      "60": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "606MSX-CH",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SPENCER COMFORT (su loja nome: Calça Spencer Comfort)",
+    "venditeNome": "Calça Spencer Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 10,
+        "p": 0
+      },
+      "40": {
+        "e": 28,
+        "p": 0
+      },
+      "42": {
+        "e": 4,
+        "p": 0
+      },
+      "44": {
+        "e": 1,
+        "p": 0
+      },
+      "46": {
+        "e": 5,
+        "p": 0
+      },
+      "48": {
+        "e": 19,
+        "p": 0
+      },
+      "50": {
+        "e": 2,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 2,
+        "p": 0
+      },
+      "56": {
+        "e": 8,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MSS",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MIKONOS AZUL (su loja nome: Calça Mikonos - forro em fibra de Aramida)",
+    "venditeNome": "Calça Mikonos - forro em fibra de Aramida",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 3,
+        "p": 0
+      },
+      "40": {
+        "e": 7,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 2,
+        "p": 0
+      },
+      "46": {
+        "e": 4,
+        "p": 0
+      },
+      "48": {
+        "e": 4,
+        "p": 0
+      },
+      "50": {
+        "e": 1,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 2,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MIK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "NEW CONCEPT (ZIPER) (su loja nome: Calça New Concept)",
+    "venditeNome": "Calça New Concept",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 15,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 4,
+        "p": 0
+      },
+      "52": {
+        "e": 5,
+        "p": 0
+      },
+      "54": {
+        "e": 1,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602NEW-ES",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "DEFENDER ADVENTURE BEGE (su loja nome: Calça Defender Adventure Bege)",
+    "venditeNome": "Calça Defender Adventure Bege",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 12,
+        "p": 0
+      },
+      "42": {
+        "e": 23,
+        "p": 0
+      },
+      "44": {
+        "e": 19,
+        "p": 0
+      },
+      "46": {
+        "e": 20,
+        "p": 0
+      },
+      "48": {
+        "e": 14,
+        "p": 0
+      },
+      "50": {
+        "e": 12,
+        "p": 0
+      },
+      "52": {
+        "e": 3,
+        "p": 0
+      },
+      "54": {
+        "e": 4,
+        "p": 0
+      },
+      "56": {
+        "e": 3,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "610ADV-BG",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "HLX WINTER (su loja nome: Calça Winter Comfort)",
+    "venditeNome": "Calça Winter Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 4,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 6,
+        "p": 0
+      },
+      "52": {
+        "e": 9,
+        "p": 0
+      },
+      "54": {
+        "e": 3,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "610WIN",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Havana (su loja nome: Calça Havana)",
+    "venditeNome": "Calça Havana",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 1,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 1,
+        "p": 0
+      },
+      "56": {
+        "e": 1,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602MHC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "New concept Clean (su loja nome: Calça New Concept Clean)",
+    "venditeNome": "Calça New Concept Clean",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "38": {
+        "e": 1,
+        "p": 0
+      },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 3,
+        "p": 0
+      },
+      "52": {
+        "e": 2,
+        "p": 0
+      },
+      "54": {
+        "e": 4,
+        "p": 0
+      },
+      "56": {
+        "e": 4,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "602NEW-CL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO ELÁSTICO (su loja nome: VERIFICARE - Manguito?)",
+    "venditeNome": "Manguito",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 31,
+        "p": 0
+      },
+      "M": {
+        "e": 29,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 39,
+        "p": 0
+      }
+    },
+    "skuLoja": "750402",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO C/ PROTEÇAO (su loja nome: Manguito com Proteções)",
+    "venditeNome": "Manguito com Proteções",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "750403",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES PRETO (su loja nome: VERIFICARE)",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 102,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES CHUMBO (su loja nome: VERIFICARE)",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 30,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES VERDE (su loja nome: VERIFICARE)",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 8,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA (su loja nome: Tubo Flex Caveira)",
+    "venditeNome": "Tubo Flex Caveira",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 46,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA BRANCA (su loja nome: VERIFICARE - variação Caveira?)",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 12,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-BR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "tuboflex caveira preto com pink (su loja nome: Tubo Flex Caveira Pink)",
+    "venditeNome": "Tubo Flex Caveira Pink",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 41,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-PR-PINK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA FUNDO ROSA",
+    "venditeNome": "Tubo Flex Caveira Pink",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 26,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-PINK-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX FLORES E CAVEIRAS (su loja nome: Tubo Flex - Caveiras e Flores)",
+    "venditeNome": "Tubo Flex - Caveiras e Flores",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 58,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CRV-FLORES",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBO FLEX PRETO (su loja nome: Tubo Flex Preto)",
+    "venditeNome": "Tubo Flex Preto",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 123,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX PINK (su loja nome: Tubo Flex - Pink)",
+    "venditeNome": "Tubo Flex - Pink",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-PINK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX BOLINHAS BRANCAS (su loja nome: Tubo Flex - Bolinhas Brancas)",
+    "venditeNome": "Tubo Flex - Bolinhas Brancas",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 42,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-BOL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX CAVEIRA E ROSAS (su loja nome: Tubo Flex - Caveiras e Rosas Vermelhas)",
+    "venditeNome": "Tubo Flex - Caveiras e Rosas Vermelhas",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 25,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CRV",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "tubo verde oliva (su loja nome: Tubo Flex Verde Oliva)",
+    "venditeNome": "Tubo Flex Verde Oliva",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 35,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-VROL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBO FLEX AZUL (su loja nome: Tubo Flex Azul)",
+    "venditeNome": "Tubo Flex Azul",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 75,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-AZUL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
+    "venditeNome": "Tubo Flex Laranja",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 23,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-laranjaa",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "camuflado chumbo (su loja nome: Tubo Flex - Camuflado Chumbo)",
+    "venditeNome": "Tubo Flex - Camuflado Chumbo",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-CH",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBO LARANJA COM PRETO (su loja nome: Tubo Flex Laranja)",
+    "venditeNome": "Tubo Flex Laranja",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 25,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-LARANJAA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CAVEIRA LARANJA (su loja nome: Tubo Flex Laranja Caveira)",
+    "venditeNome": "Tubo Flex Laranja Caveira",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 9,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAV-LARA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBO FLEX CAVEIRA LILÁS (su loja nome: Tubo Flex - Caveira Lilás)",
+    "venditeNome": "Tubo Flex - Caveira Lilás",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 53,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CV-LIL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "ONÇA PINK (su loja nome: Tubo Flex - Onça Pink)",
+    "venditeNome": "Tubo Flex - Onça Pink",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 32,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-ONC-PINK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "PROTETOR PESCOCO INVERNO (su loja nome: Protetor de Pescoço - Inverno)",
+    "venditeNome": "Protetor de Pescoço - Inverno",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 69,
+        "p": 0
+      }
+    },
+    "skuLoja": "750102",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "protetor verao (su loja nome: Protetor de Pescoço - Verão)",
+    "venditeNome": "Protetor de Pescoço - Verão",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 27,
+        "p": 0
+      }
+    },
+    "skuLoja": "750104",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
+    "venditeNome": "Cartucheira",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "750521",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "BALACLAVA CAVEIRA (su loja nome: Balaclava Caveira)",
+    "venditeNome": "Balaclava Caveira",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 15,
+        "p": 0
+      }
+    },
+    "skuLoja": "750520-CA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "BALACLAVA PRETA (su loja nome: Balaclava)",
+    "venditeNome": "Balaclava",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "skuLoja": "750501",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
+    "venditeNome": "Balaclava Inverno",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 88,
+        "p": 0
+      }
+    },
+    "skuLoja": "750524",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
+    "venditeNome": "Balaclava Verão",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 15,
+        "p": 0
+      }
+    },
+    "skuLoja": "750523",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "balaclava caveira verão (su loja nome: Balaclava Caveira Verão)",
+    "venditeNome": "Balaclava Caveira Verão",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 36,
+        "p": 0
+      }
+    },
+    "skuLoja": "750523-VR-CA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "LUVA RACER PRETA (su loja: Luva Cafe Racer Preta)",
+    "venditeNome": "Luva Cafe Racer Preta",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 50,
+        "p": 0
+      },
+      "L": {
+        "e": 64,
+        "p": 0
+      },
+      "XL": {
+        "e": 106,
+        "p": 0
+      },
+      "2XL": {
+        "e": 64,
+        "p": 0
+      },
+      "3XL": {
+        "e": 38,
+        "p": 0
+      },
+      "4XL": {
+        "e": 11,
+        "p": 0
+      },
+      "5XL": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "LUVA-CAFE-RACER-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "LUVA RACER MARROM (su loja: Luva Cafe Racer Marrom)",
+    "venditeNome": "Luva Cafe Racer Marrom",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "L": {
+        "e": 24,
+        "p": 0
+      },
+      "XL": {
+        "e": 0,
+        "p": 0
+      },
+      "2XL": {
+        "e": 8,
+        "p": 0
+      },
+      "3XL": {
+        "e": 17,
+        "p": 0
+      },
+      "4XL": {
+        "e": 5,
+        "p": 0
+      },
+      "5XL": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "G167-M",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "LUVA SPIRIT COMFORT tudo junto (su loja: Luva Spirit)",
+    "venditeNome": "Luva Spirit",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "L": {
+        "e": 13,
+        "p": 0
+      },
+      "XL": {
+        "e": 103,
+        "p": 0
+      },
+      "2XL": {
+        "e": 125,
+        "p": 0
+      },
+      "3XL": {
+        "e": 20,
+        "p": 0
+      },
+      "4XL": {
+        "e": 10,
+        "p": 0
+      },
+      "5XL": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "G199",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MICHIGAN (su loja: Bota Michigan)",
+    "venditeNome": "Bota Michigan",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 3,
+        "p": 0
+      },
+      "35": {
+        "e": 6,
+        "p": 0
+      },
+      "36": {
+        "e": 1,
+        "p": 0
+      },
+      "37": {
+        "e": 13,
+        "p": 0
+      },
+      "38": {
+        "e": 15,
+        "p": 0
+      },
+      "39": {
+        "e": 15,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 2,
+        "p": 0
+      },
+      "42": {
+        "e": 1,
+        "p": 0
+      },
+      "43": {
+        "e": 1,
+        "p": 0
+      },
+      "44": {
+        "e": 1,
+        "p": 0
+      },
+      "45": {
+        "e": 5,
+        "p": 0
+      },
+      "46": {
+        "e": 10,
+        "p": 0
+      }
+    },
+    "skuLoja": "700110",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "DESTROYER PRETA (su loja: Bota Destroyer?)",
+    "venditeNome": "Bota Destroyer",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "35": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 6,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "45": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "700108",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Destroyer 2",
+    "venditeNome": "",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "35": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "37": {
+        "e": 1,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 5,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "45": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "VERANO MASCULINA PRETA (su loja: Jaqueta Verano Masculina)",
+    "venditeNome": "Jaqueta Verano Masculina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 20,
+        "p": 0
+      },
+      "M": {
+        "e": 57,
+        "p": 0
+      },
+      "G": {
+        "e": 34,
+        "p": 0
+      },
+      "GG": {
+        "e": 47,
+        "p": 0
+      },
+      "3G": {
+        "e": 37,
+        "p": 0
+      },
+      "4G": {
+        "e": 14,
+        "p": 0
+      },
+      "5G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R4-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "VERANO MASCULINA CINZA (su loja: Jaqueta Verano Masculina)",
+    "venditeNome": "Jaqueta Verano Masculina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R4-CIN",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
+    "venditeNome": "Jaqueta Verano Feminina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 19,
+        "p": 0
+      },
+      "M": {
+        "e": 5,
+        "p": 0
+      },
+      "G": {
+        "e": 13,
+        "p": 0
+      },
+      "GG": {
+        "e": 26,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R2-PR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "VERANO FEMININA CINZA (su loja: Jaqueta Verano Feminina)",
+    "venditeNome": "Jaqueta Verano Feminina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 6,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R2-CIN",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "VERANO FEMININA VERMELHA (su loja: Jaqueta Verano Feminina)",
+    "venditeNome": "Jaqueta Verano Feminina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 2,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R2-VER",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "IMOLA (su loja: Jaqueta Imola Dupla Face)",
+    "venditeNome": "Jaqueta Imola Dupla Face",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 9,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R5",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "JAQUETA WINTER MASCULINA (su loja: Jaqueta Winter Masculina)",
+    "venditeNome": "Jaqueta Winter Masculina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 28,
+        "p": 0
+      },
+      "G": {
+        "e": 27,
+        "p": 0
+      },
+      "GG": {
+        "e": 25,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4066_MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "JAQUETA WINTER FEMININA (su loja: Jaqueta Winter Feminina)",
+    "venditeNome": "Jaqueta Winter Feminina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 12,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "WINT4067-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "FORRO TERMICO FEMININA",
+    "venditeNome": "",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "FORRO TERMICO MASCULINA",
+    "venditeNome": "",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "M": {
+        "e": 9,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      },
+      "5G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta",
+    "venditeNome": "Blusa Segunda Pele",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 15,
+        "p": 0
+      },
+      "P": {
+        "e": 24,
+        "p": 0
+      },
+      "M": {
+        "e": 17,
+        "p": 0
+      },
+      "G": {
+        "e": 13,
+        "p": 0
+      },
+      "GG": {
+        "e": 18,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 13,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Inverno MASC",
+    "venditeNome": "Blusa Segunda Pele Inverno Masculina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 13,
+        "p": 0
+      },
+      "M": {
+        "e": 15,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 5,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC-INV",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Inverno FEM",
+    "venditeNome": "Blusa Segunda Pele Inverno Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 13,
+        "p": 0
+      },
+      "M": {
+        "e": 15,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 5,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-INV",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele logo CHUMBO MASC",
+    "venditeNome": "Blusa Segunda Pele - Logo chumbo",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 8,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC-LP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele logo CHUMBO FEM",
+    "venditeNome": "Blusa Segunda Pele - Logo chumbo Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 15,
+        "p": 0
+      },
+      "P": {
+        "e": 8,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-LP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SEGUNDA PELE AZUL MASC",
+    "venditeNome": "Blusa Segunda Pele Azul",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-AZ-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SEGUNDA PELE AZUL FEM",
+    "venditeNome": "Blusa Segunda Pele Azul Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 11,
+        "p": 0
+      },
+      "M": {
+        "e": 11,
+        "p": 0
+      },
+      "G": {
+        "e": 10,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-AZ-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com laranja MASC",
+    "venditeNome": "Blusa Segunda Pele - Preta e Laranja",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PRLR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com laranja FEM",
+    "venditeNome": "Blusa Segunda Pele - Preta e Laranja Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-PRLR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com verde MASC",
+    "venditeNome": "Blusa Segunda Pele - Preta e Verde Oliva",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PRVROL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta com verde FEM",
+    "venditeNome": "Blusa Segunda Pele - Preta e Verde Oliva Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 3,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-PRVROL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada chumbo MASC",
+    "venditeNome": "Blusa Segunda Pele Camuflada Chumbo",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada chumbo FEM",
+    "venditeNome": "Blusa Segunda Pele Camuflada Chumbo Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda Pele com Proteções Preta MASC",
+    "venditeNome": "Blusa Segunda Pele com Proteções 2.0",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda Pele com Proteções Preta FEM",
+    "venditeNome": "Blusa Segunda Pele com Proteções 2.0 Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 12,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 3,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CALCA SEGUNDA PELE MASC",
+    "venditeNome": "Calça Segunda Pele Masculina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 11,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-M",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CALCA SEGUNDA PELE FEM",
+    "venditeNome": "Calça Segunda Pele Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 11,
+        "p": 0
+      },
+      "4G": {
+        "e": 6,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-F",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Calça seg pele Inverno MASC",
+    "venditeNome": "Calça Segunda Pele Inverno Masculina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 5,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-INV-M",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Calça seg pele Inverno FEM",
+    "venditeNome": "Calça Segunda Pele Inverno Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 5,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 0
+      },
+      "3G": {
+        "e": 8,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "280000-INV-F",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "segunda pele laranja MASC",
+    "venditeNome": "Blusa Segunda Pele Laranja",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LR",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "segunda pele laranja FEM",
+    "venditeNome": "Blusa Segunda Pele Laranja Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 12,
+        "p": 0
+      },
+      "P": {
+        "e": 10,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 6,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LR-F",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Limão MASC",
+    "venditeNome": "Blusa Segunda Pele - Limão",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-LI",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Limão FEM",
+    "venditeNome": "Blusa Segunda Pele - Limão Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 3,
+        "p": 0
+      },
+      "P": {
+        "e": 2,
+        "p": 0
+      },
+      "M": {
+        "e": 4,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-FEM-LI",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "segunda pele caveira flores (su loja: Blusa Segunda Pele Feminina Caveira Flores)",
+    "venditeNome": "Blusa Segunda Pele Feminina Caveira Flores",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 7,
+        "p": 0
+      },
+      "P": {
+        "e": 15,
+        "p": 0
+      },
+      "M": {
+        "e": 16,
+        "p": 0
+      },
+      "G": {
+        "e": 22,
+        "p": 0
+      },
+      "GG": {
+        "e": 24,
+        "p": 0
+      },
+      "3G": {
+        "e": 7,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CF",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "segunda pele bolinha preta e branca (su loja: Blusa Segunda Pele Feminina Bolinhas Brancas)",
+    "venditeNome": "Blusa Segunda Pele Feminina Bolinhas Brancas",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 0
+      },
+      "G": {
+        "e": 15,
+        "p": 0
+      },
+      "GG": {
+        "e": 24,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-B",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Rosas Vermelhas (su loja: Blusa Segunda Pele Feminina Caveiras e Rosas Vermelhas)",
+    "venditeNome": "Blusa Segunda Pele Feminina Caveiras e Rosas Vermelhas",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 7,
+        "p": 0
+      },
+      "P": {
+        "e": 28,
+        "p": 0
+      },
+      "M": {
+        "e": 9,
+        "p": 0
+      },
+      "G": {
+        "e": 22,
+        "p": 0
+      },
+      "GG": {
+        "e": 14,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CRV",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SEGUNDA PELE BOLINHA PINK (su loja: Blusa Segunda Pele Feminina Bolinhas Pink)",
+    "venditeNome": "Blusa Segunda Pele Feminina Bolinhas Pink",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 11,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-BP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Pink (antiga) (su loja: Blusa Segunda Pele Feminina Pink)",
+    "venditeNome": "Blusa Segunda Pele Feminina Pink",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 1,
+        "p": 0
+      },
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 10,
+        "p": 0
+      },
+      "3G": {
+        "e": 4,
+        "p": 0
+      },
+      "4G": {
+        "e": 4,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-PK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Pink (NOVA)",
+    "venditeNome": "",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 2,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 9,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 8,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SEGUNDA PELE VERMELHA MASC",
+    "venditeNome": "Blusa Segunda Pele Vermelha",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VM-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "SEGUNDA PELE VERMELHA FEM",
+    "venditeNome": "Blusa Segunda Pele Vermelha Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 6,
+        "p": 0
+      },
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 10,
+        "p": 0
+      },
+      "G": {
+        "e": 8,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 1,
+        "p": 0
+      },
+      "4G": {
+        "e": 1,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VM-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Preta Masculina (su loja: Jaqueta Segunda Pele HLX Pro)",
+    "venditeNome": "Jaqueta Segunda Pele HLX Pro",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5-P-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Jaqueta HLX PRO Azul Royal (su loja: Jaqueta Segunda Pele HLX Pro)",
+    "venditeNome": "Jaqueta Segunda Pele HLX Pro",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 2,
+        "p": 0
+      },
+      "P": {
+        "e": 4,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5-AZU",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda Pele com Prot. Chumbo (su loja: Blusa Segunda pele com Proteções 2.0)",
+    "venditeNome": "Blusa Segunda pele com Proteções 2.0",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 33,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270117-CH",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Caveiras Lilás (su loja: Blusa Segunda Pele Feminina Caveira Lilás)",
+    "venditeNome": "Blusa Segunda Pele Feminina Caveira Lilás",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 4,
+        "p": 0
+      },
+      "P": {
+        "e": 9,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 7,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Caveiras MexAzul (su loja: Blusa Segunda Pele Feminina Caveiras Mexicanas Azuis)",
+    "venditeNome": "Blusa Segunda Pele Feminina Caveiras Mexicanas Azuis",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 1,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 2,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CMA",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Camuflada lilás (su loja: Blusa Segunda Pele Feminina Camuflada Lilás)",
+    "venditeNome": "Blusa Segunda Pele Feminina Camuflada Lilás",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 10,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 1,
+        "p": 0
+      },
+      "GG": {
+        "e": 4,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-LIL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Oliva MASC (su loja: Blusa Segunda Pele Verde Oliva)",
+    "venditeNome": "Blusa Segunda Pele Verde Oliva",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VDOL-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camisa urban feminina (su loja: Camisa Urban Feminina)",
+    "venditeNome": "Camisa Urban Feminina",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 15,
+        "p": 0
+      },
+      "M": {
+        "e": 1,
+        "p": 0
+      },
+      "G": {
+        "e": 2,
+        "p": 0
+      },
+      "GG": {
+        "e": 4,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "CAM-URB-FEM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "(unnamed R8) - VERIFICARE",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 1,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "camisa urbana masculina (su loja: Camisa Urban Masculina)",
+    "venditeNome": "Camisa Urban Masculina",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 7,
+        "p": 0
+      },
+      "M": {
+        "e": 16,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 6,
+        "p": 0
+      },
+      "3G": {
+        "e": 17,
+        "p": 0
+      }
+    },
+    "skuLoja": "CAM-URB-MASC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Concept VELCRO",
+    "venditeNome": "",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 0,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Defender Camuflada Verde (+Antiga)",
+    "venditeNome": "",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 0,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Madri Comfort",
+    "venditeNome": "Calça Madri Comfort",
+    "cat": "Calças Masculinas",
+    "stock": {
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      },
+      "48": {
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
+      },
+      "52": {
+        "e": 0,
+        "p": 0
+      },
+      "54": {
+        "e": 0,
+        "p": 0
+      },
+      "56": {
+        "e": 0,
+        "p": 0
+      },
+      "58": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "612MMC",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "manguito simples branco",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MANGUITO SIMPLES VERM",
+    "venditeNome": "",
+    "cat": "Acessórios",
+    "stock": {
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX LIMAO (su loja: Tubo Flex - Limão)",
+    "venditeNome": "Tubo Flex - Limão",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-LIM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "TUBOFLEX LISTRAS (su loja: Tubo Flex - Listras)",
+    "venditeNome": "Tubo Flex - Listras",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-LIST",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CAMUFLADO LILÁS (su loja: Tubo Flex - Camuflado Lilás)",
+    "venditeNome": "Tubo Flex - Camuflado Lilás",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-LIL",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CAMUFLADO PRETO E BRANCO (su loja: Tubo Flex - Camuflado Preto e Branco)",
+    "venditeNome": "Tubo Flex - Camuflado Preto e Branco",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750302-CAMF-PB",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "BOLINHAS pink (su loja: Tubo Flex - Bolinhas Pink)",
+    "venditeNome": "Tubo Flex - Bolinhas Pink",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "750303-BOL-PINK",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "BONÉ HLX (su loja: Boné HLX)",
+    "venditeNome": "Boné HLX",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "BONE",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "pro feminina (su loja: Jaqueta Segunda Pele Feminina - HLX PRO)",
+    "venditeNome": "Jaqueta Segunda Pele Feminina - HLX PRO",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "0416R5-FEM-FP",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Verde ESCURO",
+    "venditeNome": "",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "LUVA SPIRIT COMFORT (ANTIGA)",
+    "venditeNome": "",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "L": {
+        "e": 0,
+        "p": 0
+      },
+      "XL": {
+        "e": 0,
+        "p": 0
+      },
+      "2XL": {
+        "e": 0,
+        "p": 0
+      },
+      "3XL": {
+        "e": 0,
+        "p": 0
+      },
+      "4XL": {
+        "e": 0,
+        "p": 0
+      },
+      "5XL": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "LUVA VESTA (su loja: Luva Vesta)",
+    "venditeNome": "Luva Vesta",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "XS": {
+        "e": 0,
+        "p": 0
+      },
+      "S": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "L": {
+        "e": 0,
+        "p": 0
+      },
+      "XL": {
+        "e": 0,
+        "p": 0
+      },
+      "2XL": {
+        "e": 0,
+        "p": 0
+      },
+      "3XL": {
+        "e": 0,
+        "p": 0
+      },
+      "4XL": {
+        "e": 0,
+        "p": 0
+      },
+      "5XL": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "GLFFT5KSM",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "MERCURY",
+    "venditeNome": "",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "35": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "45": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "DESTROYER MARROM",
+    "venditeNome": "",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "35": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "45": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "DESTROYER CAQUI",
+    "venditeNome": "",
+    "cat": "Luvas e Botas",
+    "stock": {
+      "34": {
+        "e": 0,
+        "p": 0
+      },
+      "35": {
+        "e": 0,
+        "p": 0
+      },
+      "36": {
+        "e": 0,
+        "p": 0
+      },
+      "37": {
+        "e": 0,
+        "p": 0
+      },
+      "38": {
+        "e": 0,
+        "p": 0
+      },
+      "39": {
+        "e": 0,
+        "p": 0
+      },
+      "40": {
+        "e": 0,
+        "p": 0
+      },
+      "41": {
+        "e": 0,
+        "p": 0
+      },
+      "42": {
+        "e": 0,
+        "p": 0
+      },
+      "43": {
+        "e": 0,
+        "p": 0
+      },
+      "44": {
+        "e": 0,
+        "p": 0
+      },
+      "45": {
+        "e": 0,
+        "p": 0
+      },
+      "46": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camisa Masculina Botao Preta",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camisa Feminina Botao Preta",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camisa Feminina Botao Verde",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camisa Feminina Botao Cáqui",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "3P": {
+        "e": 0,
+        "p": 0
+      },
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Unstopable Verde",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Unstopable Preta",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Unstopable Branca",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Caveira Verde",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Caveira Preta",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta Caveira Branca",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta singe 965 preta",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta singe965 branco",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta singe 965verde",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx65 preta - DISCO",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx 65 branca - DISCO",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx 65 verde - DISCO",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas preto",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas Branco",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Camiseta hlx JALAPAO letras vermelhas verde",
+    "venditeNome": "",
+    "cat": "Casual",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "skuLoja": "",
+    "img": "",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Verde Oliva FEM (su loja: Blusa Segunda Pele Verde Oliva Feminina)",
+    "venditeNome": "Blusa Segunda Pele Verde Oliva Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 4,
+        "p": 0
+      },
+      "P": {
+        "e": 6,
+        "p": 0
+      },
+      "M": {
+        "e": 6,
+        "p": 0
+      },
+      "G": {
+        "e": 7,
+        "p": 0
+      },
+      "GG": {
+        "e": 5,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-VROL-FEM",
+    "img": "",
+    "vendite": []
+  }
+]
