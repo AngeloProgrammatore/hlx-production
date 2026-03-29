@@ -2394,6 +2394,7 @@ var hectorHistory = [];
                         });
 
                         console.log('Products loaded: ' + data.length + ' from server. Server is source of truth.');
+                        document.getElementById('totalProducts').textContent = allProducts.length;
                     }
                 }
             } catch(e) { console.warn('Server load failed, using embedded data:', e); }
