@@ -2749,7 +2749,45 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda pele Preta",
+    "estoqueNome": "Segunda pele Preta MASC",
+    "venditeNome": "Blusa Segunda Pele",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 24,
+        "p": 0
+      },
+      "M": {
+        "e": 17,
+        "p": 0
+      },
+      "G": {
+        "e": 13,
+        "p": 0
+      },
+      "GG": {
+        "e": 18,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 13,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-MASC",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda pele Preta FEM",
     "venditeNome": "Blusa Segunda Pele",
     "cat": "Segunda Pele",
     "stock": {
@@ -2782,7 +2820,7 @@
         "p": 0
       }
     },
-    "skuLoja": "270116-MASC",
+    "skuLoja": "270116-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
     "vendite": []
   },
