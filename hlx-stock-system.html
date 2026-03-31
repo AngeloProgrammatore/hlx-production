@@ -3633,7 +3633,7 @@ ${new Date().toLocaleString('pt-BR')}
                         <span class="edit-msg">Edite estoque/produção e clique em Salvar</span>
                         ${addSizeSelect}
                         <button class="btn-save" data-pidx="${pIdx}">Salvar Modifiche</button>
-                        ${(function() { try { var u = JSON.parse(sessionStorage.getItem('hlx_user') || '{}'); return u.role === 'admin' ? '<button class="btn-delete-product" data-pidx="' + pIdx + '" style="background:#d73a49;color:#fff;border:1px solid #cb2431;padding:4px 12px;border-radius:4px;cursor:pointer;font-size:0.8rem;margin-left:auto;">🗑️ Eliminar</button>' : ''; } catch(e) { return ''; } })()}
+                        <button class="btn-delete-product" data-pidx="${pIdx}" style="margin-left:8px;background:#da3633;color:#fff;border:1px solid #f85149;padding:6px 16px;border-radius:6px;cursor:pointer;font-weight:600;font-size:0.85rem;">Eliminar</button>
                     </div>
                 </div>`;
             }).join('');
