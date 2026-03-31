@@ -13,11 +13,11 @@
         "p": 0
       },
       "M": {
-        "e": 6,
+        "e": 24,
         "p": 0
       },
       "G": {
-        "e": 65,
+        "e": 44,
         "p": 0
       },
       "GG": {
@@ -25,7 +25,7 @@
         "p": 0
       },
       "3G": {
-        "e": 45,
+        "e": 95,
         "p": 0
       },
       "4G": {
@@ -59,7 +59,7 @@
         "p": 0
       },
       "GG": {
-        "e": 33,
+        "e": 32,
         "p": 0
       },
       "3G": {
@@ -85,32 +85,32 @@
         "p": 0
       },
       "36": {
-        "e": 10,
-        "p": 0
+        "e": 12,
+        "p": 18
       },
       "38": {
-        "e": 1,
-        "p": 0
+        "e": 6,
+        "p": 44
       },
       "40": {
-        "e": 4,
-        "p": 0
+        "e": 5,
+        "p": 50
       },
       "42": {
-        "e": 0,
-        "p": 0
+        "e": 7,
+        "p": 39
       },
       "44": {
-        "e": 9,
-        "p": 0
+        "e": 6,
+        "p": 49
       },
       "46": {
-        "e": 1,
-        "p": 0
+        "e": 3,
+        "p": 30
       },
       "48": {
         "e": 4,
-        "p": 0
+        "p": 16
       },
       "50": {
         "e": 4,
@@ -131,31 +131,31 @@
         "p": 0
       },
       "36": {
-        "e": 2,
-        "p": 0
+        "e": 9,
+        "p": 8
       },
       "38": {
-        "e": 3,
-        "p": 0
+        "e": 10,
+        "p": 22
       },
       "40": {
-        "e": 2,
-        "p": 0
+        "e": 5,
+        "p": 13
       },
       "42": {
-        "e": 0,
-        "p": 0
+        "e": 10,
+        "p": 13
       },
       "44": {
-        "e": 14,
-        "p": 0
+        "e": 26,
+        "p": 7
       },
       "46": {
-        "e": 9,
-        "p": 0
+        "e": 15,
+        "p": 17
       },
       "48": {
-        "e": 3,
+        "e": 11,
         "p": 0
       },
       "50": {
@@ -185,7 +185,7 @@
         "p": 0
       },
       "40": {
-        "e": 7,
+        "e": 8,
         "p": 0
       },
       "42": {
@@ -201,7 +201,7 @@
         "p": 0
       },
       "48": {
-        "e": 10,
+        "e": 9,
         "p": 0
       },
       "50": {
@@ -227,27 +227,27 @@
         "p": 0
       },
       "38": {
-        "e": 11,
-        "p": 0
-      },
-      "40": {
         "e": 7,
         "p": 0
       },
+      "40": {
+        "e": 2,
+        "p": 0
+      },
       "42": {
-        "e": 11,
+        "e": 7,
         "p": 0
       },
       "44": {
-        "e": 19,
+        "e": 15,
         "p": 0
       },
       "46": {
-        "e": 6,
+        "e": 2,
         "p": 0
       },
       "48": {
-        "e": 16,
+        "e": 12,
         "p": 0
       },
       "50": {
@@ -293,7 +293,7 @@
         "p": 0
       },
       "48": {
-        "e": 6,
+        "e": 0,
         "p": 0
       },
       "50": {
@@ -361,11 +361,11 @@
         "p": 0
       },
       "36": {
-        "e": 4,
+        "e": 3,
         "p": 0
       },
       "38": {
-        "e": 6,
+        "e": 7,
         "p": 0
       },
       "40": {
@@ -415,15 +415,15 @@
         "p": 0
       },
       "40": {
-        "e": 33,
+        "e": 32,
         "p": 0
       },
       "42": {
-        "e": 40,
+        "e": 38,
         "p": 0
       },
       "44": {
-        "e": 14,
+        "e": 13,
         "p": 0
       },
       "46": {
@@ -461,15 +461,15 @@
         "p": 0
       },
       "40": {
-        "e": 2,
+        "e": 1,
         "p": 0
       },
       "42": {
-        "e": 10,
+        "e": 8,
         "p": 0
       },
       "44": {
-        "e": 6,
+        "e": 4,
         "p": 0
       },
       "46": {
@@ -477,7 +477,7 @@
         "p": 0
       },
       "48": {
-        "e": 6,
+        "e": 5,
         "p": 0
       },
       "50": {
@@ -511,7 +511,7 @@
         "p": 0
       },
       "42": {
-        "e": 12,
+        "e": 11,
         "p": 0
       },
       "44": {
@@ -763,40 +763,40 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 17,
-        "p": 0
+        "e": 16,
+        "p": 2
       },
       "40": {
-        "e": 32,
-        "p": 0
+        "e": 26,
+        "p": 3
       },
       "42": {
-        "e": 55,
+        "e": 49,
         "p": 0
       },
       "44": {
-        "e": 56,
-        "p": 0
+        "e": 51,
+        "p": 2
       },
       "46": {
-        "e": 16,
-        "p": 0
+        "e": 6,
+        "p": 11
       },
       "48": {
-        "e": 46,
-        "p": 0
+        "e": 43,
+        "p": 3
       },
       "50": {
-        "e": 33,
-        "p": 0
+        "e": 32,
+        "p": 5
       },
       "52": {
-        "e": 13,
-        "p": 0
+        "e": 12,
+        "p": 3
       },
       "54": {
-        "e": 17,
-        "p": 0
+        "e": 16,
+        "p": 6
       },
       "56": {
         "e": 6,
@@ -804,7 +804,7 @@
       },
       "58": {
         "e": 7,
-        "p": 0
+        "p": 2
       },
       "60": {
         "e": 5,
@@ -829,36 +829,36 @@
         "p": 0
       },
       "42": {
-        "e": 45,
-        "p": 0
+        "e": 46,
+        "p": 4
       },
       "44": {
-        "e": 28,
-        "p": 0
+        "e": 31,
+        "p": 6
       },
       "46": {
-        "e": 52,
-        "p": 0
+        "e": 51,
+        "p": 2
       },
       "48": {
-        "e": 41,
+        "e": 40,
         "p": 0
       },
       "50": {
         "e": 19,
-        "p": 0
+        "p": 2
       },
       "52": {
         "e": 16,
         "p": 0
       },
       "54": {
-        "e": 12,
+        "e": 10,
         "p": 0
       },
       "56": {
-        "e": 10,
-        "p": 0
+        "e": 11,
+        "p": 1
       },
       "58": {
         "e": 9,
@@ -866,7 +866,7 @@
       },
       "60": {
         "e": 0,
-        "p": 0
+        "p": 5
       }
     },
     "skuLoja": "602SCO",
@@ -879,35 +879,35 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 13,
+        "e": 11,
         "p": 0
       },
       "40": {
-        "e": 9,
-        "p": 0
+        "e": 10,
+        "p": 13
       },
       "42": {
-        "e": 38,
+        "e": 36,
         "p": 0
       },
       "44": {
-        "e": 9,
-        "p": 0
+        "e": 1,
+        "p": 26
       },
       "46": {
-        "e": 28,
-        "p": 0
+        "e": 21,
+        "p": 12
       },
       "48": {
-        "e": 12,
-        "p": 0
+        "e": 10,
+        "p": 16
       },
       "50": {
         "e": 3,
-        "p": 0
+        "p": 7
       },
       "52": {
-        "e": 19,
+        "e": 18,
         "p": 0
       },
       "54": {
@@ -915,8 +915,8 @@
         "p": 0
       },
       "56": {
-        "e": 4,
-        "p": 0
+        "e": 5,
+        "p": 3
       },
       "58": {
         "e": 0,
@@ -941,27 +941,27 @@
         "p": 0
       },
       "40": {
-        "e": 12,
+        "e": 11,
         "p": 0
       },
       "42": {
-        "e": 56,
+        "e": 50,
         "p": 0
       },
       "44": {
-        "e": 30,
+        "e": 26,
         "p": 0
       },
       "46": {
-        "e": 36,
-        "p": 0
+        "e": 33,
+        "p": 1
       },
       "48": {
         "e": 45,
-        "p": 0
+        "p": 2
       },
       "50": {
-        "e": 27,
+        "e": 26,
         "p": 0
       },
       "52": {
@@ -1024,11 +1024,11 @@
       },
       "52": {
         "e": 15,
-        "p": 0
+        "p": 2
       },
       "54": {
         "e": 11,
-        "p": 0
+        "p": 1
       },
       "56": {
         "e": 0,
@@ -1061,7 +1061,7 @@
         "p": 0
       },
       "42": {
-        "e": 12,
+        "e": 11,
         "p": 0
       },
       "44": {
@@ -1069,12 +1069,12 @@
         "p": 0
       },
       "46": {
-        "e": 3,
+        "e": 0,
         "p": 0
       },
       "48": {
         "e": 5,
-        "p": 0
+        "p": 2
       },
       "50": {
         "e": 11,
@@ -1112,23 +1112,23 @@
     "stock": {
       "38": {
         "e": 7,
-        "p": 1
+        "p": 0
       },
       "40": {
         "e": 10,
-        "p": 0
+        "p": 2
       },
       "42": {
-        "e": 40,
-        "p": 1
+        "e": 38,
+        "p": 0
       },
       "44": {
         "e": 21,
-        "p": 0
+        "p": 3
       },
       "46": {
-        "e": 27,
-        "p": 0
+        "e": 29,
+        "p": 2
       },
       "48": {
         "e": 26,
@@ -1177,7 +1177,7 @@
         "p": 0
       },
       "42": {
-        "e": 10,
+        "e": 9,
         "p": 0
       },
       "44": {
@@ -1235,15 +1235,15 @@
         "p": 0
       },
       "42": {
-        "e": 43,
+        "e": 42,
         "p": 0
       },
       "44": {
-        "e": 66,
+        "e": 65,
         "p": 0
       },
       "46": {
-        "e": 33,
+        "e": 31,
         "p": 0
       },
       "48": {
@@ -1289,19 +1289,19 @@
         "p": 0
       },
       "40": {
-        "e": 13,
-        "p": 8
+        "e": 14,
+        "p": 7
       },
       "42": {
-        "e": 27,
+        "e": 26,
         "p": 1
       },
       "44": {
-        "e": 25,
+        "e": 27,
         "p": 3
       },
       "46": {
-        "e": 26,
+        "e": 25,
         "p": 0
       },
       "48": {
@@ -1309,8 +1309,8 @@
         "p": 3
       },
       "50": {
-        "e": 4,
-        "p": 8
+        "e": 5,
+        "p": 6
       },
       "52": {
         "e": 9,
@@ -1409,7 +1409,7 @@
         "p": 0
       },
       "44": {
-        "e": 2,
+        "e": 1,
         "p": 0
       },
       "46": {
@@ -1417,7 +1417,7 @@
         "p": 0
       },
       "48": {
-        "e": 4,
+        "e": 2,
         "p": 0
       },
       "50": {
@@ -1505,7 +1505,7 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 5,
+        "e": 4,
         "p": 0
       },
       "40": {
@@ -1513,23 +1513,23 @@
         "p": 0
       },
       "42": {
-        "e": 23,
+        "e": 22,
         "p": 0
       },
       "44": {
-        "e": 19,
+        "e": 18,
         "p": 0
       },
       "46": {
-        "e": 20,
+        "e": 18,
         "p": 0
       },
       "48": {
-        "e": 14,
+        "e": 12,
         "p": 0
       },
       "50": {
-        "e": 12,
+        "e": 11,
         "p": 0
       },
       "52": {
@@ -1541,7 +1541,7 @@
         "p": 0
       },
       "56": {
-        "e": 3,
+        "e": 5,
         "p": 0
       },
       "58": {
@@ -1733,7 +1733,7 @@
         "p": 0
       },
       "GG": {
-        "e": 39,
+        "e": 38,
         "p": 0
       }
     },
@@ -1759,7 +1759,7 @@
         "p": 0
       },
       "GG": {
-        "e": 5,
+        "e": 4,
         "p": 0
       }
     },
@@ -1773,7 +1773,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 46,
+        "e": 43,
         "p": 0
       }
     },
@@ -1801,7 +1801,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 41,
+        "e": 38,
         "p": 0
       }
     },
@@ -1829,12 +1829,12 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 58,
+        "e": 50,
         "p": 0
       }
     },
     "skuLoja": "750302-CRV-FLORES",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/265341553/novo-site-tamanho-blusas-segunda-pele--66--501qudxvj6.jpg",
+    "img": "",
     "vendite": []
   },
   {
@@ -1843,7 +1843,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 123,
+        "e": 101,
         "p": 0
       }
     },
@@ -1870,7 +1870,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 21,
+        "e": 20,
         "p": 0
       }
     },
@@ -1884,7 +1884,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 42,
+        "e": 38,
         "p": 0
       }
     },
@@ -1898,7 +1898,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 25,
+        "e": 20,
         "p": 0
       }
     },
@@ -1907,45 +1907,88 @@
     "vendite": []
   },
   {
-    "estoqueNome": "tubo verde oliva (su loja nome: Tubo Flex Verde Oliva)",
-    "venditeNome": "Tubo Flex Verde Oliva",
-    "cat": "Acessórios",
-    "stock": {
-      "QTD": {
-        "e": 35,
-        "p": 0
-      }
-    },
-    "skuLoja": "750301-VROL",
-    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/245968777/novo-site-tamanho-blusas-segunda-pele--75--3b9fgxhcho.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "TUBO FLEX AZUL (su loja nome: Tubo Flex Azul)",
-    "venditeNome": "Tubo Flex Azul",
-    "cat": "Acessórios",
+    "estoqueNome": "Segunda Pele Preta Feminina - blusa segunda pele feminina",
+    "venditeNome": "SEGUNDA PELE FEM",
+    "cat": "Segunda Pele",
     "stock": {
       "QTD": {
         "e": 75,
         "p": 0
+      },
+      "PP": {
+        "e": 15,
+        "p": 0
+      },
+      "P": {
+        "e": 14,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
+        "e": 9,
+        "p": 0
+      },
+      "3G": {
+        "e": 3,
+        "p": 0
+      },
+      "4G": {
+        "e": 5,
+        "p": 0
       }
     },
-    "skuLoja": "750301-AZUL",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",
+    "skuLoja": "270116-FEM",
+    "img": "https://cdn.awsli.com.br/300x300/86/86777/produto/246122061/novo-site-tamanho-blusas-segunda-pele--85--u8bkhk1o2q.jpg",
     "vendite": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      5,
-      5
+      8,
+      11,
+      13,
+      13,
+      11,
+      13,
+      19,
+      11,
+      12,
+      15,
+      10,
+      11
+    ],
+    "sku": "270116",
+    "fatturato": [
+      1431,
+      1971,
+      2331,
+      2322,
+      1971,
+      2331,
+      3393,
+      1971,
+      2151,
+      2691,
+      1791,
+      1980
     ]
+  },
+  {
+    "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
+    "venditeNome": "Tubo Flex Laranja",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 23,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-laranjaa",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
@@ -1967,7 +2010,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 1,
+        "e": 100,
         "p": 0
       }
     },
@@ -1981,7 +2024,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 25,
+        "e": 24,
         "p": 0
       }
     },
@@ -2022,7 +2065,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 53,
+        "e": 51,
         "p": 0
       }
     },
@@ -2036,7 +2079,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 32,
+        "e": 31,
         "p": 0
       }
     },
@@ -2059,17 +2102,17 @@
     "vendite": []
   },
   {
-    "estoqueNome": "protetor verao (su loja nome: Protetor de Pescoço - Verão)",
-    "venditeNome": "Protetor de Pescoço - Verão",
+    "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
+    "venditeNome": "Cartucheira",
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 27,
+        "e": 1,
         "p": 0
       }
     },
-    "skuLoja": "750104",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/128438783/novo-site-tamanho-blusas-segunda-pele--42--5ysqgyhsk7.jpg",
+    "skuLoja": "750521",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/20868352/novo-site-tamanho-blusas-segunda-pele--36--42kvdq4qgk.jpg",
     "vendite": []
   },
   {
@@ -2078,7 +2121,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 1,
+        "e": 5,
         "p": 0
       }
     },
@@ -2099,33 +2142,6 @@
     "skuLoja": "750520-CA",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/259992271/novo-site-tamanho-blusas-segunda-pele--32--2gajn74k0x.jpg",
     "vendite": []
-  },
-  {
-    "estoqueNome": "BALACLAVA PRETA (su loja nome: Balaclava)",
-    "venditeNome": "Balaclava",
-    "cat": "Acessórios",
-    "stock": {
-      "QTD": {
-        "e": 21,
-        "p": 0
-      }
-    },
-    "skuLoja": "750501",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2914890/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",
-    "vendite": [
-      6,
-      2,
-      6,
-      3,
-      3,
-      3,
-      4,
-      0,
-      0,
-      1,
-      4,
-      13
-    ]
   },
   {
     "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
@@ -2155,12 +2171,39 @@
     ]
   },
   {
+    "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
+    "venditeNome": "Balaclava Inverno",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 68,
+        "p": 0
+      }
+    },
+    "skuLoja": "750524",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245972978/novo-site-tamanho-blusas-segunda-pele--31--uy5k9ppwjf.jpg",
+    "vendite": [
+      0,
+      0,
+      0,
+      3,
+      6,
+      5,
+      1,
+      1,
+      6,
+      4,
+      1,
+      0
+    ]
+  },
+  {
     "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
     "venditeNome": "Balaclava Verão",
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 15,
+        "e": 61,
         "p": 0
       }
     },
@@ -2172,20 +2215,6 @@
     "estoqueNome": "balaclava caveira verão (su loja nome: Balaclava Caveira Verão)",
     "venditeNome": "Balaclava Caveira Verão",
     "cat": "Acessórios",
-    "stock": {
-      "QTD": {
-        "e": 36,
-        "p": 0
-      }
-    },
-    "skuLoja": "750523-VR-CA",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/259990903/novo-site-tamanho-blusas-segunda-pele--33--egvi7cm9vv.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "LUVA RACER PRETA (su loja: Luva Cafe Racer Preta)",
-    "venditeNome": "Luva Cafe Racer Preta",
-    "cat": "Luvas e Botas",
     "stock": {
       "XS": {
         "e": 0,
@@ -2222,10 +2251,14 @@
       "5XL": {
         "e": 3,
         "p": 0
+      },
+      "QTD": {
+        "e": 35,
+        "p": 0
       }
     },
-    "skuLoja": "LUVA-CAFE-RACER-PR",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245976118/novo-site-tamanho-blusas-segunda-pele--24--5rgmgjn6jh.jpg",
+    "skuLoja": "750523-VR-CA",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/259990903/novo-site-tamanho-blusas-segunda-pele--33--egvi7cm9vv.jpg",
     "vendite": []
   },
   {
@@ -2383,32 +2416,32 @@
     "vendite": []
   },
   {
-    "estoqueNome": "DESTROYER PRETA (su loja: Bota Destroyer?)",
-    "venditeNome": "Bota Destroyer",
+    "estoqueNome": "MICHIGAN (su loja: Bota Michigan)",
+    "venditeNome": "Bota Michigan",
     "cat": "Luvas e Botas",
     "stock": {
       "34": {
-        "e": 0,
+        "e": 3,
         "p": 0
       },
       "35": {
-        "e": 0,
-        "p": 0
-      },
-      "36": {
-        "e": 0,
-        "p": 0
-      },
-      "37": {
-        "e": 0,
-        "p": 0
-      },
-      "38": {
         "e": 6,
         "p": 0
       },
+      "36": {
+        "e": 5,
+        "p": 0
+      },
+      "37": {
+        "e": 3,
+        "p": 0
+      },
+      "38": {
+        "e": 17,
+        "p": 0
+      },
       "39": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "40": {
@@ -2420,7 +2453,7 @@
         "p": 0
       },
       "42": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "43": {
@@ -2428,20 +2461,20 @@
         "p": 0
       },
       "44": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "45": {
-        "e": 0,
+        "e": 5,
         "p": 0
       },
       "46": {
-        "e": 0,
+        "e": 10,
         "p": 0
       }
     },
-    "skuLoja": "700108",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246455505/650b2010dfdb2b01faf10cc45278dc01-857ghvfehn.png",
+    "skuLoja": "700110",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/128439871/62b81ad957.jpg",
     "vendite": []
   },
   {
@@ -2483,6 +2516,44 @@
     "vendite": []
   },
   {
+    "estoqueNome": "VERANO MASCULINA PRETA (su loja: Jaqueta Verano Masculina)",
+    "venditeNome": "Jaqueta Verano Masculina",
+    "cat": "Jaquetas",
+    "stock": {
+      "P": {
+        "e": 20,
+        "p": 0
+      },
+      "M": {
+        "e": 56,
+        "p": 0
+      },
+      "G": {
+        "e": 27,
+        "p": 0
+      },
+      "GG": {
+        "e": 42,
+        "p": 0
+      },
+      "3G": {
+        "e": 32,
+        "p": 0
+      },
+      "4G": {
+        "e": 12,
+        "p": 0
+      },
+      "5G": {
+        "e": 5,
+        "p": 0
+      }
+    },
+    "skuLoja": "0417R4-PR",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
+    "vendite": []
+  },
+  {
     "estoqueNome": "VERANO MASCULINA CINZA (su loja: Jaqueta Verano Masculina)",
     "venditeNome": "Jaqueta Verano Masculina",
     "cat": "Jaquetas",
@@ -2496,11 +2567,11 @@
         "p": 0
       },
       "G": {
-        "e": 7,
+        "e": 5,
         "p": 0
       },
       "GG": {
-        "e": 6,
+        "e": 5,
         "p": 0
       },
       "3G": {
@@ -2526,23 +2597,23 @@
     "cat": "Jaquetas",
     "stock": {
       "P": {
-        "e": 19,
+        "e": 22,
         "p": 0
       },
       "M": {
-        "e": 5,
+        "e": 51,
         "p": 0
       },
       "G": {
-        "e": 13,
+        "e": 27,
         "p": 0
       },
       "GG": {
-        "e": 26,
-        "p": 0
+        "e": 9,
+        "p": 26
       },
       "3G": {
-        "e": 7,
+        "e": 16,
         "p": 0
       },
       "4G": {
@@ -2568,7 +2639,7 @@
         "p": 0
       },
       "M": {
-        "e": 0,
+        "e": 14,
         "p": 0
       },
       "G": {
@@ -2606,11 +2677,11 @@
         "p": 0
       },
       "M": {
-        "e": 3,
+        "e": 2,
         "p": 0
       },
       "G": {
-        "e": 4,
+        "e": 3,
         "p": 0
       },
       "GG": {
@@ -2644,7 +2715,7 @@
         "p": 0
       },
       "M": {
-        "e": 1,
+        "e": 2,
         "p": 0
       },
       "G": {
@@ -2682,11 +2753,11 @@
         "p": 0
       },
       "M": {
-        "e": 28,
+        "e": 27,
         "p": 0
       },
       "G": {
-        "e": 27,
+        "e": 25,
         "p": 0
       },
       "GG": {
@@ -2694,7 +2765,7 @@
         "p": 0
       },
       "3G": {
-        "e": 8,
+        "e": 7,
         "p": 0
       },
       "4G": {
@@ -2715,6 +2786,10 @@
     "venditeNome": "Jaqueta Winter Feminina",
     "cat": "Jaquetas",
     "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
       "P": {
         "e": 11,
         "p": 0
@@ -2758,11 +2833,11 @@
         "p": 0
       },
       "P": {
-        "e": 24,
+        "e": 11,
         "p": 0
       },
       "M": {
-        "e": 17,
+        "e": 7,
         "p": 0
       },
       "G": {
@@ -2796,11 +2871,11 @@
         "p": 0
       },
       "P": {
-        "e": 24,
+        "e": 11,
         "p": 0
       },
       "M": {
-        "e": 17,
+        "e": 7,
         "p": 0
       },
       "G": {
@@ -2822,44 +2897,6 @@
     },
     "skuLoja": "270116-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "Segunda pele Inverno MASC",
-    "venditeNome": "Blusa Segunda Pele Inverno Masculina",
-    "cat": "Segunda Pele",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 13,
-        "p": 0
-      },
-      "M": {
-        "e": 15,
-        "p": 0
-      },
-      "G": {
-        "e": 11,
-        "p": 0
-      },
-      "GG": {
-        "e": 7,
-        "p": 0
-      },
-      "3G": {
-        "e": 5,
-        "p": 0
-      },
-      "4G": {
-        "e": 5,
-        "p": 0
-      }
-    },
-    "skuLoja": "270116-MASC-INV",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356293636/37-4u5wm8ksah.jpg",
     "vendite": []
   },
   {
