@@ -37,8 +37,6 @@ if (!fs.existsSync(PRODUCTS_FILE)) {
         console.log('✅ Initialized products from products.json');
     } else {
         fs.writeFileSync(PRODUCTS_FILE, '[]');
-    // Fire-and-forget GitHub sync
-    syncToGitHub(products).catch(e => console.log('GitHub sync bg error:', e.message));
         console.log('⚠️ Created empty products.json');
     }
 }
@@ -59,6 +57,8 @@ function writeProducts(products) {
 
     // Write new data
     fs.writeFileSync(PRODUCTS_FILE, JSON.stringify(products, null, 2));
+    // Fire-and-forget GitHub sync
+    syncToGitHub(products).catch(e => console.log('GitHub sync bg error:', e.message));
 }
 
 // Auto-sync products.json to GitHub (fire-and-forget, non-blocking)
