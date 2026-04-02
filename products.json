@@ -1679,8 +1679,47 @@
       }
     },
     "skuLoja": "602MHC",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/97848899/novo-site-tamanho-cal-a-1080-px-4-uzuolp5tjp.png",
-    "vendite": []
+    "img": "",
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 1,
+        "childId": 381716625
+      },
+      "40": {
+        "qty": 0,
+        "childId": 97849632
+      },
+      "44": {
+        "qty": 0,
+        "childId": 97849717
+      },
+      "46": {
+        "qty": 0,
+        "childId": 97849760
+      },
+      "48": {
+        "qty": 3,
+        "childId": 97849811
+      },
+      "50": {
+        "qty": 0,
+        "childId": 97849855
+      },
+      "52": {
+        "qty": 7,
+        "childId": 97849898
+      },
+      "54": {
+        "qty": 6,
+        "childId": 97849928
+      },
+      "56": {
+        "qty": 2,
+        "childId": 97849992
+      }
+    },
+    "_parentId": 97848899
   },
   {
     "estoqueNome": "New concept Clean (su loja nome: Calça New Concept Clean)",
