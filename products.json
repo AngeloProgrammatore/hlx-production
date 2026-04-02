@@ -296,52 +296,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Firenze (vecchio modello)",
-    "venditeNome": "Calça Firenze Feminina",
-    "cat": "Calças Femininas",
-    "stock": {
-      "34": {
-        "e": 16,
-        "p": 0
-      },
-      "36": {
-        "e": 9,
-        "p": 0
-      },
-      "38": {
-        "e": 0,
-        "p": 0
-      },
-      "40": {
-        "e": 0,
-        "p": 0
-      },
-      "42": {
-        "e": 0,
-        "p": 0
-      },
-      "44": {
-        "e": 0,
-        "p": 0
-      },
-      "46": {
-        "e": 5,
-        "p": 0
-      },
-      "48": {
-        "e": 0,
-        "p": 0
-      },
-      "50": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "WN52WQ3S3",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/80968330/novo-site-tamanho-cal-a--4--d3zqyu4jbl.jpg",
-    "vendite": []
-  },
-  {
     "estoqueNome": "Firenze (NOVA MODELAGEM) (su loja: Calça Firenze Feminina)",
     "venditeNome": "Calça Firenze Feminina",
     "cat": "Calças Femininas",
