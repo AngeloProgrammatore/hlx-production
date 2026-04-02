@@ -4665,5 +4665,34 @@
       0
     ],
     "tot": 0
+  },
+  {
+    "cat": "Acessórios",
+    "estoqueNome": "Protetor de Pescoço - Verão",
+    "venditeNome": "Protetor de Pescoço - Verão",
+    "sku": "750104",
+    "skuLoja": "750104",
+    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/128438783/novo-site-tamanho-blusas-segunda-pele--42--5ysqgyhsk7.jpg",
+    "stock": {
+      "T1": {
+        "e": 21,
+        "p": 0
+      }
+    },
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tot": 0
   }
 ]
