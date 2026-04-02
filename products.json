@@ -4607,5 +4607,34 @@
     "skuLoja": "270116-VROL-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246424822/novo-site-tamanho-blusas-segunda-pele--34--o2dkdxl4b9.jpg",
     "vendite": []
+  },
+  {
+    "cat": "Acessórios",
+    "estoqueNome": "Tubo Flex Azul",
+    "venditeNome": "Tubo Flex Azul",
+    "sku": "750301",
+    "skuLoja": "750301-AZUL",
+    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",
+    "stock": {
+      "T1": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tot": 0
   }
 ]
