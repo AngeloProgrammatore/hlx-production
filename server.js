@@ -12,6 +12,12 @@ const BACKUP_DIR = path.join(DATA_DIR, 'backups');
 
 // API Keys (server-side — never exposed to browser)
 const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || '';
+
+// GitHub Auto-Sync (persist products.json across Render restarts)
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const GITHUB_REPO = 'AngeloProgrammatore/hlx-production';
+const GITHUB_FILE = 'products.json';
+
 const LOJA_API_KEY = process.env.LOJA_API_KEY || '9d8d54c8437bfbe17341';
 const LOJA_APP_KEY = process.env.LOJA_APP_KEY || '0e99a708-3383-48ad-8116-e7a35126dbf6';
 
@@ -31,6 +37,8 @@ if (!fs.existsSync(PRODUCTS_FILE)) {
         console.log('✅ Initialized products from products.json');
     } else {
         fs.writeFileSync(PRODUCTS_FILE, '[]');
+    // Fire-and-forget GitHub sync
+    syncToGitHub(products).catch(e => console.log('GitHub sync bg error:', e.message));
         console.log('⚠️ Created empty products.json');
     }
 }
@@ -52,6 +60,50 @@ function writeProducts(products) {
     // Write new data
     fs.writeFileSync(PRODUCTS_FILE, JSON.stringify(products, null, 2));
 }
+
+// Auto-sync products.json to GitHub (fire-and-forget, non-blocking)
+async function syncToGitHub(products) {
+    if (!GITHUB_TOKEN) {
+        console.log('⚠️  GITHUB_TOKEN not set, skipping GitHub sync');
+        return;
+    }
+    try {
+        const url = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + GITHUB_FILE;
+        const headers = {
+            'Authorization': 'token ' + GITHUB_TOKEN,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json'
+        };
+        
+        // Get current file SHA
+        const getResp = await fetch(url, { headers });
+        if (!getResp.ok) throw new Error('GitHub GET failed: ' + getResp.status);
+        const fileData = await getResp.json();
+        
+        // Encode content as base64
+        const content = Buffer.from(JSON.stringify(products, null, 2), 'utf8').toString('base64');
+        
+        // Commit update
+        const putResp = await fetch(url, {
+            method: 'PUT',
+            headers,
+            body: JSON.stringify({
+                message: 'Auto-sync: ' + products.length + ' products - ' + new Date().toISOString().substring(0, 19),
+                content,
+                sha: fileData.sha
+            })
+        });
+        
+        if (putResp.ok) {
+            console.log('✅ GitHub sync OK (' + products.length + ' products)');
+        } else {
+            console.log('❌ GitHub sync failed: ' + putResp.status);
+        }
+    } catch (e) {
+        console.log('❌ GitHub sync error: ' + e.message);
+    }
+}
+
 
 // ═════════════════════════════════════════════════════════════════════════════
 // PRODUCTS API
