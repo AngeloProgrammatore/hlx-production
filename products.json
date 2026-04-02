@@ -2161,8 +2161,15 @@
       }
     },
     "skuLoja": "750302-CV-LIL",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245963060/novo-site-tamanho-blusas-segunda-pele--57--3fmubl4nm8.jpg",
-    "vendite": []
+    "img": "",
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 17,
+        "childId": 245962716
+      }
+    },
+    "_parentId": 245962716
   },
   {
     "estoqueNome": "ONÇA PINK (su loja nome: Tubo Flex - Onça Pink)",
