@@ -398,31 +398,31 @@
       },
       "36": {
         "e": 3,
-        "p": 0
+        "p": 20
       },
       "38": {
         "e": 7,
-        "p": 0
+        "p": 20
       },
       "40": {
         "e": 7,
-        "p": 0
+        "p": 27
       },
       "42": {
         "e": 10,
-        "p": 0
+        "p": 32
       },
       "44": {
         "e": 13,
-        "p": 0
+        "p": 25
       },
       "46": {
         "e": 2,
-        "p": 0
+        "p": 24
       },
       "48": {
         "e": 11,
-        "p": 0
+        "p": 20
       },
       "50": {
         "e": 0,
@@ -431,7 +431,38 @@
     },
     "skuLoja": "611ADV-VR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233172189/novo-site-tamanho-cal-a--1080-px---27--d8gh2ccb9q.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 3,
+        "childId": 233172200
+      },
+      "38": {
+        "qty": 4,
+        "childId": 233172199
+      },
+      "40": {
+        "qty": 6,
+        "childId": 233172198
+      },
+      "42": {
+        "qty": 5,
+        "childId": 233172197
+      },
+      "44": {
+        "qty": 5,
+        "childId": 233172195
+      },
+      "46": {
+        "qty": 6,
+        "childId": 233172194
+      },
+      "48": {
+        "qty": 5,
+        "childId": 233172190
+      }
+    },
+    "_parentId": 233172189
   },
   {
     "estoqueNome": "Slim (Cós-médio) (su loja nome: Calça Slim Feminina)",
