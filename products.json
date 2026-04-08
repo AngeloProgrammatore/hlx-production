@@ -4047,7 +4047,30 @@
     },
     "skuLoja": "WINT4067-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/379196901/135-hjdh02ayti.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 3,
+        "childId": 379196916
+      },
+      "M": {
+        "qty": 3,
+        "childId": 379196912
+      },
+      "G": {
+        "qty": 3,
+        "childId": 379196909
+      },
+      "GG": {
+        "qty": 4,
+        "childId": 379196905
+      },
+      "3G": {
+        "qty": 2,
+        "childId": 379196903
+      }
+    },
+    "_parentId": 379196901
   },
   {
     "estoqueNome": "Segunda pele Preta MASC",
