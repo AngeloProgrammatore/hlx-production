@@ -5394,11 +5394,11 @@
         "p": 0
       },
       "G": {
-        "e": 11,
+        "e": 4,
         "p": 0
       },
       "GG": {
-        "e": 7,
+        "e": 3,
         "p": 0
       },
       "3G": {
@@ -5412,7 +5412,30 @@
     },
     "skuLoja": "270116-BP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/355878133/27-n3ivkqmtop.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "PP": {
+        "qty": 0,
+        "childId": 272355326
+      },
+      "P": {
+        "qty": 0,
+        "childId": 272355325
+      },
+      "M": {
+        "qty": 0,
+        "childId": 272355324
+      },
+      "G": {
+        "qty": 2,
+        "childId": 272355323
+      },
+      "GG": {
+        "qty": 2,
+        "childId": 272355322
+      }
+    },
+    "_parentId": 272355321
   },
   {
     "estoqueNome": "Segunda pele Pink (antiga) (su loja: Blusa Segunda Pele Feminina Pink)",
