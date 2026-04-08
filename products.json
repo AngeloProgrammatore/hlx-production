@@ -3013,13 +3013,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 100,
+        "e": 94,
         "p": 0
       }
     },
     "skuLoja": "750302-CAMF-CH",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245962888/novo-site-tamanho-blusas-segunda-pele--49--hwrm9844kv.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 2,
+        "childId": 245962888
+      }
+    },
+    "_parentId": 245962888
   },
   {
     "estoqueNome": "TUBO LARANJA COM PRETO (su loja nome: Tubo Flex Laranja)",
