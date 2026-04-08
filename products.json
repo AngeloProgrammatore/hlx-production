@@ -3177,7 +3177,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 68,
+        "e": 78,
         "p": 0
       }
     },
@@ -3196,7 +3196,14 @@
       4,
       1,
       0
-    ]
+    ],
+    "_siteStock": {
+      "QTD": {
+        "qty": 10,
+        "childId": 245972978
+      }
+    },
+    "_parentId": 245972978
   },
   {
     "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
