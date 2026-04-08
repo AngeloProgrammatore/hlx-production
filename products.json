@@ -3978,7 +3978,34 @@
     },
     "skuLoja": "WINT4066_MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/379180213/127-h50xkxyio2.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "3G": {
+        "qty": 3,
+        "childId": 379180220
+      },
+      "GG": {
+        "qty": 8,
+        "childId": 379180219
+      },
+      "G": {
+        "qty": 3,
+        "childId": 379180218
+      },
+      "M": {
+        "qty": 2,
+        "childId": 379180216
+      },
+      "P": {
+        "qty": 4,
+        "childId": 379180215
+      },
+      "4G": {
+        "qty": 5,
+        "childId": 379180214
+      }
+    },
+    "_parentId": 379180213
   },
   {
     "estoqueNome": "JAQUETA WINTER FEMININA (su loja: Jaqueta Winter Feminina)",
