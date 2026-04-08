@@ -826,7 +826,38 @@
     },
     "skuLoja": "603MIK-BL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354479074/10-dahdm10ipp.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 0,
+        "childId": 354479076
+      },
+      "38": {
+        "qty": 5,
+        "childId": 354479080
+      },
+      "40": {
+        "qty": 6,
+        "childId": 354479081
+      },
+      "42": {
+        "qty": 6,
+        "childId": 354479083
+      },
+      "44": {
+        "qty": 4,
+        "childId": 354479085
+      },
+      "46": {
+        "qty": 11,
+        "childId": 354479086
+      },
+      "48": {
+        "qty": 6,
+        "childId": 354479089
+      }
+    },
+    "_parentId": 354479074
   },
   {
     "estoqueNome": "Force (Cós-médio) (su loja nome: Calça Camu Force Feminina)",
