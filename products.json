@@ -2856,13 +2856,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 38,
+        "e": 19,
         "p": 0
       }
     },
     "skuLoja": "750303-BOL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/116344064/novo-site-tamanho-blusas-segunda-pele--58--dupat1vg0k.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 10,
+        "childId": 116344064
+      }
+    },
+    "_parentId": 116344064
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA E ROSAS (su loja nome: Tubo Flex - Caveiras e Rosas Vermelhas)",
