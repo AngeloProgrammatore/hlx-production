@@ -4410,7 +4410,34 @@
     },
     "skuLoja": "270116-FEM-LP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356324820/26-v8w1s2tbb8.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 3,
+        "childId": 356321975
+      },
+      "M": {
+        "qty": 3,
+        "childId": 356321972
+      },
+      "G": {
+        "qty": 5,
+        "childId": 356321970
+      },
+      "GG": {
+        "qty": 5,
+        "childId": 356321967
+      },
+      "3G": {
+        "qty": 3,
+        "childId": 356321963
+      },
+      "PP": {
+        "qty": 3,
+        "childId": 356321961
+      }
+    },
+    "_parentId": 356321959
   },
   {
     "estoqueNome": "SEGUNDA PELE AZUL MASC",
