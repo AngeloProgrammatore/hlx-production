@@ -6283,7 +6283,7 @@
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2914890/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",
     "stock": {
       "QTD": {
-        "e": 16,
+        "e": 13,
         "p": 0
       }
     },
@@ -6301,7 +6301,14 @@
       0,
       0
     ],
-    "tot": 0
+    "tot": 0,
+    "_siteStock": {
+      "QTD": {
+        "qty": 9,
+        "childId": 2914890
+      }
+    },
+    "_parentId": 2914890
   },
   {
     "cat": "Acessórios",
