@@ -87,11 +87,11 @@
         "p": 0
       },
       "G": {
-        "e": 34,
+        "e": 33,
         "p": 0
       },
       "GG": {
-        "e": 32,
+        "e": 30,
         "p": 0
       },
       "3G": {
@@ -105,7 +105,34 @@
     },
     "skuLoja": "390131",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/296905950/7-pafrfnhz7q.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "PP": {
+        "qty": 7,
+        "childId": 296905967
+      },
+      "P": {
+        "qty": 8,
+        "childId": 296905966
+      },
+      "M": {
+        "qty": 8,
+        "childId": 296905964
+      },
+      "G": {
+        "qty": 8,
+        "childId": 296905963
+      },
+      "GG": {
+        "qty": 5,
+        "childId": 296905961
+      },
+      "3G": {
+        "qty": 4,
+        "childId": 296905960
+      }
+    },
+    "_parentId": 296905950
   },
   {
     "estoqueNome": "penelope confort azul (su loja nome: Calça Feminina Penelope Comfort)",
