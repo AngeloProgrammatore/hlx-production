@@ -2755,13 +2755,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 26,
+        "e": 18,
         "p": 0
       }
     },
     "skuLoja": "750302-CAV-PINK-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 10,
+        "childId": 245960446
+      }
+    },
+    "_parentId": 245960446
   },
   {
     "estoqueNome": "TUBOFLEX FLORES E CAVEIRAS (su loja nome: Tubo Flex - Caveiras e Flores)",
