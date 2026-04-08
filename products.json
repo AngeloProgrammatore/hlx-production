@@ -3123,7 +3123,14 @@
     },
     "skuLoja": "750102",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/24225317/novo-site-tamanho-blusas-segunda-pele--43--ozvpvvn432.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "": {
+        "qty": 9,
+        "childId": 24225355
+      }
+    },
+    "_parentId": 24225317
   },
   {
     "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
