@@ -3853,19 +3853,19 @@
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 0,
         "p": 0
       },
       "G": {
-        "e": 3,
-        "p": 0
-      },
-      "GG": {
         "e": 2,
         "p": 0
       },
+      "GG": {
+        "e": 1,
+        "p": 0
+      },
       "3G": {
-        "e": 7,
+        "e": 11,
         "p": 0
       },
       "4G": {
@@ -3879,7 +3879,30 @@
     },
     "skuLoja": "0417R2-VER",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "3G": {
+        "qty": 4,
+        "childId": 246104272
+      },
+      "GG": {
+        "qty": 0,
+        "childId": 246104250
+      },
+      "G": {
+        "qty": 2,
+        "childId": 246104226
+      },
+      "M": {
+        "qty": 0,
+        "childId": 246104212
+      },
+      "P": {
+        "qty": 1,
+        "childId": 246104193
+      }
+    },
+    "_parentId": 246103290
   },
   {
     "estoqueNome": "IMOLA (su loja: Jaqueta Imola Dupla Face)",
