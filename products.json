@@ -2734,13 +2734,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 38,
+        "e": 37,
         "p": 0
       }
     },
     "skuLoja": "750302-CAV-PR-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 8,
+        "childId": 245960447
+      }
+    },
+    "_parentId": 245960447
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA FUNDO ROSA",
