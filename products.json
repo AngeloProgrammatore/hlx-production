@@ -1500,7 +1500,7 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 8,
+        "e": 6,
         "p": 0
       },
       "40": {
@@ -1528,11 +1528,11 @@
         "p": 0
       },
       "52": {
-        "e": 15,
+        "e": 13,
         "p": 2
       },
       "54": {
-        "e": 11,
+        "e": 9,
         "p": 1
       },
       "56": {
@@ -1550,7 +1550,46 @@
     },
     "skuLoja": "605MST",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/315078443/street-67jdl1lp9j.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 5,
+        "childId": 315078452
+      },
+      "40": {
+        "qty": 0,
+        "childId": 315078451
+      },
+      "42": {
+        "qty": 0,
+        "childId": 315078450
+      },
+      "44": {
+        "qty": 0,
+        "childId": 315078449
+      },
+      "46": {
+        "qty": 4,
+        "childId": 315078448
+      },
+      "48": {
+        "qty": 4,
+        "childId": 315078447
+      },
+      "50": {
+        "qty": 4,
+        "childId": 315078446
+      },
+      "52": {
+        "qty": 4,
+        "childId": 315078445
+      },
+      "54": {
+        "qty": 4,
+        "childId": 315078444
+      }
+    },
+    "_parentId": 315078443
   },
   {
     "estoqueNome": "IBIZA MASCULINA (su loja nome: Calça Ibiza Comfort)",
