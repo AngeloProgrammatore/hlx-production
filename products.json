@@ -3416,79 +3416,79 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda pele Camuflada chumbo FEM",
-    "venditeNome": "Blusa Segunda Pele Camuflada Chumbo Feminina",
+    "estoqueNome": "CALCA SEGUNDA PELE MASC",
+    "venditeNome": "Calça Segunda Pele Masculina",
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 8,
+        "e": 0,
         "p": 0
       },
       "P": {
-        "e": 3,
+        "e": 10,
         "p": 0
       },
       "M": {
+        "e": 2,
+        "p": 0
+      },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
+      "GG": {
         "e": 7,
         "p": 0
       },
-      "G": {
-        "e": 4,
-        "p": 0
-      },
-      "GG": {
-        "e": 0,
-        "p": 0
-      },
       "3G": {
-        "e": 2,
+        "e": 11,
         "p": 0
       },
       "4G": {
-        "e": 3,
+        "e": 6,
         "p": 0
       }
     },
-    "skuLoja": "270116-CAM-FEM",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/260470327/novo-site-tamanho-blusas-segunda-pele--47--xtqbkp3tec.jpg",
+    "skuLoja": "280000-M",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/84742271/170-zhh2m1u47c.jpg",
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda Pele com Proteções Preta MASC",
-    "venditeNome": "Blusa Segunda Pele com Proteções 2.0",
+    "estoqueNome": "CALCA SEGUNDA PELE FEM",
+    "venditeNome": "Calça Segunda Pele Feminina",
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
         "e": 12,
         "p": 0
       },
-      "M": {
-        "e": 0,
+      "P": {
+        "e": 10,
         "p": 0
       },
-      "G": {
+      "M": {
         "e": 2,
         "p": 0
       },
+      "G": {
+        "e": 5,
+        "p": 0
+      },
       "GG": {
-        "e": 3,
+        "e": 7,
         "p": 0
       },
       "3G": {
-        "e": 0,
+        "e": 11,
         "p": 0
       },
       "4G": {
-        "e": 0,
+        "e": 6,
         "p": 0
       }
     },
-    "skuLoja": "270117",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246423971/8b1d4da8415e2baac9cd605eb88acaf1-i5aur4xna2.jpg",
+    "skuLoja": "280000-F",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245814567/167-ar7bv9kax1.jpg",
     "vendite": []
   },
   {
