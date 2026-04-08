@@ -4082,33 +4082,60 @@
         "p": 0
       },
       "P": {
-        "e": 11,
+        "e": 5,
         "p": 0
       },
       "M": {
-        "e": 7,
+        "e": 2,
         "p": 0
       },
       "G": {
-        "e": 13,
+        "e": 0,
         "p": 0
       },
       "GG": {
-        "e": 18,
-        "p": 0
-      },
-      "3G": {
         "e": 3,
         "p": 0
       },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
       "4G": {
-        "e": 13,
+        "e": 3,
         "p": 0
       }
     },
     "skuLoja": "270116-MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 5,
+        "childId": 246130304
+      },
+      "M": {
+        "qty": 3,
+        "childId": 246130303
+      },
+      "G": {
+        "qty": 0,
+        "childId": 246130302
+      },
+      "GG": {
+        "qty": 2,
+        "childId": 246130301
+      },
+      "3G": {
+        "qty": 0,
+        "childId": 246130300
+      },
+      "4G": {
+        "qty": 3,
+        "childId": 246130299
+      }
+    },
+    "_parentId": 246130289
   },
   {
     "estoqueNome": "Segunda pele Preta FEM",
@@ -4120,33 +4147,64 @@
         "p": 0
       },
       "P": {
-        "e": 11,
+        "e": 5,
         "p": 0
       },
       "M": {
-        "e": 7,
+        "e": 2,
         "p": 0
       },
       "G": {
-        "e": 13,
+        "e": 0,
         "p": 0
       },
       "GG": {
-        "e": 18,
-        "p": 0
-      },
-      "3G": {
         "e": 3,
         "p": 0
       },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
       "4G": {
-        "e": 13,
+        "e": 3,
         "p": 0
       }
     },
     "skuLoja": "270116-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 0,
+        "childId": 246123343
+      },
+      "4G": {
+        "qty": 4,
+        "childId": 246123144
+      },
+      "3G": {
+        "qty": 6,
+        "childId": 246123061
+      },
+      "GG": {
+        "qty": 5,
+        "childId": 246123032
+      },
+      "G": {
+        "qty": 0,
+        "childId": 246122905
+      },
+      "M": {
+        "qty": 2,
+        "childId": 246122767
+      },
+      "PP": {
+        "qty": 3,
+        "childId": 246122348
+      }
+    },
+    "_parentId": 246122061
   },
   {
     "estoqueNome": "Segunda pele Inverno MASC",
