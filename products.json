@@ -4826,7 +4826,7 @@
         "p": 0
       },
       "G": {
-        "e": 2,
+        "e": 0,
         "p": 0
       },
       "GG": {
@@ -4844,7 +4844,34 @@
     },
     "skuLoja": "270117-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246428902/1-k3pdcf8xf3.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 3,
+        "childId": 246428915
+      },
+      "M": {
+        "qty": 0,
+        "childId": 246428914
+      },
+      "G": {
+        "qty": 2,
+        "childId": 246428913
+      },
+      "GG": {
+        "qty": 3,
+        "childId": 246428912
+      },
+      "3G": {
+        "qty": 0,
+        "childId": 246428911
+      },
+      "4G": {
+        "qty": 0,
+        "childId": 246428910
+      }
+    },
+    "_parentId": 246428902
   },
   {
     "estoqueNome": "CALCA SEGUNDA PELE MASC",
