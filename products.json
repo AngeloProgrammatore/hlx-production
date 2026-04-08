@@ -5741,7 +5741,7 @@
         "p": 0
       },
       "G": {
-        "e": 7,
+        "e": 6,
         "p": 0
       },
       "GG": {
@@ -5759,7 +5759,30 @@
     },
     "skuLoja": "270116-CL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354427078/24-u85e5f397v.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "GG": {
+        "qty": 4,
+        "childId": 246106042
+      },
+      "P": {
+        "qty": 2,
+        "childId": 246106039
+      },
+      "M": {
+        "qty": 0,
+        "childId": 246106037
+      },
+      "G": {
+        "qty": 3,
+        "childId": 246106036
+      },
+      "PP": {
+        "qty": 3,
+        "childId": 246106035
+      }
+    },
+    "_parentId": 246106034
   },
   {
     "estoqueNome": "Segunda pele Caveiras MexAzul (su loja: Blusa Segunda Pele Feminina Caveiras Mexicanas Azuis)",
