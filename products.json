@@ -3206,31 +3206,6 @@
     "_parentId": 245972978
   },
   {
-    "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
-    "venditeNome": "Balaclava Verão",
-    "cat": "Acessórios",
-    "stock": {
-      "QTD": {
-        "e": 93,
-        "p": 0
-      }
-    },
-    "skuLoja": "750523",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "CH": {
-        "qty": 0,
-        "childId": 245974319
-      },
-      "PR": {
-        "qty": 0,
-        "childId": 245974055
-      }
-    },
-    "_parentId": 245974053
-  },
-  {
     "estoqueNome": "balaclava caveira verão (su loja nome: Balaclava Caveira Verão)",
     "venditeNome": "Balaclava Caveira Verão",
     "cat": "Acessórios",
