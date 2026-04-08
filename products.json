@@ -4372,7 +4372,34 @@
     },
     "skuLoja": "270116-MASC-LP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356318777/26-2ppjx6iune.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "4G": {
+        "qty": 4,
+        "childId": 356318783
+      },
+      "3G": {
+        "qty": 3,
+        "childId": 356318782
+      },
+      "GG": {
+        "qty": 4,
+        "childId": 356318781
+      },
+      "G": {
+        "qty": 6,
+        "childId": 356318780
+      },
+      "M": {
+        "qty": 4,
+        "childId": 356318779
+      },
+      "P": {
+        "qty": 5,
+        "childId": 356318778
+      }
+    },
+    "_parentId": 356318777
   },
   {
     "estoqueNome": "Segunda pele logo CHUMBO FEM",
@@ -4388,7 +4415,7 @@
         "p": 0
       },
       "M": {
-        "e": 6,
+        "e": 5,
         "p": 0
       },
       "G": {
