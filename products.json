@@ -3666,15 +3666,15 @@
         "p": 0
       },
       "M": {
-        "e": 3,
+        "e": 2,
         "p": 0
       },
       "G": {
-        "e": 5,
+        "e": 3,
         "p": 0
       },
       "GG": {
-        "e": 5,
+        "e": 3,
         "p": 0
       },
       "3G": {
@@ -3682,7 +3682,7 @@
         "p": 0
       },
       "4G": {
-        "e": 2,
+        "e": 8,
         "p": 0
       },
       "5G": {
@@ -3692,7 +3692,34 @@
     },
     "skuLoja": "0417R4-CIN",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "4G": {
+        "qty": 0,
+        "childId": 246101794
+      },
+      "3G": {
+        "qty": 5,
+        "childId": 246101749
+      },
+      "GG": {
+        "qty": 1,
+        "childId": 246101725
+      },
+      "G": {
+        "qty": 4,
+        "childId": 246101702
+      },
+      "M": {
+        "qty": 2,
+        "childId": 246101004
+      },
+      "P": {
+        "qty": 5,
+        "childId": 246100805
+      }
+    },
+    "_parentId": 246099398
   },
   {
     "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
