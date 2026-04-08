@@ -496,7 +496,7 @@
         "p": 0
       },
       "46": {
-        "e": 6,
+        "e": 4,
         "p": 0
       },
       "48": {
@@ -510,7 +510,42 @@
     },
     "skuLoja": "603MKA",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/336021586/113-ax7kitmd7j.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 0,
+        "childId": 336021588
+      },
+      "36": {
+        "qty": 3,
+        "childId": 336021589
+      },
+      "38": {
+        "qty": 7,
+        "childId": 336021590
+      },
+      "40": {
+        "qty": 0,
+        "childId": 336021591
+      },
+      "42": {
+        "qty": 2,
+        "childId": 336021592
+      },
+      "44": {
+        "qty": 5,
+        "childId": 336021593
+      },
+      "46": {
+        "qty": 4,
+        "childId": 336021594
+      },
+      "48": {
+        "qty": 1,
+        "childId": 336021595
+      }
+    },
+    "_parentId": 336021586
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure Feminina)",
