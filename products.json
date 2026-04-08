@@ -233,19 +233,19 @@
         "p": 8
       },
       "38": {
-        "e": 10,
+        "e": 8,
         "p": 22
       },
       "40": {
-        "e": 5,
+        "e": 2,
         "p": 13
       },
       "42": {
-        "e": 10,
+        "e": 9,
         "p": 13
       },
       "44": {
-        "e": 26,
+        "e": 23,
         "p": 7
       },
       "46": {
@@ -253,8 +253,8 @@
         "p": 17
       },
       "48": {
-        "e": 11,
-        "p": 0
+        "e": 10,
+        "p": 8
       },
       "50": {
         "e": 4,
@@ -263,7 +263,42 @@
     },
     "skuLoja": "613FRP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/111466533/135-6yiajhoci1.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 5,
+        "childId": 111467967
+      },
+      "38": {
+        "qty": 4,
+        "childId": 111468041
+      },
+      "40": {
+        "qty": 7,
+        "childId": 111468101
+      },
+      "42": {
+        "qty": 5,
+        "childId": 111468136
+      },
+      "44": {
+        "qty": 8,
+        "childId": 111468171
+      },
+      "46": {
+        "qty": 6,
+        "childId": 111468240
+      },
+      "48": {
+        "qty": 4,
+        "childId": 111468296
+      },
+      "50": {
+        "qty": 2,
+        "childId": 310360195
+      }
+    },
+    "_parentId": 111466533
   },
   {
     "estoqueNome": "Defender adventure preta (su loja: Calça Defender Preta Feminina)",
