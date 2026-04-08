@@ -9,34 +9,65 @@
         "p": 0
       },
       "P": {
-        "e": 76,
+        "e": 96,
         "p": 0
       },
       "M": {
-        "e": 24,
+        "e": 19,
         "p": 0
       },
       "G": {
-        "e": 44,
+        "e": 0,
         "p": 0
       },
       "GG": {
-        "e": 9,
+        "e": 3,
         "p": 0
       },
       "3G": {
-        "e": 95,
+        "e": 85,
         "p": 0
       },
       "4G": {
-        "e": 21,
+        "e": 13,
         "p": 0
       }
     },
     "skuLoja": "700101",
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2804573/novo-site-tamanho-blusas-segunda-pele--48--ab2idlssyc.jpg",
     "vendite": [],
-    "sku": ""
+    "sku": "",
+    "_siteStock": {
+      "3G": {
+        "qty": 47,
+        "childId": 245838442
+      },
+      "PP": {
+        "qty": 6,
+        "childId": 54449925
+      },
+      "M": {
+        "qty": 12,
+        "childId": 2804804
+      },
+      "4G": {
+        "qty": 5,
+        "childId": 2804675
+      },
+      "GG": {
+        "qty": 2,
+        "childId": 2804641
+      },
+      "G": {
+        "qty": 4,
+        "childId": 2804635
+      },
+      "P": {
+        "qty": 38,
+        "childId": 2804605
+      }
+    },
+    "_parentId": 2804573
   },
   {
     "estoqueNome": "conjunto NEW MARINER (su loja nome: New Mariner - Capa de Chuva Unissex)",
