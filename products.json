@@ -3138,13 +3138,24 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 5,
+        "e": 4,
         "p": 0
       }
     },
     "skuLoja": "750521",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/20868352/novo-site-tamanho-blusas-segunda-pele--36--42kvdq4qgk.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "VERMELHO": {
+        "qty": 0,
+        "childId": 245835831
+      },
+      "PRETO": {
+        "qty": 0,
+        "childId": 20868387
+      }
+    },
+    "_parentId": 20868352
   },
   {
     "estoqueNome": "BALACLAVA CAVEIRA (su loja nome: Balaclava Caveira)",
