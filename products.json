@@ -5485,33 +5485,60 @@
         "p": 0
       },
       "P": {
-        "e": 6,
+        "e": 7,
         "p": 0
       },
       "M": {
-        "e": 10,
+        "e": 9,
         "p": 0
       },
       "G": {
-        "e": 8,
+        "e": 9,
         "p": 0
       },
       "GG": {
-        "e": 6,
+        "e": 4,
         "p": 0
       },
       "3G": {
-        "e": 1,
+        "e": 2,
         "p": 0
       },
       "4G": {
-        "e": 1,
+        "e": 2,
         "p": 0
       }
     },
     "skuLoja": "270116-VM-MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "4G": {
+        "qty": 1,
+        "childId": 399743175
+      },
+      "3G": {
+        "qty": 1,
+        "childId": 399743174
+      },
+      "GG": {
+        "qty": 6,
+        "childId": 399743173
+      },
+      "G": {
+        "qty": 5,
+        "childId": 399743172
+      },
+      "M": {
+        "qty": 8,
+        "childId": 399743171
+      },
+      "P": {
+        "qty": 6,
+        "childId": 399743170
+      }
+    },
+    "_parentId": 399743169
   },
   {
     "estoqueNome": "SEGUNDA PELE VERMELHA FEM",
@@ -5523,33 +5550,64 @@
         "p": 0
       },
       "P": {
-        "e": 6,
+        "e": 7,
         "p": 0
       },
       "M": {
-        "e": 10,
+        "e": 9,
         "p": 0
       },
       "G": {
-        "e": 8,
+        "e": 9,
         "p": 0
       },
       "GG": {
-        "e": 6,
+        "e": 4,
         "p": 0
       },
       "3G": {
-        "e": 1,
+        "e": 2,
         "p": 0
       },
       "4G": {
-        "e": 1,
+        "e": 2,
         "p": 0
       }
     },
     "skuLoja": "270116-VM-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246122061/2-4b2cvee8ly.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "PP": {
+        "qty": 4,
+        "childId": 399744862
+      },
+      "P": {
+        "qty": 6,
+        "childId": 399744860
+      },
+      "M": {
+        "qty": 7,
+        "childId": 399744859
+      },
+      "G": {
+        "qty": 5,
+        "childId": 399744858
+      },
+      "GG": {
+        "qty": 6,
+        "childId": 399744856
+      },
+      "3G": {
+        "qty": 1,
+        "childId": 399744855
+      },
+      "4G": {
+        "qty": 1,
+        "childId": 399744854
+      }
+    },
+    "_parentId": 399744853
   },
   {
     "estoqueNome": "Jaqueta HLX PRO Preta Masculina (su loja: Jaqueta Segunda Pele HLX Pro)",
