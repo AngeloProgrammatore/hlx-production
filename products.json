@@ -634,20 +634,20 @@
         "p": 0
       },
       "36": {
-        "e": 10,
+        "e": 8,
         "p": 0
       },
       "38": {
-        "e": 31,
-        "p": 0
+        "e": 29,
+        "p": 1
       },
       "40": {
-        "e": 32,
+        "e": 30,
         "p": 0
       },
       "42": {
-        "e": 38,
-        "p": 0
+        "e": 36,
+        "p": 1
       },
       "44": {
         "e": 13,
@@ -668,7 +668,42 @@
     },
     "skuLoja": "603FCE",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2854249/126-kro0iqfd6r.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 1,
+        "childId": 2854254
+      },
+      "36": {
+        "qty": 3,
+        "childId": 2854257
+      },
+      "38": {
+        "qty": 4,
+        "childId": 2854260
+      },
+      "40": {
+        "qty": 5,
+        "childId": 2854261
+      },
+      "42": {
+        "qty": 4,
+        "childId": 2854262
+      },
+      "44": {
+        "qty": 4,
+        "childId": 2854264
+      },
+      "46": {
+        "qty": 4,
+        "childId": 2854265
+      },
+      "48": {
+        "qty": 4,
+        "childId": 2854266
+      }
+    },
+    "_parentId": 2854249
   },
   {
     "estoqueNome": "ibiza confort azul (su loja nome: Calça Ibiza Comfort Feminina)",
