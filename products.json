@@ -2797,7 +2797,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 101,
+        "e": 68,
         "p": 0
       }
     },
@@ -2816,7 +2816,18 @@
       38,
       34,
       13
-    ]
+    ],
+    "_siteStock": {
+      "750301": {
+        "qty": 0,
+        "childId": 28572103
+      },
+      "LR": {
+        "qty": 6,
+        "childId": 245952947
+      }
+    },
+    "_parentId": 28571988
   },
   {
     "estoqueNome": "TUBOFLEX PINK (su loja nome: Tubo Flex - Pink)",
