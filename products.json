@@ -1185,7 +1185,7 @@
         "p": 0
       },
       "40": {
-        "e": 15,
+        "e": 14,
         "p": 0
       },
       "42": {
@@ -1193,7 +1193,7 @@
         "p": 4
       },
       "44": {
-        "e": 31,
+        "e": 25,
         "p": 6
       },
       "46": {
@@ -1231,7 +1231,58 @@
     },
     "skuLoja": "602SCO",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/7610882/strit--3--easkozi12q.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 4,
+        "childId": 10092326
+      },
+      "40": {
+        "qty": 8,
+        "childId": 7610892
+      },
+      "42": {
+        "qty": 8,
+        "childId": 9211687
+      },
+      "44": {
+        "qty": 6,
+        "childId": 7610891
+      },
+      "46": {
+        "qty": 8,
+        "childId": 9211751
+      },
+      "48": {
+        "qty": 6,
+        "childId": 7610888
+      },
+      "50": {
+        "qty": 6,
+        "childId": 7610887
+      },
+      "52": {
+        "qty": 5,
+        "childId": 7610886
+      },
+      "54": {
+        "qty": 5,
+        "childId": 7610885
+      },
+      "56": {
+        "qty": 5,
+        "childId": 7610884
+      },
+      "58": {
+        "qty": 4,
+        "childId": 7610883
+      },
+      "60": {
+        "qty": 0,
+        "childId": 246443490
+      }
+    },
+    "_parentId": 7610882
   },
   {
     "estoqueNome": "RACER COMFORT (su loja nome: Calça Racer Comfort)",
