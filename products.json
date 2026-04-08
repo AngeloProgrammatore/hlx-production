@@ -2609,11 +2609,11 @@
     "cat": "Acessórios",
     "stock": {
       "P": {
-        "e": 31,
+        "e": 29,
         "p": 0
       },
       "M": {
-        "e": 29,
+        "e": 27,
         "p": 0
       },
       "G": {
@@ -2621,13 +2621,32 @@
         "p": 0
       },
       "GG": {
-        "e": 38,
+        "e": 36,
         "p": 0
       }
     },
     "skuLoja": "750402",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246448741/design-sem-nome--17--c1bieyt6t0.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 1,
+        "childId": 246448745
+      },
+      "M": {
+        "qty": 4,
+        "childId": 246448744
+      },
+      "G": {
+        "qty": 0,
+        "childId": 246448743
+      },
+      "GG": {
+        "qty": 0,
+        "childId": 246448742
+      }
+    },
+    "_parentId": 246448741
   },
   {
     "estoqueNome": "MANGUITO C/ PROTEÇAO (su loja nome: Manguito com Proteções)",
