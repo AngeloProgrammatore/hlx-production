@@ -2614,41 +2614,41 @@
     "vendite": []
   },
   {
-    "estoqueNome": "VERANO MASCULINA PRETA (su loja: Jaqueta Verano Masculina)",
-    "venditeNome": "Jaqueta Verano Masculina",
+    "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
+    "venditeNome": "Jaqueta Verano Feminina",
     "cat": "Jaquetas",
     "stock": {
       "P": {
-        "e": 20,
+        "e": 14,
         "p": 0
       },
       "M": {
-        "e": 56,
+        "e": 400,
         "p": 0
       },
       "G": {
-        "e": 27,
+        "e": 17,
         "p": 0
       },
       "GG": {
-        "e": 42,
-        "p": 0
+        "e": 2,
+        "p": 26
       },
       "3G": {
-        "e": 32,
+        "e": 11,
         "p": 0
       },
       "4G": {
-        "e": 12,
+        "e": 0,
         "p": 0
       },
       "5G": {
-        "e": 5,
+        "e": 0,
         "p": 0
       }
     },
-    "skuLoja": "0417R4-PR",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
+    "skuLoja": "0417R2-PR",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
     "vendite": []
   },
   {
