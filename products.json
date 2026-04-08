@@ -6247,7 +6247,7 @@
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",
     "stock": {
       "T1": {
-        "e": 72,
+        "e": 60,
         "p": 0
       }
     },
@@ -6265,7 +6265,14 @@
       0,
       0
     ],
-    "tot": 0
+    "tot": 0,
+    "_siteStock": {
+      "AZ": {
+        "qty": 9,
+        "childId": 356336980
+      }
+    },
+    "_parentId": 356336978
   },
   {
     "cat": "Acessórios",
