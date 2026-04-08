@@ -5183,27 +5183,27 @@
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 7,
+        "e": 0,
         "p": 0
       },
       "P": {
-        "e": 15,
+        "e": 12,
         "p": 0
       },
       "M": {
-        "e": 16,
+        "e": 12,
         "p": 0
       },
       "G": {
-        "e": 22,
+        "e": 17,
         "p": 0
       },
       "GG": {
-        "e": 24,
+        "e": 19,
         "p": 0
       },
       "3G": {
-        "e": 7,
+        "e": 4,
         "p": 0
       },
       "4G": {
@@ -5213,7 +5213,38 @@
     },
     "skuLoja": "270116-CF",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/308879297/novo-site-tamanho-blusas-segunda-pele--41--qvj3e5xyhy.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "4G": {
+        "qty": 2,
+        "childId": 245843273
+      },
+      "3G": {
+        "qty": 2,
+        "childId": 245843064
+      },
+      "GG": {
+        "qty": 3,
+        "childId": 245843020
+      },
+      "G": {
+        "qty": 4,
+        "childId": 116996196
+      },
+      "M": {
+        "qty": 8,
+        "childId": 116228662
+      },
+      "P": {
+        "qty": 9,
+        "childId": 116227915
+      },
+      "PP": {
+        "qty": 4,
+        "childId": 116227628
+      }
+    },
+    "_parentId": 116227405
   },
   {
     "estoqueNome": "segunda pele bolinha preta e branca (su loja: Blusa Segunda Pele Feminina Bolinhas Brancas)",
