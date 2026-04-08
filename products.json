@@ -2776,13 +2776,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 50,
+        "e": 22,
         "p": 0
       }
     },
     "skuLoja": "750302-CRV-FLORES",
     "img": "",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 17,
+        "childId": 116341718
+      }
+    },
+    "_parentId": 116341718
   },
   {
     "estoqueNome": "TUBO FLEX PRETO (su loja nome: Tubo Flex Preto)",
