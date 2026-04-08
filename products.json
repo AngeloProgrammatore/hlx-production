@@ -3096,13 +3096,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 31,
+        "e": 27,
         "p": 0
       }
     },
     "skuLoja": "750302-ONC-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245969131/novo-site-tamanho-blusas-segunda-pele--67--o1c91wpvjp.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 5,
+        "childId": 245969131
+      }
+    },
+    "_parentId": 245969131
   },
   {
     "estoqueNome": "PROTETOR PESCOCO INVERNO (su loja nome: Protetor de Pescoço - Inverno)",
