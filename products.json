@@ -5313,23 +5313,23 @@
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 7,
-        "p": 0
-      },
-      "P": {
-        "e": 28,
-        "p": 0
-      },
-      "M": {
         "e": 9,
         "p": 0
       },
+      "P": {
+        "e": 13,
+        "p": 0
+      },
+      "M": {
+        "e": 2,
+        "p": 0
+      },
       "G": {
-        "e": 22,
+        "e": 19,
         "p": 0
       },
       "GG": {
-        "e": 14,
+        "e": 13,
         "p": 0
       },
       "3G": {
@@ -5343,7 +5343,38 @@
     },
     "skuLoja": "270116-CRV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/355881199/28-i34h9rbqoq.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "4G": {
+        "qty": 2,
+        "childId": 245842152
+      },
+      "3G": {
+        "qty": 2,
+        "childId": 245842076
+      },
+      "GG": {
+        "qty": 5,
+        "childId": 245841998
+      },
+      "P": {
+        "qty": 3,
+        "childId": 127878585
+      },
+      "M": {
+        "qty": 4,
+        "childId": 127878584
+      },
+      "G": {
+        "qty": 4,
+        "childId": 127878582
+      },
+      "PP": {
+        "qty": 2,
+        "childId": 127878581
+      }
+    },
+    "_parentId": 127878580
   },
   {
     "estoqueNome": "SEGUNDA PELE BOLINHA PINK (su loja: Blusa Segunda Pele Feminina Bolinhas Pink)",
