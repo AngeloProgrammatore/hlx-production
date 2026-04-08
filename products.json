@@ -2877,13 +2877,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 20,
+        "e": 7,
         "p": 0
       }
     },
     "skuLoja": "750302-CRV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/127871349/novo-site-tamanho-blusas-segunda-pele--73--i0whme7lep.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 1,
+        "childId": 127871349
+      }
+    },
+    "_parentId": 127871349
   },
   {
     "estoqueNome": "Segunda Pele Preta Feminina - blusa segunda pele feminina",
