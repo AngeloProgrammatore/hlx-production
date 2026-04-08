@@ -2835,13 +2835,20 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 20,
+        "e": 12,
         "p": 0
       }
     },
     "skuLoja": "750301-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245952513/novo-site-tamanho-blusas-segunda-pele-1-_page-0001-779vmlyb6p.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "QTD": {
+        "qty": 8,
+        "childId": 245952513
+      }
+    },
+    "_parentId": 245952513
   },
   {
     "estoqueNome": "TUBOFLEX BOLINHAS BRANCAS (su loja nome: Tubo Flex - Bolinhas Brancas)",
