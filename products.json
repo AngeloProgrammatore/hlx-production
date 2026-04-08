@@ -2110,7 +2110,7 @@
         "p": 0
       },
       "42": {
-        "e": 4,
+        "e": 3,
         "p": 0
       },
       "44": {
@@ -2148,7 +2148,54 @@
     },
     "skuLoja": "602MSS",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/131494501/146-a47lwt6x91.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 5,
+        "childId": 131494502
+      },
+      "40": {
+        "qty": 8,
+        "childId": 131494505
+      },
+      "42": {
+        "qty": 2,
+        "childId": 131494504
+      },
+      "44": {
+        "qty": 0,
+        "childId": 131494506
+      },
+      "46": {
+        "qty": 3,
+        "childId": 131494503
+      },
+      "48": {
+        "qty": 8,
+        "childId": 131494507
+      },
+      "50": {
+        "qty": 1,
+        "childId": 131494508
+      },
+      "52": {
+        "qty": 1,
+        "childId": 131494509
+      },
+      "54": {
+        "qty": 1,
+        "childId": 131494510
+      },
+      "56": {
+        "qty": 4,
+        "childId": 131494511
+      },
+      "58": {
+        "qty": 0,
+        "childId": 131494512
+      }
+    },
+    "_parentId": 131494501
   },
   {
     "estoqueNome": "MIKONOS AZUL (su loja nome: Calça Mikonos - forro em fibra de Aramida)",
