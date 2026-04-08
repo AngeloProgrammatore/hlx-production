@@ -3601,7 +3601,7 @@
     "cat": "Jaquetas",
     "stock": {
       "P": {
-        "e": 14,
+        "e": 10,
         "p": 0
       },
       "M": {
@@ -3609,11 +3609,11 @@
         "p": 0
       },
       "G": {
-        "e": 17,
+        "e": 15,
         "p": 0
       },
       "GG": {
-        "e": 2,
+        "e": 1,
         "p": 26
       },
       "3G": {
@@ -3631,7 +3631,30 @@
     },
     "skuLoja": "0417R2-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "3G": {
+        "qty": 2,
+        "childId": 246103829
+      },
+      "GG": {
+        "qty": 0,
+        "childId": 246103778
+      },
+      "G": {
+        "qty": 8,
+        "childId": 246103743
+      },
+      "M": {
+        "qty": 10,
+        "childId": 246103710
+      },
+      "P": {
+        "qty": 3,
+        "childId": 246103481
+      }
+    },
+    "_parentId": 246103290
   },
   {
     "estoqueNome": "VERANO MASCULINA CINZA (su loja: Jaqueta Verano Masculina)",
