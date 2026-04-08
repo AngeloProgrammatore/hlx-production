@@ -3536,33 +3536,64 @@
         "p": 0
       },
       "M": {
-        "e": 57,
+        "e": 53,
         "p": 0
       },
       "G": {
-        "e": 34,
+        "e": 19,
         "p": 0
       },
       "GG": {
-        "e": 47,
+        "e": 36,
         "p": 0
       },
       "3G": {
-        "e": 37,
+        "e": 31,
         "p": 0
       },
       "4G": {
-        "e": 14,
+        "e": 11,
         "p": 0
       },
       "5G": {
-        "e": 5,
+        "e": 4,
         "p": 0
       }
     },
     "skuLoja": "0417R4-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "5G": {
+        "qty": 1,
+        "childId": 363846803
+      },
+      "4G": {
+        "qty": 8,
+        "childId": 246100557
+      },
+      "3G": {
+        "qty": 4,
+        "childId": 246100417
+      },
+      "GG": {
+        "qty": 0,
+        "childId": 246100346
+      },
+      "G": {
+        "qty": 0,
+        "childId": 246100252
+      },
+      "M": {
+        "qty": 4,
+        "childId": 246100221
+      },
+      "P": {
+        "qty": 5,
+        "childId": 246100081
+      }
+    },
+    "_parentId": 246099398
   },
   {
     "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
