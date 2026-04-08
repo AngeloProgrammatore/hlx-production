@@ -2327,7 +2327,7 @@
         "p": 0
       },
       "46": {
-        "e": 18,
+        "e": 17,
         "p": 0
       },
       "48": {
@@ -2357,7 +2357,50 @@
     },
     "skuLoja": "610ADV-BG",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/372977529/novo-site-tamanho-blusas-segunda-pele--87--pga81g297r.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 4,
+        "childId": 372977546
+      },
+      "40": {
+        "qty": 5,
+        "childId": 372977545
+      },
+      "42": {
+        "qty": 5,
+        "childId": 372977542
+      },
+      "44": {
+        "qty": 5,
+        "childId": 372977541
+      },
+      "46": {
+        "qty": 5,
+        "childId": 372977539
+      },
+      "48": {
+        "qty": 5,
+        "childId": 372977538
+      },
+      "50": {
+        "qty": 4,
+        "childId": 372977535
+      },
+      "52": {
+        "qty": 2,
+        "childId": 372977533
+      },
+      "54": {
+        "qty": 3,
+        "childId": 372977532
+      },
+      "56": {
+        "qty": 2,
+        "childId": 372977531
+      }
+    },
+    "_parentId": 372977529
   },
   {
     "estoqueNome": "HLX WINTER (su loja nome: Calça Winter Comfort)",
