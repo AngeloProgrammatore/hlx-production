@@ -9,65 +9,34 @@
         "p": 0
       },
       "P": {
-        "e": 96,
+        "e": 76,
         "p": 0
       },
       "M": {
-        "e": 19,
+        "e": 24,
         "p": 0
       },
       "G": {
-        "e": 0,
+        "e": 44,
         "p": 0
       },
       "GG": {
-        "e": 3,
+        "e": 9,
         "p": 0
       },
       "3G": {
-        "e": 85,
+        "e": 95,
         "p": 0
       },
       "4G": {
-        "e": 13,
+        "e": 21,
         "p": 0
       }
     },
     "skuLoja": "700101",
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2804573/novo-site-tamanho-blusas-segunda-pele--48--ab2idlssyc.jpg",
     "vendite": [],
-    "sku": "",
-    "_siteStock": {
-      "3G": {
-        "qty": 47,
-        "childId": 245838442
-      },
-      "PP": {
-        "qty": 6,
-        "childId": 54449925
-      },
-      "M": {
-        "qty": 12,
-        "childId": 2804804
-      },
-      "4G": {
-        "qty": 5,
-        "childId": 2804675
-      },
-      "GG": {
-        "qty": 2,
-        "childId": 2804641
-      },
-      "G": {
-        "qty": 4,
-        "childId": 2804635
-      },
-      "P": {
-        "qty": 38,
-        "childId": 2804605
-      }
-    },
-    "_parentId": 2804573
+    "sku": ""
   },
   {
     "estoqueNome": "conjunto NEW MARINER (su loja nome: New Mariner - Capa de Chuva Unissex)",
@@ -91,7 +60,7 @@
         "p": 0
       },
       "GG": {
-        "e": 30,
+        "e": 29,
         "p": 0
       },
       "3G": {
@@ -105,34 +74,7 @@
     },
     "skuLoja": "390131",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/296905950/7-pafrfnhz7q.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "PP": {
-        "qty": 7,
-        "childId": 296905967
-      },
-      "P": {
-        "qty": 8,
-        "childId": 296905966
-      },
-      "M": {
-        "qty": 8,
-        "childId": 296905964
-      },
-      "G": {
-        "qty": 8,
-        "childId": 296905963
-      },
-      "GG": {
-        "qty": 5,
-        "childId": 296905961
-      },
-      "3G": {
-        "qty": 4,
-        "childId": 296905960
-      }
-    },
-    "_parentId": 296905950
+    "vendite": []
   },
   {
     "estoqueNome": "penelope confort azul (su loja nome: Calça Feminina Penelope Comfort)",
@@ -144,31 +86,31 @@
         "p": 0
       },
       "36": {
-        "e": 10,
+        "e": 12,
         "p": 18
       },
       "38": {
-        "e": 4,
+        "e": 6,
         "p": 44
       },
       "40": {
-        "e": 1,
+        "e": 5,
         "p": 50
       },
       "42": {
-        "e": 5,
+        "e": 7,
         "p": 39
       },
       "44": {
-        "e": 5,
+        "e": 6,
         "p": 49
       },
       "46": {
-        "e": 2,
+        "e": 3,
         "p": 30
       },
       "48": {
-        "e": 2,
+        "e": 4,
         "p": 16
       },
       "50": {
@@ -178,46 +120,7 @@
     },
     "skuLoja": "603FES",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/322519357/penelope--1--v190y4u1yu.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "34": {
-        "qty": 3,
-        "childId": 322519358
-      },
-      "36": {
-        "qty": 5,
-        "childId": 322519359
-      },
-      "38": {
-        "qty": 10,
-        "childId": 322519361
-      },
-      "40": {
-        "qty": 10,
-        "childId": 322519362
-      },
-      "42": {
-        "qty": 7,
-        "childId": 322519363
-      },
-      "44": {
-        "qty": 8,
-        "childId": 322519364
-      },
-      "46": {
-        "qty": 8,
-        "childId": 322519365
-      },
-      "48": {
-        "qty": 7,
-        "childId": 322519366
-      },
-      "50": {
-        "qty": 2,
-        "childId": 365359825
-      }
-    },
-    "_parentId": 322519357
+    "vendite": []
   },
   {
     "estoqueNome": "racer confort feminina (su loja nome: Calça Racer Comfort Feminina)",
@@ -233,19 +136,19 @@
         "p": 8
       },
       "38": {
-        "e": 8,
+        "e": 10,
         "p": 22
       },
       "40": {
-        "e": 2,
+        "e": 5,
         "p": 13
       },
       "42": {
-        "e": 9,
+        "e": 10,
         "p": 13
       },
       "44": {
-        "e": 23,
+        "e": 26,
         "p": 7
       },
       "46": {
@@ -253,8 +156,8 @@
         "p": 17
       },
       "48": {
-        "e": 10,
-        "p": 8
+        "e": 11,
+        "p": 0
       },
       "50": {
         "e": 4,
@@ -263,42 +166,7 @@
     },
     "skuLoja": "613FRP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/111466533/135-6yiajhoci1.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "36": {
-        "qty": 5,
-        "childId": 111467967
-      },
-      "38": {
-        "qty": 4,
-        "childId": 111468041
-      },
-      "40": {
-        "qty": 7,
-        "childId": 111468101
-      },
-      "42": {
-        "qty": 5,
-        "childId": 111468136
-      },
-      "44": {
-        "qty": 8,
-        "childId": 111468171
-      },
-      "46": {
-        "qty": 6,
-        "childId": 111468240
-      },
-      "48": {
-        "qty": 4,
-        "childId": 111468296
-      },
-      "50": {
-        "qty": 2,
-        "childId": 310360195
-      }
-    },
-    "_parentId": 111466533
+    "vendite": []
   },
   {
     "estoqueNome": "Defender adventure preta (su loja: Calça Defender Preta Feminina)",
@@ -310,32 +178,32 @@
         "p": 0
       },
       "36": {
-        "e": 10,
-        "p": 10
+        "e": 12,
+        "p": 0
       },
       "38": {
-        "e": 6,
-        "p": 12
+        "e": 2,
+        "p": 0
       },
       "40": {
-        "e": 7,
+        "e": 8,
         "p": 0
       },
       "42": {
-        "e": 6,
-        "p": 7
+        "e": 5,
+        "p": 0
       },
       "44": {
-        "e": 6,
-        "p": 8
+        "e": 4,
+        "p": 0
       },
       "46": {
-        "e": 33,
-        "p": 10
+        "e": 36,
+        "p": 0
       },
       "48": {
-        "e": 5,
-        "p": 15
+        "e": 9,
+        "p": 0
       },
       "50": {
         "e": 3,
@@ -344,42 +212,7 @@
     },
     "skuLoja": "611MSX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/260216576/141-ul2i8obn15.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "36": {
-        "qty": 6,
-        "childId": 260216577
-      },
-      "38": {
-        "qty": 8,
-        "childId": 260216578
-      },
-      "40": {
-        "qty": 5,
-        "childId": 260216580
-      },
-      "42": {
-        "qty": 5,
-        "childId": 260216581
-      },
-      "44": {
-        "qty": 5,
-        "childId": 260216582
-      },
-      "46": {
-        "qty": 18,
-        "childId": 260216583
-      },
-      "48": {
-        "qty": 4,
-        "childId": 260216584
-      },
-      "50": {
-        "qty": 2,
-        "childId": 370022900
-      }
-    },
-    "_parentId": 260216576
+    "vendite": []
   },
   {
     "estoqueNome": "PENELOPE CONFORT BLACK (su loja nome: Calça Feminina Penelope Comfort Black)",
@@ -395,27 +228,27 @@
         "p": 0
       },
       "38": {
-        "e": 8,
+        "e": 7,
         "p": 0
       },
       "40": {
-        "e": 3,
+        "e": 2,
         "p": 0
       },
       "42": {
-        "e": 9,
+        "e": 7,
         "p": 0
       },
       "44": {
-        "e": 17,
+        "e": 15,
         "p": 0
       },
       "46": {
-        "e": 4,
+        "e": 2,
         "p": 0
       },
       "48": {
-        "e": 14,
+        "e": 12,
         "p": 0
       },
       "50": {
@@ -425,46 +258,53 @@
     },
     "skuLoja": "603MEX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233135122/107-zxl736tg17.jpg",
-    "vendite": [],
-    "_siteStock": {
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Firenze (vecchio modello)",
+    "venditeNome": "Calça Firenze Feminina",
+    "cat": "Calças Femininas",
+    "stock": {
       "34": {
-        "qty": 4,
-        "childId": 233146014
+        "e": 16,
+        "p": 0
       },
       "36": {
-        "qty": 1,
-        "childId": 233135133
+        "e": 9,
+        "p": 0
       },
       "38": {
-        "qty": 4,
-        "childId": 233135131
+        "e": 0,
+        "p": 0
       },
       "40": {
-        "qty": 0,
-        "childId": 233135130
+        "e": 0,
+        "p": 0
       },
       "42": {
-        "qty": 2,
-        "childId": 233135129
+        "e": 0,
+        "p": 0
       },
       "44": {
-        "qty": 5,
-        "childId": 233135128
+        "e": 0,
+        "p": 0
       },
       "46": {
-        "qty": 1,
-        "childId": 233135127
+        "e": 5,
+        "p": 0
       },
       "48": {
-        "qty": 4,
-        "childId": 233135124
+        "e": 0,
+        "p": 0
       },
       "50": {
-        "qty": 1,
-        "childId": 365804128
+        "e": 0,
+        "p": 0
       }
     },
-    "_parentId": 233135122
+    "skuLoja": "WN52WQ3S3",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/80968330/novo-site-tamanho-cal-a--4--d3zqyu4jbl.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "Firenze (NOVA MODELAGEM) (su loja: Calça Firenze Feminina)",
@@ -480,7 +320,7 @@
         "p": 0
       },
       "38": {
-        "e": 13,
+        "e": 15,
         "p": 0
       },
       "40": {
@@ -492,11 +332,11 @@
         "p": 0
       },
       "44": {
-        "e": 1,
+        "e": 7,
         "p": 0
       },
       "46": {
-        "e": 4,
+        "e": 10,
         "p": 0
       },
       "48": {
@@ -510,42 +350,7 @@
     },
     "skuLoja": "603MKA",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/336021586/113-ax7kitmd7j.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "34": {
-        "qty": 0,
-        "childId": 336021588
-      },
-      "36": {
-        "qty": 3,
-        "childId": 336021589
-      },
-      "38": {
-        "qty": 7,
-        "childId": 336021590
-      },
-      "40": {
-        "qty": 0,
-        "childId": 336021591
-      },
-      "42": {
-        "qty": 2,
-        "childId": 336021592
-      },
-      "44": {
-        "qty": 5,
-        "childId": 336021593
-      },
-      "46": {
-        "qty": 4,
-        "childId": 336021594
-      },
-      "48": {
-        "qty": 1,
-        "childId": 336021595
-      }
-    },
-    "_parentId": 336021586
+    "vendite": []
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure Feminina)",
@@ -558,31 +363,31 @@
       },
       "36": {
         "e": 3,
-        "p": 20
+        "p": 0
       },
       "38": {
         "e": 7,
-        "p": 20
+        "p": 0
       },
       "40": {
         "e": 7,
-        "p": 27
+        "p": 0
       },
       "42": {
-        "e": 9,
-        "p": 32
+        "e": 10,
+        "p": 0
       },
       "44": {
-        "e": 11,
-        "p": 25
+        "e": 13,
+        "p": 0
       },
       "46": {
         "e": 2,
-        "p": 24
+        "p": 0
       },
       "48": {
         "e": 11,
-        "p": 20
+        "p": 0
       },
       "50": {
         "e": 0,
@@ -591,38 +396,7 @@
     },
     "skuLoja": "611ADV-VR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233172189/novo-site-tamanho-cal-a--1080-px---27--d8gh2ccb9q.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "36": {
-        "qty": 11,
-        "childId": 233172200
-      },
-      "38": {
-        "qty": 4,
-        "childId": 233172199
-      },
-      "40": {
-        "qty": 3,
-        "childId": 233172198
-      },
-      "42": {
-        "qty": 5,
-        "childId": 233172197
-      },
-      "44": {
-        "qty": 5,
-        "childId": 233172195
-      },
-      "46": {
-        "qty": 13,
-        "childId": 233172194
-      },
-      "48": {
-        "qty": 5,
-        "childId": 233172190
-      }
-    },
-    "_parentId": 233172189
+    "vendite": []
   },
   {
     "estoqueNome": "Slim (Cós-médio) (su loja nome: Calça Slim Feminina)",
@@ -634,20 +408,20 @@
         "p": 0
       },
       "36": {
-        "e": 8,
+        "e": 10,
         "p": 0
       },
       "38": {
-        "e": 29,
-        "p": 1
+        "e": 31,
+        "p": 0
       },
       "40": {
-        "e": 30,
+        "e": 32,
         "p": 0
       },
       "42": {
-        "e": 36,
-        "p": 1
+        "e": 38,
+        "p": 0
       },
       "44": {
         "e": 13,
@@ -668,42 +442,7 @@
     },
     "skuLoja": "603FCE",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2854249/126-kro0iqfd6r.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "34": {
-        "qty": 1,
-        "childId": 2854254
-      },
-      "36": {
-        "qty": 3,
-        "childId": 2854257
-      },
-      "38": {
-        "qty": 4,
-        "childId": 2854260
-      },
-      "40": {
-        "qty": 5,
-        "childId": 2854261
-      },
-      "42": {
-        "qty": 4,
-        "childId": 2854262
-      },
-      "44": {
-        "qty": 4,
-        "childId": 2854264
-      },
-      "46": {
-        "qty": 4,
-        "childId": 2854265
-      },
-      "48": {
-        "qty": 4,
-        "childId": 2854266
-      }
-    },
-    "_parentId": 2854249
+    "vendite": []
   },
   {
     "estoqueNome": "ibiza confort azul (su loja nome: Calça Ibiza Comfort Feminina)",
@@ -716,7 +455,7 @@
       },
       "36": {
         "e": 6,
-        "p": 6
+        "p": 0
       },
       "38": {
         "e": 9,
@@ -724,15 +463,15 @@
       },
       "40": {
         "e": 1,
-        "p": 3
+        "p": 0
       },
       "42": {
-        "e": 6,
-        "p": 3
+        "e": 8,
+        "p": 0
       },
       "44": {
         "e": 4,
-        "p": 19
+        "p": 0
       },
       "46": {
         "e": 22,
@@ -740,7 +479,7 @@
       },
       "48": {
         "e": 5,
-        "p": 8
+        "p": 0
       },
       "50": {
         "e": 0,
@@ -749,38 +488,53 @@
     },
     "skuLoja": "603IBX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/100037633/132-s88497snwl.jpg",
-    "vendite": [],
-    "_siteStock": {
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Mikonos Azul (su loja nome: Calça Mikonos Feminina - forro com fibra de Aramida)",
+    "venditeNome": "Calça Mikonos Feminina - forro com fibra de Aramida",
+    "cat": "Calças Femininas",
+    "stock": {
+      "34": {
+        "e": 6,
+        "p": 0
+      },
       "36": {
-        "qty": 3,
-        "childId": 100037993
+        "e": 19,
+        "p": 0
       },
       "38": {
-        "qty": 5,
-        "childId": 100038036
+        "e": 3,
+        "p": 0
       },
       "40": {
-        "qty": 0,
-        "childId": 100038135
+        "e": 6,
+        "p": 0
       },
       "42": {
-        "qty": 4,
-        "childId": 100038345
+        "e": 11,
+        "p": 0
       },
       "44": {
-        "qty": 3,
-        "childId": 100038370
+        "e": 6,
+        "p": 0
       },
       "46": {
-        "qty": 6,
-        "childId": 100038410
+        "e": 2,
+        "p": 0
       },
       "48": {
-        "qty": 2,
-        "childId": 100038483
+        "e": 0,
+        "p": 0
+      },
+      "50": {
+        "e": 0,
+        "p": 0
       }
     },
-    "_parentId": 100037633
+    "skuLoja": "603MIK",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "MIKONOS BLACK (su loja nome: Calça Mikonos Black Feminina - forro com fibra de Aramida)",
@@ -796,7 +550,7 @@
         "p": 0
       },
       "38": {
-        "e": 10,
+        "e": 11,
         "p": 0
       },
       "40": {
@@ -826,38 +580,7 @@
     },
     "skuLoja": "603MIK-BL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354479074/10-dahdm10ipp.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "36": {
-        "qty": 0,
-        "childId": 354479076
-      },
-      "38": {
-        "qty": 5,
-        "childId": 354479080
-      },
-      "40": {
-        "qty": 6,
-        "childId": 354479081
-      },
-      "42": {
-        "qty": 6,
-        "childId": 354479083
-      },
-      "44": {
-        "qty": 4,
-        "childId": 354479085
-      },
-      "46": {
-        "qty": 11,
-        "childId": 354479086
-      },
-      "48": {
-        "qty": 6,
-        "childId": 354479089
-      }
-    },
-    "_parentId": 354479074
+    "vendite": []
   },
   {
     "estoqueNome": "Force (Cós-médio) (su loja nome: Calça Camu Force Feminina)",
@@ -903,38 +626,7 @@
     },
     "skuLoja": "607CAM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/59302886/novo-site-tamanho-cal-a--1080-px---6--cgzlluf3gk.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "36": {
-        "qty": 4,
-        "childId": 124595647
-      },
-      "38": {
-        "qty": 7,
-        "childId": 59304286
-      },
-      "40": {
-        "qty": 1,
-        "childId": 59304209
-      },
-      "42": {
-        "qty": 0,
-        "childId": 59304111
-      },
-      "44": {
-        "qty": 0,
-        "childId": 59304061
-      },
-      "46": {
-        "qty": 2,
-        "childId": 59304010
-      },
-      "48": {
-        "qty": 5,
-        "childId": 59303912
-      }
-    },
-    "_parentId": 59302886
+    "vendite": []
   },
   {
     "estoqueNome": "New Concept (Cós-médio) ZIPER (su loja nome: Calça New Concept Feminina)",
@@ -1076,31 +768,31 @@
         "p": 2
       },
       "40": {
-        "e": 22,
+        "e": 26,
         "p": 3
       },
       "42": {
-        "e": 47,
+        "e": 49,
         "p": 0
       },
       "44": {
-        "e": 50,
+        "e": 51,
         "p": 2
       },
       "46": {
-        "e": 2,
+        "e": 6,
         "p": 11
       },
       "48": {
-        "e": 37,
+        "e": 43,
         "p": 3
       },
       "50": {
-        "e": 30,
+        "e": 32,
         "p": 5
       },
       "52": {
-        "e": 10,
+        "e": 12,
         "p": 3
       },
       "54": {
@@ -1109,7 +801,7 @@
       },
       "56": {
         "e": 6,
-        "p": 5
+        "p": 0
       },
       "58": {
         "e": 7,
@@ -1122,58 +814,7 @@
     },
     "skuLoja": "610MSX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2847389/160-nk1ahix4tb.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 5,
-        "childId": 2847521
-      },
-      "40": {
-        "qty": 5,
-        "childId": 2847523
-      },
-      "42": {
-        "qty": 6,
-        "childId": 2847526
-      },
-      "44": {
-        "qty": 5,
-        "childId": 2847528
-      },
-      "46": {
-        "qty": 5,
-        "childId": 2847529
-      },
-      "48": {
-        "qty": 6,
-        "childId": 2847531
-      },
-      "50": {
-        "qty": 6,
-        "childId": 2847532
-      },
-      "52": {
-        "qty": 4,
-        "childId": 2847533
-      },
-      "54": {
-        "qty": 3,
-        "childId": 2847534
-      },
-      "56": {
-        "qty": 3,
-        "childId": 2847536
-      },
-      "58": {
-        "qty": 4,
-        "childId": 10094752
-      },
-      "60": {
-        "qty": 3,
-        "childId": 376131747
-      }
-    },
-    "_parentId": 2847389
+    "vendite": []
   },
   {
     "estoqueNome": "SPIRIT COMFORT (su loja nome: Calça Spirit Comfort)",
@@ -1185,7 +826,7 @@
         "p": 0
       },
       "40": {
-        "e": 14,
+        "e": 15,
         "p": 0
       },
       "42": {
@@ -1193,7 +834,7 @@
         "p": 4
       },
       "44": {
-        "e": 25,
+        "e": 31,
         "p": 6
       },
       "46": {
@@ -1231,58 +872,7 @@
     },
     "skuLoja": "602SCO",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/7610882/strit--3--easkozi12q.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 4,
-        "childId": 10092326
-      },
-      "40": {
-        "qty": 8,
-        "childId": 7610892
-      },
-      "42": {
-        "qty": 8,
-        "childId": 9211687
-      },
-      "44": {
-        "qty": 6,
-        "childId": 7610891
-      },
-      "46": {
-        "qty": 8,
-        "childId": 9211751
-      },
-      "48": {
-        "qty": 6,
-        "childId": 7610888
-      },
-      "50": {
-        "qty": 6,
-        "childId": 7610887
-      },
-      "52": {
-        "qty": 5,
-        "childId": 7610886
-      },
-      "54": {
-        "qty": 5,
-        "childId": 7610885
-      },
-      "56": {
-        "qty": 5,
-        "childId": 7610884
-      },
-      "58": {
-        "qty": 4,
-        "childId": 7610883
-      },
-      "60": {
-        "qty": 0,
-        "childId": 246443490
-      }
-    },
-    "_parentId": 7610882
+    "vendite": []
   },
   {
     "estoqueNome": "RACER COMFORT (su loja nome: Calça Racer Comfort)",
@@ -1294,19 +884,19 @@
         "p": 0
       },
       "40": {
-        "e": 14,
-        "p": 7
+        "e": 10,
+        "p": 13
       },
       "42": {
-        "e": 34,
+        "e": 36,
         "p": 0
       },
       "44": {
-        "e": 6,
-        "p": 19
+        "e": 1,
+        "p": 26
       },
       "46": {
-        "e": 18,
+        "e": 21,
         "p": 12
       },
       "48": {
@@ -1314,11 +904,11 @@
         "p": 16
       },
       "50": {
-        "e": 8,
-        "p": 2
+        "e": 3,
+        "p": 7
       },
       "52": {
-        "e": 16,
+        "e": 18,
         "p": 0
       },
       "54": {
@@ -1340,54 +930,7 @@
     },
     "skuLoja": "612MRP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354066454/novo-site-tamanho-cal-a--1080-px--vo3yy80yf9.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 4,
-        "childId": 354066466
-      },
-      "40": {
-        "qty": 5,
-        "childId": 354066465
-      },
-      "42": {
-        "qty": 5,
-        "childId": 354066464
-      },
-      "44": {
-        "qty": 5,
-        "childId": 354066463
-      },
-      "46": {
-        "qty": 5,
-        "childId": 354066462
-      },
-      "48": {
-        "qty": 5,
-        "childId": 354066461
-      },
-      "50": {
-        "qty": 5,
-        "childId": 354066460
-      },
-      "52": {
-        "qty": 5,
-        "childId": 354066459
-      },
-      "54": {
-        "qty": 5,
-        "childId": 354066458
-      },
-      "56": {
-        "qty": 3,
-        "childId": 354066457
-      },
-      "58": {
-        "qty": 0,
-        "childId": 354066456
-      }
-    },
-    "_parentId": 354066454
+    "vendite": []
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure)",
@@ -1407,23 +950,23 @@
         "p": 0
       },
       "44": {
-        "e": 25,
+        "e": 26,
         "p": 0
       },
       "46": {
-        "e": 31,
+        "e": 33,
         "p": 1
       },
       "48": {
-        "e": 41,
+        "e": 45,
         "p": 2
       },
       "50": {
-        "e": 24,
+        "e": 26,
         "p": 0
       },
       "52": {
-        "e": 18,
+        "e": 20,
         "p": 0
       },
       "54": {
@@ -1431,7 +974,7 @@
         "p": 0
       },
       "56": {
-        "e": 7,
+        "e": 9,
         "p": 0
       },
       "58": {
@@ -1445,54 +988,7 @@
     },
     "skuLoja": "610ADV-VR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/237694127/novo-site-tamanho-cal-a--1080-px---3--ml9rvyl2mi.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 4,
-        "childId": 237694129
-      },
-      "40": {
-        "qty": 8,
-        "childId": 237694130
-      },
-      "42": {
-        "qty": 8,
-        "childId": 237694131
-      },
-      "44": {
-        "qty": 7,
-        "childId": 237694132
-      },
-      "46": {
-        "qty": 8,
-        "childId": 237694133
-      },
-      "48": {
-        "qty": 7,
-        "childId": 237694134
-      },
-      "50": {
-        "qty": 8,
-        "childId": 237694135
-      },
-      "52": {
-        "qty": 4,
-        "childId": 237694136
-      },
-      "54": {
-        "qty": 5,
-        "childId": 237694137
-      },
-      "56": {
-        "qty": 5,
-        "childId": 237694138
-      },
-      "58": {
-        "qty": 0,
-        "childId": 237694128
-      }
-    },
-    "_parentId": 237694127
+    "vendite": []
   },
   {
     "estoqueNome": "street (su loja nome: Calça Street)",
@@ -1500,7 +996,7 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 6,
+        "e": 8,
         "p": 0
       },
       "40": {
@@ -1524,15 +1020,15 @@
         "p": 0
       },
       "50": {
-        "e": 18,
+        "e": 19,
         "p": 0
       },
       "52": {
-        "e": 13,
+        "e": 15,
         "p": 2
       },
       "54": {
-        "e": 9,
+        "e": 11,
         "p": 1
       },
       "56": {
@@ -1550,46 +1046,7 @@
     },
     "skuLoja": "605MST",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/315078443/street-67jdl1lp9j.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 5,
-        "childId": 315078452
-      },
-      "40": {
-        "qty": 0,
-        "childId": 315078451
-      },
-      "42": {
-        "qty": 0,
-        "childId": 315078450
-      },
-      "44": {
-        "qty": 0,
-        "childId": 315078449
-      },
-      "46": {
-        "qty": 4,
-        "childId": 315078448
-      },
-      "48": {
-        "qty": 4,
-        "childId": 315078447
-      },
-      "50": {
-        "qty": 4,
-        "childId": 315078446
-      },
-      "52": {
-        "qty": 4,
-        "childId": 315078445
-      },
-      "54": {
-        "qty": 4,
-        "childId": 315078444
-      }
-    },
-    "_parentId": 315078443
+    "vendite": []
   },
   {
     "estoqueNome": "IBIZA MASCULINA (su loja nome: Calça Ibiza Comfort)",
@@ -1601,11 +1058,11 @@
         "p": 0
       },
       "40": {
-        "e": 25,
+        "e": 27,
         "p": 0
       },
       "42": {
-        "e": 10,
+        "e": 11,
         "p": 0
       },
       "44": {
@@ -1647,46 +1104,7 @@
     },
     "skuLoja": "602IBX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/80494978/159-n1bi7fp38a.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 5,
-        "childId": 80499760
-      },
-      "40": {
-        "qty": 3,
-        "childId": 80499695
-      },
-      "42": {
-        "qty": 6,
-        "childId": 80497360
-      },
-      "44": {
-        "qty": 0,
-        "childId": 80497304
-      },
-      "46": {
-        "qty": 0,
-        "childId": 80497163
-      },
-      "48": {
-        "qty": 4,
-        "childId": 80496453
-      },
-      "50": {
-        "qty": 4,
-        "childId": 80496042
-      },
-      "52": {
-        "qty": 1,
-        "childId": 80495901
-      },
-      "54": {
-        "qty": 0,
-        "childId": 80495870
-      }
-    },
-    "_parentId": 80494978
+    "vendite": []
   },
   {
     "estoqueNome": "Slim (su loja nome: Calça Slim)",
@@ -1694,31 +1112,31 @@
     "cat": "Calças Masculinas",
     "stock": {
       "38": {
-        "e": 6,
+        "e": 7,
         "p": 0
       },
       "40": {
-        "e": 6,
+        "e": 10,
         "p": 2
       },
       "42": {
-        "e": 37,
+        "e": 38,
         "p": 0
       },
       "44": {
-        "e": 16,
+        "e": 21,
         "p": 3
       },
       "46": {
-        "e": 28,
+        "e": 29,
         "p": 2
       },
       "48": {
-        "e": 25,
+        "e": 26,
         "p": 0
       },
       "50": {
-        "e": 16,
+        "e": 19,
         "p": 0
       },
       "52": {
@@ -1726,7 +1144,7 @@
         "p": 0
       },
       "54": {
-        "e": 5,
+        "e": 7,
         "p": 0
       },
       "56": {
@@ -1744,50 +1162,7 @@
     },
     "skuLoja": "605MCE",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2847585/157-1dp9yu9nsz.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 3,
-        "childId": 2847589
-      },
-      "40": {
-        "qty": 3,
-        "childId": 2847596
-      },
-      "42": {
-        "qty": 3,
-        "childId": 2847597
-      },
-      "44": {
-        "qty": 5,
-        "childId": 2847598
-      },
-      "46": {
-        "qty": 6,
-        "childId": 2847600
-      },
-      "48": {
-        "qty": 6,
-        "childId": 2847601
-      },
-      "50": {
-        "qty": 3,
-        "childId": 2847604
-      },
-      "52": {
-        "qty": 4,
-        "childId": 2847607
-      },
-      "54": {
-        "qty": 4,
-        "childId": 7173075
-      },
-      "56": {
-        "qty": 2,
-        "childId": 263284516
-      }
-    },
-    "_parentId": 2847585
+    "vendite": []
   },
   {
     "estoqueNome": "Camuforce caqui (su loja nome: Calça Camu Force)",
@@ -1845,54 +1220,7 @@
     },
     "skuLoja": "606CAM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/25080114/162-b2uy8otmjg.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 1,
-        "childId": 245802861
-      },
-      "40": {
-        "qty": 3,
-        "childId": 25080197
-      },
-      "42": {
-        "qty": 1,
-        "childId": 25080227
-      },
-      "44": {
-        "qty": 4,
-        "childId": 25080257
-      },
-      "46": {
-        "qty": 3,
-        "childId": 25080464
-      },
-      "48": {
-        "qty": 1,
-        "childId": 25080472
-      },
-      "50": {
-        "qty": 2,
-        "childId": 25080798
-      },
-      "52": {
-        "qty": 0,
-        "childId": 25080822
-      },
-      "54": {
-        "qty": 2,
-        "childId": 25080837
-      },
-      "56": {
-        "qty": 13,
-        "childId": 25080880
-      },
-      "58": {
-        "qty": 3,
-        "childId": 25080910
-      }
-    },
-    "_parentId": 25080114
+    "vendite": []
   },
   {
     "estoqueNome": "Mikonos Black (su loja nome: Calça Mikonos Black - forro em fibra de Aramida)",
@@ -1904,7 +1232,7 @@
         "p": 0
       },
       "40": {
-        "e": 8,
+        "e": 9,
         "p": 0
       },
       "42": {
@@ -1912,11 +1240,11 @@
         "p": 0
       },
       "44": {
-        "e": 62,
+        "e": 65,
         "p": 0
       },
       "46": {
-        "e": 32,
+        "e": 31,
         "p": 0
       },
       "48": {
@@ -1928,7 +1256,7 @@
         "p": 0
       },
       "52": {
-        "e": 9,
+        "e": 11,
         "p": 0
       },
       "54": {
@@ -1950,46 +1278,7 @@
     },
     "skuLoja": "602MIK-BL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354440076/16-g9yt1zt08h.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 5,
-        "childId": 354440088
-      },
-      "40": {
-        "qty": 4,
-        "childId": 354440087
-      },
-      "42": {
-        "qty": 5,
-        "childId": 354440086
-      },
-      "44": {
-        "qty": 6,
-        "childId": 354440085
-      },
-      "46": {
-        "qty": 7,
-        "childId": 354440084
-      },
-      "48": {
-        "qty": 6,
-        "childId": 354440082
-      },
-      "50": {
-        "qty": 5,
-        "childId": 354440080
-      },
-      "52": {
-        "qty": 3,
-        "childId": 357088045
-      },
-      "54": {
-        "qty": 0,
-        "childId": 357088206
-      }
-    },
-    "_parentId": 354440076
+    "vendite": []
   },
   {
     "estoqueNome": "Defender Camuflada Chumbo (su loja nome: Calça Defender Camuflada Chumbo)",
@@ -2005,7 +1294,7 @@
         "p": 7
       },
       "42": {
-        "e": 25,
+        "e": 26,
         "p": 1
       },
       "44": {
@@ -2047,54 +1336,7 @@
     },
     "skuLoja": "606MSX-CH",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2812290/4-i3vy8v1s9c.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 4,
-        "childId": 2812324
-      },
-      "40": {
-        "qty": 4,
-        "childId": 2812340
-      },
-      "42": {
-        "qty": 3,
-        "childId": 2812344
-      },
-      "44": {
-        "qty": 4,
-        "childId": 2812377
-      },
-      "46": {
-        "qty": 5,
-        "childId": 2812382
-      },
-      "48": {
-        "qty": 2,
-        "childId": 2812388
-      },
-      "50": {
-        "qty": 2,
-        "childId": 2812421
-      },
-      "52": {
-        "qty": 2,
-        "childId": 2812431
-      },
-      "54": {
-        "qty": 2,
-        "childId": 2812433
-      },
-      "56": {
-        "qty": 2,
-        "childId": 7174381
-      },
-      "58": {
-        "qty": 2,
-        "childId": 246556397
-      }
-    },
-    "_parentId": 2812290
+    "vendite": []
   },
   {
     "estoqueNome": "SPENCER COMFORT (su loja nome: Calça Spencer Comfort)",
@@ -2110,7 +1352,7 @@
         "p": 0
       },
       "42": {
-        "e": 3,
+        "e": 4,
         "p": 0
       },
       "44": {
@@ -2148,54 +1390,7 @@
     },
     "skuLoja": "602MSS",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/131494501/146-a47lwt6x91.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 5,
-        "childId": 131494502
-      },
-      "40": {
-        "qty": 8,
-        "childId": 131494505
-      },
-      "42": {
-        "qty": 2,
-        "childId": 131494504
-      },
-      "44": {
-        "qty": 0,
-        "childId": 131494506
-      },
-      "46": {
-        "qty": 3,
-        "childId": 131494503
-      },
-      "48": {
-        "qty": 8,
-        "childId": 131494507
-      },
-      "50": {
-        "qty": 1,
-        "childId": 131494508
-      },
-      "52": {
-        "qty": 1,
-        "childId": 131494509
-      },
-      "54": {
-        "qty": 1,
-        "childId": 131494510
-      },
-      "56": {
-        "qty": 4,
-        "childId": 131494511
-      },
-      "58": {
-        "qty": 0,
-        "childId": 131494512
-      }
-    },
-    "_parentId": 131494501
+    "vendite": []
   },
   {
     "estoqueNome": "MIKONOS AZUL (su loja nome: Calça Mikonos - forro em fibra de Aramida)",
@@ -2327,7 +1522,7 @@
         "p": 0
       },
       "46": {
-        "e": 17,
+        "e": 18,
         "p": 0
       },
       "48": {
@@ -2357,50 +1552,7 @@
     },
     "skuLoja": "610ADV-BG",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/372977529/novo-site-tamanho-blusas-segunda-pele--87--pga81g297r.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 4,
-        "childId": 372977546
-      },
-      "40": {
-        "qty": 5,
-        "childId": 372977545
-      },
-      "42": {
-        "qty": 5,
-        "childId": 372977542
-      },
-      "44": {
-        "qty": 5,
-        "childId": 372977541
-      },
-      "46": {
-        "qty": 5,
-        "childId": 372977539
-      },
-      "48": {
-        "qty": 5,
-        "childId": 372977538
-      },
-      "50": {
-        "qty": 4,
-        "childId": 372977535
-      },
-      "52": {
-        "qty": 2,
-        "childId": 372977533
-      },
-      "54": {
-        "qty": 3,
-        "childId": 372977532
-      },
-      "56": {
-        "qty": 2,
-        "childId": 372977531
-      }
-    },
-    "_parentId": 372977529
+    "vendite": []
   },
   {
     "estoqueNome": "HLX WINTER (su loja nome: Calça Winter Comfort)",
@@ -2507,47 +1659,8 @@
       }
     },
     "skuLoja": "602MHC",
-    "img": "",
-    "vendite": [],
-    "_siteStock": {
-      "38": {
-        "qty": 1,
-        "childId": 381716625
-      },
-      "40": {
-        "qty": 0,
-        "childId": 97849632
-      },
-      "44": {
-        "qty": 0,
-        "childId": 97849717
-      },
-      "46": {
-        "qty": 0,
-        "childId": 97849760
-      },
-      "48": {
-        "qty": 3,
-        "childId": 97849811
-      },
-      "50": {
-        "qty": 0,
-        "childId": 97849855
-      },
-      "52": {
-        "qty": 7,
-        "childId": 97849898
-      },
-      "54": {
-        "qty": 6,
-        "childId": 97849928
-      },
-      "56": {
-        "qty": 2,
-        "childId": 97849992
-      }
-    },
-    "_parentId": 97848899
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/97848899/novo-site-tamanho-cal-a-1080-px-4-uzuolp5tjp.png",
+    "vendite": []
   },
   {
     "estoqueNome": "New concept Clean (su loja nome: Calça New Concept Clean)",
@@ -2609,11 +1722,11 @@
     "cat": "Acessórios",
     "stock": {
       "P": {
-        "e": 29,
+        "e": 31,
         "p": 0
       },
       "M": {
-        "e": 27,
+        "e": 29,
         "p": 0
       },
       "G": {
@@ -2621,32 +1734,13 @@
         "p": 0
       },
       "GG": {
-        "e": 36,
+        "e": 38,
         "p": 0
       }
     },
     "skuLoja": "750402",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246448741/design-sem-nome--17--c1bieyt6t0.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 1,
-        "childId": 246448745
-      },
-      "M": {
-        "qty": 4,
-        "childId": 246448744
-      },
-      "G": {
-        "qty": 0,
-        "childId": 246448743
-      },
-      "GG": {
-        "qty": 0,
-        "childId": 246448742
-      }
-    },
-    "_parentId": 246448741
+    "vendite": []
   },
   {
     "estoqueNome": "MANGUITO C/ PROTEÇAO (su loja nome: Manguito com Proteções)",
@@ -2662,7 +1756,7 @@
         "p": 0
       },
       "G": {
-        "e": 3,
+        "e": 4,
         "p": 0
       },
       "GG": {
@@ -2672,26 +1766,7 @@
     },
     "skuLoja": "750403",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/131159608/design-sem-nome--18--3g30wbqfu4.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "GG": {
-        "qty": 2,
-        "childId": 246448517
-      },
-      "G": {
-        "qty": 2,
-        "childId": 131159819
-      },
-      "M": {
-        "qty": 0,
-        "childId": 131159771
-      },
-      "P": {
-        "qty": 0,
-        "childId": 131159699
-      }
-    },
-    "_parentId": 131159608
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA (su loja nome: Tubo Flex Caveira)",
@@ -2699,20 +1774,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 36,
+        "e": 43,
         "p": 0
       }
     },
     "skuLoja": "750302-CAV-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245961294/novo-site-tamanho-blusas-segunda-pele--51--06f3xcqlb1.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 8,
-        "childId": 245961296
-      }
-    },
-    "_parentId": 245961296
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA BRANCA (su loja nome: VERIFICARE - variação Caveira?)",
@@ -2734,20 +1802,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 37,
+        "e": 38,
         "p": 0
       }
     },
     "skuLoja": "750302-CAV-PR-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 8,
-        "childId": 245960447
-      }
-    },
-    "_parentId": 245960447
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA FUNDO ROSA",
@@ -2755,20 +1816,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 18,
+        "e": 26,
         "p": 0
       }
     },
     "skuLoja": "750302-CAV-PINK-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245960445/novo-site-tamanho-blusas-segunda-pele--52--dh77duunwx.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 10,
-        "childId": 245960446
-      }
-    },
-    "_parentId": 245960446
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX FLORES E CAVEIRAS (su loja nome: Tubo Flex - Caveiras e Flores)",
@@ -2776,20 +1830,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 22,
+        "e": 50,
         "p": 0
       }
     },
     "skuLoja": "750302-CRV-FLORES",
     "img": "",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 17,
-        "childId": 116341718
-      }
-    },
-    "_parentId": 116341718
+    "vendite": []
   },
   {
     "estoqueNome": "TUBO FLEX PRETO (su loja nome: Tubo Flex Preto)",
@@ -2797,7 +1844,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 68,
+        "e": 101,
         "p": 0
       }
     },
@@ -2816,18 +1863,7 @@
       38,
       34,
       13
-    ],
-    "_siteStock": {
-      "750301": {
-        "qty": 0,
-        "childId": 28572103
-      },
-      "LR": {
-        "qty": 6,
-        "childId": 245952947
-      }
-    },
-    "_parentId": 28571988
+    ]
   },
   {
     "estoqueNome": "TUBOFLEX PINK (su loja nome: Tubo Flex - Pink)",
@@ -2835,20 +1871,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 12,
+        "e": 20,
         "p": 0
       }
     },
     "skuLoja": "750301-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245952513/novo-site-tamanho-blusas-segunda-pele-1-_page-0001-779vmlyb6p.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 8,
-        "childId": 245952513
-      }
-    },
-    "_parentId": 245952513
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX BOLINHAS BRANCAS (su loja nome: Tubo Flex - Bolinhas Brancas)",
@@ -2856,20 +1885,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 19,
+        "e": 38,
         "p": 0
       }
     },
     "skuLoja": "750303-BOL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/116344064/novo-site-tamanho-blusas-segunda-pele--58--dupat1vg0k.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 10,
-        "childId": 116344064
-      }
-    },
-    "_parentId": 116344064
+    "vendite": []
   },
   {
     "estoqueNome": "TUBOFLEX CAVEIRA E ROSAS (su loja nome: Tubo Flex - Caveiras e Rosas Vermelhas)",
@@ -2877,20 +1899,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 7,
+        "e": 20,
         "p": 0
       }
     },
     "skuLoja": "750302-CRV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/127871349/novo-site-tamanho-blusas-segunda-pele--73--i0whme7lep.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 1,
-        "childId": 127871349
-      }
-    },
-    "_parentId": 127871349
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda Pele Preta Feminina - blusa segunda pele feminina",
@@ -2898,31 +1913,31 @@
     "cat": "Segunda Pele",
     "stock": {
       "QTD": {
-        "e": 0,
+        "e": 75,
         "p": 0
       },
       "PP": {
-        "e": 11,
+        "e": 15,
         "p": 0
       },
       "P": {
-        "e": 5,
+        "e": 14,
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 7,
         "p": 0
       },
       "G": {
-        "e": 0,
+        "e": 5,
         "p": 0
       },
       "GG": {
-        "e": 3,
+        "e": 9,
         "p": 0
       },
       "3G": {
-        "e": 0,
+        "e": 3,
         "p": 0
       },
       "4G": {
@@ -2960,38 +1975,7 @@
       2691,
       1791,
       1980
-    ],
-    "_siteStock": {
-      "P": {
-        "qty": 0,
-        "childId": 246123343
-      },
-      "4G": {
-        "qty": 4,
-        "childId": 246123144
-      },
-      "3G": {
-        "qty": 6,
-        "childId": 246123061
-      },
-      "GG": {
-        "qty": 5,
-        "childId": 246123032
-      },
-      "G": {
-        "qty": 0,
-        "childId": 246122905
-      },
-      "M": {
-        "qty": 2,
-        "childId": 246122767
-      },
-      "PP": {
-        "qty": 3,
-        "childId": 246122348
-      }
-    },
-    "_parentId": 246122061
+    ]
   },
   {
     "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
@@ -2999,7 +1983,21 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 24,
+        "e": 23,
+        "p": 0
+      }
+    },
+    "skuLoja": "750301-laranjaa",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/265342139/novo-site-tamanho-blusas-segunda-pele--65--eqcl03qtfe.jpg",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "PRETO COM LARANJA (su loja: Tubo Flex Laranja)",
+    "venditeNome": "Tubo Flex Laranja",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 23,
         "p": 0
       }
     },
@@ -3013,20 +2011,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 94,
+        "e": 100,
         "p": 0
       }
     },
     "skuLoja": "750302-CAMF-CH",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245962888/novo-site-tamanho-blusas-segunda-pele--49--hwrm9844kv.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 2,
-        "childId": 245962888
-      }
-    },
-    "_parentId": 245962888
+    "vendite": []
   },
   {
     "estoqueNome": "TUBO LARANJA COM PRETO (su loja nome: Tubo Flex Laranja)",
@@ -3080,15 +2071,8 @@
       }
     },
     "skuLoja": "750302-CV-LIL",
-    "img": "",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 17,
-        "childId": 245962716
-      }
-    },
-    "_parentId": 245962716
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245963060/novo-site-tamanho-blusas-segunda-pele--57--3fmubl4nm8.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "ONÇA PINK (su loja nome: Tubo Flex - Onça Pink)",
@@ -3096,20 +2080,13 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 27,
+        "e": 31,
         "p": 0
       }
     },
     "skuLoja": "750302-ONC-PINK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245969131/novo-site-tamanho-blusas-segunda-pele--67--o1c91wpvjp.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "QTD": {
-        "qty": 5,
-        "childId": 245969131
-      }
-    },
-    "_parentId": 245969131
+    "vendite": []
   },
   {
     "estoqueNome": "PROTETOR PESCOCO INVERNO (su loja nome: Protetor de Pescoço - Inverno)",
@@ -3123,14 +2100,7 @@
     },
     "skuLoja": "750102",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/24225317/novo-site-tamanho-blusas-segunda-pele--43--ozvpvvn432.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "": {
-        "qty": 9,
-        "childId": 24225355
-      }
-    },
-    "_parentId": 24225317
+    "vendite": []
   },
   {
     "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
@@ -3138,24 +2108,27 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 4,
+        "e": 1,
         "p": 0
       }
     },
     "skuLoja": "750521",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/20868352/novo-site-tamanho-blusas-segunda-pele--36--42kvdq4qgk.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "VERMELHO": {
-        "qty": 0,
-        "childId": 245835831
-      },
-      "PRETO": {
-        "qty": 0,
-        "childId": 20868387
+    "vendite": []
+  },
+  {
+    "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
+    "venditeNome": "Cartucheira",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 5,
+        "p": 0
       }
     },
-    "_parentId": 20868352
+    "skuLoja": "750521",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/20868352/novo-site-tamanho-blusas-segunda-pele--36--42kvdq4qgk.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "BALACLAVA CAVEIRA (su loja nome: Balaclava Caveira)",
@@ -3177,7 +2150,7 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 78,
+        "e": 88,
         "p": 0
       }
     },
@@ -3196,14 +2169,48 @@
       4,
       1,
       0
-    ],
-    "_siteStock": {
+    ]
+  },
+  {
+    "estoqueNome": "balaclava inverno (su loja nome: Balaclava Inverno)",
+    "venditeNome": "Balaclava Inverno",
+    "cat": "Acessórios",
+    "stock": {
       "QTD": {
-        "qty": 10,
-        "childId": 245972978
+        "e": 68,
+        "p": 0
       }
     },
-    "_parentId": 245972978
+    "skuLoja": "750524",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245972978/novo-site-tamanho-blusas-segunda-pele--31--uy5k9ppwjf.jpg",
+    "vendite": [
+      0,
+      0,
+      0,
+      3,
+      6,
+      5,
+      1,
+      1,
+      6,
+      4,
+      1,
+      0
+    ]
+  },
+  {
+    "estoqueNome": "BALACLAVA VERAO (su loja nome: Balaclava Verão)",
+    "venditeNome": "Balaclava Verão",
+    "cat": "Acessórios",
+    "stock": {
+      "QTD": {
+        "e": 61,
+        "p": 0
+      }
+    },
+    "skuLoja": "750523",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245974053/novo-site-tamanho-blusas-segunda-pele--29--gjy2j6tyfx.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "balaclava caveira verão (su loja nome: Balaclava Caveira Verão)",
@@ -3361,19 +2368,19 @@
         "p": 0
       },
       "36": {
-        "e": 5,
+        "e": 1,
         "p": 0
       },
       "37": {
-        "e": 3,
+        "e": 13,
         "p": 0
       },
       "38": {
-        "e": 17,
+        "e": 15,
         "p": 0
       },
       "39": {
-        "e": 1,
+        "e": 15,
         "p": 0
       },
       "40": {
@@ -3381,7 +2388,7 @@
         "p": 0
       },
       "41": {
-        "e": 0,
+        "e": 2,
         "p": 0
       },
       "42": {
@@ -3389,7 +2396,7 @@
         "p": 0
       },
       "43": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "44": {
@@ -3407,62 +2414,7 @@
     },
     "skuLoja": "700110",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/128439871/62b81ad957.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "34": {
-        "qty": 2,
-        "childId": 263246352
-      },
-      "35": {
-        "qty": 2,
-        "childId": 263246232
-      },
-      "36": {
-        "qty": 2,
-        "childId": 128439872
-      },
-      "37": {
-        "qty": 3,
-        "childId": 128439873
-      },
-      "38": {
-        "qty": 3,
-        "childId": 128439874
-      },
-      "39": {
-        "qty": 3,
-        "childId": 128439875
-      },
-      "40": {
-        "qty": 0,
-        "childId": 128439876
-      },
-      "41": {
-        "qty": 3,
-        "childId": 128439877
-      },
-      "42": {
-        "qty": 2,
-        "childId": 128439878
-      },
-      "43": {
-        "qty": 0,
-        "childId": 128439879
-      },
-      "44": {
-        "qty": 3,
-        "childId": 128439880
-      },
-      "45": {
-        "qty": 3,
-        "childId": 263246519
-      },
-      "46": {
-        "qty": 2,
-        "childId": 263246720
-      }
-    },
-    "_parentId": 128439871
+    "vendite": []
   },
   {
     "estoqueNome": "MICHIGAN (su loja: Bota Michigan)",
@@ -3536,125 +2488,71 @@
         "p": 0
       },
       "M": {
-        "e": 53,
+        "e": 57,
         "p": 0
       },
       "G": {
-        "e": 19,
+        "e": 34,
         "p": 0
       },
       "GG": {
-        "e": 33,
+        "e": 47,
         "p": 0
       },
       "3G": {
-        "e": 31,
+        "e": 37,
         "p": 0
       },
       "4G": {
-        "e": 9,
+        "e": 14,
         "p": 0
       },
       "5G": {
-        "e": 4,
+        "e": 5,
         "p": 0
       }
     },
     "skuLoja": "0417R4-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "5G": {
-        "qty": 1,
-        "childId": 363846803
-      },
-      "4G": {
-        "qty": 8,
-        "childId": 246100557
-      },
-      "3G": {
-        "qty": 4,
-        "childId": 246100417
-      },
-      "GG": {
-        "qty": 0,
-        "childId": 246100346
-      },
-      "G": {
-        "qty": 0,
-        "childId": 246100252
-      },
-      "M": {
-        "qty": 4,
-        "childId": 246100221
-      },
-      "P": {
-        "qty": 5,
-        "childId": 246100081
-      }
-    },
-    "_parentId": 246099398
+    "vendite": []
   },
   {
-    "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
-    "venditeNome": "Jaqueta Verano Feminina",
+    "estoqueNome": "VERANO MASCULINA PRETA (su loja: Jaqueta Verano Masculina)",
+    "venditeNome": "Jaqueta Verano Masculina",
     "cat": "Jaquetas",
     "stock": {
       "P": {
-        "e": 10,
+        "e": 20,
         "p": 0
       },
       "M": {
-        "e": 40,
+        "e": 56,
         "p": 0
       },
       "G": {
-        "e": 15,
+        "e": 27,
         "p": 0
       },
       "GG": {
-        "e": 1,
-        "p": 26
+        "e": 42,
+        "p": 0
       },
       "3G": {
-        "e": 11,
+        "e": 32,
         "p": 0
       },
       "4G": {
-        "e": 0,
+        "e": 12,
         "p": 0
       },
       "5G": {
-        "e": 0,
+        "e": 5,
         "p": 0
       }
     },
-    "skuLoja": "0417R2-PR",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "3G": {
-        "qty": 2,
-        "childId": 246103829
-      },
-      "GG": {
-        "qty": 0,
-        "childId": 246103778
-      },
-      "G": {
-        "qty": 8,
-        "childId": 246103743
-      },
-      "M": {
-        "qty": 10,
-        "childId": 246103710
-      },
-      "P": {
-        "qty": 3,
-        "childId": 246103481
-      }
-    },
-    "_parentId": 246103290
+    "skuLoja": "0417R4-PR",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
+    "vendite": []
   },
   {
     "estoqueNome": "VERANO MASCULINA CINZA (su loja: Jaqueta Verano Masculina)",
@@ -3666,15 +2564,15 @@
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 3,
         "p": 0
       },
       "G": {
-        "e": 3,
+        "e": 5,
         "p": 0
       },
       "GG": {
-        "e": 3,
+        "e": 5,
         "p": 0
       },
       "3G": {
@@ -3682,7 +2580,7 @@
         "p": 0
       },
       "4G": {
-        "e": 8,
+        "e": 2,
         "p": 0
       },
       "5G": {
@@ -3692,34 +2590,7 @@
     },
     "skuLoja": "0417R4-CIN",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "4G": {
-        "qty": 0,
-        "childId": 246101794
-      },
-      "3G": {
-        "qty": 5,
-        "childId": 246101749
-      },
-      "GG": {
-        "qty": 1,
-        "childId": 246101725
-      },
-      "G": {
-        "qty": 4,
-        "childId": 246101702
-      },
-      "M": {
-        "qty": 2,
-        "childId": 246101004
-      },
-      "P": {
-        "qty": 5,
-        "childId": 246100805
-      }
-    },
-    "_parentId": 246099398
+    "vendite": []
   },
   {
     "estoqueNome": "VERANO FEMININA PRETA (su loja: Jaqueta Verano Feminina)",
@@ -3727,23 +2598,23 @@
     "cat": "Jaquetas",
     "stock": {
       "P": {
-        "e": 10,
+        "e": 22,
         "p": 0
       },
       "M": {
-        "e": 40,
+        "e": 51,
         "p": 0
       },
       "G": {
-        "e": 15,
+        "e": 27,
         "p": 0
       },
       "GG": {
-        "e": 1,
+        "e": 9,
         "p": 26
       },
       "3G": {
-        "e": 11,
+        "e": 16,
         "p": 0
       },
       "4G": {
@@ -3757,30 +2628,7 @@
     },
     "skuLoja": "0417R2-PR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "3G": {
-        "qty": 2,
-        "childId": 246103829
-      },
-      "GG": {
-        "qty": 0,
-        "childId": 246103778
-      },
-      "G": {
-        "qty": 8,
-        "childId": 246103743
-      },
-      "M": {
-        "qty": 10,
-        "childId": 246103710
-      },
-      "P": {
-        "qty": 3,
-        "childId": 246103481
-      }
-    },
-    "_parentId": 246103290
+    "vendite": []
   },
   {
     "estoqueNome": "VERANO FEMININA CINZA (su loja: Jaqueta Verano Feminina)",
@@ -3792,11 +2640,11 @@
         "p": 0
       },
       "M": {
-        "e": 12,
+        "e": 14,
         "p": 0
       },
       "G": {
-        "e": 10,
+        "e": 11,
         "p": 0
       },
       "GG": {
@@ -3818,30 +2666,7 @@
     },
     "skuLoja": "0417R2-CIN",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "3G": {
-        "qty": 1,
-        "childId": 246104002
-      },
-      "GG": {
-        "qty": 1,
-        "childId": 246103981
-      },
-      "G": {
-        "qty": 7,
-        "childId": 246103934
-      },
-      "M": {
-        "qty": 6,
-        "childId": 246103896
-      },
-      "P": {
-        "qty": 0,
-        "childId": 246103880
-      }
-    },
-    "_parentId": 246103290
+    "vendite": []
   },
   {
     "estoqueNome": "VERANO FEMININA VERMELHA (su loja: Jaqueta Verano Feminina)",
@@ -3853,19 +2678,19 @@
         "p": 0
       },
       "M": {
-        "e": 0,
-        "p": 0
-      },
-      "G": {
         "e": 2,
         "p": 0
       },
+      "G": {
+        "e": 3,
+        "p": 0
+      },
       "GG": {
-        "e": 1,
+        "e": 2,
         "p": 0
       },
       "3G": {
-        "e": 11,
+        "e": 7,
         "p": 0
       },
       "4G": {
@@ -3879,30 +2704,7 @@
     },
     "skuLoja": "0417R2-VER",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246103290/c1947725b3e9409da0b0e3afa55ef3a7-pzl7pj9zo7.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "3G": {
-        "qty": 4,
-        "childId": 246104272
-      },
-      "GG": {
-        "qty": 0,
-        "childId": 246104250
-      },
-      "G": {
-        "qty": 2,
-        "childId": 246104226
-      },
-      "M": {
-        "qty": 0,
-        "childId": 246104212
-      },
-      "P": {
-        "qty": 1,
-        "childId": 246104193
-      }
-    },
-    "_parentId": 246103290
+    "vendite": []
   },
   {
     "estoqueNome": "IMOLA (su loja: Jaqueta Imola Dupla Face)",
@@ -3978,34 +2780,7 @@
     },
     "skuLoja": "WINT4066_MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/379180213/127-h50xkxyio2.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "3G": {
-        "qty": 3,
-        "childId": 379180220
-      },
-      "GG": {
-        "qty": 8,
-        "childId": 379180219
-      },
-      "G": {
-        "qty": 3,
-        "childId": 379180218
-      },
-      "M": {
-        "qty": 2,
-        "childId": 379180216
-      },
-      "P": {
-        "qty": 4,
-        "childId": 379180215
-      },
-      "4G": {
-        "qty": 5,
-        "childId": 379180214
-      }
-    },
-    "_parentId": 379180213
+    "vendite": []
   },
   {
     "estoqueNome": "JAQUETA WINTER FEMININA (su loja: Jaqueta Winter Feminina)",
@@ -4047,30 +2822,7 @@
     },
     "skuLoja": "WINT4067-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/379196901/135-hjdh02ayti.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 3,
-        "childId": 379196916
-      },
-      "M": {
-        "qty": 3,
-        "childId": 379196912
-      },
-      "G": {
-        "qty": 3,
-        "childId": 379196909
-      },
-      "GG": {
-        "qty": 4,
-        "childId": 379196905
-      },
-      "3G": {
-        "qty": 2,
-        "childId": 379196903
-      }
-    },
-    "_parentId": 379196901
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Preta MASC",
@@ -4082,60 +2834,33 @@
         "p": 0
       },
       "P": {
-        "e": 5,
+        "e": 11,
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 7,
         "p": 0
       },
       "G": {
-        "e": 0,
+        "e": 13,
         "p": 0
       },
       "GG": {
-        "e": 3,
+        "e": 18,
         "p": 0
       },
       "3G": {
-        "e": 0,
+        "e": 3,
         "p": 0
       },
       "4G": {
-        "e": 3,
+        "e": 13,
         "p": 0
       }
     },
     "skuLoja": "270116-MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 5,
-        "childId": 246130304
-      },
-      "M": {
-        "qty": 3,
-        "childId": 246130303
-      },
-      "G": {
-        "qty": 0,
-        "childId": 246130302
-      },
-      "GG": {
-        "qty": 2,
-        "childId": 246130301
-      },
-      "3G": {
-        "qty": 0,
-        "childId": 246130300
-      },
-      "4G": {
-        "qty": 3,
-        "childId": 246130299
-      }
-    },
-    "_parentId": 246130289
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Preta FEM",
@@ -4143,68 +2868,37 @@
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 11,
+        "e": 15,
         "p": 0
       },
       "P": {
-        "e": 5,
+        "e": 11,
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 7,
         "p": 0
       },
       "G": {
-        "e": 0,
+        "e": 13,
         "p": 0
       },
       "GG": {
-        "e": 2,
+        "e": 18,
         "p": 0
       },
       "3G": {
-        "e": 0,
+        "e": 3,
         "p": 0
       },
       "4G": {
-        "e": 2,
+        "e": 13,
         "p": 0
       }
     },
     "skuLoja": "270116-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 0,
-        "childId": 246123343
-      },
-      "4G": {
-        "qty": 4,
-        "childId": 246123144
-      },
-      "3G": {
-        "qty": 6,
-        "childId": 246123061
-      },
-      "GG": {
-        "qty": 5,
-        "childId": 246123032
-      },
-      "G": {
-        "qty": 0,
-        "childId": 246122905
-      },
-      "M": {
-        "qty": 2,
-        "childId": 246122767
-      },
-      "PP": {
-        "qty": 3,
-        "childId": 246122348
-      }
-    },
-    "_parentId": 246122061
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Inverno MASC",
@@ -4242,34 +2936,7 @@
     },
     "skuLoja": "270116-FEM-INV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356620521/novo-site-tamanho-blusas-segunda-pele--7--9wochrfbpo.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 3,
-        "childId": 356620530
-      },
-      "M": {
-        "qty": 4,
-        "childId": 356620528
-      },
-      "G": {
-        "qty": 6,
-        "childId": 356620527
-      },
-      "GG": {
-        "qty": 3,
-        "childId": 356620525
-      },
-      "3G": {
-        "qty": 2,
-        "childId": 356620523
-      },
-      "PP": {
-        "qty": 2,
-        "childId": 356620522
-      }
-    },
-    "_parentId": 356620521
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Inverno FEM",
@@ -4307,34 +2974,7 @@
     },
     "skuLoja": "270116-FEM-INV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356620521/novo-site-tamanho-blusas-segunda-pele--7--9wochrfbpo.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 3,
-        "childId": 356620530
-      },
-      "M": {
-        "qty": 4,
-        "childId": 356620528
-      },
-      "G": {
-        "qty": 6,
-        "childId": 356620527
-      },
-      "GG": {
-        "qty": 3,
-        "childId": 356620525
-      },
-      "3G": {
-        "qty": 2,
-        "childId": 356620523
-      },
-      "PP": {
-        "qty": 2,
-        "childId": 356620522
-      }
-    },
-    "_parentId": 356620521
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele logo CHUMBO MASC",
@@ -4372,34 +3012,7 @@
     },
     "skuLoja": "270116-MASC-LP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356318777/26-2ppjx6iune.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "4G": {
-        "qty": 4,
-        "childId": 356318783
-      },
-      "3G": {
-        "qty": 3,
-        "childId": 356318782
-      },
-      "GG": {
-        "qty": 4,
-        "childId": 356318781
-      },
-      "G": {
-        "qty": 6,
-        "childId": 356318780
-      },
-      "M": {
-        "qty": 4,
-        "childId": 356318779
-      },
-      "P": {
-        "qty": 5,
-        "childId": 356318778
-      }
-    },
-    "_parentId": 356318777
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele logo CHUMBO FEM",
@@ -4437,34 +3050,7 @@
     },
     "skuLoja": "270116-FEM-LP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356324820/26-v8w1s2tbb8.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 3,
-        "childId": 356321975
-      },
-      "M": {
-        "qty": 3,
-        "childId": 356321972
-      },
-      "G": {
-        "qty": 5,
-        "childId": 356321970
-      },
-      "GG": {
-        "qty": 5,
-        "childId": 356321967
-      },
-      "3G": {
-        "qty": 3,
-        "childId": 356321963
-      },
-      "PP": {
-        "qty": 3,
-        "childId": 356321961
-      }
-    },
-    "_parentId": 356321959
+    "vendite": []
   },
   {
     "estoqueNome": "SEGUNDA PELE AZUL MASC",
@@ -4733,8 +3319,46 @@
     "vendite": []
   },
   {
-    "estoqueNome": "CALCA SEGUNDA PELE MASC",
-    "venditeNome": "Calça Segunda Pele Masculina",
+    "estoqueNome": "Segunda pele Camuflada chumbo FEM",
+    "venditeNome": "Blusa Segunda Pele Camuflada Chumbo Feminina",
+    "cat": "Segunda Pele",
+    "stock": {
+      "PP": {
+        "e": 8,
+        "p": 0
+      },
+      "P": {
+        "e": 3,
+        "p": 0
+      },
+      "M": {
+        "e": 7,
+        "p": 0
+      },
+      "G": {
+        "e": 4,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 2,
+        "p": 0
+      },
+      "4G": {
+        "e": 3,
+        "p": 0
+      }
+    },
+    "skuLoja": "270116-CAM-FEM",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/260470327/novo-site-tamanho-blusas-segunda-pele--47--xtqbkp3tec.jpg",
+    "vendite": []
+  },
+  {
+    "estoqueNome": "Segunda Pele com Proteções Preta MASC",
+    "venditeNome": "Blusa Segunda Pele com Proteções 2.0",
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
@@ -4742,49 +3366,11 @@
         "p": 0
       },
       "P": {
-        "e": 10,
-        "p": 0
-      },
-      "M": {
-        "e": 2,
-        "p": 0
-      },
-      "G": {
-        "e": 2,
-        "p": 0
-      },
-      "GG": {
-        "e": 6,
-        "p": 0
-      },
-      "3G": {
-        "e": 9,
-        "p": 0
-      },
-      "4G": {
-        "e": 6,
-        "p": 0
-      }
-    },
-    "skuLoja": "280000-M",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/84742271/170-zhh2m1u47c.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "CALCA SEGUNDA PELE FEM",
-    "venditeNome": "Calça Segunda Pele Feminina",
-    "cat": "Segunda Pele",
-    "stock": {
-      "PP": {
         "e": 12,
         "p": 0
       },
-      "P": {
-        "e": 10,
-        "p": 0
-      },
       "M": {
-        "e": 2,
+        "e": 0,
         "p": 0
       },
       "G": {
@@ -4792,20 +3378,20 @@
         "p": 0
       },
       "GG": {
-        "e": 6,
+        "e": 3,
         "p": 0
       },
       "3G": {
-        "e": 9,
+        "e": 0,
         "p": 0
       },
       "4G": {
-        "e": 6,
+        "e": 0,
         "p": 0
       }
     },
-    "skuLoja": "280000-F",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/245814567/167-ar7bv9kax1.jpg",
+    "skuLoja": "270117",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246423971/8b1d4da8415e2baac9cd605eb88acaf1-i5aur4xna2.jpg",
     "vendite": []
   },
   {
@@ -4826,7 +3412,7 @@
         "p": 0
       },
       "G": {
-        "e": 0,
+        "e": 2,
         "p": 0
       },
       "GG": {
@@ -4844,34 +3430,7 @@
     },
     "skuLoja": "270117-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246428902/1-k3pdcf8xf3.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "P": {
-        "qty": 3,
-        "childId": 246428915
-      },
-      "M": {
-        "qty": 0,
-        "childId": 246428914
-      },
-      "G": {
-        "qty": 2,
-        "childId": 246428913
-      },
-      "GG": {
-        "qty": 3,
-        "childId": 246428912
-      },
-      "3G": {
-        "qty": 0,
-        "childId": 246428911
-      },
-      "4G": {
-        "qty": 0,
-        "childId": 246428910
-      }
-    },
-    "_parentId": 246428902
+    "vendite": []
   },
   {
     "estoqueNome": "CALCA SEGUNDA PELE MASC",
@@ -5183,27 +3742,27 @@
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 0,
+        "e": 7,
         "p": 0
       },
       "P": {
-        "e": 12,
+        "e": 15,
         "p": 0
       },
       "M": {
-        "e": 12,
+        "e": 16,
         "p": 0
       },
       "G": {
-        "e": 17,
+        "e": 22,
         "p": 0
       },
       "GG": {
-        "e": 19,
+        "e": 24,
         "p": 0
       },
       "3G": {
-        "e": 4,
+        "e": 7,
         "p": 0
       },
       "4G": {
@@ -5213,38 +3772,7 @@
     },
     "skuLoja": "270116-CF",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/308879297/novo-site-tamanho-blusas-segunda-pele--41--qvj3e5xyhy.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "4G": {
-        "qty": 2,
-        "childId": 245843273
-      },
-      "3G": {
-        "qty": 2,
-        "childId": 245843064
-      },
-      "GG": {
-        "qty": 3,
-        "childId": 245843020
-      },
-      "G": {
-        "qty": 4,
-        "childId": 116996196
-      },
-      "M": {
-        "qty": 8,
-        "childId": 116228662
-      },
-      "P": {
-        "qty": 9,
-        "childId": 116227915
-      },
-      "PP": {
-        "qty": 4,
-        "childId": 116227628
-      }
-    },
-    "_parentId": 116227405
+    "vendite": []
   },
   {
     "estoqueNome": "segunda pele bolinha preta e branca (su loja: Blusa Segunda Pele Feminina Bolinhas Brancas)",
@@ -5264,7 +3792,7 @@
         "p": 0
       },
       "G": {
-        "e": 14,
+        "e": 15,
         "p": 0
       },
       "GG": {
@@ -5282,30 +3810,7 @@
     },
     "skuLoja": "270116-B",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/308879662/novo-site-tamanho-blusas-segunda-pele--46--6sfxq8b2xo.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "GG": {
-        "qty": 3,
-        "childId": 245840704
-      },
-      "G": {
-        "qty": 4,
-        "childId": 116996118
-      },
-      "M": {
-        "qty": 0,
-        "childId": 115960194
-      },
-      "P": {
-        "qty": 0,
-        "childId": 115958045
-      },
-      "PP": {
-        "qty": 3,
-        "childId": 115957492
-      }
-    },
-    "_parentId": 115957327
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Rosas Vermelhas (su loja: Blusa Segunda Pele Feminina Caveiras e Rosas Vermelhas)",
@@ -5313,23 +3818,23 @@
     "cat": "Segunda Pele",
     "stock": {
       "PP": {
-        "e": 9,
+        "e": 7,
         "p": 0
       },
       "P": {
-        "e": 13,
+        "e": 28,
         "p": 0
       },
       "M": {
-        "e": 2,
+        "e": 9,
         "p": 0
       },
       "G": {
-        "e": 19,
+        "e": 22,
         "p": 0
       },
       "GG": {
-        "e": 13,
+        "e": 14,
         "p": 0
       },
       "3G": {
@@ -5343,38 +3848,7 @@
     },
     "skuLoja": "270116-CRV",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/355881199/28-i34h9rbqoq.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "4G": {
-        "qty": 2,
-        "childId": 245842152
-      },
-      "3G": {
-        "qty": 2,
-        "childId": 245842076
-      },
-      "GG": {
-        "qty": 5,
-        "childId": 245841998
-      },
-      "P": {
-        "qty": 3,
-        "childId": 127878585
-      },
-      "M": {
-        "qty": 4,
-        "childId": 127878584
-      },
-      "G": {
-        "qty": 4,
-        "childId": 127878582
-      },
-      "PP": {
-        "qty": 2,
-        "childId": 127878581
-      }
-    },
-    "_parentId": 127878580
+    "vendite": []
   },
   {
     "estoqueNome": "SEGUNDA PELE BOLINHA PINK (su loja: Blusa Segunda Pele Feminina Bolinhas Pink)",
@@ -5394,11 +3868,11 @@
         "p": 0
       },
       "G": {
-        "e": 4,
+        "e": 11,
         "p": 0
       },
       "GG": {
-        "e": 3,
+        "e": 7,
         "p": 0
       },
       "3G": {
@@ -5412,30 +3886,7 @@
     },
     "skuLoja": "270116-BP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/355878133/27-n3ivkqmtop.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "PP": {
-        "qty": 0,
-        "childId": 272355326
-      },
-      "P": {
-        "qty": 0,
-        "childId": 272355325
-      },
-      "M": {
-        "qty": 0,
-        "childId": 272355324
-      },
-      "G": {
-        "qty": 2,
-        "childId": 272355323
-      },
-      "GG": {
-        "qty": 2,
-        "childId": 272355322
-      }
-    },
-    "_parentId": 272355321
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Pink (antiga) (su loja: Blusa Segunda Pele Feminina Pink)",
@@ -5485,60 +3936,33 @@
         "p": 0
       },
       "P": {
-        "e": 7,
+        "e": 6,
         "p": 0
       },
       "M": {
-        "e": 9,
+        "e": 10,
         "p": 0
       },
       "G": {
-        "e": 9,
+        "e": 8,
         "p": 0
       },
       "GG": {
-        "e": 4,
+        "e": 6,
         "p": 0
       },
       "3G": {
-        "e": 2,
+        "e": 1,
         "p": 0
       },
       "4G": {
-        "e": 2,
+        "e": 1,
         "p": 0
       }
     },
     "skuLoja": "270116-VM-MASC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "4G": {
-        "qty": 1,
-        "childId": 399743175
-      },
-      "3G": {
-        "qty": 1,
-        "childId": 399743174
-      },
-      "GG": {
-        "qty": 6,
-        "childId": 399743173
-      },
-      "G": {
-        "qty": 5,
-        "childId": 399743172
-      },
-      "M": {
-        "qty": 8,
-        "childId": 399743171
-      },
-      "P": {
-        "qty": 6,
-        "childId": 399743170
-      }
-    },
-    "_parentId": 399743169
+    "vendite": []
   },
   {
     "estoqueNome": "SEGUNDA PELE VERMELHA FEM",
@@ -5550,64 +3974,33 @@
         "p": 0
       },
       "P": {
-        "e": 7,
+        "e": 6,
         "p": 0
       },
       "M": {
-        "e": 9,
+        "e": 10,
         "p": 0
       },
       "G": {
-        "e": 9,
+        "e": 8,
         "p": 0
       },
       "GG": {
-        "e": 4,
+        "e": 6,
         "p": 0
       },
       "3G": {
-        "e": 2,
+        "e": 1,
         "p": 0
       },
       "4G": {
-        "e": 2,
+        "e": 1,
         "p": 0
       }
     },
     "skuLoja": "270116-VM-FEM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246122061/2-4b2cvee8ly.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "PP": {
-        "qty": 4,
-        "childId": 399744862
-      },
-      "P": {
-        "qty": 6,
-        "childId": 399744860
-      },
-      "M": {
-        "qty": 7,
-        "childId": 399744859
-      },
-      "G": {
-        "qty": 5,
-        "childId": 399744858
-      },
-      "GG": {
-        "qty": 6,
-        "childId": 399744856
-      },
-      "3G": {
-        "qty": 1,
-        "childId": 399744855
-      },
-      "4G": {
-        "qty": 1,
-        "childId": 399744854
-      }
-    },
-    "_parentId": 399744853
+    "vendite": []
   },
   {
     "estoqueNome": "Jaqueta HLX PRO Preta Masculina (su loja: Jaqueta Segunda Pele HLX Pro)",
@@ -5741,7 +4134,7 @@
         "p": 0
       },
       "G": {
-        "e": 6,
+        "e": 7,
         "p": 0
       },
       "GG": {
@@ -5759,30 +4152,7 @@
     },
     "skuLoja": "270116-CL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354427078/24-u85e5f397v.jpg",
-    "vendite": [],
-    "_siteStock": {
-      "GG": {
-        "qty": 4,
-        "childId": 246106042
-      },
-      "P": {
-        "qty": 2,
-        "childId": 246106039
-      },
-      "M": {
-        "qty": 0,
-        "childId": 246106037
-      },
-      "G": {
-        "qty": 3,
-        "childId": 246106036
-      },
-      "PP": {
-        "qty": 3,
-        "childId": 246106035
-      }
-    },
-    "_parentId": 246106034
+    "vendite": []
   },
   {
     "estoqueNome": "Segunda pele Caveiras MexAzul (su loja: Blusa Segunda Pele Feminina Caveiras Mexicanas Azuis)",
@@ -6247,7 +4617,7 @@
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/356336978/novo-site-tamanho-blusas-segunda-pele--69--8lyyhfnnal.jpg",
     "stock": {
       "T1": {
-        "e": 60,
+        "e": 72,
         "p": 0
       }
     },
@@ -6265,85 +4635,6 @@
       0,
       0
     ],
-    "tot": 0,
-    "_siteStock": {
-      "AZ": {
-        "qty": 9,
-        "childId": 356336980
-      }
-    },
-    "_parentId": 356336978
-  },
-  {
-    "cat": "Acessórios",
-    "estoqueNome": "Balaclava",
-    "venditeNome": "Balaclava",
-    "sku": "750501",
-    "skuLoja": "750501",
-    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2914890/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",
-    "stock": {
-      "QTD": {
-        "e": 13,
-        "p": 0
-      }
-    },
-    "vendite": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "tot": 0,
-    "_siteStock": {
-      "QTD": {
-        "qty": 9,
-        "childId": 2914890
-      }
-    },
-    "_parentId": 2914890
-  },
-  {
-    "cat": "Acessórios",
-    "estoqueNome": "Protetor de Pescoço - Verão",
-    "venditeNome": "Protetor de Pescoço - Verão",
-    "sku": "750104",
-    "skuLoja": "750104",
-    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/128438783/novo-site-tamanho-blusas-segunda-pele--42--5ysqgyhsk7.jpg",
-    "stock": {
-      "T1": {
-        "e": 21,
-        "p": 0
-      }
-    },
-    "vendite": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "tot": 0,
-    "_siteStock": {
-      "": {
-        "qty": 10,
-        "childId": 128438785
-      }
-    },
-    "_parentId": 128438783
+    "tot": 0
   }
 ]
