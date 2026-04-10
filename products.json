@@ -2426,7 +2426,46 @@
     },
     "skuLoja": "602MIK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/273750873/novo-site-tamanho-cal-a--1080-px---5--x0o73ev25w.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 3,
+        "childId": 273750875
+      },
+      "40": {
+        "qty": 5,
+        "childId": 273750876
+      },
+      "42": {
+        "qty": 0,
+        "childId": 273750877
+      },
+      "44": {
+        "qty": 1,
+        "childId": 273750878
+      },
+      "46": {
+        "qty": 3,
+        "childId": 273750879
+      },
+      "48": {
+        "qty": 3,
+        "childId": 273750881
+      },
+      "50": {
+        "qty": 0,
+        "childId": 273750882
+      },
+      "52": {
+        "qty": 0,
+        "childId": 351598381
+      },
+      "54": {
+        "qty": 1,
+        "childId": 351598421
+      }
+    },
+    "_parentId": 273750873
   },
   {
     "estoqueNome": "NEW CONCEPT (ZIPER) (su loja nome: Calça New Concept)",
