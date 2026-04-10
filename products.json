@@ -1669,7 +1669,54 @@
     },
     "skuLoja": "610ADV-VR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/237694127/novo-site-tamanho-cal-a--1080-px---3--ml9rvyl2mi.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 4,
+        "childId": 237694129
+      },
+      "40": {
+        "qty": 8,
+        "childId": 237694130
+      },
+      "42": {
+        "qty": 8,
+        "childId": 237694131
+      },
+      "44": {
+        "qty": 7,
+        "childId": 237694132
+      },
+      "46": {
+        "qty": 8,
+        "childId": 237694133
+      },
+      "48": {
+        "qty": 7,
+        "childId": 237694134
+      },
+      "50": {
+        "qty": 8,
+        "childId": 237694135
+      },
+      "52": {
+        "qty": 4,
+        "childId": 237694136
+      },
+      "54": {
+        "qty": 5,
+        "childId": 237694137
+      },
+      "56": {
+        "qty": 5,
+        "childId": 237694138
+      },
+      "58": {
+        "qty": 0,
+        "childId": 237694128
+      }
+    },
+    "_parentId": 237694127
   },
   {
     "estoqueNome": "street (su loja nome: Calça Street)",
