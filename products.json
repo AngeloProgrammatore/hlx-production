@@ -3026,8 +3026,35 @@
       }
     },
     "skuLoja": "270116-FEM-INV",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/356620521/novo-site-tamanho-blusas-segunda-pele--7--9wochrfbpo.jpg",
-    "vendite": []
+    "img": "",
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 3,
+        "childId": 356620530
+      },
+      "M": {
+        "qty": 4,
+        "childId": 356620528
+      },
+      "G": {
+        "qty": 6,
+        "childId": 356620527
+      },
+      "GG": {
+        "qty": 3,
+        "childId": 356620525
+      },
+      "3G": {
+        "qty": 2,
+        "childId": 356620523
+      },
+      "PP": {
+        "qty": 2,
+        "childId": 356620522
+      }
+    },
+    "_parentId": 356620521
   },
   {
     "estoqueNome": "Segunda pele Inverno FEM",
