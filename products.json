@@ -147,7 +147,46 @@
     },
     "skuLoja": "603FES",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/322519357/penelope--1--v190y4u1yu.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 3,
+        "childId": 322519358
+      },
+      "36": {
+        "qty": 5,
+        "childId": 322519359
+      },
+      "38": {
+        "qty": 10,
+        "childId": 322519361
+      },
+      "40": {
+        "qty": 10,
+        "childId": 322519362
+      },
+      "42": {
+        "qty": 7,
+        "childId": 322519363
+      },
+      "44": {
+        "qty": 8,
+        "childId": 322519364
+      },
+      "46": {
+        "qty": 8,
+        "childId": 322519365
+      },
+      "48": {
+        "qty": 7,
+        "childId": 322519366
+      },
+      "50": {
+        "qty": 2,
+        "childId": 365359825
+      }
+    },
+    "_parentId": 322519357
   },
   {
     "estoqueNome": "racer confort feminina (su loja nome: Calça Racer Comfort Feminina)",
