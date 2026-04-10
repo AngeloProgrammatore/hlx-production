@@ -1107,7 +1107,42 @@
     },
     "skuLoja": "603NEW-ES",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/11217570/129-lb9nl4b6w2.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 2,
+        "childId": 11217893
+      },
+      "36": {
+        "qty": 2,
+        "childId": 11217908
+      },
+      "38": {
+        "qty": 4,
+        "childId": 11217919
+      },
+      "40": {
+        "qty": 0,
+        "childId": 11217932
+      },
+      "42": {
+        "qty": 0,
+        "childId": 11217959
+      },
+      "44": {
+        "qty": 1,
+        "childId": 11218009
+      },
+      "46": {
+        "qty": 5,
+        "childId": 11218050
+      },
+      "48": {
+        "qty": 2,
+        "childId": 260186142
+      }
+    },
+    "_parentId": 11217570
   },
   {
     "estoqueNome": "Madri Comfort Fem (su loja nome: Calça Madri Comfort Feminina)",
