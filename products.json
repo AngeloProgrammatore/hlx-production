@@ -560,7 +560,38 @@
     },
     "skuLoja": "611ADV-VR",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233172189/novo-site-tamanho-cal-a--1080-px---27--d8gh2ccb9q.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 11,
+        "childId": 233172200
+      },
+      "38": {
+        "qty": 4,
+        "childId": 233172199
+      },
+      "40": {
+        "qty": 3,
+        "childId": 233172198
+      },
+      "42": {
+        "qty": 5,
+        "childId": 233172197
+      },
+      "44": {
+        "qty": 5,
+        "childId": 233172195
+      },
+      "46": {
+        "qty": 13,
+        "childId": 233172194
+      },
+      "48": {
+        "qty": 5,
+        "childId": 233172190
+      }
+    },
+    "_parentId": 233172189
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure Feminina)",
