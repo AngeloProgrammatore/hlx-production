@@ -1184,7 +1184,38 @@
     },
     "skuLoja": "613FMC",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/119589064/55-5aq5kvok5t.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 0,
+        "childId": 119589082
+      },
+      "38": {
+        "qty": 0,
+        "childId": 119589080
+      },
+      "40": {
+        "qty": 0,
+        "childId": 119589076
+      },
+      "42": {
+        "qty": 0,
+        "childId": 119589074
+      },
+      "44": {
+        "qty": 0,
+        "childId": 119589071
+      },
+      "46": {
+        "qty": 3,
+        "childId": 119589069
+      },
+      "48": {
+        "qty": 0,
+        "childId": 119589066
+      }
+    },
+    "_parentId": 119589064
   },
   {
     "estoqueNome": "New Concept Clean (Cós-médio) ZIPER (su loja nome: Calça New Concept Clean Feminina)",
