@@ -872,7 +872,42 @@
     },
     "skuLoja": "603MIK",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/273776023/novo-site-tamanho-cal-a--1080-px---20--0s1p6vetp7.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 3,
+        "childId": 366203765
+      },
+      "36": {
+        "qty": 9,
+        "childId": 273776033
+      },
+      "38": {
+        "qty": 1,
+        "childId": 273776032
+      },
+      "40": {
+        "qty": 4,
+        "childId": 273776029
+      },
+      "42": {
+        "qty": 4,
+        "childId": 273776028
+      },
+      "44": {
+        "qty": 3,
+        "childId": 273776027
+      },
+      "46": {
+        "qty": 1,
+        "childId": 273776025
+      },
+      "48": {
+        "qty": 0,
+        "childId": 273776024
+      }
+    },
+    "_parentId": 273776023
   },
   {
     "estoqueNome": "MIKONOS BLACK (su loja nome: Calça Mikonos Black Feminina - forro com fibra de Aramida)",
