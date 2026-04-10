@@ -2271,7 +2271,54 @@
     },
     "skuLoja": "606MSX-CH",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2812290/4-i3vy8v1s9c.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 4,
+        "childId": 2812324
+      },
+      "40": {
+        "qty": 4,
+        "childId": 2812340
+      },
+      "42": {
+        "qty": 3,
+        "childId": 2812344
+      },
+      "44": {
+        "qty": 4,
+        "childId": 2812377
+      },
+      "46": {
+        "qty": 5,
+        "childId": 2812382
+      },
+      "48": {
+        "qty": 2,
+        "childId": 2812388
+      },
+      "50": {
+        "qty": 2,
+        "childId": 2812421
+      },
+      "52": {
+        "qty": 2,
+        "childId": 2812431
+      },
+      "54": {
+        "qty": 2,
+        "childId": 2812433
+      },
+      "56": {
+        "qty": 2,
+        "childId": 7174381
+      },
+      "58": {
+        "qty": 2,
+        "childId": 246556397
+      }
+    },
+    "_parentId": 2812290
   },
   {
     "estoqueNome": "SPENCER COMFORT (su loja nome: Calça Spencer Comfort)",
