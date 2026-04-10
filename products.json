@@ -1030,7 +1030,38 @@
     },
     "skuLoja": "607CAM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/59302886/novo-site-tamanho-cal-a--1080-px---6--cgzlluf3gk.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 4,
+        "childId": 124595647
+      },
+      "38": {
+        "qty": 7,
+        "childId": 59304286
+      },
+      "40": {
+        "qty": 1,
+        "childId": 59304209
+      },
+      "42": {
+        "qty": 0,
+        "childId": 59304111
+      },
+      "44": {
+        "qty": 0,
+        "childId": 59304061
+      },
+      "46": {
+        "qty": 2,
+        "childId": 59304010
+      },
+      "48": {
+        "qty": 5,
+        "childId": 59303912
+      }
+    },
+    "_parentId": 59302886
   },
   {
     "estoqueNome": "New Concept (Cós-médio) ZIPER (su loja nome: Calça New Concept Feminina)",
