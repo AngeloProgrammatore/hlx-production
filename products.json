@@ -1104,7 +1104,46 @@
     },
     "skuLoja": "602IBX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/80494978/159-n1bi7fp38a.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 5,
+        "childId": 80499760
+      },
+      "40": {
+        "qty": 13,
+        "childId": 80499695
+      },
+      "42": {
+        "qty": 6,
+        "childId": 80497360
+      },
+      "44": {
+        "qty": 0,
+        "childId": 80497304
+      },
+      "46": {
+        "qty": 0,
+        "childId": 80497163
+      },
+      "48": {
+        "qty": 4,
+        "childId": 80496453
+      },
+      "50": {
+        "qty": 4,
+        "childId": 80496042
+      },
+      "52": {
+        "qty": 1,
+        "childId": 80495901
+      },
+      "54": {
+        "qty": 0,
+        "childId": 80495870
+      }
+    },
+    "_parentId": 80494978
   },
   {
     "estoqueNome": "Slim (su loja nome: Calça Slim)",
