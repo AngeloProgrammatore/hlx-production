@@ -1968,7 +1968,50 @@
     },
     "skuLoja": "605MCE",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2847585/157-1dp9yu9nsz.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 2,
+        "childId": 2847589
+      },
+      "40": {
+        "qty": 3,
+        "childId": 2847596
+      },
+      "42": {
+        "qty": 3,
+        "childId": 2847597
+      },
+      "44": {
+        "qty": 5,
+        "childId": 2847598
+      },
+      "46": {
+        "qty": 6,
+        "childId": 2847600
+      },
+      "48": {
+        "qty": 6,
+        "childId": 2847601
+      },
+      "50": {
+        "qty": 3,
+        "childId": 2847604
+      },
+      "52": {
+        "qty": 4,
+        "childId": 2847607
+      },
+      "54": {
+        "qty": 4,
+        "childId": 7173075
+      },
+      "56": {
+        "qty": 2,
+        "childId": 263284516
+      }
+    },
+    "_parentId": 2847585
   },
   {
     "estoqueNome": "Camuforce caqui (su loja nome: Calça Camu Force)",
