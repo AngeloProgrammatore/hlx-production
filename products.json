@@ -1564,7 +1564,54 @@
     },
     "skuLoja": "612MRP",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354066454/novo-site-tamanho-cal-a--1080-px--vo3yy80yf9.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 4,
+        "childId": 354066466
+      },
+      "40": {
+        "qty": 5,
+        "childId": 354066465
+      },
+      "42": {
+        "qty": 5,
+        "childId": 354066464
+      },
+      "44": {
+        "qty": 5,
+        "childId": 354066463
+      },
+      "46": {
+        "qty": 5,
+        "childId": 354066462
+      },
+      "48": {
+        "qty": 5,
+        "childId": 354066461
+      },
+      "50": {
+        "qty": 5,
+        "childId": 354066460
+      },
+      "52": {
+        "qty": 5,
+        "childId": 354066459
+      },
+      "54": {
+        "qty": 5,
+        "childId": 354066458
+      },
+      "56": {
+        "qty": 3,
+        "childId": 354066457
+      },
+      "58": {
+        "qty": 0,
+        "childId": 354066456
+      }
+    },
+    "_parentId": 354066454
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure)",
