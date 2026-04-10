@@ -394,7 +394,46 @@
     },
     "skuLoja": "603MEX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233135122/107-zxl736tg17.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 4,
+        "childId": 233146014
+      },
+      "36": {
+        "qty": 1,
+        "childId": 233135133
+      },
+      "38": {
+        "qty": 4,
+        "childId": 233135131
+      },
+      "40": {
+        "qty": 1,
+        "childId": 233135130
+      },
+      "42": {
+        "qty": 2,
+        "childId": 233135129
+      },
+      "44": {
+        "qty": 4,
+        "childId": 233135128
+      },
+      "46": {
+        "qty": 0,
+        "childId": 233135127
+      },
+      "48": {
+        "qty": 4,
+        "childId": 233135124
+      },
+      "50": {
+        "qty": 1,
+        "childId": 365804128
+      }
+    },
+    "_parentId": 233135122
   },
   {
     "estoqueNome": "Firenze (vecchio modello)",
