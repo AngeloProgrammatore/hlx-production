@@ -2069,7 +2069,54 @@
     },
     "skuLoja": "606CAM",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/25080114/162-b2uy8otmjg.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 1,
+        "childId": 245802861
+      },
+      "40": {
+        "qty": 3,
+        "childId": 25080197
+      },
+      "42": {
+        "qty": 1,
+        "childId": 25080227
+      },
+      "44": {
+        "qty": 3,
+        "childId": 25080257
+      },
+      "46": {
+        "qty": 3,
+        "childId": 25080464
+      },
+      "48": {
+        "qty": 1,
+        "childId": 25080472
+      },
+      "50": {
+        "qty": 2,
+        "childId": 25080798
+      },
+      "52": {
+        "qty": 0,
+        "childId": 25080822
+      },
+      "54": {
+        "qty": 2,
+        "childId": 25080837
+      },
+      "56": {
+        "qty": 13,
+        "childId": 25080880
+      },
+      "58": {
+        "qty": 3,
+        "childId": 25080910
+      }
+    },
+    "_parentId": 25080114
   },
   {
     "estoqueNome": "Mikonos Black (su loja nome: Calça Mikonos Black - forro em fibra de Aramida)",
