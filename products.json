@@ -2174,7 +2174,46 @@
     },
     "skuLoja": "602MIK-BL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/354440076/16-g9yt1zt08h.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 5,
+        "childId": 354440088
+      },
+      "40": {
+        "qty": 4,
+        "childId": 354440087
+      },
+      "42": {
+        "qty": 5,
+        "childId": 354440086
+      },
+      "44": {
+        "qty": 6,
+        "childId": 354440085
+      },
+      "46": {
+        "qty": 7,
+        "childId": 354440084
+      },
+      "48": {
+        "qty": 6,
+        "childId": 354440082
+      },
+      "50": {
+        "qty": 5,
+        "childId": 354440080
+      },
+      "52": {
+        "qty": 3,
+        "childId": 357088045
+      },
+      "54": {
+        "qty": 0,
+        "childId": 357088206
+      }
+    },
+    "_parentId": 354440076
   },
   {
     "estoqueNome": "Defender Camuflada Chumbo (su loja nome: Calça Defender Camuflada Chumbo)",
