@@ -1346,7 +1346,58 @@
     },
     "skuLoja": "610MSX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/2847389/160-nk1ahix4tb.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "38": {
+        "qty": 5,
+        "childId": 2847521
+      },
+      "40": {
+        "qty": 5,
+        "childId": 2847523
+      },
+      "42": {
+        "qty": 6,
+        "childId": 2847526
+      },
+      "44": {
+        "qty": 5,
+        "childId": 2847528
+      },
+      "46": {
+        "qty": 5,
+        "childId": 2847529
+      },
+      "48": {
+        "qty": 6,
+        "childId": 2847531
+      },
+      "50": {
+        "qty": 6,
+        "childId": 2847532
+      },
+      "52": {
+        "qty": 4,
+        "childId": 2847533
+      },
+      "54": {
+        "qty": 3,
+        "childId": 2847534
+      },
+      "56": {
+        "qty": 3,
+        "childId": 2847536
+      },
+      "58": {
+        "qty": 4,
+        "childId": 10094752
+      },
+      "60": {
+        "qty": 3,
+        "childId": 376131747
+      }
+    },
+    "_parentId": 2847389
   },
   {
     "estoqueNome": "SPIRIT COMFORT (su loja nome: Calça Spirit Comfort)",
