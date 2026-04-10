@@ -479,7 +479,42 @@
     },
     "skuLoja": "WN52WQ3S3",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/80968330/novo-site-tamanho-cal-a--4--d3zqyu4jbl.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "34": {
+        "qty": 4,
+        "childId": 80969164
+      },
+      "36": {
+        "qty": 4,
+        "childId": 80969154
+      },
+      "38": {
+        "qty": 0,
+        "childId": 80969118
+      },
+      "40": {
+        "qty": 0,
+        "childId": 80969081
+      },
+      "42": {
+        "qty": 0,
+        "childId": 80969054
+      },
+      "44": {
+        "qty": 0,
+        "childId": 80968976
+      },
+      "46": {
+        "qty": 2,
+        "childId": 80968833
+      },
+      "48": {
+        "qty": 0,
+        "childId": 80968798
+      }
+    },
+    "_parentId": 80968330
   },
   {
     "estoqueNome": "ADVENTURE VERDE (su loja nome: Calça Defender Adventure Feminina)",
