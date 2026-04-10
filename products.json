@@ -1257,7 +1257,38 @@
     },
     "skuLoja": "603NEW-CL",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/233173326/118-m8503mzaig.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 0,
+        "childId": 233173335
+      },
+      "38": {
+        "qty": 1,
+        "childId": 233173333
+      },
+      "40": {
+        "qty": 0,
+        "childId": 233173332
+      },
+      "42": {
+        "qty": 0,
+        "childId": 233173331
+      },
+      "44": {
+        "qty": 0,
+        "childId": 233173329
+      },
+      "46": {
+        "qty": 0,
+        "childId": 233173328
+      },
+      "48": {
+        "qty": 0,
+        "childId": 233173327
+      }
+    },
+    "_parentId": 233173326
   },
   {
     "estoqueNome": "DEFENDER BLACK (su loja nome: Calça Defender Black)",
