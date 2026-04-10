@@ -2957,8 +2957,39 @@
       }
     },
     "skuLoja": "270116-FEM",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
-    "vendite": []
+    "img": "",
+    "vendite": [],
+    "_siteStock": {
+      "P": {
+        "qty": 5,
+        "childId": 246130304
+      },
+      "4G": {
+        "qty": 3,
+        "childId": 246130299
+      },
+      "3G": {
+        "qty": 0,
+        "childId": 246130300
+      },
+      "GG": {
+        "qty": 1,
+        "childId": 246130301
+      },
+      "G": {
+        "qty": 0,
+        "childId": 246130302
+      },
+      "M": {
+        "qty": 3,
+        "childId": 246130303
+      },
+      "PP": {
+        "qty": 3,
+        "childId": 246122348
+      }
+    },
+    "_parentId": 246122061
   },
   {
     "estoqueNome": "Segunda pele Inverno MASC",
