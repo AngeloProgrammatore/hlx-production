@@ -313,7 +313,42 @@
     },
     "skuLoja": "611MSX",
     "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/260216576/141-ul2i8obn15.jpg",
-    "vendite": []
+    "vendite": [],
+    "_siteStock": {
+      "36": {
+        "qty": 6,
+        "childId": 260216577
+      },
+      "38": {
+        "qty": 8,
+        "childId": 260216578
+      },
+      "40": {
+        "qty": 2,
+        "childId": 260216580
+      },
+      "42": {
+        "qty": 5,
+        "childId": 260216581
+      },
+      "44": {
+        "qty": 5,
+        "childId": 260216582
+      },
+      "46": {
+        "qty": 18,
+        "childId": 260216583
+      },
+      "48": {
+        "qty": 4,
+        "childId": 260216584
+      },
+      "50": {
+        "qty": 2,
+        "childId": 370022900
+      }
+    },
+    "_parentId": 260216576
   },
   {
     "estoqueNome": "PENELOPE CONFORT BLACK (su loja nome: Calça Feminina Penelope Comfort Black)",
