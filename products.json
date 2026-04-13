@@ -3876,7 +3876,7 @@
         "p": 0
       },
       "P": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "M": {
@@ -3914,7 +3914,7 @@
         "p": 0
       },
       "P": {
-        "e": 0,
+        "e": 1,
         "p": 0
       },
       "M": {
@@ -3939,7 +3939,7 @@
       }
     },
     "skuLoja": "270116-FEM",
-    "img": "",
+    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246130289/segunda-pele-t0pa6pv14y.jpg",
     "vendite": [],
     "_siteStock": {
       "P": {
