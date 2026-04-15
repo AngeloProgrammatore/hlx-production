@@ -3468,44 +3468,6 @@
         "p": 0
       },
       "M": {
-        "e": 52,
-        "p": 0
-      },
-      "G": {
-        "e": 13,
-        "p": 0
-      },
-      "GG": {
-        "e": 32,
-        "p": 0
-      },
-      "3G": {
-        "e": 30,
-        "p": 0
-      },
-      "4G": {
-        "e": 9,
-        "p": 0
-      },
-      "5G": {
-        "e": 3,
-        "p": 0
-      }
-    },
-    "skuLoja": "0417R4-PR",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246099398/3f7c07a1d9d375bcf16cf3ffc5a910d1-ngb9ovhvjv.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "VERANO MASCULINA PRETA (su loja: Jaqueta Verano Masculina)",
-    "venditeNome": "Jaqueta Verano Masculina",
-    "cat": "Jaquetas",
-    "stock": {
-      "P": {
-        "e": 20,
-        "p": 0
-      },
-      "M": {
         "e": 56,
         "p": 0
       },
