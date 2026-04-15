@@ -5642,5 +5642,58 @@
       0
     ],
     "tot": 0
+  },
+  {
+    "cat": "Segunda Pele",
+    "estoqueNome": "Blusa Segunda Pele Verde Oliva",
+    "venditeNome": "Blusa Segunda Pele Verde Oliva",
+    "sku": "270116",
+    "skuLoja": "270116-VDOL-MASC",
+    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/399715404/151-od3bb8s0q1.jpg",
+    "stock": {
+      "PP": {
+        "e": 0,
+        "p": 0
+      },
+      "P": {
+        "e": 0,
+        "p": 0
+      },
+      "M": {
+        "e": 0,
+        "p": 0
+      },
+      "G": {
+        "e": 0,
+        "p": 0
+      },
+      "GG": {
+        "e": 0,
+        "p": 0
+      },
+      "3G": {
+        "e": 0,
+        "p": 0
+      },
+      "4G": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tot": 0
   }
 ]
