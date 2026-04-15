@@ -5231,44 +5231,6 @@
     "vendite": []
   },
   {
-    "estoqueNome": "Segunda pele Verde Oliva MASC",
-    "venditeNome": "Blusa Segunda Pele Verde Oliva",
-    "cat": "Segunda Pele",
-    "stock": {
-      "PP": {
-        "e": 0,
-        "p": 0
-      },
-      "P": {
-        "e": 5,
-        "p": 0
-      },
-      "M": {
-        "e": 5,
-        "p": 0
-      },
-      "G": {
-        "e": 4,
-        "p": 0
-      },
-      "GG": {
-        "e": 1,
-        "p": 0
-      },
-      "3G": {
-        "e": 3,
-        "p": 0
-      },
-      "4G": {
-        "e": 5,
-        "p": 0
-      }
-    },
-    "skuLoja": "270116-VDOL-MASC",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/246423629/novo-site-tamanho-blusas-segunda-pele--38--6wx4slu7nc.jpg",
-    "vendite": []
-  },
-  {
     "estoqueNome": "Camisa urban feminina (su loja: Camisa Urban Feminina)",
     "venditeNome": "Camisa Urban Feminina",
     "cat": "Casual",
