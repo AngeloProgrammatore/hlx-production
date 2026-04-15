@@ -5613,5 +5613,34 @@
       0
     ],
     "tot": 0
+  },
+  {
+    "cat": "Acessórios",
+    "estoqueNome": "Balaclava",
+    "venditeNome": "Balaclava",
+    "sku": "750501",
+    "skuLoja": "750501",
+    "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2914890/novo-site-tamanho-blusas-segunda-pele--34--7yvclxair5.jpg",
+    "stock": {
+      "QTD": {
+        "e": 0,
+        "p": 0
+      }
+    },
+    "vendite": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tot": 0
   }
 ]
