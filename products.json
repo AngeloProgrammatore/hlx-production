@@ -36,7 +36,14 @@
     "skuLoja": "700101",
     "img": "https://cdn.awsli.com.br/800x800/86/86777/produto/2804573/novo-site-tamanho-blusas-segunda-pele--48--ab2idlssyc.jpg",
     "vendite": [],
-    "sku": ""
+    "sku": "",
+    "_siteStock": {
+      "PP": {
+        "qty": 10,
+        "childId": 54449925
+      }
+    },
+    "_parentId": 2804573
   },
   {
     "estoqueNome": "conjunto NEW MARINER (su loja nome: New Mariner - Capa de Chuva Unissex)",
