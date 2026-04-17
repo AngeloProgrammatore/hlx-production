@@ -3150,20 +3150,6 @@
     "cat": "Acessórios",
     "stock": {
       "QTD": {
-        "e": 0,
-        "p": 0
-      }
-    },
-    "skuLoja": "750521",
-    "img": "https://cdn.awsli.com.br/380x380/86/86777/produto/20868352/novo-site-tamanho-blusas-segunda-pele--36--42kvdq4qgk.jpg",
-    "vendite": []
-  },
-  {
-    "estoqueNome": "CARTUCHEIRA (su loja: Cartucheira)",
-    "venditeNome": "Cartucheira",
-    "cat": "Acessórios",
-    "stock": {
-      "QTD": {
         "e": 2,
         "p": 0
       }
