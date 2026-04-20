@@ -16,7 +16,7 @@
             align-items: center;
         }
 
-        /* Login Screen */
+        /* ── Login Screen ── */
         .login-screen {
             display: flex;
             flex-direction: column;
@@ -84,7 +84,7 @@
             display: none;
         }
 
-        /* Main App */
+        /* ── Main App ── */
         .app { display: none; width: 100%; }
         .app.visible { display: flex; flex-direction: column; align-items: center; }
 
@@ -131,7 +131,7 @@
             margin-top: 6px;
         }
 
-        /* Product Card */
+        /* ── Product Card ── */
         .result {
             width: 90%;
             max-width: 500px;
@@ -174,7 +174,7 @@
             margin-bottom: 8px;
         }
 
-        /* Stock Grid */
+        /* ── Stock Grid ── */
         .stock-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
@@ -232,7 +232,7 @@
 </head>
 <body>
 
-<!-- Login -->
+<!-- ── Login ── -->
 <div class="login-screen" id="loginScreen">
     <div class="login-box">
         <h1>HLX</h1>
@@ -243,7 +243,7 @@
     </div>
 </div>
 
-<!-- App -->
+<!-- ── App ── -->
 <div class="app" id="app">
     <div class="header">
         <h1>HLX ESTOQUE</h1>
@@ -280,6 +280,7 @@
 </div>
 
 <script>
+    // Password hash (SHA-256 of the password)
     const PASS_HASH = '1e0506f294348f70f636c4ea1a684fd7699b63d68b6852dfa023746a9ae17cbf';
 
     async function sha256(text) {
@@ -288,12 +289,14 @@
         return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
     }
 
+    // ── Login ──
     const loginScreen = document.getElementById('loginScreen');
     const app = document.getElementById('app');
     const passInput = document.getElementById('passInput');
     const loginBtn = document.getElementById('loginBtn');
     const loginError = document.getElementById('loginError');
 
+    // Check saved session
     if (sessionStorage.getItem('hlx_auth') === 'ok') {
         loginScreen.classList.add('hidden');
         app.classList.add('visible');
@@ -319,6 +322,7 @@
     loginBtn.addEventListener('click', tryLogin);
     passInput.addEventListener('keydown', e => { if (e.key === 'Enter') tryLogin(); });
 
+    // ── App ──
     let products = [];
     let debounceTimer = null;
 
@@ -370,7 +374,7 @@
         const skuParts = [];
         if (p.sku) skuParts.push('SKU: ' + p.sku);
         if (p.skuLoja) skuParts.push('SKU Loja: ' + p.skuLoja);
-        document.getElementById('productSku').textContent = skuParts.join('  \u00b7  ') || 'Sem SKU';
+        document.getElementById('productSku').textContent = skuParts.join('  ·  ') || 'Sem SKU';
 
         const grid = document.getElementById('stockGrid');
         grid.innerHTML = '';
@@ -388,14 +392,15 @@
         });
 
         keys.forEach(size => {
-            const qty = parseInt(stock[size]) || 0;
+            const raw = stock[size];
+            const qty = (typeof raw === 'object' && raw !== null) ? (parseInt(raw.e) || 0) : (parseInt(raw) || 0);
             total += qty;
             const item = document.createElement('div');
             item.className = 'stock-item';
             let qtyClass = 'no-stock';
             if (qty > 5) qtyClass = 'in-stock';
             else if (qty > 0) qtyClass = 'low-stock';
-            item.innerHTML = '<div class="size">' + size + '</div><div class="qty ' + qtyClass + '">' + qty + '</div>';
+            item.innerHTML = `<div class="size">${size}</div><div class="qty ${qtyClass}">${qty}</div>`;
             grid.appendChild(item);
         });
 
