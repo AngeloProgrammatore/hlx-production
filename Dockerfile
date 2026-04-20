@@ -9,6 +9,7 @@ RUN npm install --production
 # Copy application files
 COPY server.js ./
 COPY hlx-stock-system.html ./
+COPY stock-checker.html ./
 COPY products.json ./
 
 # Create data directory
